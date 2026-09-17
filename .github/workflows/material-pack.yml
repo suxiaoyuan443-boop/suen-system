@@ -37,7 +37,7 @@ jobs:
           im.crop((0,0,w,int(h*.40))).resize((1600,900)).save('pack/03_赫普塔梅隆_外圈文字局部.jpg',quality=95)
           PY
 
-          # 04-05 Key of Solomon, historical 1889 scan.
+          # 04-05 Key of Solomon, George Redway 1889 historical scan
           if ! curl -fL --retry 2 'https://archive.org/download/b24884431/b24884431.pdf' -o work/key.pdf; then
             curl -fL --retry 2 'https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Key_of_Solomon_the_king_%28Clavicula_Salomonis%29_%28IA_b24884431%29.pdf' -o work/key.pdf
           fi
@@ -48,6 +48,7 @@ jobs:
             if printf '%s' "$txt" | grep -Eqi 'nine feet|nine foot|9 feet|entrance.*north|north.*entrance'; then KEY_PAGE="$i"; break; fi
           done
           if [ -z "$KEY_PAGE" ]; then echo 'Could not locate Key of Solomon target page' >&2; exit 21; fi
+          echo "Key of Solomon PDF page: $KEY_PAGE"
           pdftoppm -f "$KEY_PAGE" -singlefile -png -r 220 work/key.pdf work/key1 >/dev/null 2>&1
           NEXT=$((KEY_PAGE+1))
           pdftoppm -f "$NEXT" -singlefile -png -r 220 work/key.pdf work/key2 >/dev/null 2>&1
@@ -59,13 +60,13 @@ jobs:
           b.crop((int(w*.10),int(h*.06),int(w*.90),int(h*.88))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
           PY
 
-          # 06 + 08 Goetia 1904 historical published diagram.
-          # Use Wikimedia Special:Redirect with the exact Commons file title (spaces URL-encoded).
-          curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20of%20Solomon%20and%20Triangle%20of%20Solomon%20from%20The%20Lesser%20Key%20of%20Solomon.png' -o work/goetia.png
+          # 06 + 08 Goetia. Verified Commons file: 17th-century Sloane 3648 diagram,
+          # reproduced by Joseph H. Peterson and public domain. Use the exact existing title.
+          curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20and%20Triagle%20of%20Solomon%20-%20Sloane%203648.png' -o work/goetia.png
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
-          # 07 Chicago Assyrian Dictionary Z.
+          # 07 Chicago Assyrian Dictionary Z, official ISAC PDF
           curl -fL --retry 3 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/cad_z.pdf' -o work/cad_z.pdf
           CAD_PAGE=''
           PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
@@ -74,6 +75,7 @@ jobs:
             if printf '%s' "$txt" | grep -Eqi 'zisurr|magic circle.*flour|circle drawn with flour'; then CAD_PAGE="$i"; break; fi
           done
           if [ -z "$CAD_PAGE" ]; then echo 'Could not locate CAD zisurru page' >&2; exit 22; fi
+          echo "CAD Z PDF page: $CAD_PAGE"
           pdftoppm -f "$CAD_PAGE" -singlefile -png -r 240 work/cad_z.pdf work/cad >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
@@ -82,20 +84,37 @@ jobs:
           PY
 
           cat > pack/资料来源.txt <<EOF
-          01-03｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，文件说明标注 Heptameron (1565)，公版。
-          04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。工作流自动检索含 nine feet / north entrance 的页，并输出该页及下一页裁切。来源优先 Internet Archive b24884431，备用 Wikimedia Commons 同扫描。
-          06、08｜《歌提亚：所罗门小钥匙》1904年出版图，圆与三角。来源：Wikimedia Commons；文件说明标注 1904，公版。08 为按最终剪辑时间轴实际复制的独立文件。
-          07｜《芝加哥亚述语词典》Z卷，齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；工作流自动检索 zisurru / magic circle drawn with flour 对应页后渲染。
-          说明｜这些文件只作为 GitHub Actions 临时 artifact 生成，不提交 PDF、图片或研究资产到 suen-system 仓库本体。
+          01-03｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
+          04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。来源：Internet Archive b24884431；工作流定位含九英尺绳/北面入口的页及下一页。
+          06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明：图像对应英国图书馆 Sloane 3648 手稿，由 Joseph H. Peterson 版本转载；公版。08 为按最终剪辑顺序实际复制的独立文件。
+          07｜《芝加哥亚述语词典》Z卷，齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；工作流定位齐苏鲁/面粉魔法圈条目页后渲染。
+          说明｜图片和 PDF 只在 GitHub Actions 临时运行环境加工，仓库本体只保留工作流。
           EOF
 
+          # Hard acceptance check: exactly the required 8 timeline image files must exist and decode.
           python3 - <<'PY'
           from PIL import Image
-          import glob, os
-          for f in sorted(glob.glob('pack/*.*')):
-              if f.endswith('.txt'): continue
-              im=Image.open(f); im.verify()
-              print(os.path.basename(f), 'OK')
+          from pathlib import Path
+          required = [
+            '01_赫普塔梅隆_圆图全图.jpg',
+            '02_赫普塔梅隆_圆图主体放大.jpg',
+            '03_赫普塔梅隆_外圈文字局部.jpg',
+            '04_所罗门之钥_九英尺绳_四方向_北面入口.png',
+            '05_所罗门之钥_进入_香炉_重新进入_合上入口.png',
+            '06_歌提亚_圆与三角.png',
+            '07_芝加哥亚述语词典_齐苏鲁_公牛例句.png',
+            '08_歌提亚_圆与三角_结尾.png',
+          ]
+          for name in required:
+              p=Path('pack')/name
+              if not p.exists() or p.stat().st_size < 5000:
+                  raise SystemExit(f'MISSING/TOO SMALL: {name}')
+              with Image.open(p) as im:
+                  im.verify()
+              print(name, p.stat().st_size, 'OK')
+          if not (Path('pack')/'资料来源.txt').exists():
+              raise SystemExit('MISSING source traceability file')
+          print('ALL 8 TIMELINE IMAGES + SOURCE FILE PASSED')
           PY
 
       - name: Upload finished pack
