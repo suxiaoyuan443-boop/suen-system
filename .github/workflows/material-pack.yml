@@ -67,7 +67,7 @@ jobs:
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
           # 07 Chicago Assyrian Dictionary Z, official ISAC PDF
-          curl -fL --retry 3 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/cad_z.pdf' -o work/cad_z.pdf
+          curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/cad_z.pdf' -o work/cad_z.pdf
           CAD_PAGE=''
           PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
           for i in $(seq 1 "$PAGES"); do
@@ -87,7 +87,7 @@ jobs:
           01-03｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
           04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。来源：Internet Archive b24884431；工作流定位含九英尺绳/北面入口的页及下一页。
           06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明：图像对应英国图书馆 Sloane 3648 手稿，由 Joseph H. Peterson 版本转载；公版。08 为按最终剪辑顺序实际复制的独立文件。
-          07｜《芝加哥亚述语词典》Z卷，齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；工作流定位齐苏鲁/面粉魔法圈条目页后渲染。
+          07｜《芝加哥亚述语词典》Z卷，齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；工作流使用该卷当前官方 S3 下载地址并定位齐苏鲁/面粉魔法圈条目页后渲染。
           说明｜图片和 PDF 只在 GitHub Actions 临时运行环境加工，仓库本体只保留工作流。
           EOF
 
