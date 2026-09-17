@@ -18,15 +18,14 @@ jobs:
       - name: Install tools
         run: |
           sudo apt-get update
-          sudo apt-get install -y poppler-utils python3-pil curl
+          sudo apt-get install -y poppler-utils python3-pil curl tesseract-ocr
 
       - name: Download and build editing-ready images
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p pack work
+          mkdir -p pack work/hepocr
 
-          # 01 + 03 Heptameron 1565 historical diagram
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Heptameron_magic_circle_1565.jpg' -o work/heptameron.jpg
           python3 - <<'PY'
           from PIL import Image
@@ -36,24 +35,25 @@ jobs:
           im.crop((0,0,w,int(h*.46))).resize((1600,1000)).save('pack/03_赫普塔梅隆_圆图细节.png')
           PY
 
-          # 02 Heptameron protection wording: 1655 historical printed scan.
+          # 02: 1655 historical printed scan. It is image-only, so locate the passage by OCR.
           curl -fL --retry 3 'https://archive.org/download/b20458563/b20458563.pdf' -o work/heptameron1655.pdf
+          pdftoppm -jpeg -r 110 work/heptameron1655.pdf work/hepocr/p >/dev/null 2>&1
           HEP_PAGE=''
-          PAGES=$(pdfinfo work/heptameron1655.pdf | awk '/^Pages:/ {print $2}')
-          for i in $(seq 1 "$PAGES"); do
-            txt=$(pdftotext -f "$i" -l "$i" -layout work/heptameron1655.pdf - 2>/dev/null || true)
-            if printf '%s' "$txt" | grep -Eqi 'greatest power.*circle|fortress.*defend|operators? safe|composition of a circle'; then HEP_PAGE="$i"; break; fi
+          n=0
+          for f in work/hepocr/p-*.jpg; do
+            n=$((n+1))
+            txt=$(tesseract "$f" stdout -l eng 2>/dev/null || true)
+            if printf '%s' "$txt" | grep -Eqi 'greatest power.{0,80}circle|fortress.{0,80}evil|defend.{0,80}evil|composition.{0,40}circle'; then HEP_PAGE="$n"; break; fi
           done
-          if [ -z "$HEP_PAGE" ]; then echo 'Could not locate Heptameron protection wording page' >&2; exit 20; fi
+          if [ -z "$HEP_PAGE" ]; then echo 'Could not OCR-locate Heptameron protection wording page' >&2; exit 20; fi
           echo "Heptameron protection PDF page: $HEP_PAGE"
-          pdftoppm -f "$HEP_PAGE" -singlefile -png -r 240 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
+          pdftoppm -f "$HEP_PAGE" -singlefile -png -r 260 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
           im=Image.open('work/heptext.png').convert('RGB'); w,h=im.size
-          im.crop((int(w*.07),int(h*.07),int(w*.93),int(h*.94))).save('pack/02_赫普塔梅隆_保护作用原页.png')
+          im.crop((int(w*.07),int(h*.06),int(w*.93),int(h*.95))).save('pack/02_赫普塔梅隆_保护作用原页.png')
           PY
 
-          # 04-05 Key of Solomon, George Redway 1889 historical scan
           if ! curl -fL --retry 2 'https://archive.org/download/b24884431/b24884431.pdf' -o work/key.pdf; then
             curl -fL --retry 2 'https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Key_of_Solomon_the_king_%28Clavicula_Salomonis%29_%28IA_b24884431%29.pdf' -o work/key.pdf
           fi
@@ -64,7 +64,6 @@ jobs:
             if printf '%s' "$txt" | grep -Eqi 'nine feet|nine foot|9 feet|entrance.*north|north.*entrance'; then KEY_PAGE="$i"; break; fi
           done
           if [ -z "$KEY_PAGE" ]; then echo 'Could not locate Key of Solomon target page' >&2; exit 21; fi
-          echo "Key of Solomon PDF page: $KEY_PAGE"
           pdftoppm -f "$KEY_PAGE" -singlefile -png -r 220 work/key.pdf work/key1 >/dev/null 2>&1
           NEXT=$((KEY_PAGE+1))
           pdftoppm -f "$NEXT" -singlefile -png -r 220 work/key.pdf work/key2 >/dev/null 2>&1
@@ -76,12 +75,10 @@ jobs:
           b.crop((int(w*.10),int(h*.06),int(w*.90),int(h*.88))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
           PY
 
-          # 06 + 08 Goetia, Sloane 3648 circle-and-triangle reproduction, public domain
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20and%20Triagle%20of%20Solomon%20-%20Sloane%203648.png' -o work/goetia.png
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
-          # 07 Chicago Assyrian Dictionary Z, official ISAC PDF
           curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/cad_z.pdf' -o work/cad_z.pdf
           CAD_PAGE=''
           PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
@@ -90,7 +87,6 @@ jobs:
             if printf '%s' "$txt" | grep -Eqi 'zisurr|magic circle.*flour|circle drawn with flour'; then CAD_PAGE="$i"; break; fi
           done
           if [ -z "$CAD_PAGE" ]; then echo 'Could not locate CAD zisurru page' >&2; exit 22; fi
-          echo "CAD Z PDF page: $CAD_PAGE"
           pdftoppm -f "$CAD_PAGE" -singlefile -png -r 240 work/cad_z.pdf work/cad >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
@@ -100,37 +96,23 @@ jobs:
 
           cat > pack/资料来源.txt <<EOF
           01｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
-          02｜《赫普塔梅隆》保护作用原页。画面采用1655年伦敦印本真实扫描，工作流定位“圆被描述为防御工事，用于保护操作者免受恶灵伤害”的段落。来源：Wellcome Library / Internet Archive b20458563，公版。
-          03｜《赫普塔梅隆》圆图细节。来源同01，为按剪辑需要重新裁切的独立文件。
-          04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。来源：Internet Archive b24884431；工作流定位含九英尺绳/北面入口的页及下一页。口播中的早期英文手稿依据与画面版次分开记录，画面不冒充Sloane 3847原页。
-          06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明：图像对应英国图书馆 Sloane 3648 手稿，由 Joseph H. Peterson 版本转载；公版。08 为按最终剪辑顺序实际复制的独立文件。
-          07｜《芝加哥亚述语词典》Z卷，齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；工作流使用该卷当前官方 S3 下载地址并定位齐苏鲁/面粉魔法圈条目页后渲染。
-          说明｜图片和 PDF 只在 GitHub Actions 临时运行环境加工，仓库本体只保留工作流。
+          02｜《赫普塔梅隆》保护作用原页。1655年伦敦印本真实扫描；通过扫描页OCR定位“圆作为防御工事、保护操作者免受恶灵伤害”的原文。来源：Wellcome Library / Internet Archive b20458563，公版。
+          03｜《赫普塔梅隆》圆图细节。来源同01，为按剪辑顺序重新裁切的独立文件。
+          04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。来源：Internet Archive b24884431；定位九英尺绳、四方向、北面入口及随后进入/香炉/合上入口段落。画面版次与口播所依据的早期手稿证据分开记录。
+          06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明对应 Sloane 3648 图像，由 Joseph H. Peterson 版本转载；08为按剪辑顺序复制的独立文件。
+          07｜《芝加哥亚述语词典》Z卷齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；定位“面粉画出的魔法圈”及公牛例句所在页。
           EOF
 
           python3 - <<'PY'
           from PIL import Image
           from pathlib import Path
-          required = [
-            '01_赫普塔梅隆_圆图全图.jpg',
-            '02_赫普塔梅隆_保护作用原页.png',
-            '03_赫普塔梅隆_圆图细节.png',
-            '04_所罗门之钥_九英尺绳_四方向_北面入口.png',
-            '05_所罗门之钥_进入_香炉_重新进入_合上入口.png',
-            '06_歌提亚_圆与三角.png',
-            '07_芝加哥亚述语词典_齐苏鲁_公牛例句.png',
-            '08_歌提亚_圆与三角_结尾.png',
-          ]
+          required=['01_赫普塔梅隆_圆图全图.jpg','02_赫普塔梅隆_保护作用原页.png','03_赫普塔梅隆_圆图细节.png','04_所罗门之钥_九英尺绳_四方向_北面入口.png','05_所罗门之钥_进入_香炉_重新进入_合上入口.png','06_歌提亚_圆与三角.png','07_芝加哥亚述语词典_齐苏鲁_公牛例句.png','08_歌提亚_圆与三角_结尾.png']
           for name in required:
               p=Path('pack')/name
-              if not p.exists() or p.stat().st_size < 5000:
-                  raise SystemExit(f'MISSING/TOO SMALL: {name}')
-              with Image.open(p) as im:
-                  im.verify()
-              print(name, p.stat().st_size, 'OK')
-          if not (Path('pack')/'资料来源.txt').exists():
-              raise SystemExit('MISSING source traceability file')
-          print('ALL 8 TIMELINE IMAGES + SOURCE FILE PASSED')
+              if not p.exists() or p.stat().st_size < 5000: raise SystemExit(f'MISSING/TOO SMALL: {name}')
+              with Image.open(p) as im: im.verify()
+              print(name,p.stat().st_size,'OK')
+          print('ALL 8 TIMELINE IMAGES PASSED')
           PY
 
       - name: Upload finished pack
