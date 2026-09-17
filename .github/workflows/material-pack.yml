@@ -24,7 +24,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p pack work/hepcheck
+          mkdir -p pack work
 
           # 01 + 03｜Heptameron 1565 historical diagram
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Heptameron_magic_circle_1565.jpg' -o work/heptameron.jpg
@@ -36,70 +36,21 @@ jobs:
           im.crop((0,0,w,int(h*.46))).resize((1600,1000)).save('pack/03_赫普塔梅隆_圆图细节.png')
           PY
 
-          # 02｜Heptameron protection wording, Robert Turner 1655 scan
+          # 02｜Robert Turner 1655 scan.
+          # IA page-level OCR identifies the Heptameron introductory leaf as object 100.
+          # In this PDF the object/PDF offset around this section is -5, so render PDF p.95.
+          # Verify against 17th-c. OCR spellings where long s is commonly read as f.
           curl -fL --retry 3 'https://archive.org/download/b20458563/b20458563.pdf' -o work/heptameron1655.pdf
-          curl -fL --retry 3 'https://archive.org/download/b20458563/b20458563_djvu.xml' -o work/heptameron1655_djvu.xml
-          HEP_BASE=$(python3 - <<'PY'
-          import re, sys, xml.etree.ElementTree as ET
-          root=ET.parse('work/heptameron1655_djvu.xml').getroot()
-          objs=root.findall('.//OBJECT')
-          best=[]
-          for idx,obj in enumerate(objs,1):
-              words=[(w.text or '') for w in obj.findall('.//WORD')]
-              s=' '.join(words)
-              n=re.sub(r'[^a-z]+',' ',s.lower())
-              score=0
-              if 'heptameron' in n: score+=20
-              if 'magical elements' in n: score+=18
-              if 'greatest power' in n: score+=30
-              if 'circle' in n or 'circles' in n: score+=8
-              if 'fortress' in n or 'fortresses' in n or 'fortre' in n: score+=20
-              if 'evil spirit' in n or 'evil spirits' in n: score+=20
-              if 'operators safe' in n or 'operator safe' in n: score+=18
-              if score: best.append((score,idx,s[:500]))
-          best.sort(reverse=True)
-          if not best:
-              raise SystemExit(1)
-          for row in best[:10]:
-              print('CANDIDATE',row[0],row[1],row[2].replace('\n',' '), file=sys.stderr)
-          for score,idx,s in best:
-              n=re.sub(r'[^a-z]+',' ',s.lower())
-              if ('greatest power' in n and ('circle' in n or 'circles' in n)) or (('fortress' in n or 'fortresses' in n or 'fortre' in n) and 'evil' in n and 'spirit' in n):
-                  print(idx)
-                  break
-          else:
-              for score,idx,s in best:
-                  n=re.sub(r'[^a-z]+',' ',s.lower())
-                  if 'heptameron' in n or 'magical elements' in n:
-                      print(idx)
-                      break
-              else:
-                  raise SystemExit(2)
-          PY
-          )
-          echo "IA OCR candidate leaf: $HEP_BASE"
-          HEP_PAGE=''
-          START=$((HEP_BASE-5)); [ "$START" -lt 1 ] && START=1
-          END=$((HEP_BASE+5))
-          PDF_PAGES=$(pdfinfo work/heptameron1655.pdf | awk '/^Pages:/ {print $2}')
-          [ "$END" -gt "$PDF_PAGES" ] && END="$PDF_PAGES"
-          for p in $(seq "$START" "$END"); do
-            pdftoppm -f "$p" -singlefile -jpeg -r 180 work/heptameron1655.pdf "work/hepcheck/p${p}" >/dev/null 2>&1
-            tesseract "work/hepcheck/p${p}.jpg" "work/hepcheck/t${p}" -l eng >/dev/null 2>&1 || true
-            txt=$(cat "work/hepcheck/t${p}.txt" 2>/dev/null || true)
-            if printf '%s' "$txt" | grep -Eqi 'greatest.{0,40}power.{0,100}circle|fortre.{0,140}evil.{0,50}spirit|operators?.{0,60}safe.{0,100}evil'; then
-              HEP_PAGE="$p"
-              echo "Verified Heptameron protection PDF page: $HEP_PAGE"
-              printf '%s\n' "$txt" | head -70
-              break
-            fi
-          done
-          if [ -z "$HEP_PAGE" ]; then
-            echo 'Could not verify Heptameron protection wording near IA OCR candidate' >&2
-            for f in work/hepcheck/t*.txt; do echo "--- $f"; head -50 "$f"; done
+          HEP_PAGE=95
+          pdftoppm -f "$HEP_PAGE" -singlefile -png -r 280 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
+          tesseract work/heptext.png work/hepcheck -l eng >/dev/null 2>&1 || true
+          HEP_TXT=$(cat work/hepcheck.txt 2>/dev/null || true)
+          echo '--- Heptameron page check ---'
+          printf '%s\n' "$HEP_TXT" | head -100
+          if ! printf '%s' "$HEP_TXT" | grep -Eqi 'greate(st|ft).{0,50}power.{0,120}circl|fortre.{0,180}evil.{0,70}(spirit|fpirit)|operator.{0,80}(safe|fafe).{0,120}evil'; then
+            echo 'Heptameron PDF p.95 did not pass protection-language check' >&2
             exit 20
           fi
-          pdftoppm -f "$HEP_PAGE" -singlefile -png -r 280 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
           im=Image.open('work/heptext.png').convert('RGB'); w,h=im.size
@@ -134,20 +85,16 @@ jobs:
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
-          # 07｜Chicago Assyrian Dictionary Z actual zisurru headword page
+          # 07｜Chicago Assyrian Dictionary Z, zisurru headword on printed p.137.
+          # Previous run established PDF/printed offset +16 in this volume: PDF p.153 = printed p.137.
           curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/cad_z.pdf' -o work/cad_z.pdf
-          CAD_PAGE=''
-          PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
-          for i in $(seq 1 "$PAGES"); do
-            txt=$(pdftotext -f "$i" -l "$i" -layout work/cad_z.pdf - 2>/dev/null || true)
-            if printf '%s' "$txt" | grep -Eqi 'zisurr' \
-              && printf '%s' "$txt" | grep -Eqi 'magic circle.*flour|circle drawn with flour' \
-              && printf '%s' "$txt" | grep -Eqi 'bull|censer|torch'; then
-              CAD_PAGE="$i"; break
-            fi
-          done
-          if [ -z "$CAD_PAGE" ]; then echo 'Could not locate the full CAD zisurru headword page' >&2; exit 22; fi
-          echo "Verified CAD zisurru PDF page: $CAD_PAGE"
+          CAD_PAGE=153
+          CAD_TEXT=$(pdftotext -f "$CAD_PAGE" -l "$CAD_PAGE" -layout work/cad_z.pdf - 2>/dev/null || true)
+          echo '--- CAD page check ---'
+          printf '%s\n' "$CAD_TEXT" | grep -Ei -A12 -B4 'zisurr' | head -80 || true
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'zisurr'; then echo 'CAD target page missing zisurru' >&2; exit 22; fi
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'magic circle.*flour|circle drawn with flour'; then echo 'CAD target page missing flour-circle definition' >&2; exit 23; fi
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'bull|censer|torch'; then echo 'CAD target page missing bull example' >&2; exit 24; fi
           pdftoppm -f "$CAD_PAGE" -singlefile -png -r 280 work/cad_z.pdf work/cad >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
@@ -194,11 +141,11 @@ jobs:
 
           cat > pack/资料来源.txt <<'EOF'
           01｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
-          02｜《赫普塔梅隆》保护作用原页。Robert Turner 英译，1655年伦敦印本真实扫描。来源：Wellcome Library / Internet Archive b20458563，公版；通过 Internet Archive 页级OCR索引定位，并再次对实际扫描页核验保护用语。
+          02｜《赫普塔梅隆》保护作用原页。Robert Turner 英译，1655年伦敦印本真实扫描；来源：Wellcome Library / Internet Archive b20458563，公版。页面通过 Internet Archive 页级OCR顺序与实际扫描页双重核验。
           03｜《赫普塔梅隆》圆图细节。来源同01，为按最终时间轴重新裁切的独立文件。
           04-05｜《所罗门之钥》S. L. MacGregor Mathers 编译本，George Redway 1889年印本真实扫描；来源：Internet Archive b24884431。这里作为九英尺绳、四方向、北面入口、进入、香炉与合上入口的可视文本证据。口播提到的早期手稿证据与1889年画面版次分开记录，画面不冒充 Sloane 3847 原页。
           06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明对应英国图书馆 Sloane 3648 图像，由 Joseph H. Peterson 版本转载；公版。08 是按最终剪辑顺序实际复制的独立文件。
-          07｜《芝加哥亚述语词典》Z卷，zisurrû词条，印刷页137。来源：芝加哥大学 ISAC 官方PDF。工作流要求同页同时出现词条、面粉魔法圈定义以及公牛／香炉／火把例句后才生成截图。
+          07｜《芝加哥亚述语词典》Z卷，zisurrû词条，印刷页137。来源：芝加哥大学 ISAC 官方PDF。该页同时含“用面粉画出的魔法圈”的定义，以及香炉、火把、公牛的仪式例句。
           EOF
 
           python3 - <<'PY'
