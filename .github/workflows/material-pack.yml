@@ -24,8 +24,9 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          mkdir -p pack work/hepocr
+          mkdir -p pack work
 
+          # 01 + 03: Heptameron 1565 historical diagram.
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Heptameron_magic_circle_1565.jpg' -o work/heptameron.jpg
           python3 - <<'PY'
           from PIL import Image
@@ -35,25 +36,25 @@ jobs:
           im.crop((0,0,w,int(h*.46))).resize((1600,1000)).save('pack/03_赫普塔梅隆_圆图细节.png')
           PY
 
-          # 02: 1655 historical printed scan. It is image-only, so locate the passage by OCR.
+          # 02: Turner 1655 historical printed scan.
+          # Verified pagination: PDF p.67 displays printed p.41; the Heptameron opening is printed p.66,
+          # therefore the target scan page is PDF p.92. Render it directly, then OCR-check the content.
           curl -fL --retry 3 'https://archive.org/download/b20458563/b20458563.pdf' -o work/heptameron1655.pdf
-          pdftoppm -jpeg -r 110 work/heptameron1655.pdf work/hepocr/p >/dev/null 2>&1
-          HEP_PAGE=''
-          n=0
-          for f in work/hepocr/p-*.jpg; do
-            n=$((n+1))
-            txt=$(tesseract "$f" stdout -l eng 2>/dev/null || true)
-            if printf '%s' "$txt" | grep -Eqi 'greatest power.{0,80}circle|fortress.{0,80}evil|defend.{0,80}evil|composition.{0,40}circle'; then HEP_PAGE="$n"; break; fi
-          done
-          if [ -z "$HEP_PAGE" ]; then echo 'Could not OCR-locate Heptameron protection wording page' >&2; exit 20; fi
-          echo "Heptameron protection PDF page: $HEP_PAGE"
+          HEP_PAGE=92
           pdftoppm -f "$HEP_PAGE" -singlefile -png -r 260 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
+          tesseract work/heptext.png work/hepcheck -l eng >/dev/null 2>&1 || true
+          if ! grep -Eqi 'greatest power|fortre|evil.{0,25}spirit|composition.{0,30}circle' work/hepcheck.txt; then
+            echo 'Heptameron PDF page 92 did not pass text-content check' >&2
+            cat work/hepcheck.txt || true
+            exit 20
+          fi
           python3 - <<'PY'
           from PIL import Image
           im=Image.open('work/heptext.png').convert('RGB'); w,h=im.size
-          im.crop((int(w*.07),int(h*.06),int(w*.93),int(h*.95))).save('pack/02_赫普塔梅隆_保护作用原页.png')
+          im.crop((int(w*.06),int(h*.05),int(w*.94),int(h*.95))).save('pack/02_赫普塔梅隆_保护作用原页.png')
           PY
 
+          # 04-05: Key of Solomon, George Redway 1889 historical scan.
           if ! curl -fL --retry 2 'https://archive.org/download/b24884431/b24884431.pdf' -o work/key.pdf; then
             curl -fL --retry 2 'https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Key_of_Solomon_the_king_%28Clavicula_Salomonis%29_%28IA_b24884431%29.pdf' -o work/key.pdf
           fi
@@ -64,6 +65,7 @@ jobs:
             if printf '%s' "$txt" | grep -Eqi 'nine feet|nine foot|9 feet|entrance.*north|north.*entrance'; then KEY_PAGE="$i"; break; fi
           done
           if [ -z "$KEY_PAGE" ]; then echo 'Could not locate Key of Solomon target page' >&2; exit 21; fi
+          echo "Key of Solomon PDF page: $KEY_PAGE"
           pdftoppm -f "$KEY_PAGE" -singlefile -png -r 220 work/key.pdf work/key1 >/dev/null 2>&1
           NEXT=$((KEY_PAGE+1))
           pdftoppm -f "$NEXT" -singlefile -png -r 220 work/key.pdf work/key2 >/dev/null 2>&1
@@ -75,50 +77,111 @@ jobs:
           b.crop((int(w*.10),int(h*.06),int(w*.90),int(h*.88))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
           PY
 
+          # 06 + 08: Goetia circle and triangle, Sloane 3648 reproduction.
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20and%20Triagle%20of%20Solomon%20-%20Sloane%203648.png' -o work/goetia.png
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
+          # 07: Chicago Assyrian Dictionary Z.
+          # Previous broad search stopped at printed p.107 / PDF p.123 because that page merely mentioned zisurru.
+          # The actual zisurru headword is printed p.137, so with the same +16 PDF offset the target is PDF p.153.
           curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/cad_z.pdf' -o work/cad_z.pdf
-          CAD_PAGE=''
-          PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
-          for i in $(seq 1 "$PAGES"); do
-            txt=$(pdftotext -f "$i" -l "$i" -layout work/cad_z.pdf - 2>/dev/null || true)
-            if printf '%s' "$txt" | grep -Eqi 'zisurr|magic circle.*flour|circle drawn with flour'; then CAD_PAGE="$i"; break; fi
-          done
-          if [ -z "$CAD_PAGE" ]; then echo 'Could not locate CAD zisurru page' >&2; exit 22; fi
-          pdftoppm -f "$CAD_PAGE" -singlefile -png -r 240 work/cad_z.pdf work/cad >/dev/null 2>&1
+          CAD_PAGE=153
+          CAD_TEXT=$(pdftotext -f "$CAD_PAGE" -l "$CAD_PAGE" -layout work/cad_z.pdf - 2>/dev/null || true)
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'zisurr'; then
+            echo 'CAD PDF p.153 missing zisurru headword' >&2; exit 22
+          fi
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'magic circle.*flour|circle drawn with flour'; then
+            echo 'CAD PDF p.153 missing definition' >&2; exit 23
+          fi
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'bull|censer|torch'; then
+            echo 'CAD PDF p.153 missing bull example' >&2; exit 24
+          fi
+          pdftoppm -f "$CAD_PAGE" -singlefile -png -r 260 work/cad_z.pdf work/cad >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
           im=Image.open('work/cad.png').convert('RGB'); w,h=im.size
-          im.crop((int(w*.06),int(h*.05),int(w*.94),int(h*.95))).save('pack/07_芝加哥亚述语词典_齐苏鲁_公牛例句.png')
+          im.crop((int(w*.05),int(h*.04),int(w*.95),int(h*.96))).save('pack/07_芝加哥亚述语词典_齐苏鲁_公牛例句.png')
           PY
 
-          cat > pack/资料来源.txt <<EOF
-          01｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
-          02｜《赫普塔梅隆》保护作用原页。1655年伦敦印本真实扫描；通过扫描页OCR定位“圆作为防御工事、保护操作者免受恶灵伤害”的原文。来源：Wellcome Library / Internet Archive b20458563，公版。
-          03｜《赫普塔梅隆》圆图细节。来源同01，为按剪辑顺序重新裁切的独立文件。
-          04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。来源：Internet Archive b24884431；定位九英尺绳、四方向、北面入口及随后进入/香炉/合上入口段落。画面版次与口播所依据的早期手稿证据分开记录。
-          06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明对应 Sloane 3648 图像，由 Joseph H. Peterson 版本转载；08为按剪辑顺序复制的独立文件。
-          07｜《芝加哥亚述语词典》Z卷齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；定位“面粉画出的魔法圈”及公牛例句所在页。
+          cat > pack/剪辑顺序.txt <<'EOF'
+          《隐理｜为什么很多仪式开始前要先画一个圈？》
+          建议成片时长：约3分钟
+
+          01｜00:00–00:18｜赫普塔梅隆圆图全图
+          口播：很多古代魔法书在正式召唤以前，会先在地上画圈。有的还会留一个入口，等人进去以后再合上；有的会在圈外另外画一个位置，留给召来的灵。这个步骤到底有什么用，原文写得比现在很多解释具体得多。
+          画面：先全图，缓慢推近。画面加中文标题“为什么仪式开始前要先画圈？”
+
+          02｜00:18–00:43｜赫普塔梅隆保护作用原页
+          口播：《赫普塔梅隆》在讲怎么画圈以前，先解释了它的作用：这些圈像防御工事，让正在操作的人免受恶灵伤害。后面写到灵出现时会制造恐怖景象，试图把其他参加者吓出圈。
+          画面：展示1655年真实扫描页，放大包含“防御工事／保护操作者”意思的段落；只加中文框注，原文保持可见。
+
+          03｜00:43–01:00｜赫普塔梅隆圆图细节
+          口播：接着才是怎么制作。召什么、朝哪个方向、在哪个季节、哪一天、哪个小时，都会影响这个圈；里面写的名字也跟这些条件有关。
+          画面：展示圆图局部，依次放大外围文字与方向位置；中文小字标“日期／小时／方向／名字”。
+
+          04｜01:00–01:22｜所罗门之钥九英尺绳、四方向、北面入口
+          口播：十六世纪的一份《所罗门之钥》手稿写得更细。先确定中心，用九英尺长的绳子测量，再标出东、西、南、北，画到北面时特意留出一个入口。
+          画面：采用1889年印本真实扫描作为可视证据；依次框出“九英尺”“东、西、南、北”“北面入口”对应段落。画面版次与口播所依据的早期手稿证据分开处理。
+
+          05｜01:22–01:50｜所罗门之钥进入、香炉、重新进入、合上入口
+          口播：参加仪式的人从这里进去，各自站到规定的位置。主持者中途出去处理香炉，回来以后，再把刚才留下的入口合上。
+          画面：先接04下半部的进入与香炉段落，再切05，重点框出“合上开口”对应句。
+
+          06｜01:50–02:12｜歌提亚圆与三角
+          口播：《歌提亚》又多画了一个三角。操作者待在圆里，被召来的灵则被要求到圆外的三角中出现。地上两个图形，直接给双方安排了各自的位置。
+          画面：先看全图，再分别放大圆与三角；中文箭头仅标“操作者”“被召对象出现的位置”。
+
+          07｜02:12–02:43｜芝加哥亚述语词典齐苏鲁词条与公牛例句
+          口播：美索不达米亚还有另一种做法。阿卡德语里有一个叫“齐苏鲁”的词，《芝加哥亚述语词典》解释为用面粉画出的魔法圈。其中一条仪式指令要求先用香炉和火把净化一头公牛，再用这种面粉圈把公牛围起来。
+          画面：先框词条标题和“用面粉画出的魔法圈”定义，再下移框出公牛例句；中文框注“面粉圈”“公牛”。
+
+          08｜02:43–03:00｜歌提亚圆与三角结尾独立文件
+          口播：所以下次在古代仪式里看到一个圈，先找三个信息：谁待在里面，谁留在外面，还有没有另外指定的位置。把这几个动作看清楚，这个圈在当时具体用来做什么，也就清楚了。
+          画面：使用08独立文件，重新从全图缓慢推近；最后停在圆与三角同时可见的位置。
           EOF
 
+          cat > pack/资料来源.txt <<'EOF'
+          01｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
+          02｜《赫普塔梅隆》保护作用原页。Robert Turner 英译，1655年伦敦印本真实扫描，印刷页约66；来源：Wellcome Library / Internet Archive b20458563，公版。该页含“圆被比作防御工事、保护操作者免受恶灵伤害”的说明。
+          03｜《赫普塔梅隆》圆图细节。来源同01，为按最终时间轴重新裁切的独立文件。
+          04-05｜《所罗门之钥》S. L. MacGregor Mathers 编译本，George Redway 1889年印本真实扫描；来源：Internet Archive b24884431。这里作为九英尺绳、四方向、北面入口、进入、香炉与合上入口的可视文本证据。口播提到的早期手稿证据与1889年画面版次分开记录，画面不冒充Sloane 3847原页。
+          06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明对应英国图书馆 Sloane 3648 图像，由 Joseph H. Peterson 版本转载；公版。08是按最终剪辑顺序实际复制的独立文件。
+          07｜《芝加哥亚述语词典》Z卷，zisurrû词条，印刷页137。来源：芝加哥大学 ISAC 官方PDF。词条定义为用面粉画出的魔法圈；同页仪式例句写到用香炉和火把净化公牛，再用这种圈围住公牛。
+          EOF
+
+          # Hard acceptance: all timeline images, source file and edit-order file must exist and decode.
           python3 - <<'PY'
           from PIL import Image
           from pathlib import Path
-          required=['01_赫普塔梅隆_圆图全图.jpg','02_赫普塔梅隆_保护作用原页.png','03_赫普塔梅隆_圆图细节.png','04_所罗门之钥_九英尺绳_四方向_北面入口.png','05_所罗门之钥_进入_香炉_重新进入_合上入口.png','06_歌提亚_圆与三角.png','07_芝加哥亚述语词典_齐苏鲁_公牛例句.png','08_歌提亚_圆与三角_结尾.png']
+          required=[
+            '01_赫普塔梅隆_圆图全图.jpg',
+            '02_赫普塔梅隆_保护作用原页.png',
+            '03_赫普塔梅隆_圆图细节.png',
+            '04_所罗门之钥_九英尺绳_四方向_北面入口.png',
+            '05_所罗门之钥_进入_香炉_重新进入_合上入口.png',
+            '06_歌提亚_圆与三角.png',
+            '07_芝加哥亚述语词典_齐苏鲁_公牛例句.png',
+            '08_歌提亚_圆与三角_结尾.png',
+          ]
           for name in required:
               p=Path('pack')/name
-              if not p.exists() or p.stat().st_size < 5000: raise SystemExit(f'MISSING/TOO SMALL: {name}')
-              with Image.open(p) as im: im.verify()
+              if not p.exists() or p.stat().st_size < 5000:
+                  raise SystemExit(f'MISSING/TOO SMALL: {name}')
+              with Image.open(p) as im:
+                  im.verify()
               print(name,p.stat().st_size,'OK')
-          print('ALL 8 TIMELINE IMAGES PASSED')
+          for name in ['剪辑顺序.txt','资料来源.txt']:
+              p=Path('pack')/name
+              if not p.exists() or p.stat().st_size < 200:
+                  raise SystemExit(f'MISSING TEXT FILE: {name}')
+          print('ALL 8 TIMELINE IMAGES + 2 TEXT FILES PASSED')
           PY
 
       - name: Upload finished pack
         uses: actions/upload-artifact@v4
         with:
-          name: 隐理_为什么仪式开始前要先画圈_素材包
+          name: 隐理_为什么仪式开始前要先画圈_最终交付包
           path: pack/
           retention-days: 7
           if-no-files-found: error
