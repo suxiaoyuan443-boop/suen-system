@@ -36,23 +36,20 @@ jobs:
           im.crop((0,0,w,int(h*.46))).resize((1600,1000)).save('pack/03_赫普塔梅隆_圆图细节.png')
           PY
 
-          # 02｜Robert Turner 1655 historical scan.
-          # Internet Archive djvu object numbers map directly to PDF page numbers in this section.
-          # Prior logs proved object 112 == PDF p.112; IA OCR candidate object 100 is the Heptameron intro.
+          # 02｜Robert Turner 1655 historical scan, verified PDF p.100
           curl -fL --retry 3 'https://archive.org/download/b20458563/b20458563.pdf' -o work/heptameron1655.pdf
           HEP_PAGE=100
           pdftoppm -f "$HEP_PAGE" -singlefile -png -r 280 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
           tesseract work/heptext.png work/hepcheck -l eng >/dev/null 2>&1 || true
           HEP_TXT=$(cat work/hepcheck.txt 2>/dev/null || true)
+          HEP_ONE=$(printf '%s' "$HEP_TXT" | tr '\n' ' ' | tr -s ' ')
           echo '--- Heptameron page check ---'
           printf '%s\n' "$HEP_TXT" | head -120
-          if ! printf '%s' "$HEP_TXT" | grep -Eqi 'magical elements'; then
-            echo 'Heptameron PDF p.100 missing Magical Elements heading/context' >&2
-            exit 20
+          if ! printf '%s' "$HEP_ONE" | grep -Eqi 'magical elements'; then
+            echo 'Heptameron PDF p.100 missing Magical Elements context' >&2; exit 20
           fi
-          if ! printf '%s' "$HEP_TXT" | grep -Eqi 'greate(st|ft).{0,60}power.{0,160}circl|fortre.{0,220}(evil|evill).{0,90}(spirit|fpirit)|defen[cs]e.{0,160}(spirit|fpirit)'; then
-            echo 'Heptameron PDF p.100 missing protection-language content' >&2
-            exit 21
+          if ! printf '%s' "$HEP_ONE" | grep -Eqi 'power.{0,80}circles.{0,100}fortre.{0,100}operators.{0,80}(safe|fafe).{0,80}evil.{0,40}(spirits|fpirits)'; then
+            echo 'Heptameron PDF p.100 missing verified protection-language sequence' >&2; exit 21
           fi
           python3 - <<'PY'
           from PIL import Image
@@ -83,20 +80,22 @@ jobs:
           b.crop((int(w*.09),int(h*.05),int(w*.91),int(h*.90))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
           PY
 
-          # 06 + 08｜Goetia circle and triangle; 08 is a physical duplicate for the final timeline
+          # 06 + 08｜Goetia circle and triangle; 08 is a physical duplicate
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20and%20Triagle%20of%20Solomon%20-%20Sloane%203648.png' -o work/goetia.png
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
-          # 07｜Chicago Assyrian Dictionary Z, zisurru headword on printed p.137
+          # 07｜Chicago Assyrian Dictionary Z, zisurru headword, printed p.137 / PDF p.153
           curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/cad_z.pdf' -o work/cad_z.pdf
           CAD_PAGE=153
           CAD_TEXT=$(pdftotext -f "$CAD_PAGE" -l "$CAD_PAGE" -layout work/cad_z.pdf - 2>/dev/null || true)
+          CAD_ONE=$(printf '%s' "$CAD_TEXT" | tr '\n' ' ' | tr -s ' ')
           echo '--- CAD page check ---'
-          printf '%s\n' "$CAD_TEXT" | grep -Ei -A16 -B6 'zisurr' | head -100 || true
-          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'zisurr'; then echo 'CAD target page missing zisurru' >&2; exit 23; fi
-          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'magic circle.*flour|circle drawn with flour'; then echo 'CAD target page missing flour-circle definition' >&2; exit 24; fi
-          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'bull|censer|torch'; then echo 'CAD target page missing bull example' >&2; exit 25; fi
+          printf '%s\n' "$CAD_TEXT" | grep -Ei -A20 -B8 'zisurr' | head -120 || true
+          if ! printf '%s' "$CAD_ONE" | grep -Eqi 'zisurr'; then echo 'CAD target page missing zisurru' >&2; exit 23; fi
+          if ! printf '%s' "$CAD_ONE" | grep -Eqi 'magic circle.{0,80}flour|circle drawn.{0,50}flour'; then echo 'CAD target page missing flour-circle definition' >&2; exit 24; fi
+          if ! printf '%s' "$CAD_ONE" | grep -Eqi 'bull'; then echo 'CAD target page missing bull' >&2; exit 25; fi
+          if ! printf '%s' "$CAD_ONE" | grep -Eqi 'censer|torch'; then echo 'CAD target page missing censer/torch' >&2; exit 26; fi
           pdftoppm -f "$CAD_PAGE" -singlefile -png -r 280 work/cad_z.pdf work/cad >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
@@ -143,7 +142,7 @@ jobs:
 
           cat > pack/资料来源.txt <<'EOF'
           01｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，公版。
-          02｜《赫普塔梅隆》保护作用原页。Robert Turner 英译，1655年伦敦印本真实扫描；来源：Wellcome Library / Internet Archive b20458563，公版。页面通过 Internet Archive 页级OCR顺序与实际扫描页双重核验。
+          02｜《赫普塔梅隆》保护作用原页。Robert Turner 英译，1655年伦敦印本真实扫描；来源：Wellcome Library / Internet Archive b20458563，公版。PDF第100页明确写到圆具有防御作用，使操作者免受恶灵伤害，并继续说明圆的构成会随时间、日、小时、灵体等条件变化。
           03｜《赫普塔梅隆》圆图细节。来源同01，为按最终时间轴重新裁切的独立文件。
           04-05｜《所罗门之钥》S. L. MacGregor Mathers 编译本，George Redway 1889年印本真实扫描；来源：Internet Archive b24884431。这里作为九英尺绳、四方向、北面入口、进入、香炉与合上入口的可视文本证据。口播提到的早期手稿证据与1889年画面版次分开记录，画面不冒充 Sloane 3847 原页。
           06、08｜《歌提亚》所罗门圆与三角图。Wikimedia Commons 文件说明对应英国图书馆 Sloane 3648 图像，由 Joseph H. Peterson 版本转载；公版。08 是按最终剪辑顺序实际复制的独立文件。
