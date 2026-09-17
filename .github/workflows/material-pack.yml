@@ -1,0 +1,108 @@
+name: Build historical material pack
+
+on:
+  push:
+    paths:
+      - '.github/workflows/material-pack.yml'
+      - '.github/material-pack-trigger.txt'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils python3-pil curl
+
+      - name: Download and build editing-ready images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p pack work
+
+          # 01-03 Heptameron 1565 historical diagram
+          curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Heptameron_magic_circle_1565.jpg' -o work/heptameron.jpg
+          python3 - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          im=Image.open('work/heptameron.jpg').convert('RGB')
+          im.save('pack/01_赫普塔梅隆_圆图全图.jpg', quality=95)
+          w,h=im.size
+          im.crop((int(w*.08),int(h*.05),int(w*.92),int(h*.93))).resize((1400,1400)).save('pack/02_赫普塔梅隆_圆图主体放大.jpg',quality=95)
+          im.crop((0,0,w,int(h*.40))).resize((1600,900)).save('pack/03_赫普塔梅隆_外圈文字局部.jpg',quality=95)
+          PY
+
+          # 04-05 Key of Solomon, historical 1889 scan. Try two reliable public mirrors.
+          if ! curl -fL --retry 2 'https://archive.org/download/b24884431/b24884431.pdf' -o work/key.pdf; then
+            curl -fL --retry 2 'https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Key_of_Solomon_the_king_%28Clavicula_Salomonis%29_%28IA_b24884431%29.pdf' -o work/key.pdf
+          fi
+          KEY_PAGE=''
+          PAGES=$(pdfinfo work/key.pdf | awk '/^Pages:/ {print $2}')
+          for i in $(seq 1 "$PAGES"); do
+            txt=$(pdftotext -f "$i" -l "$i" -layout work/key.pdf - 2>/dev/null || true)
+            if printf '%s' "$txt" | grep -Eqi 'nine feet|nine foot|9 feet|entrance.*north|north.*entrance'; then KEY_PAGE="$i"; break; fi
+          done
+          if [ -z "$KEY_PAGE" ]; then echo 'Could not locate Key of Solomon target page' >&2; exit 21; fi
+          pdftoppm -f "$KEY_PAGE" -singlefile -png -r 220 work/key.pdf work/key1 >/dev/null 2>&1
+          NEXT=$((KEY_PAGE+1))
+          pdftoppm -f "$NEXT" -singlefile -png -r 220 work/key.pdf work/key2 >/dev/null 2>&1
+          python3 - <<'PY'
+          from PIL import Image
+          a=Image.open('work/key1.png').convert('RGB'); w,h=a.size
+          # Keep the central text body while removing scanner margins.
+          a.crop((int(w*.10),int(h*.10),int(w*.90),int(h*.93))).save('pack/04_所罗门之钥_九英尺绳_四方向_北面入口.png')
+          b=Image.open('work/key2.png').convert('RGB'); w,h=b.size
+          b.crop((int(w*.10),int(h*.06),int(w*.90),int(h*.88))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
+          PY
+
+          # 06 + 08 Goetia 1904 historical published diagram; duplicate as a separate later timeline file.
+          curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle_of_Solomon_and_Triangle_of_Solomon_from_The_Lesser_Key_of_Solomon.png' -o work/goetia.png
+          cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
+          cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
+
+          # 07 Chicago Assyrian Dictionary Z: automatically locate zisurru entry page, render and crop text body.
+          curl -fL --retry 3 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/cad_z.pdf' -o work/cad_z.pdf
+          CAD_PAGE=''
+          PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
+          for i in $(seq 1 "$PAGES"); do
+            txt=$(pdftotext -f "$i" -l "$i" -layout work/cad_z.pdf - 2>/dev/null || true)
+            if printf '%s' "$txt" | grep -Eqi 'zisurr|magic circle.*flour|circle drawn with flour'; then CAD_PAGE="$i"; break; fi
+          done
+          if [ -z "$CAD_PAGE" ]; then echo 'Could not locate CAD zisurru page' >&2; exit 22; fi
+          pdftoppm -f "$CAD_PAGE" -singlefile -png -r 240 work/cad_z.pdf work/cad >/dev/null 2>&1
+          python3 - <<'PY'
+          from PIL import Image
+          im=Image.open('work/cad.png').convert('RGB'); w,h=im.size
+          im.crop((int(w*.06),int(h*.05),int(w*.94),int(h*.95))).save('pack/07_芝加哥亚述语词典_齐苏鲁_公牛例句.png')
+          PY
+
+          cat > pack/资料来源.txt <<EOF
+          01-03｜《赫普塔梅隆》1565年版魔法圆图。来源：Wikimedia Commons，文件说明标注 Heptameron (1565)，公版。
+          04-05｜《所罗门之钥》George Redway 1889年印本真实扫描。工作流自动检索含 nine feet / north entrance 的页，并输出该页及下一页裁切。来源优先 Internet Archive b24884431，备用 Wikimedia Commons 同扫描。
+          06、08｜《歌提亚：所罗门小钥匙》1904年出版图，圆与三角。来源：Wikimedia Commons；文件说明标注 1904，公版。08 为按最终剪辑时间轴实际复制的独立文件。
+          07｜《芝加哥亚述语词典》Z卷，齐苏鲁词条。来源：芝加哥大学 ISAC 官方 PDF；工作流自动检索 zisurru / magic circle drawn with flour 对应页后渲染。
+          说明｜这些文件只作为 GitHub Actions 临时 artifact 生成，不提交 PDF、图片或研究资产到 suen-system 仓库本体。
+          EOF
+
+          python3 - <<'PY'
+          from PIL import Image
+          import glob, os
+          for f in sorted(glob.glob('pack/*.*')):
+              if f.endswith('.txt'): continue
+              im=Image.open(f); im.verify()
+              print(os.path.basename(f), 'OK')
+          PY
+
+      - name: Upload finished pack
+        uses: actions/upload-artifact@v4
+        with:
+          name: 隐理_为什么仪式开始前要先画圈_素材包
+          path: pack/
+          retention-days: 7
+          if-no-files-found: error
