@@ -36,20 +36,23 @@ jobs:
           im.crop((0,0,w,int(h*.46))).resize((1600,1000)).save('pack/03_赫普塔梅隆_圆图细节.png')
           PY
 
-          # 02｜Robert Turner 1655 scan.
-          # IA page-level OCR identifies the Heptameron introductory leaf as object 100.
-          # In this PDF the object/PDF offset around this section is -5, so render PDF p.95.
-          # Verify against 17th-c. OCR spellings where long s is commonly read as f.
+          # 02｜Robert Turner 1655 historical scan.
+          # Internet Archive djvu object numbers map directly to PDF page numbers in this section.
+          # Prior logs proved object 112 == PDF p.112; IA OCR candidate object 100 is the Heptameron intro.
           curl -fL --retry 3 'https://archive.org/download/b20458563/b20458563.pdf' -o work/heptameron1655.pdf
-          HEP_PAGE=95
+          HEP_PAGE=100
           pdftoppm -f "$HEP_PAGE" -singlefile -png -r 280 work/heptameron1655.pdf work/heptext >/dev/null 2>&1
           tesseract work/heptext.png work/hepcheck -l eng >/dev/null 2>&1 || true
           HEP_TXT=$(cat work/hepcheck.txt 2>/dev/null || true)
           echo '--- Heptameron page check ---'
-          printf '%s\n' "$HEP_TXT" | head -100
-          if ! printf '%s' "$HEP_TXT" | grep -Eqi 'greate(st|ft).{0,50}power.{0,120}circl|fortre.{0,180}evil.{0,70}(spirit|fpirit)|operator.{0,80}(safe|fafe).{0,120}evil'; then
-            echo 'Heptameron PDF p.95 did not pass protection-language check' >&2
+          printf '%s\n' "$HEP_TXT" | head -120
+          if ! printf '%s' "$HEP_TXT" | grep -Eqi 'magical elements'; then
+            echo 'Heptameron PDF p.100 missing Magical Elements heading/context' >&2
             exit 20
+          fi
+          if ! printf '%s' "$HEP_TXT" | grep -Eqi 'greate(st|ft).{0,60}power.{0,160}circl|fortre.{0,220}(evil|evill).{0,90}(spirit|fpirit)|defen[cs]e.{0,160}(spirit|fpirit)'; then
+            echo 'Heptameron PDF p.100 missing protection-language content' >&2
+            exit 21
           fi
           python3 - <<'PY'
           from PIL import Image
@@ -67,7 +70,7 @@ jobs:
             txt=$(pdftotext -f "$i" -l "$i" -layout work/key.pdf - 2>/dev/null || true)
             if printf '%s' "$txt" | grep -Eqi 'nine feet|nine foot|9 feet|entrance.*north|north.*entrance'; then KEY_PAGE="$i"; break; fi
           done
-          if [ -z "$KEY_PAGE" ]; then echo 'Could not locate Key of Solomon target page' >&2; exit 21; fi
+          if [ -z "$KEY_PAGE" ]; then echo 'Could not locate Key of Solomon target page' >&2; exit 22; fi
           echo "Key of Solomon PDF page: $KEY_PAGE"
           pdftoppm -f "$KEY_PAGE" -singlefile -png -r 230 work/key.pdf work/key1 >/dev/null 2>&1
           NEXT=$((KEY_PAGE+1))
@@ -80,21 +83,20 @@ jobs:
           b.crop((int(w*.09),int(h*.05),int(w*.91),int(h*.90))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
           PY
 
-          # 06 + 08｜Goetia circle and triangle
+          # 06 + 08｜Goetia circle and triangle; 08 is a physical duplicate for the final timeline
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20and%20Triagle%20of%20Solomon%20-%20Sloane%203648.png' -o work/goetia.png
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
-          # 07｜Chicago Assyrian Dictionary Z, zisurru headword on printed p.137.
-          # Previous run established PDF/printed offset +16 in this volume: PDF p.153 = printed p.137.
+          # 07｜Chicago Assyrian Dictionary Z, zisurru headword on printed p.137
           curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/cad_z.pdf' -o work/cad_z.pdf
           CAD_PAGE=153
           CAD_TEXT=$(pdftotext -f "$CAD_PAGE" -l "$CAD_PAGE" -layout work/cad_z.pdf - 2>/dev/null || true)
           echo '--- CAD page check ---'
-          printf '%s\n' "$CAD_TEXT" | grep -Ei -A12 -B4 'zisurr' | head -80 || true
-          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'zisurr'; then echo 'CAD target page missing zisurru' >&2; exit 22; fi
-          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'magic circle.*flour|circle drawn with flour'; then echo 'CAD target page missing flour-circle definition' >&2; exit 23; fi
-          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'bull|censer|torch'; then echo 'CAD target page missing bull example' >&2; exit 24; fi
+          printf '%s\n' "$CAD_TEXT" | grep -Ei -A16 -B6 'zisurr' | head -100 || true
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'zisurr'; then echo 'CAD target page missing zisurru' >&2; exit 23; fi
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'magic circle.*flour|circle drawn with flour'; then echo 'CAD target page missing flour-circle definition' >&2; exit 24; fi
+          if ! printf '%s' "$CAD_TEXT" | grep -Eqi 'bull|censer|torch'; then echo 'CAD target page missing bull example' >&2; exit 25; fi
           pdftoppm -f "$CAD_PAGE" -singlefile -png -r 280 work/cad_z.pdf work/cad >/dev/null 2>&1
           python3 - <<'PY'
           from PIL import Image
