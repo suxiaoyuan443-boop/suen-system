@@ -30,7 +30,6 @@ jobs:
           curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Heptameron_magic_circle_1565.jpg' -o work/heptameron.jpg
           python3 - <<'PY'
           from PIL import Image
-          from pathlib import Path
           im=Image.open('work/heptameron.jpg').convert('RGB')
           im.save('pack/01_赫普塔梅隆_圆图全图.jpg', quality=95)
           w,h=im.size
@@ -38,7 +37,7 @@ jobs:
           im.crop((0,0,w,int(h*.40))).resize((1600,900)).save('pack/03_赫普塔梅隆_外圈文字局部.jpg',quality=95)
           PY
 
-          # 04-05 Key of Solomon, historical 1889 scan. Try two reliable public mirrors.
+          # 04-05 Key of Solomon, historical 1889 scan.
           if ! curl -fL --retry 2 'https://archive.org/download/b24884431/b24884431.pdf' -o work/key.pdf; then
             curl -fL --retry 2 'https://upload.wikimedia.org/wikipedia/commons/0/0f/The_Key_of_Solomon_the_king_%28Clavicula_Salomonis%29_%28IA_b24884431%29.pdf' -o work/key.pdf
           fi
@@ -55,18 +54,18 @@ jobs:
           python3 - <<'PY'
           from PIL import Image
           a=Image.open('work/key1.png').convert('RGB'); w,h=a.size
-          # Keep the central text body while removing scanner margins.
           a.crop((int(w*.10),int(h*.10),int(w*.90),int(h*.93))).save('pack/04_所罗门之钥_九英尺绳_四方向_北面入口.png')
           b=Image.open('work/key2.png').convert('RGB'); w,h=b.size
           b.crop((int(w*.10),int(h*.06),int(w*.90),int(h*.88))).save('pack/05_所罗门之钥_进入_香炉_重新进入_合上入口.png')
           PY
 
-          # 06 + 08 Goetia 1904 historical published diagram; duplicate as a separate later timeline file.
-          curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle_of_Solomon_and_Triangle_of_Solomon_from_The_Lesser_Key_of_Solomon.png' -o work/goetia.png
+          # 06 + 08 Goetia 1904 historical published diagram.
+          # Use Wikimedia Special:Redirect with the exact Commons file title (spaces URL-encoded).
+          curl -fL --retry 3 'https://commons.wikimedia.org/wiki/Special:Redirect/file/Circle%20of%20Solomon%20and%20Triangle%20of%20Solomon%20from%20The%20Lesser%20Key%20of%20Solomon.png' -o work/goetia.png
           cp work/goetia.png 'pack/06_歌提亚_圆与三角.png'
           cp work/goetia.png 'pack/08_歌提亚_圆与三角_结尾.png'
 
-          # 07 Chicago Assyrian Dictionary Z: automatically locate zisurru entry page, render and crop text body.
+          # 07 Chicago Assyrian Dictionary Z.
           curl -fL --retry 3 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/cad_z.pdf' -o work/cad_z.pdf
           CAD_PAGE=''
           PAGES=$(pdfinfo work/cad_z.pdf | awk '/^Pages:/ {print $2}')
