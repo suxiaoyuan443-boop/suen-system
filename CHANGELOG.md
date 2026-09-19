@@ -2,6 +2,19 @@
 
 记录 Suen System 的长期运营配置变化。日常内容更新、客户隐私与临时经营数据不写入这里。
 
+## 2026-09-19｜Patreon 长任务断线保护与 Work 路由
+
+根据第一篇 Patreon 新对话连续两次约 20 分钟执行后中断：
+
+- 将“多手稿研究 + 找图 + 双语全文 + DOCX / HTML”正式定义为长链路任务；
+- 此类任务优先在同一 Project 内使用 ChatGPT Work；
+- 内部拆为 Source Verification → Figure Manifest → Text Reconstruction → Final Article → File Validation；
+- 阶段之间由执行对话自行继续，不要求 Suen 反复输入“继续”；
+- 每阶段应保留阶段成果 / 工作文件，避免一次断线导致全部重来；
+- 普通 Chat 连续两次长时间执行中断后，不再第三次重复同一超长单轮提示词。
+
+---
+
 ## 2026-09-19｜Patreon 录屏问题审计：原图优先、Figure 资产前置、文件验收与新对话隔离
 
 根据 2026-09-19 Patreon 第一篇录屏继续修正：
