@@ -2,6 +2,19 @@
 
 记录 Suen System 的长期运营配置变化。日常内容更新、客户隐私与临时经营数据不写入这里。
 
+## 2026-09-19｜Patreon 长任务执行策略修正：默认普通 Chat 分阶段，Work 额度保留
+
+Suen 明确希望把有限 Work 额度优先用于数据库，因此调整 Patreon 长任务执行策略：
+
+- Patreon 不再默认路由到 ChatGPT Work；
+- 默认使用普通 Chat 的 2—4 阶段工作流；
+- 推荐顺序仍为 Source Verification / Figure Manifest → Text Reconstruction → Final Article → File Validation；
+- 每轮必须输出可复用的完整阶段成果，下一轮从已有成果继续，不从头重查；
+- 普通 Chat 连续两次长时间中断后，优先缩短单轮范围，而不是默认消耗 Work；
+- Work 仅在 Suen 当次明确选择、普通 Chat 分阶段后仍频繁中断、或确有长时间浏览器 / 文件处理需求时使用。
+
+---
+
 ## 2026-09-19｜Patreon 长任务断线保护与 Work 路由
 
 根据第一篇 Patreon 新对话连续两次约 20 分钟执行后中断：
