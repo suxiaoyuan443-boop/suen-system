@@ -1,0 +1,16 @@
+# Local secrets
+.env
+.env.*
+*.token
+*tokens*.json
+
+# Generated local indexes
+tarot_index_output/
+*.local.csv
+*.local.jsonl
+
+# Raw/private training assets
+raw/
+downloads/
+transcripts/full/
+media/
