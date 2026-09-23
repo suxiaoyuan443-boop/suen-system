@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Suen Tarot Case",
+  "type": "object",
+  "required": ["case_id", "source", "question", "spread", "reading", "completeness", "rule_eligible"],
+  "properties": {
+    "case_id": {"type": "string"},
+    "source": {"type": "object"},
+    "question": {"type": "object"},
+    "context": {"type": "object"},
+    "spread": {"type": "object"},
+    "reading": {"type": "object"},
+    "outcome": {"type": "object"},
+    "derived_rules": {"type": "array", "items": {"type": "string"}},
+    "completeness": {"enum": ["A", "B", "C", "D"]},
+    "rule_eligible": {"type": "boolean"},
+    "needs_context": {"type": "boolean"}
+  }
+}
