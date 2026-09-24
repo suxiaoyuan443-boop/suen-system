@@ -15,110 +15,113 @@ vidIQ 当前组件明确标注 `Since Jan 01, 2026`：
 
 按 YouTube ID 去重后，当前已经恢复：
 
-- **55 / 59 个上传身份**
-- 覆盖率：**93.2%**
+- **56 / 59 个上传身份**
+- 覆盖率：**94.9%**
 - 明确 Long-form / live：**43**
-- 明确 Shorts：**12**
+- 明确 Shorts：**13 / 13**
 - 格式未决短时长候选：**0**
 
-因此剩余缺口已经精确压缩到：
+因此剩余缺口已经全部收敛为：
 
 - **Long-form：3**
-- **Shorts：1**
+- **Shorts：0**
 
-## 5个原短时长候选已全部定性为 Shorts
+## Shorts 已完成 13 / 13
 
-1. `r0ParWOh2kM` — What is the Scariest Book I've Owned?
-2. `SEV-cX0nazc` — Between Witches and Rationalism
-3. `I6yP0sbAYI4` — Win 400 Year Old Alchemy and Demonology
-4. `1nUMluMIKiQ` — Make that at least 36 copies of the Alchemical Semtia Recta
-5. `DAi1pclmtQ0` — Want to Win a Real Piece of Occult History?
+当前 `ESOTERICA-2026YTD-Shorts身份索引v1.csv` 已恢复全部13个 YTD Shorts 身份。
 
-旧的“Long-form还缺4—9 / Shorts还缺8—13”范围正式废弃。
+其中原5个约2:01—2:16候选均已取得明确 Shorts 证据，不再存在“按时长猜 Shorts”的问题。
 
-## 当前12个 Shorts 身份
+### 3月13日同题双上传已纠正格式
 
-除上述5条外，现已恢复：
+同一天存在两个不同 YouTube ID、同一标题：
 
-- `iH_my_8Je2w` — Studying @MoonsRareBooks 17th century manuscript of the Lesser Key of Solomon — 2026-03-06
-- `wjzVELBGIv8` — Love Ancient Esoteric Books? Join @MoonsRareBooks & @TheEsotericaChannel — 精确日期待补
-- `6mJTXeY7tgg` — How Shakespeare got his Ghosts! — 2026-06-17
-- `026KPLTac5s` — Three Layers of Alchemy and Science Come Together in a 342 Year Old Book — 2026-05-29
-- `Fx7vrZ1-Vys` — This Book was Owned and Annotated by Dr. John Dee! — 精确日期待补
-- `lc6Ucen79Kc` — How Cabala gave us Jehovah — 2026-04-28
-- `A4kDJDLtSAA` — Two 400 Year Old Books of Spirit Magic Reunited! — 2026-03-20
+**Win a 1300 Year Old Incantation Bowl Fragment - New Occult Book Catalog!**
 
-已单独维护：
-- `ESOTERICA-2026YTD-Shorts身份索引v1.csv`
+现在通过官方频道两个索引的播放量对应关系可以拆开：
+
+- `NYpxHPabDDA`：约 **10K views**，出现在 ESOTERICA 官方 **Videos** 索引 → **Long-form**
+- `Q4gco5RA1no`：约 **31K views**，出现在 ESOTERICA 官方 **Shorts** 索引 → **Short**
+
+因此旧的“Q4gco 是 Long、NYpx 格式未决”已废弃。
+
+这个修正不会删除任何已恢复身份，反而把此前未计入的 `NYpxHPabDDA` 正式纳入 Long-form，并让 Shorts 达到 **13 / 13**。
+
+## 当前13个 Shorts 身份
+
+1. `DAi1pclmtQ0` — Want to Win a Real Piece of Occult History?
+2. `1nUMluMIKiQ` — Make that at least 36 copies of the Alchemical Semtia Recta
+3. `r0ParWOh2kM` — What is the Scariest Book I've Owned?
+4. `SEV-cX0nazc` — Between Witches and Rationalism
+5. `I6yP0sbAYI4` — Win 400 Year Old Alchemy and Demonology
+6. `iH_my_8Je2w` — Studying @MoonsRareBooks 17th century manuscript of the Lesser Key of Solomon
+7. `wjzVELBGIv8` — Love Ancient Esoteric Books? Join @MoonsRareBooks & @TheEsotericaChannel
+8. `6mJTXeY7tgg` — How Shakespeare got his Ghosts!
+9. `026KPLTac5s` — Three Layers of Alchemy and Science Come Together in a 342 Year Old Book
+10. `Fx7vrZ1-Vys` — This Book was Owned and Annotated by Dr. John Dee!
+11. `lc6Ucen79Kc` — How Cabala gave us Jehovah
+12. `A4kDJDLtSAA` — Two 400 Year Old Books of Spirit Magic Reunited!
+13. `Q4gco5RA1no` — Win a 1300 Year Old Incantation Bowl Fragment - New Occult Book Catalog!
 
 ### 已排除的Q4 Short
 
 `eP0WEnChmf8` — Does the Kabbalah hold the secret to the tomb of Jesus? 的日期为 **2025-12-03**，属于2025Q4，不计入2026 YTD。
 
-## Untitled Treatise 已正式解决
+## 主研究层已闭合
 
 Patreon 工作题 `Untitled Treatise` 已一对一映射为：
 
 - 最终标题：**Is This The Strangest Gnostic Text?**
 - video ID：`-4lxQMQYdYU`
-- YouTube 日期：**2026-06-12**
+- 日期：**2026-06-12**
 - 播放快照：**227,948**
 - 点赞快照：**10,000**
 
-YouTube 简介直接说明讨论对象是 Bruce Codex 中通常称 Untitled Text / Untitled Treatise 的文本，因此不是靠标题语义猜配。
-
-结果：
+因此：
 - 滚动一年28个主研究 / Early Access代理：**28 / 28 已完成最终 YouTube 映射与量化**
-- 主研究临时分布：中位 **126,453**；P75 **221,630.75**；P90 **389,103.4**
+- 当前主研究临时分布：中位 **126,453**；P75 **221,630.75**；P90 **389,103.4**
 
-## 本轮新增的 Long-form / live 身份
+## 当前 Long-form / live 构成
 
-### 1. Birthday / Alchemy Day livestream
-- `K30OnJJAFiQ`
-- 2026-02-13
-- 已在上一断点纳入
+已确认 **43 / 46**：
 
-### 2. What are the Philosophical Foundations of Western Esotericism?
-- `ULXb3h3nxnQ`
-- 2026-05-08
-- Being and Logos 正式14讲开始前的 seminar introduction / crowdfunding 节点
-- 与14讲本体是不同上传
+- YTD主研究：18
+- Being and Logos 正式 seminar：14
+- 其他非主研究 Long/live：11
 
-### 3. Gold Play Button Unboxing Livestream
-- `z9QOiZNe2rE`
-- Patreon 2026-01-07 第一方帖子明确给出该直播链接，并写“明天直播”
-- YTD身份可靠；YouTube归档精确首发日暂不强填
+其他非主研究层当前包括频道说明、目录宣传、访谈/目录、AMA、生日直播、seminar introduction / crowdfunding、Gold Play Button直播、AI政策说明、3月咒碗目录长视频及近期直播等。
 
-这两条新身份把明确 Long/live 从39推进到 **41**。随后，3月13日目录视频 `Q4gco5RA1no` 通过同题播客镜像的605秒（10:05）时长证据确认是 Long-form，因此明确 Long/live 进一步推进到 **42**。
+其中3月目录 Long-form 现在锁定为：
+- `NYpxHPabDDA`
+- 日期：2026-03-13
+- 官方 Videos 索引约10K views
 
-## 新恢复：Does ESOTERICA use AI?
+## 剩余3个身份的范围
 
-- video ID：`v0VZvMmelN4`
-- YouTube 日期：**2026-04-28**
-- 时长：**18:44**（同条目镜像）
-- 当前直接快照：**93,407 views / 11,000 likes**
-- 角色：频道AI使用立场 / policy Long-form，非主研究、非seminar
+剩余3条已经不可能是：
+- Shorts（13/13 已齐）
+- 主研究（YTD主研究已齐）
+- Being and Logos 14讲（14/14 已齐）
 
-直接 YouTube 结果锁定日期、ID与指标；播客镜像仅用于补时长，不采用其迁移后的日期。该条使明确 Long/live 从42推进到 **43**。
+因此剩余3条应继续从以下非主研究供给里找：
+- catalog / rare-book promo
+- livestream / Q&A / watch party
+- channel update / policy
+- interview / special event
+- 可能存在的重传 / 替换版本
 
-## 3月13日双上传：保留为下一优先验证点
-
-已恢复两个不同 YouTube ID，均在2026-03-13，且都围绕1300年咒碗碎片 / 新古籍目录：
-
-- `Q4gco5RA1no` — Win a 1300 Year Old Incantation Bowl Fragment - New Occult Book Catalog!
-- `NYpxHPabDDA` — 同一活动的另一独立上传
-
-`Q4gco5RA1no` 已通过同题镜像605秒时长确认是 **Long-form**，已经计入42 Long/live。另一条 `NYpxHPabDDA` 仍缺显式 Shorts 格式字段，因此不靠配对关系强判。
-
-如果 `NYpxHPabDDA` 后续取得显式 Shorts 证据，它将直接解决最后1个 YTD Short。
+高优先未解决节点：
+1. 2026-07-06 Patreon：New Summer Book Catalog + Individual Sheets + Discount —— 公开YouTube身份尚未锁定；
+2. 2026-08-21/22 Eighth Book of Moses 含 Dr. Dzwiza 访谈的原上传曾被 unlist，随后重传删去访谈；原版视频ID尚未恢复，且是否进入vidIQ 59条分母仍需证明；
+3. 其他频道自有直播 / 目录 / 更新节点继续从官方 Videos 索引差分。
 
 ## 新的精确断点
 
-> **59条 YTD 中55个身份已恢复（93.2%）：43 Long/live + 12 Shorts；剩4个 = 3 Long + 1 Short。**
+> **59条 YTD 中56个身份已恢复（94.9%）：43 Long/live + 13 Shorts；Shorts 13/13 已完成；剩余只剩3个 Long-form。**
 
 下一步固定为：
 
-1. 优先锁定最后 **1个 Short**，首查3月13日双上传；
-2. 补剩余 **3个 Long-form**，优先查3月 / 7月目录配套长视频、直播与频道节点；
-3. 到 **59 / 59** 后做完整 YTD format-level 题型 / 供给结构统计；
-4. 再单独处理 **2025Q4 Shorts + 遗漏 Long-form**，不与YTD混算。
+1. 只补最后 **3个 Long-form**
+2. 优先查官方 Videos 索引与7月目录、8月重传事件
+3. 到 **59 / 59** 后做完整 YTD format-level 题型 / 供给结构统计
+4. 再单独处理 **2025Q4 Shorts + 遗漏 Long-form**
