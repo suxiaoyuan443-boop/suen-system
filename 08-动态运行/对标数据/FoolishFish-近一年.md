@@ -324,6 +324,24 @@ SponsorRadar 2026-09-24 当前页可直接取得13条连续公开视频的 lifet
 
 这已经把 Foolish Fish 从“只有 News / Tarot 两类量化”推进到**至少确认本年度 Book Review 仍实际发布**。但当前 Book Review 可量化样本仍太少，不能计算稳定类型中位数。
 
+### 独立 Tarot explainer｜区别于 weekly Pick-a-Symbol
+
+新增直接YouTube样本：
+
+- 2026-03-19｜**These Tarot Reversal insights blew my mind👀**
+  - video ID：`EGV6lKKU8vs`
+  - 播放：**2,370**
+  - 点赞：**206**
+  - 类型：`tarot_explainer`
+  - 不是 weekly Pick-a-Symbol；主题是塔罗逆位判断 / 经验解释。
+  - 同期公开描述可见 workshop、1:1 Tarot Read、Heliopolis retreat 等后端链接，因此它同时说明：**知识型塔罗内容也能承担服务 / 产品生态承接，而不必做成参与抽牌。**
+
+这让Foolish Fish当前年度公开类型不再只剩：
+News + weekly Tarot + Book Review，
+而是至少还出现了**独立 Tarot explainer**。
+
+单条样本不足以建立该类型中位数，所以当前只进入类型覆盖，不与7条Pick-a-Symbol混算。
+
 ### Esoteric Saturday 当前处理
 
 频道公开介绍与 Foolish Fish 独立站当前都继续把 **Esoteric Saturdays** 作为独立长期系列 / playlist；外部出版页也仍将其描述为长期系列。  
