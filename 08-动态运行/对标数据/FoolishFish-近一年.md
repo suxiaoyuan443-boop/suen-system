@@ -301,56 +301,95 @@ SponsorRadar 2026-09-24 当前页可直接取得13条连续公开视频的 lifet
 - 参与型内容更适合互动 / 放大；
 - 两类内容不使用同一个成功KPI。
 
-## Book Review / Esoteric Saturday｜开始补类型层
+## Book Review / Esoteric Saturday｜年度类型层继续补
 
-已新增：
+已更新：
 `FoolishFish-内容类型补充样本.csv`
 
-本轮先把“频道长期自述有这些类型”与“滚动365天实际找到的样本”分开处理。
+本层严格分开：
+- 直接YouTube日期 / 指标；
+- 历史同源快照；
+- 只有视频ID但日期 / 指标 unresolved；
+- 窗口外排除项。
 
-### 当前滚动一年已恢复的 Book Review
+### 当前滚动一年已恢复的书籍型内容
 
-1. **INTRODUCTION TO WITCHCRAFT by Sara Mastros [Esoteric Book Review]**
-   - YouTube video ID：`1xgBIuzjoV4`；
-   - RUclips历史频道快照显示约 **2.8K播放**；
-   - 它在该快照中位于 2026-03-20 News 与 2026-03-25 Tarot 之间，因此可以确认落在当前365天窗口，但当前不把相对“24 days ago”强行换成精确YouTube发布日期；
-   - 描述公开可见 Amazon affiliate、Sara课程、Foolish Fish workshop 与1:1 consultation 等商业桥。
+1. **Lemegeton (Ars Goetia) & Grand Grimoire - illustrated by Ottoich [Esoteric Book Review]**
+   - YouTube：`RycStO14SQw`
+   - 发布：**2025-11-02**
+   - 当前抓取：**2,633播放 / 171赞**
+   - 直接YouTube结果；
+   - 描述同时承接 Patreon、咨询、课程 / 1:1、Membership。
 
-2. **Golden Dawn Rituals by Chic and Sandra T. Cicero [Esoteric Book Review]**
-   - YouTube video ID：`kOjelu9W9WM`；
-   - 直接YouTube索引可确认视频存在；
-   - 第三方索引出现 2026-09-12 日期，但当前没有足够直接平台证据把它升级为正式YouTube发布日期；
-   - 当前播放 / 点赞继续 N/A，不估算。
+2. **Foolish Fish's Top 10 favourite Occult/Esoteric books for 2025**
+   - YouTube：`r3Qs2B1w73g`
+   - 发布：**2025-12-27**
+   - 当前抓取：**10,615播放 / 779赞**
+   - 类型单独记为 `book_roundup`，不与单书评机械混成同一格式；
+   - 描述包含Amazon affiliate、workshop、咨询、Patreon、Membership、产品等完整商业桥。
 
-这已经把 Foolish Fish 从“只有 News / Tarot 两类量化”推进到**至少确认本年度 Book Review 仍实际发布**。但当前 Book Review 可量化样本仍太少，不能计算稳定类型中位数。
+3. **INTRODUCTION TO WITCHCRAFT by Sara Mastros [Esoteric Book Review]**
+   - YouTube：`1xgBIuzjoV4`
+   - RUclips历史频道快照显示约 **2.8K播放**
+   - 同页排序把它夹在2026-03-20 News与03-25 Tarot之间，可确认落在当前365天窗口；
+   - 精确YouTube发布日期与当前累计指标仍不强填。
+
+4. **Golden Dawn Rituals by Chic and Sandra T. Cicero [Esoteric Book Review]**
+   - YouTube：`kOjelu9W9WM`
+   - 视频ID / 标题已恢复；
+   - 第三方索引曾出现2026-09-12代理日期，但当前YouTube原页抓取被限流；
+   - 正式发布日期、播放 / 点赞继续 unresolved。
+
+### 已排除的伪年度样本
+
+**Psychic Witch Deluxe Edition by Mat Auryn [Esoteric Book Review]**
+- Mat Auryn博客在2025-11-08转贴 / 记录 Foolish Fish 的评测；
+- 但YouTube原视频实际发布于 **2025-08-14**；
+- 早于当前滚动窗口起点2025-09-24；
+- 因此已从年度补充样本表撤除。
+
+这条是重要来源规则：
+**作者博客 / 转贴日期不能替代YouTube首发日期。**
+
+### 当前类型结论
+
+Book Review / book roundup 已不再只是“频道历史上有过”：
+- 当前窗口内至少有2条直接YouTube实锤书籍内容；
+- 另有1条窗口内历史同源量化书评；
+- 1条视频ID已恢复、日期 / 指标待升级。
+
+但当前样本量仍不足，且 `book_review` 与 `book_roundup` 功能不同，所以：
+- 不计算稳定年度中位数；
+- 不拿Top 10书单的10.6K代表单书评常态；
+- 先继续补年度书评行表。
 
 ### 独立 Tarot explainer｜区别于 weekly Pick-a-Symbol
-
-新增直接YouTube样本：
 
 - 2026-03-19｜**These Tarot Reversal insights blew my mind👀**
   - video ID：`EGV6lKKU8vs`
   - 播放：**2,370**
   - 点赞：**206**
   - 类型：`tarot_explainer`
-  - 不是 weekly Pick-a-Symbol；主题是塔罗逆位判断 / 经验解释。
-  - 同期公开描述可见 workshop、1:1 Tarot Read、Heliopolis retreat 等后端链接，因此它同时说明：**知识型塔罗内容也能承担服务 / 产品生态承接，而不必做成参与抽牌。**
+  - 不是 weekly Pick-a-Symbol；
+  - 描述可见 workshop、1:1 Tarot Read、Heliopolis retreat 等后端链接。
 
-这让Foolish Fish当前年度公开类型不再只剩：
-News + weekly Tarot + Book Review，
-而是至少还出现了**独立 Tarot explainer**。
-
-单条样本不足以建立该类型中位数，所以当前只进入类型覆盖，不与7条Pick-a-Symbol混算。
+单条不足以建立类型中位数，只进入类型覆盖。
 
 ### Esoteric Saturday 当前处理
 
-频道公开介绍与 Foolish Fish 独立站当前都继续把 **Esoteric Saturdays** 作为独立长期系列 / playlist；外部出版页也仍将其描述为长期系列。  
-但本轮搜索还没有恢复到一个能同时满足“落在当前365天 + 标题 + 可靠YouTube日期/数值”的 Esoteric Saturday 行级样本。
+当前公开站点 / 频道介绍仍保留 **Esoteric Saturdays** 系列；更关键的是，2025-12-27年度书单视频描述仍明确写：
+Patreon / YouTube Members 可提前一周观看 Esoteric Saturday videos。
 
-所以当前状态是：
-- **系列存在：已确认；**
-- **近365天行级量化：仍 unresolved；**
-- 不拿旧的 Planetary Magic Squares 等历史高播放视频冒充本年度样本。
+所以截至2025-12末，**Esoteric Saturday仍作为会员权益 / 内容系列存在**。
+
+但是：
+- 当前搜索仍未恢复到一条同时满足“2025-09-24以后 + 明确标题 + 可靠YouTube首发日期”的公开 Esoteric Saturday 行级样本；
+- Patreon滚动窗口也没有给出足以与具体公开视频一一对应的同名节点。
+
+因此正式状态仍是：
+- **系列 / 会员权益存在：已确认；**
+- **近365天公开行级样本：unresolved；**
+- 不拿2023及更早的高播放 Esoteric Saturday 冒充本年度样本。
 
 ## 近一年发布结构｜Patreon sitemap
 
