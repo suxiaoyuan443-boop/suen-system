@@ -161,5 +161,6 @@ Git commit 保存历史快照，不在当前文件里反复复制旧数据。
 - `LetsTalkReligion-近一年.csv`：51条近完整年度行级数据；
 - `ESOTERICA-题目代理.csv`：近一年Patreon主内容题目代理，不含YouTube播放；
 - `AngelaPuca-题目代理.csv`：近一年Patreon主内容题目代理，不含YouTube播放；
+- `AngelaPuca-播客精确日期代理.csv`：2025-09-28—2026-05-24共33条联合播客精确日期记录，不自动等同YouTube发布日期；
 - `FoolishFish-2026-08-09快照.csv`：8—9月SponsorRadar同源当前累计播放快照；
 - `公众号-西瓜数据跨月快照.csv`：利维坦 / 国家人文历史 / 看理想跨月第三方榜单快照，日榜与周榜已分层。
