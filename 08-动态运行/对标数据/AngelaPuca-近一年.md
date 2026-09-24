@@ -24,10 +24,33 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 
 所以当前正式口径仍然是：
 - 近一年发布清单：**50 条**；
-- 已量化 YouTube 样本：**38 条**；
-- 剩余未量化条目：**12 条**。
+- 已量化 YouTube 样本：**45 条**；
+- 剩余未量化条目：**5 条**。
 
 “拿到 URL / 时长”只提高元数据完整度，**不提高量化样本数**。
+
+### 本轮新增7条直接YouTube量化｜2026-09-24
+
+本轮从 YouTube 公开结果继续恢复7条主内容数值，因此主表从38 / 50推进到45 / 50：
+
+- 2025-10-12｜**ASTAROTH: Goddess Astarte to Demon?**｜10,535播放｜818赞｜正式YouTube标题与syndicated工作标题不同；
+- **The Path and the Practice: Ivy Corvus on Chaos Magick**｜约6.5K播放｜507赞｜访谈；YouTube前台标题与podcast的“Living Witchcraft”不同；
+- **Magic in the United States with Heather J. Freeman**｜约2.6K播放｜202赞｜Streamed；
+- **Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm**｜约49K播放｜294赞；
+- **Can Process Philosophy Explain How Magic Works? With Dr Darren Iammarino**｜约2.2K播放｜159赞｜Streamed；
+- **No Nonsense Spirituality with Britt Hartley**｜约10K播放｜345赞｜Streamed；
+- **Can You Really See the Invisible? The Science of Clairvoyance**｜约48K播放｜442赞。
+
+其中带 K 的播放量是 YouTube 搜索公开结果的四舍五入显示，机器表已在 notes 中明确标注，不伪装成精确原始计数。
+
+剩余5条主内容量化缺口：
+1. Universal Divine or Cultural Construct? Perennialism vs Constructivism；
+2. Destination: The Truth about Solomonic Magic with Dr Gal Sofer；
+3. The Philosophy of Magic: My New Online Course；
+4. Advanced Rune Magic with David Linder；
+5. 500k Livestream Celebration。
+
+这些条目的内容事件、日期 / 时长代理大多已经确认，但当前没有足够稳定的直接YouTube播放 / 点赞口径，所以继续保留 N/A。
 
 ## YouTube全上传层｜Podcast主内容清单之外还有额外视频
 
@@ -234,19 +257,35 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 
 这只能说明编辑结构比例，不能直接说明这些类型谁的YouTube播放更高。
 
+### 45条量化样本｜当前 provisional 分布
+
+- 样本数：45；
+- 混合中位播放：**9,405**；
+- P75：**44,219**；
+- P90：约 **79,112**。
+
+Hook 当前机器编码的几个主要组：
+- `practice_dispute`：12条，中位 **43,996.5**；
+- `explicit_question`：5条，中位 **47,733**；
+- `familiar_unexpected`：4条，中位 **12,497.5**；
+- `person_story`：9条，中位 **3,560**；
+- `descriptive_topic`：10条，中位 **6,888.5**。
+
+这些仍是 provisional：主内容还有5条数值缺口，而且 all-upload / Shorts 仍未完整，所以不能改名为“Angela全年YouTube中位数”。
+
 ### 格式分层比混合总中位更重要
 
-当前38条量化样本按格式拆开：
+当前45条量化样本按格式拆开：
 
 | 格式 | n | 中位播放 | P75 | P90 | 最低 | 最高 |
 |---|---:|---:|---:|---:|---:|---:|
-| long_form | 29 | **21,588** | 47,733 | 105,642 | 3,062 | 763,480 |
-| interview_livestream | 9 | **2,876** | 3,473 | 4,501.4 | 943 | 8,267 |
+| long_form | 32 | **25,041.5** | 48,223 | 103,595 | 3,062 | 763,480 |
+| interview_livestream | 13 | **2,876** | 3,560 | 7,913.6 | 943 | 10,000 |
 
 这说明：
-- 38条混合总中位9,276.5不能直接代表“Angela一条正常研究视频应该有多少播放”；
-- 普通研究 long-form 的当前 provisional 中位仍是21,588；
-- 直播 / 访谈的分发层级完全不同，中位为2,876；
+- 45条混合总中位9,405不能直接代表“Angela一条正常研究视频应该有多少播放”；
+- 普通研究 long-form 的当前 provisional 中位是25,041.5；
+- 直播 / 访谈的分发层级仍明显不同，中位为2,876；
 - 后续看标题 / Hook 是否强，必须优先在同格式里比较。
 
 机器表已经新增：
@@ -269,7 +308,7 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 - 它们不该和剪辑后的研究长视频用完全相同的KPI；
 - 但如果要计算“账号一年到底发了什么”的总分布，就不能把这些低播放事件偷偷排除。
 
-当前 descriptive_topic 10条中位约 **6,888.5**；person_story 6条中位约 **3,242**。  
+当前 descriptive_topic 10条中位约 **6,888.5**；person_story 9条中位约 **3,560**。  
 这进一步提示：后面必须按 long_form / interview_livestream / promo 分层，而不能只算一个混合总中位。
 
 ### 对数据工程的意义
@@ -359,7 +398,7 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
-当前已核 **38 条**带YouTube数值样本：
+当前已核 **45 条**带YouTube数值样本：
 
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
@@ -412,7 +451,7 @@ vidIQ当前公开页可确认：
 
 ### 38条已核数值样本｜临时分布
 
-当前38条带YouTube数值样本：
+当前45条带YouTube数值样本：
 
 - 中位播放：**9,276.5**；
 - P75：**44,170**；
@@ -423,7 +462,7 @@ vidIQ当前公开页可确认：
 - Aphrodite & Venus｜5,664 / 595赞；
 - Green Man｜约10,000，YouTube搜索结果四舍五入快照。
 
-从早期20余条继续补低表现、访谈与直播后，当前38条临时中位已经下修到 **9,276.5**。
+从早期20余条继续补低表现、访谈与直播后，当前45条临时中位已经下修到 **9,276.5**。
 
 这个变化再次证明：
 **只补容易搜到的强视频会制造严重幸存者偏差。**
@@ -431,7 +470,7 @@ vidIQ当前公开页可确认：
 这不是数据不稳定，而是在提醒我们：
 > **只补“容易搜到的强视频”会产生幸存者偏差；低表现内容补进来以后，账号常态会明显下修。**
 
-因此当前38条分布仍只叫 provisional：
+因此当前45条分布仍只叫 provisional：
 - 不是完整年度中位；
 - 不拿它直接和别的账号绝对比较；
 - 但已经足够证明“强outlier ≠ 账号常态”。
