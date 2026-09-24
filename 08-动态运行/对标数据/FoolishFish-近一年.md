@@ -20,7 +20,13 @@ Patreon负责证明固定更新节奏、会员权益与商业产品；SponsorRad
 当前公开第三方统计：
 - YouTube订阅约163K；
 - 视频总量约877；
-- SponsorRadar 当前显示平均约3.8K views / video（第三方估计口径，不能视为官方年度中位数）。
+- SponsorRadar 当前显示平均约3.8K views / video（第三方估计口径，不能视为官方年度中位数）；
+- SponsorRadar当前：73 tracked deals、2 distinct brands；
+- 最新检测到的deal日期：2026-09-12；
+- SponsorRadar估算 sponsored video rate：$76–$151 / 条；
+- SponsorRadar估算 AdSense：$23–$57 / 条。
+
+后两项全部是第三方模型估算，**不进入真实收入 / GMV判断**。
 
 ## 当前已取得的行级样本
 
@@ -127,6 +133,29 @@ RUclips 在 2026年4月中旬抓取到一批相邻视频，当时这些视频都
 
 这些 sponsor / 收入均为第三方检测与估算，不代表品牌或创作者官方确认。
 
+### 当前SponsorRadar最近13条的另一层解释
+
+当前13条里：
+- 6条 Pick a Symbol Tarot；
+- 7条 Esoteric News；
+- 检测到 Sponsor 的全部集中在 News；
+- Tarot 当前最高 6.3K / 6.2K；
+- News 当前最高 5.6K，但多数2K—3K。
+
+所以这组样本同时显示两种不同功能：
+
+**参与型内容**
+- 更容易形成阶段性高播放；
+- 不承担Sponsor时也能独立存在。
+
+**商业容器**
+- 播放未必最高；
+- 但结构稳定、Sponsor可重复插入；
+- 不需要破坏其它研究 / 塔罗内容的观看体验。
+
+这对 Suen 的直接意义：
+> 以后不能要求每条内容同时完成 A流量 + D商业承接。固定商业容器本身就可以是一种独立内容产品。
+
 ### 8—9月同源样本的类型中位数
 
 只计算 SponsorRadar 同一批 13 条当前累计快照：
@@ -213,6 +242,34 @@ Patreon 当前索引显示 2026 年稳定存在：
 - Sep 11 / 18 Esoteric News；
 - 月初 planetary rituals / discount code；
 - Sep 18 On-Demand Courses launch promo。
+
+### 2026年News月度节点数
+
+按 Patreon sitemap 当前 2026 区间逐月数：
+
+| 月份 | Esoteric News节点 |
+|---|---:|
+| Jan | 4 |
+| Feb | 4 |
+| Mar | 4 |
+| Apr | 4 |
+| May | 5 |
+| Jun | 4 |
+| Jul | 5 |
+| Aug | 4 |
+| Sep（截至18日） | 2 |
+
+2026-01—09当前共 **36 个** News 节点。
+
+这不是36个“高流量研究视频”，而是36次稳定内容/商业容器触点。
+
+同一时期还能确认每月重复存在：
+- Planetary Rituals；
+- Black Letter Press折扣；
+- Lv.∞ 咨询优惠；
+- 课程 / workshop / meditation 等节点。
+
+这进一步说明 Foolish Fish 的后端不是靠单一爆款，而是靠**高频稳定容器 + 多产品承接**。
 
 ### 2026固定节奏已可确认
 
