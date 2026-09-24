@@ -75,6 +75,7 @@ vidIQ当前全历史Top仍显示：
 | 2026-07-10 | What was the Sin of Jesus? The Cathar Lord's Prayer | 165,095 | 7,500 | youtube.com/watch?v=1hAYzwrUVEg |
 | 2026-06-19 | What is the Metaphysical Matrix? Paracelsus & the Womb of Being | 55,113 | 3,300 | youtube.com/watch?v=SA5koEgnU7A |
 | 2026-05-15 | What was the Kabbalah of Contemplation? | 88,395 | 4,200 | youtube.com/watch?v=3ExQdVgSCHg |
+| 2026-04-24 | Mysticism vs Satan - Hildegard of Bingen's Mystical Exorcism | 72,453 | 4,800 | youtube.com/watch?v=m0Go4bVB3EU |
 | 2026-02-27 | The Mystical Theology of Love - Bernard of Clairvaux | 71,137 | 4,100 | YouTube公开结果 |
 | 2026-01-23 | What are the Mayan Secrets of the Oldest American Book? | 137,195 | 8,800 | youtube.com/watch?v=2VNhPEMqSv8 |
 | 2025-12-05 | How Medieval Incantations Worked | 79,227 | 4,700 | youtube.com/watch?v=CCKF-eLxn68 |
@@ -96,7 +97,7 @@ vidIQ当前全历史Top仍显示：
 
 ### 这9条先能看到什么
 
-这20条仍不足以代表全年，但已经比“题目代理”更进一步：
+这21条仍不足以代表全年，但已经比“题目代理”更进一步：
 - 当前最高：Cathar Lord's Prayer 165,095；
 - 其次：Mayan Secrets 137,195；
 - Theosophy 96,990；
@@ -108,24 +109,24 @@ vidIQ当前全历史Top仍显示：
 - 单纯人物神秘主义 / 抽象神学题未必同样强；
 - 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
 
-### 20条已核样本｜临时分布
+### 21条已核样本｜临时分布
 
 这不是完整年度统计，只是当前**20条直接可量化主视频**的 provisional baseline：
 
-- 样本数：20；
-- 中位播放：**123,472**；
-- P75：约 **178,844**；
-- P90：约 **438,215**；
-- 平均播放：约 **177,559**。
+- 样本数：21；
+- 中位播放：**119,844**；
+- P75：约 **165,095**；
+- P90：约 **430,661**；
+- 平均播放：约 **172,554**。
 
-当前20条最高：
+当前21条最高：
 1. The Evolution of Ghosts｜584,951；
 2. The Philosophy of Witchcraft｜506,200；
 3. How Angel Magic Gave Us the Internet｜430,661；
 4. Who was Asherah - Wife of Yahweh?｜371,293；
 5. What is the Hermetic God & Demiurge?｜220,089。
 
-当前20条最低：
+当前21条最低：
 - The Mysticism of Purgatory｜27,286；
 - Wormwood Potion recreation｜54,492；
 - Paracelsus Matrix｜55,113；
@@ -221,7 +222,7 @@ vidIQ 当前公开的全历史 Top 包括：
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；当前已核20条主内容行级样本，但还远未覆盖全年；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已核21条主内容行级样本，但还远未覆盖全年；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 长视频 / Shorts 分开；
