@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-24｜第五轮扩充：X 到 52 例，加入 Benebell Wen / Enrique Enriquez / Jack Stone 方法模块
+
+- X 外部后验由 46 扩到 52 个高信息案例；
+- 新增 Sun + Strength + Lovers 求职成功、Justice + Fool + Page Pentacles 因组织撤岗而“没有职位可录取”、同一驾驶考试前后两次自然对照、Six Cups 30 天内复合但关系仍困难、Death + Fool 后疑似重新联系等案例；
+- 新增第三种客观结果：不是 yes/no，而是目标事件本身被取消 / 条件改变；
+- 运行时允许“核心 testimony 不足时不强判”；
+- M 层新增 Benebell Wen OOTK 程序化训练、Enrique Enriquez Marseille 牌间视觉语言、Jack Stone OOTK 公开案例；
+- 强化一个共同原则：古典方法最有价值的部分是判断**哪张牌有权重、哪种 testimony 缺失、哪条结构是主叙事**，而不是增加更多固定牌义。
+
+---
+
 ## 2026-09-24｜第四轮扩充：46 个外部后验 + 古典 / 公开老师 M 方法层
 
 - X 外部验证层从 35 例扩到 46 例，新增考试、感情、联系、求职、投稿、住房等明确后验；
