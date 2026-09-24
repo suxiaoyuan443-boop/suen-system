@@ -53,7 +53,7 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
    - **不能再称为全年YouTube上传总表。**
 
 2. **`AngelaPuca-NTA公开视频索引.csv`**
-   - 当前先补 2026-08-09—09-20 的16条公开视频索引；
+   - 当前索引已扩到 2026-04-05—09-20，并继续向前补全年 all-upload；
    - 其中既有与主表重叠的内容，也有主表没有的附加内容；
    - 来源是可追溯的第三方 YouTube-derived mirror；
    - 当前只保存标题 / 日期 / 来源，不在没有直接证据时擅自判断 Shorts / 长视频格式。
@@ -63,7 +63,8 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 当前已经出现：
 - 500k Livestream Celebration：NTA索引 9/14；podcast feed 9/21；
 - No NonSense Spirituality：NTA索引 8/22；podcast清单 8/24；
-- Advanced Rune Magic：NTA索引 8/9；podcast清单 8/17。
+- Advanced Rune Magic：NTA索引 8/9；podcast清单 8/17；
+- Gal Sofer / Solomonic Magic：NTA直接页 5/4；podcast主表 5/6。
 
 这类冲突不能“挑一个看起来合理的”覆盖掉另一个。
 
@@ -80,11 +81,11 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 - **主内容 / podcast-centered 清单：50条，接近完整；**
 - **YouTube all-upload 清单：未完整；**
 - **直接量化 YouTube 样本：38条；**
-- **额外公开视频索引：当前已扩到2026-04-05—09-20，共33条；其中15条与主表同日同内容、5条是同内容但代理日期冲突、13条是主表没有的独立附加上传。**
+- **额外公开视频索引：当前已扩到2026-04-05—09-20，共34条；其中15条与主表同日同内容、6条是同内容但代理日期冲突、13条是主表没有的独立附加上传。**
 
 这比原来把“50条”理解成一年全部YouTube发布更准确。
 
-### 33条NTA切片与50条主内容表的关系
+### 34条NTA切片与50条主内容表的关系
 
 当前 `AngelaPuca-NTA公开视频索引.csv` 已经给每一行增加：
 - `relation_to_primary_list`
@@ -93,7 +94,7 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 
 截至目前：
 - **15条 `same_content_event`**：与50条主内容表同一个内容事件，日期基本一致；
-- **5条 `date_conflict_same_event`**：标题 / 内容明显同一事件，但NTA与podcast日期不同；
+- **6条 `date_conflict_same_event`**：标题 / 内容明显同一事件，但NTA与podcast日期不同；
 - **13条 `additional_upload`**：主内容表里没有的独立上传。
 
 已确认的附加上传包括：
@@ -116,6 +117,8 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 > **Angela 一年的实际YouTube供给结构，比50条podcast长内容清单更密。**
 
 因此后续的“全年发了多少条 / 哪类内容占比多少”必须以全上传索引继续补齐后再计算，不能拿50直接当分母。
+
+2026-09-24 vidIQ 当前频道页另显示频道总视频 **633**，并在内容形式面板中显示 Long-form 56 / Shorts 72。由于页面同时存在 7D / 28D / 3M / 1Y / YTD 标签，而文本抓取无法可靠识别当前激活标签，这组 56 / 72 **不进入滚动365天上传总数**；它只作为额外交叉证据，说明 podcast-centered 50条主内容清单明显不是 YouTube all-upload 全集。
 
 ## 近365天发布清单｜Podcast feed 50条
 
