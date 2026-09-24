@@ -1,3 +1,19 @@
+## 2026-09-24｜第三轮薄区扩充：金钱结算层 + Petit Etteilla 连续案例结构
+
+- X 高信息案例由 90 增至 91；没有为数量目标降低入库门槛；
+- 新增 X-091：King of Cups 问升职薪资满意度，正式报价后本人确认满意；明确区分“满意 / 报价”与“实际到账”；
+- 新增金钱低信息补充区，不计入 X 总数：
+  - L-MONEY-001 Justice outcome 后朋友还款；
+  - L-MONEY-002 客户恢复联系并承诺付款，但未确认到账；
+  - L-MONEY-003 确实讨论加薪并进入 HR 流程，但金额未定；
+- 新增 Guard-23：金钱题拆 Contact → Promise/Approval → Settlement → Amount/Terms → Timing，前两层不得冒充到账；
+- 古典案例层新增 M-CASE-010：Papus 第六课转述的 Etteilla Past / Present / Future 固定跨区配对与 7-card subsidiary deal；
+- 新增 M-CASE-011：Petit Etteilla 1770 围绕同一位女性连续多次 spread 的教学案例系列结构；
+- 当前古典 worked / historical case samples 至少 11 个；
+- Papus 条目明确保留“后世转述 / 重构”来源限制；Petit Etteilla 暂不虚构尚未逐页核到的具体牌序。
+
+---
+
 ## 2026-09-24｜第二轮薄区扩充：X-090 + Golden Dawn worked examples
 
 - 外部后验 X 层由 85 扩到 90；
