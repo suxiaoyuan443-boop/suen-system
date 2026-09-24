@@ -111,9 +111,9 @@ vidIQ当前全历史Top仍显示：
 - 2026-02-06前后｜What is Theurgy? Proclus and Pagan Salvation / Liberation｜播客分发可确认主题与长内容版本；
 - Who was Belial, the Demon? 的不同播客索引日期发生冲突，暂不写入YouTube发布日期，等原始视频页核定。
 
-### 这9条先能看到什么
+### 当前已核样本先能看到什么
 
-这22条仍不足以代表全年，但已经比“题目代理”更进一步：
+当前25条仍不足以代表全年，但已经比“题目代理”更进一步：
 - 当前最高：Cathar Lord's Prayer 165,095；
 - 其次：Mayan Secrets 137,195；
 - Theosophy 96,990；
@@ -143,14 +143,14 @@ vidIQ当前全历史Top仍显示：
 5. Who was the Demon Belial?｜255,812；
 6. What is the Hermetic God & Demiurge?｜220,089。
 
-当前22条最低：
+当前25条最低：
 - The Mysticism of Purgatory｜27,286；
 - Wormwood Potion recreation｜54,492；
 - Paracelsus Matrix｜55,113；
 - How Magic Became Heresy｜70,390；
 - Bernard of Clairvaux｜71,137。
 
-新增 Study Guide / Theurgy / Belial 后，当前临时中位从约114K上移到约126K。
+随着后续样本持续补入，当前25条临时中位稳定在约126K；历史阶段中位变化不再作为当前口径。
 
 **这些分位数只用于当前已核样本内部比较，不能写成“ESOTERICA全年中位数”。**
 
@@ -201,7 +201,7 @@ vidIQ当前全历史Top仍显示：
 2. 具体文本 / 手稿 + 异常细节；
 3. 明确“what is / who was / how did”问题，把专业对象转成可理解任务。
 
-这仍然只是当前12条样本里的结构信号，不升级为全年公式。
+这仍然只是当前25条已核样本里的结构信号，不升级为全年公式。
 
 ### 日期冲突实例｜为什么必须优先YouTube原视频
 
