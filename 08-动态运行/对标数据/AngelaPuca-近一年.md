@@ -141,6 +141,32 @@ vidIQ当前公开页可确认：
 
 不能简化成“Truth / Real History标题一定爆”。
 
+### 最近90天题目流已经能确认
+
+仅从公开播客 / 作者站点的日期与标题，不看YouTube播放，最近90天已经能确认一组连续主题：
+
+- 09/06｜Clairvoyance / spiritual sight；
+- 08/30｜Ancient vs New Magic；
+- 08/24｜No Nonsense Spirituality；
+- 08/17｜Advanced Rune Magic；
+- 08/09（播客）/ 08/16（YouTube直取）｜Grimoire Tradition；
+- 08/05｜Can Process Philosophy Explain How Magic Works?｜访谈；
+- 07/26｜Lughnasadh vs Lammas；
+- 07/19｜Can AI Become a Magical Familiar?；
+- 07/12｜What Is Theurgy?；
+- 06/28｜Should Practitioners Do What Academics Say?；
+- 06/20｜Summer Solstice / Litha；
+- 06/14｜The Question Isn't If AI. It's How。
+
+这一层只能说明**最近选题方向**，不能当YouTube流量排名。
+
+当前趋势非常明确：
+1. AI / 技术 × 魔法；
+2. 古代 / 现代实践真实性；
+3. 实践者与学术研究的关系；
+4. 仪式魔法的历史与机制；
+5. 访谈 / 长谈占比不低，所以未来必须把格式作为控制变量。
+
 ## 2026年主题流｜Patreon / 公开内容标题代理
 
 以下用于观察选题结构，不把 Patreon 日期自动等同于 YouTube 正式发布日期。当前可稳定确认的主内容题目比早先记录更完整：
@@ -220,7 +246,7 @@ vidIQ当前公开页可确认：
 ## 年度数据缺口
 
 仍需补：
-- 近365天全部 YouTube 上传的行级表；当前已核18条带YouTube数值样本 + 4条准确日期/时长样本，但仍不是全年完整表；
+- 近365天全部 YouTube 上传的行级表；当前已核18条带YouTube数值样本 + 9条准确日期/时长样本，但仍不是全年完整表；
 - 每条准确发布日期；
 - views / likes / comments；
 - Shorts 与长视频分开；
