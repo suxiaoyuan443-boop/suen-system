@@ -1,6 +1,6 @@
 # ESOTERICA｜2026 YTD标题覆盖对账 v1
 
-更新时间：2026-09-24  
+更新时间：2026-09-25  
 时间窗：2026-01-01—2026-09-24
 
 ## 精确格式总量
@@ -11,77 +11,106 @@ vidIQ 当前组件明确标注 `Since Jan 01, 2026`：
 - Long-form：**46**
 - Shorts：**13**
 
-## 当前已经恢复到标题 / 身份层的上传
+## 当前标题 / 身份覆盖
 
-把以下机器表按YouTube ID / 明确同一标题去重：
-- `ESOTERICA-已核行级样本.csv`
-- `ESOTERICA-2026YTD非主研究长视频已核样本.csv`
-- `ESOTERICA-2026YTD短内容候选.csv`
-- `ESOTERICA-SubSub近期上传切片-2026-09-24.csv`
+把主研究、非主研究长视频 / 直播、明确 Shorts 与近期 SubSub 切片按 YouTube ID 去重后，当前已经恢复：
 
-当前可以确认 **42个不同上传身份**。
+- **46 / 59 个上传身份**
+- 覆盖率：**78.0%**
+- 剩余：**13个**
 
-覆盖率：
-**42 / 59 = 71.2%**
+当前格式已经不再是范围估计：
 
-因此当前还缺：
-**17个标题级上传身份。**
+- 明确 Long-form / live：**39**
+- 明确 Shorts：**7**
+- 格式未决短时长候选：**0**
 
-## 已知42个身份的结构
+因此剩余缺口可以精确写成：
 
-### 明确Long-form / live：至少37个
-- 主研究：17
-- Being and Logos seminar：14
-- 频道价值说明：1
-- 3:54 rare-book catalog promo：1
-- interview / catalog long-form：1
-- AMA livestream：1
-- 最近恢复直播：2
+- **Long-form：7**
+- **Shorts：6**
 
-### 格式未决的短时长候选：5个
-当前时长均约2:01—2:16。
+## 本轮把原来的5个短时长候选全部定性为 Shorts
 
-它们：
-- YouTube身份 / 视频ID已经确认；
-- 但没有明确Shorts格式字段；
-- 不能仅凭时长升级成Shorts。
+原来的5个约2:01—2:16候选现在都有显式 Shorts 证据：
 
-## 用精确格式总量反推剩余缺口
+1. `What is the Scariest Book I've Owned?` — `r0ParWOh2kM`
+2. `Between Witches and Rationalism` — `SEV-cX0nazc`
+3. `Win 400 Year Old Alchemy and Demonology` — `I6yP0sbAYI4`
+4. `Make that at least 36 copies of the Alchemical Semtia Recta` — `1nUMluMIKiQ`
+5. `Want to Win a Real Piece of Occult History?` — `DAi1pclmtQ0`
 
-因为46 Long-form / 13 Shorts是精确YTD格式总数，而5个短时长候选格式未决，所以可以得到范围：
+所以旧的“Long-form还缺4—9 / Shorts还缺8—13”范围正式废弃。
 
-### Long-form
-- 当前明确Long/live：37
-- 如果5个候选全部是Long-form：已知Long最多42 → **至少仍缺4个Long-form身份**
-- 如果5个候选全部是Shorts：已知Long仍37 → **最多仍缺9个Long-form身份**
+## 新恢复的2个 Shorts 身份
 
-所以：
-**剩余Long-form标题缺口范围：4—9个。**
+### 1. Studying @MoonsRareBooks 17th century manuscript of the Lesser Key of Solomon
+- video ID：`iH_my_8Je2w`
+- YouTube 日期：2026-03-06
+- 当前已取得直接播放 / 点赞快照
+- 同一 video ID 有显式 `/shorts/` 入口
 
-### Shorts
-- 当前明确格式为Shorts的标题：0
-- 格式未决候选：5
-- 如果这5个全部是Shorts：13 - 5 = **至少仍缺8个Shorts身份**
-- 如果这5个全部不是Shorts：**13个Shorts标题全部仍缺**
+### 2. Love Ancient Esoteric Books? Join @MoonsRareBooks & @TheEsotericaChannel
+- video ID：`wjzVELBGIv8`
+- 明确 Shorts 身份
+- 精确首发日仍未锁定
+- 频道顺序把它夹在 2026-02-13 birthday livestream 与 2026-02-27 Mystical Theology 之间，因此 YTD 身份可确认，不强填具体日期
 
-所以：
-**剩余Shorts标题缺口范围：8—13个。**
+已单独建立：
+- `ESOTERICA-2026YTD-Shorts身份索引v1.csv`
 
-## 这比旧状态更精确
+## Untitled Treatise 已正式解决
 
-旧状态：
-> “还缺13条Shorts标题 + 一些Long-form。”
+Patreon 工作题 `Untitled Treatise` 已找到一对一的最终 YouTube 映射：
 
-现在可以写成：
+- 最终标题：**Is This The Strangest Gnostic Text?**
+- video ID：`-4lxQMQYdYU`
+- YouTube 日期：**2026-06-12**
+- 播放快照：**227,948**
+- 点赞快照：**10,000**
 
-> **YTD 59条里，42条身份已恢复；剩17条身份。Long-form还缺4—9条，Shorts还缺8—13条，具体取决于5个短时长候选最终格式。**
+关键不是标题语义接近，而是 YouTube 简介直接说明讨论的是 Bruce Codex 中“没有标题、通常称 Untitled Text / Untitled Treatise”的文本。
 
-## 下一步
+因此：
+- 滚动一年28个主研究 / Early Access代理现在 **28 / 28 已完成 YouTube 量化映射**
+- 主研究量化表从27行升级为 **28行**
+- 新临时分布：中位 **126,453**；P75 **221,630.75**；P90 **389,103.4**
 
-优先级不再是无差别搜59条，而是：
+## 新恢复的 Long-form / live 身份
 
-1. 给5个短时长候选找明确Shorts / Long-form格式证据；
-2. 找至少4个尚未识别的Long-form标题；
-3. 找至少8个尚未识别的Shorts标题；
-4. 一旦格式身份覆盖到59 / 59，再做YTD完整format-level题型统计；
-5. 2025Q4仍单独补Shorts与遗漏Long-form，不与YTD混在一起。
+新增：
+- **ESOTERICA Birthday Livestream + Celebrate Alchemy Day + Q&A**
+- video ID：`K30OnJJAFiQ`
+- 日期：**2026-02-13**
+- 播放快照：**17,805**
+
+它此前不在37个明确 Long/live 的枚举内，因此与 Untitled 最终映射一起，把明确 Long/live 从37推进到39。
+
+## 最近15个上传位的格式也可收紧
+
+原来的近期 SubSub 15上传切片仍是：
+- 主研究：3
+- seminar：5
+- livestream：2
+- channel note：1
+
+格式判定后可进一步明确：
+- catalog promo Long-form：1
+- Shorts：3
+
+也就是近期15个上传位中仍只有3条主研究，其余12条承担 seminar、直播、频道说明、目录 / 商业节点与 Shorts 供给。
+
+## 新的精确断点
+
+现在不再写“17个身份 + 格式范围”。
+
+当前断点是：
+
+> **59条YTD中46个身份已恢复（78.0%）：39 Long/live + 7 Shorts；剩13个 = 7 Long + 6 Shorts。**
+
+下一步固定为：
+
+1. **先补剩余6个 Shorts 身份**
+2. **再补剩余7个 Long-form 身份**
+3. 到 59 / 59 后做完整 YTD format-level 题型 / 供给结构统计
+4. 然后单独处理 2025Q4 Shorts 与遗漏 Long-form，不与 YTD 混算
