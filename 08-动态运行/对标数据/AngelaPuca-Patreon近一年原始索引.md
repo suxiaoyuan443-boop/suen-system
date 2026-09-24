@@ -45,42 +45,82 @@
 - 08-02｜RENSEP Ask a Scholar with Dr. Per Faxneld
 
 ### 07
-- 07-26｜Invitation to Inner Symposium Gathering
+- 07-26｜SOON: Invitation to Inner Symposium Gathering
 - 07-20｜Lughnasadh vs Lammas: The Truth About the First Harvest Festival
-- 07-09｜RENSEP Study Group - Per Faxneld
+- 07-20｜The Grimoire Tradition - Magus Lecture
+- 07-20｜Invitation to Inner Symposium Gathering
+- 07-20｜Can AI Become a Magical Familiar? Study Guide
+- 07-20｜Can AI Become a Magical Familiar? Curated Transcript
+- 07-19｜SOON: Invitation to Magus Lecture - The Grimoire Tradition: From Medieval Magic to Modern Practice
+- 07-18｜SOON: RENSEP Study Group on Thelema
+- 07-15｜RENSEP Study Group on Thelema
+- 07-14｜Philosophy of Magic Online Course
+- 07-13｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm
+- 07-13｜Invitation to Magus Lecture - The Grimoire Tradition: From Medieval Magic to Modern Practice
+- 07-12｜What Is Theurgy? - Curated Transcript
+- 07-12｜What is Theurgy? Study Notes
+- 07-12｜TODAY: A conversation with Aaron Leitch
+- 07-11｜SOON: RENSEP Study Group - Per Faxneld’s “Exchanging Apples...”
+- 07-09｜RENSEP Study Group - Per Faxneld’s “Exchanging Apples...”
 - 07-07｜What Is Theurgy? The Ancient Philosophy Behind Ritual Magic
 - 07-02｜The Philosophy of Magic: My New Online Course
 - 07-02｜July 2026 Inner Symposium Schedule
 
 ### 06
-- 06-28｜Inner Symposium Gathering
+- 06-28｜NOW! Invitation to Inner Symposium Gathering
+- 06-28｜TODAY! Invitation to Inner Symposium Gathering
 - 06-24｜Should Practitioners Do What Academics Say?
 - 06-22｜Magus Lecture - Neoplatonism and Theurgy
 - 06-22｜Invitation to Inner Symposium Gathering
-- 06-21｜Invitation to Magus Lecture - Neoplatonism and Theurgy
+- 06-21｜TODAY: Invitation to Magus Lecture - Neoplatonism and Theurgy for the Esoteric Practitioner
 - 06-20｜History of Litha - Study Guide
 - 06-20｜History of Litha - Curated Transcript
 - 06-18｜The Summer Solstice and Litha: What History Actually Says
-- 06-15｜Become a Patron!
-- 06-15｜Invitation to Magus Lecture
+- 06-15｜Become a Patron! You're only one step away!
+- 06-15｜Invitation to Magus Lecture - Neoplatonism and Theurgy for the Esoteric Practitioner
 - 06-14｜The Question Isn't If AI. It's How - Curated Transcript
-- 06-13｜RENSEP Study Group - The Social World of Psychedelics
+- 06-13｜NOW: RENSEP Study Group “The Social World of Psychedelics”
+- 06-11｜RENSEP Study Group “The Social World of Psychedelics”
 - 06-09｜British Traditional Wicca with Rufus Harrington
 - 06-04｜The Question Isn't If AI. It's How.
 - 06-01｜June 2026 Inner Symposium Schedule
 
 ### 05
 - 05-31｜How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind
-- 05-31｜Inner Symposium Gathering invitation
+- 05-31｜How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind [duplicate asset node]
+- 05-31｜How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind [duplicate asset node 2]
+- 05-31｜SOON: Invitation to Inner Symposium Gathering
 - 05-25｜Invitation to Inner Symposium Gathering
 - 05-24｜Esbat origin and meaning
+- 05-24｜Esbat origin and meaning [duplicate asset node]
 - 05-17｜The Witches' Sabbath Origins, Evolution, and the Long Afterlife of a Composite Image
-- 05-10｜Out of Office / Witches' Sabbath lecture invitation
+- 05-17｜The Witches' Sabbath Origins, Evolution, and the Long Afterlife of a Composite Image [duplicate asset node]
+- 05-10｜Out of Office
+- 05-09｜NOW: Invitation to Magus Lecture on Lucid Dreaming
+- 05-06｜The Truth about Solomonic Magic with Dr Gal Sofer - Curated Transcript
+- 05-04｜Invitation to Magus Lecture on Lucid Dreaming
+- 05-02｜ESBAT: The History of Wicca’s Full Moon Ritual
+- 05-01｜May 2026 Inner Symposium Schedule
 
 ### 04
-- 04-12｜RENSEP Study Group
-- 04-11｜RENSEP Study Group reminder
+- 04-26｜NOW: Invitation to Inner Symposium Gathering
+- 04-26｜The Green Man - Study Guide
+- 04-26｜The Green Man - Curated Transcript
+- 04-26｜SOON: RENSEP Ask a Scholar with Dr. Wouter J. Hanegraaff
+- 04-26｜TODAY: Invitation to Inner Symposium Gathering
+- 04-24｜The Real History of the Green Man (Not What Wicca Teaches You)
+- 04-24｜Alchemy Explained - Science, Spirituality, and the Search for Transformation
+- 04-24｜Alchemy Explained - Science, Spirituality, and the Search for Transformation [duplicate asset node]
+- 04-23｜RENSEP Ask a Scholar with Dr. Wouter J. Hanegraaff
+- 04-21｜"The Witches' Sabbath": History and evolution of the concept and practice
+- 04-20｜Invitation to Inner Symposium Gathering
+- 04-19｜SOON - Invitation to Magus Lecture "The Witches' Sabbath"
+- 04-14｜Magic in the United States with Heather J. Freeman
+- 04-13｜Invitation to Magus Lecture "The Witches' Sabbath"
+- 04-12｜SHORTLY: RENSEP Study Group
+- 04-11｜TOMORROW: RENSEP Study Group
 - 04-06｜This Changes Solomonic Magic Forever
+- 04-06｜This Changes Solomonic Magic Forever [duplicate asset node]
 - 04-02｜April 2026 Inner Symposium Schedule
 
 ### 03
