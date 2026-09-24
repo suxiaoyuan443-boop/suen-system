@@ -1,0 +1,4 @@
+account,segment,segment_start,segment_end,long_form_known_or_exact,shorts_known_or_exact,total_known_or_exact,status,notes
+ESOTERICA,2025Q4_window_slice,2025-09-24,2025-12-31,21,N/A,21,lower_bound,"10 main-research quantified long-form + 11 non-main long-form currently verified; Q4 Shorts and other uploads still incomplete"
+ESOTERICA,2026_YTD,2026-01-01,2026-09-24,46,13,59,format_total_exact_for_snapshot,"vidIQ Long-form vs Shorts component explicitly labeled Since Jan 01 2026"
+ESOTERICA,rolling_365_known_minimum,2025-09-24,2026-09-24,67,13,80,lower_bound,"67 long-form = Q4 lower bound 21 + YTD exact 46; 13 Shorts are YTD only; Q4 Shorts unresolved, so true rolling-365 total is >=80"
