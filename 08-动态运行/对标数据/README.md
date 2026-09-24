@@ -167,3 +167,12 @@ Git commit 保存历史快照，不在当前文件里反复复制旧数据。
 - `AngelaPuca-播客精确日期代理.csv`：2025-09-28—2026-05-24共33条联合播客精确日期记录，不自动等同YouTube发布日期；
 - `FoolishFish-第三方快照-2026-09-24.csv`：8—9月第三方同源当前累计播放快照，和YouTube原页数据分轨保存；
 - `公众号-西瓜数据跨月快照.csv`：利维坦 / 国家人文历史 / 看理想跨月第三方榜单快照，日榜与周榜已分层。
+
+
+### 机器可读补充表
+
+- `AngelaPuca-Patreon近一年全节点.csv`：174个滚动一年Patreon节点，含post_type / main_content_proxy；
+- `ESOTERICA-Patreon近一年全节点.csv`：64个滚动一年Patreon节点，含post_type / main_content_proxy；
+- `轻疯说道-已核行级样本.csv`：作者核验微信阅读样本，已加入Hook / 内容类型 / 相对中位表现编码。
+
+机器表用于统计；对应 Markdown 文件负责解释口径、缺口与可下结论边界。
