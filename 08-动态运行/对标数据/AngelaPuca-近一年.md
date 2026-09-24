@@ -201,7 +201,7 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
-当前已核 **24 条**带YouTube数值样本：
+当前已核 **26 条**带YouTube数值样本：
 
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
@@ -213,12 +213,14 @@ vidIQ当前公开页可确认：
 | 2026-06-28 | Should Practitioners Do What Academics Say? | 44,023 | 494 | 19:09；YouTube直取 |
 | 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | YouTube直取 |
 | 2026-06-07 | British Traditional Wicca with Rufus Harrington | 2,026 | N/A | 直播/访谈格式，不与常规讲解片机械横比 |
+| 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind | 48,892 | 426 | YouTube直取；科学 + 梦瑜伽 + 魔法实践 |
 | 2026-05-24 | ESBAT: The History of Wicca's Full Moon Ritual | 3,062 | 406 | YouTube直取 |
 | 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | 45,881 | 476 | YouTube直取 |
 | 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation | 4,196 | 354 | 47:10；YouTube直取 |
 | 2026-04-05 | This Changes Solomonic Magic Forever | 109,170 | N/A | 28:09；vidIQ 5.76× |
 | 2026-03-29 | Your Tradition is Fake. Now What? | 439,530 | N/A | 19:23；vidIQ 47.96× |
 | 2026-03-15 | What Is a Cult? How High-Control Religious Groups Manipulate Belief | 58,116 | 555 | 22:55；YouTube直取 |
+| 2026-03-08 | The Case Against Reality: What Donald Hoffman Means for Esoteric Practice | 28,495 | 578 | YouTube直取；认知科学 / 哲学 → 神秘实践 |
 | 2026-03-01 | Shadow Work in Paganism and Esoteric Practices | 8,113 | 698 | 48:25；YouTube直取 |
 | 2026-02-15 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt | 9,148 | 684 | 1:09:01；YouTube直取 |
 | 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll | 93,110 | 956 | 约1:41:48；YouTube直取 |
@@ -231,61 +233,50 @@ vidIQ当前公开页可确认：
 | 2025-10-26 | Asmodeus: A Demon's Journey from Zoroastrian Wrath to Western Lust | 9,405 | 746 | YouTube直取；熟悉恶魔 + 历史转变 |
 
 另已确认准确题目 / 日期但当前未取得可靠YouTube播放：
-- 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice；
 - 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
 - 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
 - 2026-01-04｜Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion｜播客日期已核，YouTube量化待补。
 
-### 24条已核数值样本｜临时分布
+### 26条已核数值样本｜临时分布
 
-当前24条带YouTube数值样本（其中9/20最新视频约10K为近似值，且含直播/访谈等不同格式）：
+当前26条带YouTube数值样本（其中9/20最新视频约10K为近似值，且含直播/访谈等不同格式）：
 
-- 中位播放：**30,646.5**；
-- P75：**50,328.75**；
-- P90：**107,847**；
-- 平均播放：约 **80,653**。
+- 中位播放：**34,100**；
+- P75：**48,602.25**；
+- P90：**106,965**；
+- 平均播放：约 **77,426**。
 
-相比20条版本，中位数明显下移。原因不是旧数据“算错”，而是这次补入了4条发布已久、累计时间充分、但实际播放仍偏低的2025样本。
+相比24条版本，中位数从30,646.5回升到34,100；新增两条：
+- Lucid Dream｜48,892；
+- Case Against Reality｜28,495。
 
-这很重要：
-> **补全低表现内容会改变我们对一个账号“常态”的认识。年度库不能只搜强样本。**
+这里再次说明：
+> **每补一批“普通表现”内容，临时基线都会变化。只有把全年表尽量补全，才能知道真正常态。**
 
-注意：
-- 仍不是Angela完整年度统计；
-- 分布仍极度右偏，763K / 439K等少数outlier显著拉高平均；
-- 中位数仍比平均数更适合描述当前常态；
-- 后续必须继续按 `lecture / interview / livestream / shorts` 和内容年龄分型。
+当前分布仍极度右偏，763K / 439K等少数outlier显著拉高平均，因此：
+- 中位数继续优先于平均数；
+- 不能用当前临时中位冒充完整年度中位；
+- 后续仍需按格式、内容年龄和题材分层。
 
-当前新补的4条本身也提供了反证：
-- Necronomicon｜14,460；
-- Asmodeus｜9,405；
-- Six Models｜39,705；
-- Magical Art of Peace｜3,749。
+### 26条已核样本的 Hook 表现
 
-所以：
-- **熟悉恶魔 + 意外历史**不自动高；
-- **fiction → occult reality**不自动高；
-- **现实战争 / 和平冲突**也不自动高；
-- 单看标题结构不能替代题材认知度、受众相关性、形式和内容本身。
-
-### 24条已核样本的 Hook 表现
-
-`AngelaPuca-已核行级样本.csv` 已按当前24条临时中位 **30,646.5** 重新计算 `relative_to_provisional_median / performance_band`。
+`AngelaPuca-已核行级样本.csv` 已按当前26条临时中位 **34,100** 重新计算 `relative_to_provisional_median / performance_band`。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
-| person_story | 1 | 93,110 | 3.04× | 单样本，不能泛化 |
-| explicit_question | 3 | 47,733 | 1.56× | 当前高于临时中位，但3条分布仍有限 |
-| practice_dispute | 9 | 44,023 | 1.44× | 样本最多；仍然从7K级到763K，后果强度比“争议”标签重要 |
-| descriptive_topic | 6 | 23,909 | 0.78× | 新增Six Models后上移，但内部差异仍大 |
-| familiar_unexpected | 2 | 11,932.5 | 0.39× | 两条2025成熟样本均偏低，说明熟悉对象+意外关系不是万能入口 |
-| strong_mystery | 1 | 9,148 | 0.30× | 单样本 |
-| real_world_conflict | 1 | 3,749 | 0.12× | 单样本；“现实冲突”本身不保证高播放 |
-| specific_text | 1 | 3,062 | 0.10× | 单样本 |
+| person_story | 1 | 93,110 | 2.73× | 单样本，不能泛化 |
+| how_to | 1 | 48,892 | 1.43× | Lucid Dream单样本 |
+| explicit_question | 3 | 47,733 | 1.40× | 当前高于临时中位，但3条分布有限 |
+| practice_dispute | 9 | 44,023 | 1.29× | 样本最多；从7K级到763K，后果强度比“争议”标签重要 |
+| descriptive_topic | 6 | 23,909 | 0.70× | 内部差异大 |
+| familiar_unexpected | 3 | 14,460 | 0.42× | 新增Hoffman后仍低于临时中位，不能当万能入口 |
+| strong_mystery | 1 | 9,148 | 0.27× | 单样本 |
+| real_world_conflict | 1 | 3,749 | 0.11× | 单样本；现实冲突本身不保证高播放 |
+| specific_text | 1 | 3,062 | 0.09× | 单样本 |
 
 ### 为什么 practice_dispute 仍值得重点看，但不能写成公式
 
-24条临时样本里，practice_dispute 的中位数约44,023，是全样本临时中位的约1.44×；但它内部跨度极大：
+26条临时样本里，practice_dispute 的中位数约44,023，是全样本临时中位的约1.29×；但它内部跨度极大：
 
 高位：
 - **A Critical-Rational Guide for Magicians and Occultists**｜763,480；
