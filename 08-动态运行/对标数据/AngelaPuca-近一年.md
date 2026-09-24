@@ -80,9 +80,42 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 - **主内容 / podcast-centered 清单：50条，接近完整；**
 - **YouTube all-upload 清单：未完整；**
 - **直接量化 YouTube 样本：38条；**
-- **额外公开视频索引：已从2026-08—09开始增量建立。**
+- **额外公开视频索引：当前已扩到2026-04-05—09-20，共33条；其中15条与主表同日同内容、5条是同内容但代理日期冲突、13条是主表没有的独立附加上传。**
 
 这比原来把“50条”理解成一年全部YouTube发布更准确。
+
+### 33条NTA切片与50条主内容表的关系
+
+当前 `AngelaPuca-NTA公开视频索引.csv` 已经给每一行增加：
+- `relation_to_primary_list`
+- `matched_primary_title`
+- `relation_notes`
+
+截至目前：
+- **15条 `same_content_event`**：与50条主内容表同一个内容事件，日期基本一致；
+- **5条 `date_conflict_same_event`**：标题 / 内容明显同一事件，但NTA与podcast日期不同；
+- **13条 `additional_upload`**：主内容表里没有的独立上传。
+
+已确认的附加上传包括：
+- The Borrowed Authority of Ancient Names
+- Thank you for 500k!
+- Magic as Technology
+- The Ars Goetia
+- History and Magical Efficacy are two different things
+- Is TikTok Destroying “Real” Witchcraft?
+- Is Manifestation Actually Witchcraft?
+- What is a Grimoire?
+- Is It Ever Ethical to Curse Someone?
+- What is Real?
+- The Philosophy of Magic – online course（7/13独立推广，不等于7/5主课程视频）
+- My Book “Witches and Wizards” is out!
+- Magic in Prehistory: Cave Art and Ancient Burials
+
+这个结果已经足够证明：
+
+> **Angela 一年的实际YouTube供给结构，比50条podcast长内容清单更密。**
+
+因此后续的“全年发了多少条 / 哪类内容占比多少”必须以全上传索引继续补齐后再计算，不能拿50直接当分母。
 
 ## 近365天发布清单｜Podcast feed 50条
 
