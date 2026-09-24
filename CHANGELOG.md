@@ -1,5 +1,16 @@
 # Changelog
 
+## 2026-09-24｜第六轮塔罗扩充：X 67 例 + deck-aware 方法路由
+
+- X 外部后验从 60 扩到 67 例，重点补感情关系：Two of Cups outcome 仍失败、Chariot + Two of Cups 后两天分手、Death 后实际沉默与结束、互爱但继续保持距离、旧友重新联系等；
+- 新增 M-PHB：Paul Hughes-Barlow / Tarot Elements 的 ED、card counting、pairing 分工；明确 counting 是筛主叙事，不是概率计算；
+- 新增 M-CM：Caitlín Matthews 25-card tableau，先定位 significator、看 clumps，再读 corners / touching cards / diagonals；
+- 新建 `11-牌组与牌型方法路由.md`：RWS、Tarot de Marseille、Thoth / Golden Dawn、无牌位三张、固定牌位牌阵、大型 tableau 分别调用最适合的第二层方法；
+- 固定“有牌位不丢牌位、无牌位不自动假定过去现在未来、Marseille 不硬塞 RWS 场景关键词、ED 不做一票否决”；
+- 感情结果继续强制拆成 contact / reunion / commitment / durability，避免 Two of Cups / Lovers / Six of Cups 被直接升级成长期关系结论。
+
+---
+
 ## 2026-09-24｜第六轮塔罗扩充：补齐 X-053—060 + 结构权重框架
 
 - 修复上一笔中间提交“README / CHANGELOG 写到 X=60，但验证层正文实际停在 X-052”的一致性问题；
