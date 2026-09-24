@@ -52,31 +52,59 @@ vidIQ当前公开页可确认：
 
 ## 2026年主题流｜Patreon / 公开内容标题代理
 
-以下用于观察选题结构，不把 Patreon 日期自动等同于 YouTube 正式发布日期：
+以下用于观察选题结构，不把 Patreon 日期自动等同于 YouTube 正式发布日期。当前可稳定确认的主内容题目比早先记录更完整：
 
-- Sep｜How Does Magic Work? Process Philosophy May Have an Answer
-- Sep｜Can You Really See the Invisible? The Science of Clairvoyance
-- Sep｜The Knights Templars: a Real History
-- Aug｜Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic
-- Jul｜Lughnasadh vs Lammas: The Truth About the First Harvest Festival
-- Jul｜What Is Theurgy? The Ancient Philosophy Behind Ritual Magic
-- Jun｜Should Practitioners Do What Academics Say?
-- Jun｜The Summer Solstice and Litha: What History Actually Says
-- Jun｜The Question Isn't If AI. It's How.
-- May｜How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind
-- May｜The Witches' Sabbath Origins, Evolution, and the Long Afterlife of a Composite Image
-- May｜ESBAT: The History of Wicca’s Full Moon Ritual
-- Apr｜The Real History of the Green Man (Not What Wicca Teaches You)
-- Apr｜Alchemy Explained - Science, Spirituality, and the Search for Transformation
-- Apr｜This Changes Solomonic Magic Forever
-- Mar｜Your Tradition is Fake. Your Practice Isn't. Now What?
-- Mar｜What Is a Cult? How High-Control Religious Groups Manipulate Belief
-- Mar｜Shadow Work in Paganism and Esoteric Practices
-- Feb｜The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt
-- Feb｜A Philosophical Deep Dive on Magick with Peter J Carroll
-- Jan｜Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer
-- Jan｜Does Quantum Physics prove Magic?
-- Dec 2025｜A Critical-Rational Guide for Magicians and Occultists
+### 2026-07
+- Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm
+- What Is Theurgy? The Ancient Philosophy Behind Ritual Magic
+- The Grimoire Tradition: From Medieval Magic to Modern Practice
+
+### 2026-06
+- Should Practitioners Do What Academics Say?
+- The Summer Solstice and Litha: What History Actually Says
+- The Question Isn't If AI. It's How.
+- British Traditional Wicca with Rufus Harrington
+
+### 2026-05
+- How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind
+- The Witches' Sabbath: Origins, Evolution, and the Long Afterlife of a Composite Image
+- ESBAT: The History of Wicca’s Full Moon Ritual
+- The Truth about Solomonic Magic
+
+### 2026-04
+- The Real History of the Green Man (Not What Wicca Teaches You)
+- Alchemy Explained - Science, Spirituality, and the Search for Transformation
+- This Changes Solomonic Magic Forever
+- Magic in the United States
+
+### 2026-03
+- Your Tradition is Fake. Your Practice Isn't. Now What?
+- What Is a Cult? How High-Control Religious Groups Manipulate Belief
+- The Case Against Reality: What Donald Hoffman Means for Esoteric Practice
+- Shadow Work in Paganism and Esoteric Practices
+
+### 2026-02
+- Conjuring the Algorithm: Magic, AI, and the Hidden Internet
+- The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt
+- A Philosophical Deep Dive on Magick with Peter J Carroll
+
+### 2026-01
+- Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer
+- Does Quantum Physics prove Magic?
+- Aphrodite & Venus
+
+### 2025-12
+- A Critical-Rational Guide for Magicians and Occultists
+- Can Magic Stop War?
+- Understanding the Models of Magic
+- The Six Models Every Magician Should Know
+
+这套代理清单已经足以看出一个很稳定的编辑倾向：
+- “Do practitioners…?”直接问实践者；
+- “What history actually says / Real history / Truth about…”把学术纠偏写成现实判断；
+- “Can AI / Quantum Physics / Donald Hoffman”把当代问题接到魔法实践；
+- “This changes X forever”把新研究写成对旧实践有后果的变化；
+- “What is X?”只在对象本身足够明确时使用。
 
 ## 当前很明显的结构
 
