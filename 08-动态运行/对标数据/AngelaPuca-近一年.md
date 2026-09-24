@@ -58,6 +58,45 @@ vidIQ当前公开页可确认：
 
 发布时间太近，不能拿当前累计值与发布数月的内容直接比较。
 
+## 已核YouTube / 播客行级样本
+
+规则：
+- YouTube结果页能取得播放/点赞时直接记；
+- Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
+- 播客分发数据不替代YouTube播放。
+
+| 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
+|---|---|---:|---:|---|
+| 2026-09-20 | How Does Magic Work? Process Philosophy May Have an Answer | 约10,000 | N/A | vidIQ最新视频；1.63× outlier |
+| 2026-08-30 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic | 104,760 | N/A | 23:55；vidIQ 2.39× |
+| 2026-04-05 | This Changes Solomonic Magic Forever | 109,170 | N/A | 28:09；vidIQ 5.76× |
+| 2026-03-29 | Your Tradition is Fake. Now What? | 439,530 | N/A | 19:23；vidIQ 47.96× |
+| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices | 8,113 | 698 | 约48:25；YouTube直取 |
+| 2026-02-15 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt | 9,148 | 684 | 1:09:01；YouTube直取 |
+| 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll | 92,445 | 956 | 约1:41:48；YouTube直取 |
+| 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 约1:12:12；YouTube直取 |
+| 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer | 8,788 | 681 | 43:50；YouTube直取 |
+| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 740,493 | 2,200 | YouTube直取；vidIQ较新快照763.48K，抓取时点不同 |
+
+另已确认准确发布日期 / 题目，但当前未取得可靠YouTube播放：
+- 2026-03-15｜What Is a Cult? How High-Control Religious Groups Manipulate Belief｜约25分钟；
+- 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice｜约22分钟；
+- 2026-04-19｜Alchemy Explained: Science, Spirituality, and the Search for Transformation｜47:10。
+
+### 这批行级数据已经出现非常强的内部差异
+
+在当前已核样本里：
+- 2025-12 Critical-Rational Guide：74万+；
+- 2026-03 Your Tradition is Fake：43万+；
+- 2026-04 Solomonic Magic：10万+；
+- 2026-08 Ancient vs New Magic：10万+；
+- 但“最古老魔法”“量子证明魔法？”“Hutton抹掉Wicca历史？”等多条只有约7K—9K。
+
+因此已经可以更具体地说：
+> **同样都是学术纠偏 / 神秘学知识，只有当问题对实践者产生直接身份、有效性或“我该怎么办”的后果时，才更容易在 Angela 当前已核样本中形成超大 outlier。**
+
+不能简化成“Truth / Real History标题一定爆”。
+
 ## 2026年主题流｜Patreon / 公开内容标题代理
 
 以下用于观察选题结构，不把 Patreon 日期自动等同于 YouTube 正式发布日期。当前可稳定确认的主内容题目比早先记录更完整：
@@ -137,7 +176,7 @@ vidIQ当前公开页可确认：
 ## 年度数据缺口
 
 仍需补：
-- 近365天全部 YouTube 上传的行级表；
+- 近365天全部 YouTube 上传的行级表；当前已核10条带YouTube数值的主样本 + 3条准确日期/时长样本，但仍不是全年完整表；
 - 每条准确发布日期；
 - views / likes / comments；
 - Shorts 与长视频分开；
