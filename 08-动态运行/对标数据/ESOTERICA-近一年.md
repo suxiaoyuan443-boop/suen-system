@@ -77,6 +77,9 @@ vidIQ当前全历史Top仍显示：
 | 2026-05-15 | What was the Kabbalah of Contemplation? | 88,395 | 4,200 | youtube.com/watch?v=3ExQdVgSCHg |
 | 2026-02-27 | The Mystical Theology of Love - Bernard of Clairvaux | 71,137 | 4,100 | YouTube公开结果 |
 | 2026-01-23 | What are the Mayan Secrets of the Oldest American Book? | 137,195 | 8,800 | youtube.com/watch?v=2VNhPEMqSv8 |
+| 2025-12-05 | How Medieval Incantations Worked | 79,227 | 4,700 | youtube.com/watch?v=CCKF-eLxn68 |
+| 2025-11-21 | What is the Hermetic God & Demiurge? | 220,089 | 9,100 | youtube.com/watch?v=Mi8AC_rmL00 |
+| 2025-11-07 | Who was Asherah - Wife of Yahweh? | 371,293 | 15,000 | youtube.com/watch?v=m60p7BEnN5Y |
 
 另外已确认但当前没有稳定拿到播放/点赞的正式主内容：
 - 2026-04前后｜How Angel Magic Gave Us the Internet - The Steganographia of Trithemius｜youtube.com/watch?v=Vq96NDOB0xs；
@@ -85,7 +88,7 @@ vidIQ当前全历史Top仍显示：
 
 ### 这9条先能看到什么
 
-这批还不足以代表全年，但已经比“题目代理”更进一步：
+这12条仍不足以代表全年，但已经比“题目代理”更进一步：
 - 当前最高：Cathar Lord's Prayer 165,095；
 - 其次：Mayan Secrets 137,195；
 - Theosophy 96,990；
@@ -96,6 +99,22 @@ vidIQ当前全历史Top仍显示：
 - **具体文本 + 强异常问题**（Jesus的“罪”、最古老美洲书的秘密）在当前这批里更高；
 - 单纯人物神秘主义 / 抽象神学题未必同样强；
 - 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
+
+### 新增晚2025样本的初步意义
+
+新增三条把当前分布拉开得更明显：
+- Who was Asherah - Wife of Yahweh?｜371,293；
+- What is the Hermetic God & Demiurge?｜220,089；
+- How Medieval Incantations Worked｜79,227。
+
+它们说明“熟悉神名 / 神学对象 + 明确关系或身份问题”也能形成很高上限，不能把 ESOTERICA 简化成“只有具体手稿 / 书名题才高”。
+
+当前更合理的候选结构是：
+1. 熟悉神名 / 大概念 + 一个普通人能理解的问题；
+2. 具体文本 / 手稿 + 异常细节；
+3. 明确“what is / who was / how did”问题，把专业对象转成可理解任务。
+
+这仍然只是当前12条样本里的结构信号，不升级为全年公式。
 
 ## 近一年内容题目代理清单｜来自 Patreon Early Access
 
@@ -163,7 +182,7 @@ vidIQ 当前公开的全历史 Top 包括：
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；当前已核9条主内容行级样本，但还远未覆盖全年；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已核12条主内容行级样本，但还远未覆盖全年；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 长视频 / Shorts 分开；
