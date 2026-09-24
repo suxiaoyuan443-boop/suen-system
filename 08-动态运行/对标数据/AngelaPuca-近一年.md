@@ -662,3 +662,81 @@ Hook v1 频率：
 - 每条都写“真相”“假的”；
 - 为了争议强行制造二元结论；
 - 用标题冲突覆盖资料本身的不确定性。
+
+
+## 近一年连续题目流｜Podcast / RSS 日期代理
+
+Angela 同一批视频会同步进入 podcast feed，因此 podcast / Apple Podcasts 可以作为**题目 + 发布日期 + 时长代理**。  
+这层不提供 YouTube 播放量，但比只看 Patreon 标题更接近正式公开内容节奏。
+
+### 2025-09—2026-04｜连续可核序列
+
+| 日期 | 题目 |
+|---|---|
+| 2025-09-28 | Universal Divine or Cultural Construct? Perennialism vs Constructivism |
+| 2025-10-05 | Paimon Explained: From Ancient Grimoires to Modern Occultism |
+| 2025-10-12 | Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge |
+| 2025-10-19 | The Path and the Practice: Ivy Corvus on Living Witchcraft |
+| 2025-10-26 | Asmodeus: A Demon’s Journey from Zoroastrian Wrath to Western Lust |
+| 2025-10-30 | Demons of the Necronomicon: When Fiction Becomes Occult Reality |
+| 2025-11-10 | The Psychology of Magic with Dr Richard Kaczynski |
+| 2025-11-23 | The Six Models Every Magician Should Know |
+| 2025-11-30 | The Magical Art of Peace: Ancient Rituals of Reconciliation and Resistance |
+| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists |
+| 2025-12-22 | Leah Hirsig’s Lost Diaries: New Revelations in Thelemic History |
+| 2025-12-22 | Winter Solstice Tradition + Q&A Livestream |
+| 2025-12-30 | Living Thelema with @MaeviusLynn |
+| 2026-01-04 | Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion |
+| 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer |
+| 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis |
+| 2026-02-02 | Birthday Livestream + Tantric Ritual |
+| 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll |
+| 2026-02-15 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt |
+| 2026-02-24 | Conjuring the Algorithm: Magic, AI, and the Hidden Internet |
+| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices |
+| 2026-03-08 | The Case Against Reality: What Donald Hoffman Means for Esoteric Practice |
+| 2026-03-15 | What Is a Cult? How High-Control Religious Groups Manipulate Belief |
+| 2026-03-23 | Esotericism in Western Culture with Prof Wouter Hanegraaff |
+| 2026-03-29 | Your Tradition is Fake. Now What? |
+| 2026-04-05 | This Changes Solomonic Magic Forever |
+| 2026-04-14 | Magic in the United States with Heather J. Freeman |
+| 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation |
+| 2026-04-26 | The Real History of the Green Man (Not What Wicca Teaches You) |
+
+来源：Podcast Republic 对 Angela's Symposium RSS 的公开索引。  
+这 29 条在当前滚动一年窗口内，至少能建立一段连续发布序列。
+
+### 2026-05—09｜当前已精确核到的后续公开内容
+
+| 日期 | 题目 | 时长 / 备注 |
+|---|---|---|
+| 2026-05-06 | Destination: The Truth about Solomonic Magic with Dr Gal Sofer | podcast索引 |
+| 2026-05-11 | The Left Hand Path of Tarot with Cherry Parra | podcast索引 |
+| 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | podcast索引 |
+| 2026-05-24 | ESBAT: The History of Wicca’s Full Moon Ritual | podcast索引 |
+| 2026-06-14 | The Question Isn't If AI. It's How. | 20min |
+| 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 15min |
+| 2026-06-28 | Should Practitioners Do What Academics Say? | 20min |
+| 2026-07-05 | The Philosophy of Magic: My New Online Course | 9min |
+| 2026-08-05 | Can Process Philosophy Explain How Magic Works? With Dr Darren Iammarino | 1h14m |
+| 2026-08-09 | The Grimoire Tradition: A Complete Guide | 1h04m |
+| 2026-08-17 | Advanced Rune Magic with David Linder | 1h14m |
+| 2026-08-30 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic | 24min |
+| 2026-09-06 | Can You Really See the Invisible? The Science of Clairvoyance | 1h07m |
+| 2026-09-20/21 | How Does Magic Work? Process Philosophy May Have an Answer | YouTube 9/20；podcast 9/21，38min |
+
+说明：
+- 同一内容在 YouTube 与 podcast feed 可能差1天，因此双日期并列保留，不强行改成一个；
+- 这层仍然是“题目/时间/长度”，不是 YouTube 流量指标；
+- 对比真正 YouTube outlier 时，仍以 vidIQ 的公开视频数据为准。
+
+### 当前标题结构计数方向
+
+这一连续序列已经足以看到标题反复出现几类：
+- **真假 / 误解 / 真相**：Did X Really… / Real History / What Actually Happened / Truth About…；
+- **现实实践冲突**：Should Practitioners… / Your Tradition is Fake. Now What?；
+- **What Is / Explained / Complete Guide**：知识入口；
+- **熟悉对象 + 起源变化**：Astaroth / Paimon / Green Man / Witches' Sabbath；
+- **现代议题嫁接**：AI、quantum physics、philosophy of magic。
+
+后续补完全年 YouTube views 后，才可以判断哪一类标题**统计上**更强。
