@@ -337,6 +337,32 @@ ESOTERICA 的 Podcast Republic / Megaphone feed 当前出现明显的**旧目录
 - 有直接YouTube日期时只认YouTube日期；
 - 没有直接YouTube日期时保持“日期待核”，不能拿feed批量日期填空。
 
+## 已核正式 YouTube 行级样本
+
+下面是当前已能直接从正式 YouTube 结果核到的近一年视频，不使用 Patreon 代理日期：
+
+| YouTube发布日期 | 正式标题 | 当前播放 | 点赞 | 备注 |
+|---|---|---:|---:|---|
+| 2026-07-10 | What was the Sin of Jesus? The Cathar Lord's Prayer | 165,095 | 7,500 | Patreon 7/8 Early Access 对应正式公开视频 |
+| 2026-08-07 | How Magic Became Heresy | 70,390 | 4,100 | Patreon 8/6 Early Access 对应正式公开视频 |
+| 2026-09-18 | The First Book of Alchemy You Should Study | 127,100 | N/A | vidIQ 抓取时发布约1天9小时；3.01× outlier |
+
+### 当前能确认的一件事
+
+Patreon Early Access 的**工作标题和正式公开视频标题可能不同**。
+
+例如：
+- Patreon 7/8：《The Cathar Lord's Prayer》
+- YouTube 7/10：《What was the Sin of Jesus? The Cathar Lord's Prayer》
+
+这说明 ESOTERICA 会在正式公开视频标题上进一步加强普通人入口：
+**具体原文对象不变，但前面加一个更强的问题。**
+
+因此以后研究 ESOTERICA：
+- Patreon 用于还原“研究对象 / 生产主题”；
+- YouTube 正式标题用于研究“前台包装”；
+- 两者必须分开存，不能把 Early Access 标题直接当公开视频标题。
+
 ## 当前年度数据缺口
 
 还缺：
