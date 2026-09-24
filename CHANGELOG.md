@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-24｜外部反馈验证第二轮：扩到 23 例并强化结果验收
+
+- 新增 10 个 F3 优先外部反馈案例，X 层从 13 例扩到 23 例；
+- 第二轮重点补“看起来很正面但最终失败”的反例：Star 求职结果未录取、Nine of Cups + Ace of Pentacles 未录取、Ace of Pentacles + Nine of Wands 未录取；
+- 同时补入 Page of Cups + Nine of Wands + Page of Pentacles 成功求职、Hermit + World + Five of Pentacles 落选、权杖高占比后考试 / 课程通过、Page of Wands Rx + Tower + Ten of Cups 后实际联系、现代 Reddit 求职正反例；
+- 新增 Guard-06—09：正面功能不等于事件完成、Result/Process/Mechanism/Timing 四轴验收、单牌 yes/no 自动降置信、竞争题必须显式考虑第三方；
+- 运行时以后不再允许“过程说对了，所以最终预测也算对”的宽松计分。
+
+---
+
 ## 2026-09-24｜新增公开反馈案例的 X 外部验证层
 
 - 检索公开网络中同时具备原问题、牌面 / 牌阵、当时解释和后续现实反馈的案例；
