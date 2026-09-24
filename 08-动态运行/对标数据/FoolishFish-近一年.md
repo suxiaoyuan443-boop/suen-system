@@ -6,6 +6,15 @@
 账号：@foolishfishbooks  
 观察窗：滚动近365天
 
+## 数据源与口径
+
+当前公开来源：
+- Patreon sitemap｜https://www.patreon.com/foolishfish/sitemap
+- SponsorRadar｜https://sponsorradar.com/channels/foolishfishbooks
+- YouTube公开结果 / 第三方索引用于部分单条快照
+
+Patreon负责证明固定更新节奏、会员权益与商业产品；SponsorRadar只作第三方赞助检测 / 估算，不能当实际成交或实际收入。
+
 ## 当前频道规模
 
 当前公开第三方统计：
