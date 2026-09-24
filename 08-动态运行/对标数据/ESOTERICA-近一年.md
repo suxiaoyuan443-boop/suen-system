@@ -228,18 +228,19 @@ vidIQ当前全历史Top仍显示：
 当前滚动365天原始节点：**64 条**。
 
 按当前规则粗分：
-- main_content / Early Access：29
+- main_content / Early Access：28
 - lecture：7
-- commercial：4
+- commercial：5
+- event：1
 - update：11
 - community：2
 - course：1
 - resource：1
-- other：9
+- other：8
 
-这29条 Early Access / 主研究代理与当前28个清洗后的“主研究主题”基本同量级；差异来自少数一帖多内容与标题清洗。
+这28条 main_content 与当前28个清洗后的“主研究主题”同量级。此前把书目目录、巡回活动误计入主研究节点，已经纠正；《How to Study Western Esotericism & the Occult - Study Guide 2026》则从 other 修正为 main_content。
 
-这组数据最重要的不是“29篇”，而是生产结构：
+这组数据最重要的不是“28篇”，而是生产结构：
 
 > **主研究视频是核心，旁边稳定存在课程 / 讲座 / 古籍目录 / 折扣 / 资源 / 更新。**
 
