@@ -197,6 +197,30 @@ Angela 当前最值得我们学的，不是题材本身，而是：
 但 9/23 Suen 自己的塔罗历史辨伪已经证明：
 **“有真假冲突”还不够，冲突必须对普通人 / 实践者有现实利害或明显好奇心。**
 
+
+## 精确日期题目代理｜Podcast Republic
+
+Angela 的联合播客档案当前能把 **2025-09-28—2026-05-24** 的主节目标题与日期精确到天。
+
+已建立：
+`AngelaPuca-播客精确日期代理.csv`
+
+当前共 **33 条精确日期节目记录**。
+
+这一层的价值：
+- 比 Patreon 月份代理更精确；
+- 可以计算发布节奏；
+- 可以确认强样本对应内容的准确节目日期，例如：
+  - Your Tradition is Fake. Now What?｜2026-03-29；
+  - This Changes Solomonic Magic Forever｜2026-04-05；
+  - A Critical-Rational Guide for Magicians and Occultists｜2025-12-14；
+  - A Philosophical Deep Dive on Magick with Peter J Carroll｜2026-02-08。
+
+边界：
+- 这是 Podcast Republic / RSS 联合分发日期；
+- 它高度适合做内容时间线，但不自动声明与 YouTube 正式上传日完全相同；
+- 播放量仍以 YouTube / vidIQ 层为准。
+
 ## 题目代理结构频率｜不代表表现排名
 
 当前机器可读题目代理共 **29 条**。
