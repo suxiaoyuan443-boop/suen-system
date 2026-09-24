@@ -100,8 +100,10 @@ Git commit 保存历史快照，不在当前文件里反复复制旧数据。
 - `LetsTalkReligion-近一年.md`：51条近一年当前公开行级样本、统计与解释；
 - `LetsTalkReligion-近一年.csv`：同一51条的机器可读行级数据，含互动率、相对中位数和Hook v1分类；
 - `穹印之源-近一年.md`：低频账号近一年约3条本人正式发布 + 历史强样本参考；
-- `ESOTERICA-近一年.md`：频道年度建档、最新强样本、题目流与数据缺口；
-- `AngelaPuca-近一年.md`：近一年已知强outlier + 2026题目流；
+- `ESOTERICA-近一年.md`：YouTube已核量化样本、临时分布与结构分析；
+- `ESOTERICA-Patreon近一年原始索引.md`：滚动一年Patreon原始生产节点，用于匹配Early Access/课程/目录/商业桥；
+- `AngelaPuca-近一年.md`：YouTube量化样本、精确日期代理与结构分析；
+- `AngelaPuca-Patreon近一年原始索引.md`：滚动一年Patreon原始节点，保留主内容/transcript/lecture/RENSEP/课程/会员层；
 - `FoolishFish-近一年.md` + `FoolishFish-固定发布结构-近一年.csv`：部分视频行级快照 + 49条滚动年度固定商业容器节点；
 - `子童-witch-近一年.md` + `子童-witch-题目流.csv`：27条2026题目已机器化，重点看制作 / 打包 / ASMR / 商品世界观；
 - `witchstar星莱-近一年.md` + `witchstar星莱-题目流.csv`：11条近一年题目已机器化，Teach系列 + 产品打包 + devotional / 参与内容；
