@@ -1,0 +1,6 @@
+hook,accounts_with_n2,accounts_median_above_baseline,median_of_account_medians,account_detail
+explicit_question,3,3,1.2150,"Angela's Symposium: n=5, med=1.91×, above_share=60% | ESOTERICA: n=7, med=1.01×, above_share=57% | Let's Talk Religion: n=11, med=1.22×, above_share=64%"
+familiar_unexpected,3,2,1.0875,"Angela's Symposium: n=4, med=0.50×, above_share=25% | ESOTERICA: n=4, med=1.09×, above_share=75% | 穹印之源: n=2, med=1.87×, above_share=50%"
+descriptive_topic,4,1,0.9049,"Angela's Symposium: n=10, med=0.51×, above_share=30% | ESOTERICA: n=2, med=4.34×, above_share=100% | Foolish Fish: n=27, med=1.00×, above_share=48% | Let's Talk Religion: n=29, med=0.81×, above_share=38%"
+person_story,2,1,0.8698,"Angela's Symposium: n=9, med=1.24×, above_share=67% | ESOTERICA: n=4, med=0.50×, above_share=0%"
+specific_text,2,0,0.7607,"Angela's Symposium: n=2, med=0.67×, above_share=50% | ESOTERICA: n=6, med=0.86×, above_share=50%"
