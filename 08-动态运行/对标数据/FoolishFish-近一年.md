@@ -93,6 +93,41 @@ Patreon负责证明固定更新节奏、会员权益与商业产品；SponsorRad
 
 不能只用播放量评估二者谁“更好”。
 
+## 2026-08—09统一抓取样本
+
+SponsorRadar 2026-09-24 当前页可直接取得13条连续公开视频的 lifetime views。这个窗口虽然只有约7周，但**抓取时点一致**，比之前混合时间点的快照更适合做短期类型比较。
+
+| 日期 | 内容 | 当前播放 | Sponsor |
+|---|---|---:|---|
+| 2026-09-19 | Esoteric News｜18 Sep Updates | 3.2K | 未检测 |
+| 2026-09-16 | Pick a Symbol Tarot｜16–22 Sep | 6.3K | 未检测 |
+| 2026-09-12 | Esoteric News｜11 Sep Updates | 2.6K | Miskatonic Books |
+| 2026-09-03 | Pick a Symbol Tarot｜3–8 Sep | 6.2K | 未检测 |
+| 2026-08-29 | Esoteric News｜28 Aug Updates | 5.6K | Miskatonic Books |
+| 2026-08-26 | Pick a Symbol Tarot｜26 Aug–1 Sep | 4.1K | 未检测 |
+| 2026-08-22 | Esoteric News｜21 Aug Updates | 2.8K | Miskatonic Books |
+| 2026-08-19 | Pick a Symbol Tarot｜19–25 Aug | 2.2K | 未检测 |
+| 2026-08-16 | Esoteric News｜14 Aug Updates | 2.2K | Miskatonic Books |
+| 2026-08-12 | Pick a Symbol Tarot｜12–18 Aug | 2.6K | 未检测 |
+| 2026-08-08 | Esoteric News｜07 Aug Updates | 2.0K | Miskatonic Books |
+| 2026-08-05 | Pick a Symbol Tarot｜05 Aug–11 Aug | 2.4K | 未检测 |
+| 2026-08-01 | Esoteric News｜31 Jul Updates | 2.3K | Miskatonic Books |
+
+这13条当前：
+- 中位播放约 **2.6K**；
+- 平均约 **3.42K**；
+- 最高两条都是 Pick a Symbol Tarot（6.3K / 6.2K）；
+- Esoteric News 大多数集中在2K—3K，但 8/29 有5.6K。
+
+这只能回答**2026-08—09这一小段**，不能冒充全年分布。
+
+### YouTube直取样本
+
+- 2026-07-29｜Pick a Symbol Tarot - Your message for 22 July - 4 August 2026｜3,060播放｜399赞；
+- 2026-08-12｜Pick a Symbol Tarot - Your message for 12 August - 18 August 2026｜2,618播放｜346赞。
+
+这两条验证 SponsorRadar 当前量级大体合理，但抓取时点不同，不强行要求数字完全一致。
+
 ## 近一年发布结构｜Patreon sitemap
 
 Patreon 当前索引显示 2026 年稳定存在：
@@ -169,7 +204,7 @@ SponsorRadar 当前检测：
 ## 年度数据缺口
 
 还缺：
-- 近365天完整公开视频行级列表；
+- 近365天完整公开视频行级列表；当前已有2026-08—09连续13条统一抓取样本 + 其它历史快照，但仍不足全年；
 - 统一抓取日后的 views / likes / comments；
 - 正式时长；
 - Book review / Esoteric Saturday / Tarot / News 不同类型的完整样本量；
