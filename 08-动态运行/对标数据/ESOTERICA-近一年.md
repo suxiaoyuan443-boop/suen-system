@@ -62,6 +62,41 @@ vidIQ当前全历史Top仍显示：
 
 这些都超出近一年，不进入365天数值基线；只用于长期标题结构参考。
 
+## 已核YouTube行级样本
+
+下面这些已经直接核到 YouTube 结果页，可用于年度分布的真实行级样本。播放 / 点赞均为 2026-09-24 抓取时累计值。
+
+| 日期 | 标题 | 播放 | 点赞 | URL / 备注 |
+|---|---|---:|---:|---|
+| 2026-09-18 | The First Book of Alchemy You Should Study | 127,100 | N/A | vidIQ最新视频快照；原始YouTube页待补URL |
+| 2026-09-11 | The Mysticism of Purgatory - Catherine of Genoa | 27,286 | 917 | youtube.com/watch?v=tfjEST2DTbs |
+| 2026-08-22 | What is the Secret Eighth Book of Moses? | 72,105 | 2,300 | youtube.com/watch?v=pe6Kr6vLZo4 |
+| 2026-07-31 | What is Theosophy? How a Shoemaker Invented Modern Esotericism | 96,990 | 4,700 | youtube.com/watch?v=83rZ_8aWSXw |
+| 2026-07-10 | What was the Sin of Jesus? The Cathar Lord's Prayer | 165,095 | 7,500 | youtube.com/watch?v=1hAYzwrUVEg |
+| 2026-06-19 | What is the Metaphysical Matrix? Paracelsus & the Womb of Being | 55,113 | 3,300 | youtube.com/watch?v=SA5koEgnU7A |
+| 2026-05-15 | What was the Kabbalah of Contemplation? | 88,395 | 4,200 | youtube.com/watch?v=3ExQdVgSCHg |
+| 2026-02-27 | The Mystical Theology of Love - Bernard of Clairvaux | 71,137 | 4,100 | YouTube公开结果 |
+| 2026-01-23 | What are the Mayan Secrets of the Oldest American Book? | 137,195 | 8,800 | youtube.com/watch?v=2VNhPEMqSv8 |
+
+另外已确认但当前没有稳定拿到播放/点赞的正式主内容：
+- 2026-04前后｜How Angel Magic Gave Us the Internet - The Steganographia of Trithemius｜youtube.com/watch?v=Vq96NDOB0xs；
+- 2026-02-06前后｜What is Theurgy? Proclus and Pagan Salvation / Liberation｜播客分发可确认主题与长内容版本；
+- Who was Belial, the Demon? 的不同播客索引日期发生冲突，暂不写入YouTube发布日期，等原始视频页核定。
+
+### 这9条先能看到什么
+
+这批还不足以代表全年，但已经比“题目代理”更进一步：
+- 当前最高：Cathar Lord's Prayer 165,095；
+- 其次：Mayan Secrets 137,195；
+- Theosophy 96,990；
+- Kabbalah of Contemplation 88,395；
+- Purgatory 27,286明显更低。
+
+初步可见：
+- **具体文本 + 强异常问题**（Jesus的“罪”、最古老美洲书的秘密）在当前这批里更高；
+- 单纯人物神秘主义 / 抽象神学题未必同样强；
+- 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
+
 ## 近一年内容题目代理清单｜来自 Patreon Early Access
 
 下面用于补“发布主题 / 标题结构”，**不是 YouTube 播放数据**。Patreon Early Access 往往会比公开视频提前，因此日期不能直接当 YouTube 正式发布日期。
@@ -128,7 +163,7 @@ vidIQ 当前公开的全历史 Top 包括：
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已核9条主内容行级样本，但还远未覆盖全年；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 长视频 / Shorts 分开；
