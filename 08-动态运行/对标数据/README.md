@@ -1,0 +1,89 @@
+# 对标数据｜动态数据层
+
+状态：当前正式动态数据区  
+建立：2026-09-24
+
+用途：保存 Suen 内容系统核心对标账号的**滚动近 365 天公开发布数据**，供选题与结构复盘直接读取。
+
+长期方法仍在：
+`00-系统总控/内容商业对标系统.md`
+
+## 核心原则
+
+- 对标账号尽量收集近 365 天全部公开发布，不只截取爆款；
+- 一年基线是主层，最近 90 天 / 最近 3—5 条是趋势层；
+- 低频更新账号不因最近 30 天没发内容被判“没有近期样本”；
+- 每条记录必须保留抓取日期，因为播放 / 点赞会继续变化；
+- 不同账号绝对播放量不直接横比，优先看账号内部中位数、Top 25% / Top 10% 和相对倍数；
+- Suen 第一方真实数据始终高于外部对标。
+
+## 当前核心 benchmark
+
+长期核心：
+1. 穹印之源
+2. ESOTERICA / Justin Sledge
+3. Angela's Symposium / Angela Puca
+4. Foolish Fish
+5. Let's Talk Religion
+
+现代女巫 / 中文流量观察层：
+- 子童-witch
+- witchstar星莱
+- 水水解忧工作室
+- 魔女小玉塔罗
+
+公众号有自己的专属 benchmark；需要时可建立独立年度表，不与短视频账号混成一个总排名。
+
+## 每条数据字段
+
+建议字段：
+
+```
+account
+platform
+publish_date
+title
+url
+content_format
+duration
+views
+likes
+comments
+favorites
+shares
+age_days_at_capture
+capture_date
+topic
+hook_type
+first_screen_type
+story_structure
+evidence_structure
+commercial_bridge
+notes
+```
+
+缺失字段写 N/A，不估算。
+
+## 年度统计
+
+每个账号至少维护：
+- 近一年发布数；
+- 中位播放；
+- P75；
+- P90；
+- Top 10 内容；
+- 低于中位数的典型内容；
+- 高频题材 / 入口；
+- 高表现题材 / 入口；
+- 是否存在“高播放但低互动”与“低播放但高精准互动”分化；
+- 最近 90 天是否发生结构变化。
+
+## 刷新频率
+
+不要求每天重爬全量：
+- 新账号首次建立：尽量补齐近 365 天全部公开数据；
+- 后续：有新发布时增量补；
+- 每周复盘时检查一次是否有遗漏；
+- 正式定题时，如年度库已新鲜可直接复用，只补最相关的新发布。
+
+Git commit 保存历史快照，不在当前文件里反复复制旧数据。
