@@ -393,6 +393,83 @@ vidIQ当前公开页可确认：
 这进一步支持 Angela 的核心价值：
 **把学术问题翻译成实践者真正会争论、会担心、会想知道答案的现实问题。**
 
+## 近一年视频主题代理时间线｜Patreon主内容
+
+下面从 Angela's Symposium Patreon sitemap 中筛选**明显对应公开研究视频 / 主内容**的帖子，排除内部聚会、日程、课程提醒、Study Notes / Curated Transcript重复项、RENSEP活动提醒。
+
+重要：
+- Patreon日期不自动等于YouTube发布日期；
+- 同一个主题可能存在主帖 + transcript + study guide，因此这里人工去重；
+- 这张表用于分析**主题 / 标题 / 实践问题结构**，不代替YouTube播放行级表。
+
+| Patreon日期 | 主内容题目 |
+|---|---|
+| 2025-09-29 | Paimon Explained: From Ancient Grimoires to Modern Occultism |
+| 2025-10-05 | The Demon as Teacher Paimon in Western Occult Literature |
+| 2025-10-12 | Astaroth From Ancient Goddess Astarte to Demon of Forbidden Knowledge |
+| 2025-10-13 | The Path and the Practice: Ivy Corvus on Chaos Magick |
+| 2025-10-22 | Asmodeus: A Demon’s Journey from Zoroastrian Wrath to Western Lust |
+| 2025-10-27 | Demons of the Necronomicon: When Fiction Becomes Occult Reality |
+| 2025-11-10 | The Six Models Every Magician Should Know |
+| 2025-11-23 | Understanding the Models of Magic |
+| 2025-12-01 | Can Magic Stop War? |
+| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists |
+| 2025-12-22 | Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion |
+| 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer |
+| 2026-01-18 | Does Quantum Physics prove Magic? |
+| 2026-02-01 | A Philosophical Deep Dive on Magick with Peter J Carroll |
+| 2026-02-08 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt |
+| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices |
+| 2026-03-08 | The Case Against Reality: What Donald Hoffman Means for Esoteric Practice |
+| 2026-03-11 | What Is a Cult? How High-Control Religious Groups Manipulate Belief |
+| 2026-03-19 | Your Tradition is Fake. Now What? |
+| 2026-03-30 | This Changes Solomonic Magic Forever |
+| 2026-04-24 | The Real History of the Green Man (Not What Wicca Teaches You) |
+| 2026-04-24 | Alchemy Explained - Science, Spirituality, and the Search for Transformation |
+| 2026-05-02 | ESBAT: The History of Wicca’s Full Moon Ritual |
+| 2026-05-17 | The Witches' Sabbath Origins, Evolution, and the Long Afterlife of a Composite Image |
+| 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind |
+| 2026-06-04 | The Question Isn't If AI. It's How. |
+| 2026-06-18 | The Summer Solstice and Litha: What History Actually Says |
+| 2026-06-24 | Should Practitioners Do What Academics Say? |
+| 2026-07-07 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic |
+| 2026-07-13 | Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm |
+| 2026-07-20 | Lughnasadh vs Lammas: The Truth About the First Harvest Festival |
+| 2026-08-20 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic |
+| 2026-08-24 | No Nonsense Spirituality with Britt Hartley |
+| 2026-09-14 | Can You Really See the Invisible? The Science of Clairvoyance |
+| 2026-09-22 | How Does Magic Work? Process Philosophy May Have an Answer |
+
+当前去重主内容代理样本：**35 个**。
+
+### 题目结构粗分
+
+Angela 近一年反复使用的不是纯“史料介绍”，而是几种非常明确的入口：
+
+1. **现实实践问题**
+   - Can Magic Stop War?
+   - Should Practitioners Do What Academics Say?
+   - Does Quantum Physics prove Magic?
+   - Can AI Become a Magical Familiar?
+
+2. **强真假 / 认知冲突**
+   - Your Tradition is Fake. Now What?
+   - The Real History of the Green Man (Not What Wicca Teaches You)
+   - What History Actually Says
+   - Truth About Old vs New Magic
+
+3. **熟悉对象 + 身份变化**
+   - Astaroth: Goddess → Demon
+   - Asmodeus: Zoroastrian Wrath → Western Lust
+   - Necronomicon: Fiction → Occult Reality
+
+4. **What is / Explained**
+   - What Is Theurgy?
+   - What Is a Cult?
+   - Alchemy Explained
+
+这比“学术严谨账号就应该标题很学术”更有参考价值。
+
 ## 当前很明显的结构
 
 ### 1. 学术问题被翻译成实践者会吵的问题
