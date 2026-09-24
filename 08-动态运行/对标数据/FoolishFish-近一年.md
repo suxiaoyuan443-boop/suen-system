@@ -253,18 +253,18 @@ SponsorRadar 2026-09-24 当前页可直接取得13条连续公开视频的 lifet
 已建立：
 `FoolishFish-已核YouTube样本.csv`
 
-当前直接从 YouTube 公开结果取得 **31 条**可比样本：News 24条、Tarot 7条。
+当前直接从 YouTube 公开结果取得 **34 条**可比样本：News 27条、Tarot 7条。
 
-### Esoteric News｜n=24
-- 中位播放：**2,304.5**
-- P75：**2,465**
-- P90：**2,737**
-- 平均播放：约 **2,479**
-- 中位点赞率：**8.22%**
+### Esoteric News｜n=27
+- 中位播放：**2,323**
+- P75：**2,533.5**
+- P90：约 **2,877.6**
+- 平均播放：约 **2,582.6**
+- 中位点赞率：**8.11%**
 - 当前范围：2,034—5,382
-- IQR：**295**
-- MAD：**145**
-- MAD / 中位数：约 **6.3%**
+- IQR：**355**
+- MAD：**153**
+- MAD / 中位数：约 **6.59%**
 
 ### Pick a Symbol Tarot｜n=7
 - 中位播放：**2,618**
@@ -279,7 +279,7 @@ SponsorRadar 2026-09-24 当前页可直接取得13条连续公开视频的 lifet
 
 ### 当前解释
 
-补到24条News以后，一个重要修正出现了：
+补到27条News以后，一个重要修正出现了：
 
 - News大多数样本仍高度集中在约2.0K—2.8K；
 - 但 2026-08-29《28 August Updates》达到 **5,382**，证明News也会出现明显放量；
@@ -300,6 +300,39 @@ SponsorRadar 2026-09-24 当前页可直接取得13条连续公开视频的 lifet
 - News长期承载Sponsor / affiliate / membership / consultation / product；
 - 参与型内容更适合互动 / 放大；
 - 两类内容不使用同一个成功KPI。
+
+## Book Review / Esoteric Saturday｜开始补类型层
+
+已新增：
+`FoolishFish-内容类型补充样本.csv`
+
+本轮先把“频道长期自述有这些类型”与“滚动365天实际找到的样本”分开处理。
+
+### 当前滚动一年已恢复的 Book Review
+
+1. **INTRODUCTION TO WITCHCRAFT by Sara Mastros [Esoteric Book Review]**
+   - YouTube video ID：`1xgBIuzjoV4`；
+   - RUclips历史频道快照显示约 **2.8K播放**；
+   - 它在该快照中位于 2026-03-20 News 与 2026-03-25 Tarot 之间，因此可以确认落在当前365天窗口，但当前不把相对“24 days ago”强行换成精确YouTube发布日期；
+   - 描述公开可见 Amazon affiliate、Sara课程、Foolish Fish workshop 与1:1 consultation 等商业桥。
+
+2. **Golden Dawn Rituals by Chic and Sandra T. Cicero [Esoteric Book Review]**
+   - YouTube video ID：`kOjelu9W9WM`；
+   - 直接YouTube索引可确认视频存在；
+   - 第三方索引出现 2026-09-12 日期，但当前没有足够直接平台证据把它升级为正式YouTube发布日期；
+   - 当前播放 / 点赞继续 N/A，不估算。
+
+这已经把 Foolish Fish 从“只有 News / Tarot 两类量化”推进到**至少确认本年度 Book Review 仍实际发布**。但当前 Book Review 可量化样本仍太少，不能计算稳定类型中位数。
+
+### Esoteric Saturday 当前处理
+
+频道公开介绍与 Foolish Fish 独立站当前都继续把 **Esoteric Saturdays** 作为独立长期系列 / playlist；外部出版页也仍将其描述为长期系列。  
+但本轮搜索还没有恢复到一个能同时满足“落在当前365天 + 标题 + 可靠YouTube日期/数值”的 Esoteric Saturday 行级样本。
+
+所以当前状态是：
+- **系列存在：已确认；**
+- **近365天行级量化：仍 unresolved；**
+- 不拿旧的 Planetary Magic Squares 等历史高播放视频冒充本年度样本。
 
 ## 近一年发布结构｜Patreon sitemap
 
@@ -548,7 +581,7 @@ SponsorRadar 当前检测：
 - 固定商业容器已另用49条 Patreon weekly/news 节点建成机器可读表，不再混进YouTube主内容样本；
 - 统一抓取日后的 views / likes / comments；
 - 正式时长；
-- Book review / Esoteric Saturday / Tarot / News 不同类型的完整样本量；
+- Book review / Esoteric Saturday / Tarot / News 不同类型的完整样本量；Book Review已开始补本年度样本，Esoteric Saturday近365天行级样本仍缺；
 - 年度中位数、P75、P90；
 - 各类型分别计算中位数；
 - 真实 sponsor / affiliate conversion不可见，因此不得估算成交。
