@@ -52,27 +52,53 @@ vidIQ当前全历史Top仍显示：
 
 ## 近一年内容题目代理清单｜来自 Patreon Early Access
 
-下面只用于补“发布主题 / 标题结构”，**不是 YouTube 播放数据**。Patreon Early Access 往往会比公开视频提前，因此日期不能直接当 YouTube 正式发布日期。
+下面用于补“发布主题 / 标题结构”，**不是 YouTube 播放数据**。Patreon Early Access 往往会比公开视频提前，因此日期不能直接当 YouTube 正式发布日期。
 
-2026年当前可确认的内容主题包括：
-- Sep｜The Best Medieval Alchemical Manual?
-- Sep｜The Mysticism of Purgatory - Catherine of Genoa
+当前已能从作者 Patreon sitemap 稳定取得一整年跨度内大量 Early Access / 主内容题目。去掉课程通知、办公室、旅行、目录促销等非主视频后，当前近一年可见的主内容代理包括：
+
+### 2026
 - Aug｜The Eight Book of Moses
 - Aug｜How Magic Became Heresy
 - Jul｜What is Theosophy?
-- Jul｜Collecting Medieval Scribal Arts
 - Jul｜The Cathar Lord's Prayer
 - Jul｜The Divine Feminine
 - Jun｜Paracelsus On the Matrix
 - Jun｜The Strangest Gnostic Lore - The Untitled Treatise
 - May｜What was Hermetic Medicine - The Kyranides
 - May｜The Kabbalah of Contemplation of 13 Sefirot
+- Apr｜The Mystical Exorcism of Hildegard of Bingen
+- Apr｜Who was Belial
+- Mar｜The Ars Steganographia of Trithemius
+- Feb｜The Mystical Theology of Love - Bernard of Clairvaux
+- Feb｜Proclus' On the Hieratic Art
+- Jan｜What are the Mayan Secrets of the Oldest American Book?
 
-这一层当前主要告诉我们：
-- 具体文本 / 书名 / 手稿对象持续存在；
-- “What is X?”仍然是稳定结构之一；
-- “The Strangest... / How X became Y / Best X?”这种普通问题式入口与严谨资料并存；
-- 书 / 原文 / 具体历史对象可以承担前台标题，而不必先讲学术背景。
+### 2025-09—12
+- Dec｜How Medieval Incantations Worked
+- Nov｜The Accidental History of Lilith
+- Nov｜The Hermetic Demiurge
+- Nov｜Origins of Spiritual Alchemy in Azoth And Fire
+- Nov｜Who was Asherah
+- Oct｜Dracula
+- Oct｜The Philosophy of Witchcraft
+- Oct｜The Evolution of Ghosts
+- Oct｜The Necromantic Mirror of Floron
+- Sep｜Recreating an Alchemical Wormwood Potion
+- Sep｜The Ring and Seal of Solomon
+- Sep｜How A Medieval Saint Gave Us Science & Occultism - Albertus Magnus
+
+### 额外的近一年结构样本
+Patreon sitemap 还能确认同一账号长期存在：
+- 人物 / 神名型：Who was Belial / Asherah；
+- 文本 / 手稿型：Ars Steganographia / Kyranides / Eight Book of Moses；
+- “How X became Y”型：How Magic Became Heresy；
+- “What is X?”型：What is Theosophy?；
+- “The Strangest...”型：The Strangest Gnostic Lore；
+- 具体实践复原型：Recreating an Alchemical Wormwood Potion；
+- 历史变化型：The Accidental History of Lilith；
+- 具体人物 + 意外贡献型：How A Medieval Saint Gave Us Science & Occultism。
+
+这层当前主要用于**选题结构编码**。只有等YouTube行级数据补齐后，才能回答这些结构谁在近一年统计上更强。
 
 ## 全频道历史高表现｜只作长期结构参考，不计入近一年数值基线
 
