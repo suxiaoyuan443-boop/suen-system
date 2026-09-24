@@ -77,6 +77,29 @@ Patreon 当前索引显示 2026 年稳定存在：
 - 月初 planetary rituals / discount code；
 - Sep 18 On-Demand Courses launch promo。
 
+### 2026固定节奏已可确认
+
+Patreon sitemap 当前支持一条非常稳定的节奏：
+
+- Esoteric News：大致每周一次；
+- Planetary Rituals：月度固定；
+- Black Letter Press折扣码：月度固定；
+- Lv.∞ 咨询优惠：月度固定；
+- 课程 / 特别产品：按节点插入；
+- 其它会员内容：冥想、课程、社群活动等。
+
+从2026年3—9月可以连续看到：
+- Mar 3 / 13 / 20 / 27 News；
+- Apr 3 / 10 / 17 / 24 News；
+- May 1 / 8 / 15 / 22 / 29 News；
+- Jun 5 / 12 / 19 / 26 News；
+- Jul 3 / 10 / 17 / 24 / 31 News；
+- Aug 7 / 14 / 21 / 28 News；
+- Sep 11 / 18 News。
+
+这已经足够支持：
+**Esoteric News不是偶发栏目，而是稳定商业承载骨架。**
+
 ## 当前商业桥是这个账号最值得学的部分
 
 SponsorRadar 当前检测：
