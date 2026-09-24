@@ -80,6 +80,8 @@ vidIQ当前公开页可确认：
 | 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | youtube.com/watch?v=gMkjFS-1Izk |
 | 2026-08-16 | The Grimoire Tradition: A Complete Guide | 44,219 | 430 | youtube.com/watch?v=qPrhd5wL7Xc |
 | 2026-07-12 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic | 47,733 | 404 | youtube.com/watch?v=ogrnGyROzK4 |
+| 2026-07-26 | Lughnasadh vs Lammas: The Truth About the First Harvest Festival | 43,970 | 350 | youtube.com/watch?v=ZH07k7d3PuE |
+| 2026-06-07 | British Traditional Wicca with Rufus Harrington | 2,026 | N/A | youtube.com/watch?v=3j4slAYfuSg；直播/访谈格式，不与常规讲解片机械横比 |
 | 2026-05-24 | ESBAT: The History of Wicca's Full Moon Ritual | 3,062 | 406 | youtube.com/watch?v=AZxxgT3JEB4 |
 | 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | 45,881 | 476 | youtube.com/watch?v=P-MgdbRcGig |
 | 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation | 4,196 | 354 | youtube.com/watch?v=AKh4KS_tnVc |
@@ -89,14 +91,16 @@ vidIQ当前公开页可确认：
 - 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice｜约22分钟；
 - 2026-04-19｜Alchemy Explained: Science, Spirituality, and the Search for Transformation｜47:10。
 
-### 16条已核数值样本｜临时分布
+### 18条已核数值样本｜临时分布
 
-当前16条带YouTube数值的主样本（其中9/20最新视频约10K为近似值）：
+当前18条带YouTube数值的样本（其中9/20最新视频约10K为近似值，且含1条直播访谈）：
 
-- 中位播放：约 **32,904**；
-- P75：约 **95,524**；
-- P90：约 **274,350**；
-- 平均播放：约 **106,036**。
+- 中位播放：约 **32,779**；
+- P75：约 **81,267**；
+- P90：约 **208,278**；
+- 平均播放：约 **96,809**。
+
+由于样本混有讲解、访谈/直播等不同格式，这组统计只作为全频道当前已核样本的 provisional 分布。后续全年表补齐后必须按 `lecture / interview / livestream / shorts` 分型重算。
 
 注意：
 - 这不是Angela完整年度统计；
@@ -104,7 +108,7 @@ vidIQ当前公开页可确认：
 - 因此这个账号以后**中位数比平均数更重要**；
 - 新发布视频与数月前视频累计时间不同，正式年度库补齐后还需按内容年龄分层。
 
-当前16条低位样本里：
+当前18条低位样本里：
 - ESBAT｜3,062；
 - Alchemy Explained｜4,196；
 - Quantum Physics｜7,448；
@@ -216,7 +220,7 @@ vidIQ当前公开页可确认：
 ## 年度数据缺口
 
 仍需补：
-- 近365天全部 YouTube 上传的行级表；当前已核16条带YouTube数值的主样本 + 4条准确日期/时长样本，但仍不是全年完整表；
+- 近365天全部 YouTube 上传的行级表；当前已核18条带YouTube数值样本 + 4条准确日期/时长样本，但仍不是全年完整表；
 - 每条准确发布日期；
 - views / likes / comments；
 - Shorts 与长视频分开；
