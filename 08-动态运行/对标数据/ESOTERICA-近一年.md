@@ -568,9 +568,9 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 ### Being and Logos公开讲座系列
 
 当前14讲中：
-- **13讲已经直接恢复YouTube原页、发布日期与视频ID；**
-- 第10讲 **Apuleius** 已有独立标题证据，但YouTube ID / 日期暂未恢复，保留 `title_only_unresolved`；
-- 因此可以确认这一系列本身就是2026 YTD长视频供给中的一个**14集公开 seminar 容器**，不能混进主研究视频基线。
+- **14/14讲已经恢复YouTube视频ID；**
+- 其中13/14讲已经直接恢复可信发布日期；第10讲 **Apuleius** 已恢复YouTube ID `C4_bQSMQ8yM`、时长与第三方播放快照，但原始发布日期仍 unresolved；
+- 因此可以确认这一系列本身就是2026 YTD长视频供给中的一个**14集公开 seminar 容器**，并且身份层已经14/14闭合；不能混进主研究视频基线。
 
 13条直接已核讲座当前抓取播放：
 - 中位：约 **28,331**
@@ -669,6 +669,25 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 - 当前Podcast / RSS把Merkavah旧内容集中回填到2026，属于syndication/backfill；
 - 第12/13讲的2026播客日期**不作为YouTube首发日期**；
 - 有YouTube原始日期时只认平台日期；没有时保留 unresolved。
+
+### 短内容候选层｜已恢复3条标题
+
+新增：
+`ESOTERICA-2026YTD短内容候选.csv`
+
+当前已恢复3条 **2:01—2:11** 的短时长视频标题 / ID：
+
+- 2026-08-07｜**What is the Scariest Book I've Owned?**｜2:11｜358,499播放 / 34,000赞；
+- 2026-07-31｜**Between Witches and Rationalism**｜2:11｜40,666播放 / 4,000赞；
+- 2026-07-08｜**Win 400 Year Old Alchemy and Demonology**｜2:01｜17,653播放 / 1,300赞。
+
+三条都能回到ESOTERICA官方YouTube视频，但当前抓取链没有给出“Shorts”格式字段；YouTube Shorts专用URL又被限流。  
+因此这3条统一标记为：
+`short_format_unresolved`
+
+**不能因为时长短就把它们直接算进13条Shorts。**
+
+这一层的意义是：标题级恢复已经从0推进到3个强候选；后续只要拿到明确format证据，就能逐条升级，而不需要重新找视频ID。
 
 ## 当前年度数据缺口
 
