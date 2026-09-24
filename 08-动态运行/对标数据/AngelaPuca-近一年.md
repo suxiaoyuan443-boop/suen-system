@@ -76,7 +76,7 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
    - **不能再称为全年YouTube上传总表。**
 
 2. **`AngelaPuca-NTA公开视频索引.csv`**
-   - 当前索引已扩到 2026-04-05—09-20，并继续向前补全年 all-upload；
+   - 当前索引已扩到 **2025-10-13—2026-09-20**，并继续补滚动365天剩余月份 / 上传；
    - 其中既有与主表重叠的内容，也有主表没有的附加内容；
    - 来源是可追溯的第三方 YouTube-derived mirror；
    - 当前只保存标题 / 日期 / 来源，不在没有直接证据时擅自判断 Shorts / 长视频格式。
@@ -104,11 +104,11 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 - **主内容 / podcast-centered 清单：50条，接近完整；**
 - **YouTube all-upload 清单：未完整；**
 - **直接量化 YouTube 样本：38条；**
-- **额外公开视频索引：当前已扩到2026-04-05—09-20，共34条；其中15条与主表同日同内容、6条是同内容但代理日期冲突、13条是主表没有的独立附加上传。**
+- **额外公开视频索引：当前已扩到2025-10-13—2026-09-20，共41条；其中15条与主表同日同内容、6条是同内容但代理日期冲突、20条是主表没有的独立附加上传。**
 
 这比原来把“50条”理解成一年全部YouTube发布更准确。
 
-### 34条NTA切片与50条主内容表的关系
+### 41条NTA切片与50条主内容表的关系
 
 当前 `AngelaPuca-NTA公开视频索引.csv` 已经给每一行增加：
 - `relation_to_primary_list`
@@ -118,9 +118,16 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 截至目前：
 - **15条 `same_content_event`**：与50条主内容表同一个内容事件，日期基本一致；
 - **6条 `date_conflict_same_event`**：标题 / 内容明显同一事件，但NTA与podcast日期不同；
-- **13条 `additional_upload`**：主内容表里没有的独立上传。
+- **20条 `additional_upload`**：主内容表里没有的独立上传。
 
 已确认的附加上传包括：
+- Astarte or Astaroth?（2025-10-13）
+- Origins of Asmodeus（2025-10-27）
+- What is an Egregore?（2025-11-07）
+- Is Your Lineage Fabricated?（2026-04-04）
+- The lie in the word “alchemy”（2026-04-20）
+- Newton’s Alchemical Interests（2026-04-24）
+- Margaret Murray’s Footnote Empire（2026-05-29）
 - The Borrowed Authority of Ancient Names
 - Thank you for 500k!
 - Magic as Technology
@@ -134,6 +141,8 @@ New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确�
 - The Philosophy of Magic – online course（7/13独立推广，不等于7/5主课程视频）
 - My Book “Witches and Wizards” is out!
 - Magic in Prehistory: Cave Art and Ancient Burials
+
+新增的2025-10—11与2026-04—05条目把这个判断往前推进了一层：**主内容表漏掉独立上传并不是2026年夏季才出现的现象，从2025年秋季开始就已经可直接观察到。**
 
 这个结果已经足够证明：
 
