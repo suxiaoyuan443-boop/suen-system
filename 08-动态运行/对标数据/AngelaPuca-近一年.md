@@ -741,6 +741,34 @@ Angela 的联合播客档案当前能把 **2025-09-28—2026-05-24** 的主节�
 
 对 Suen 的真正启发是**资产化链路**，不是单纯模仿标题。
 
+## 当前清单覆盖与量化覆盖
+
+当前年度库已经分成两层：
+
+- **发布 / 题目清单层：50 条近一年主内容代理 / 公开视频节点**；
+- **YouTube直接量化层：38 条当前可量化样本**。
+
+其中 Patreon sitemap 现在可以直接确认 2026 年多条正式主题节点，例如：
+- 2026-01-14｜Does Quantum Physics prove Magic?
+- 2026-01-18｜Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer
+- 2026-02-08｜The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt
+- 2026-02-22/24｜Conjuring the Algorithm: Magic, AI, and the Hidden Internet
+- 2026-02-25/03-01｜Shadow Work in Paganism and Esoteric Practices
+- 2026-09-14｜Can You Really See the Invisible? The Science of Clairvoyance
+- 2026-09-14｜The Knights Templars: a Real History
+- 2026-09-22｜How Does Magic Work? Process Philosophy May Have an Answer
+
+说明：
+- Patreon日期是内容节点 / 会员发布节点，不自动等同于YouTube首发；
+- 同一主题可能出现 script / curated transcript / lecture /公开视频等多个Patreon节点；
+- 年度清单按“内容事件”去重，不把 transcript / notes 重复算作新视频；
+- YouTube播放判断仍只读直接可量化样本。
+
+当前缺口因此不是“没有一年题目流”，而是：
+> **50条内容事件已有清单，仍有约12条没有稳定YouTube量化值。**
+
+---
+
 ## 题目代理结构频率｜不代表表现排名
 
 当前机器可读题目代理共 **37 条**，现已覆盖滚动窗口内 2025-09 下旬至 2026-09 的主要公开内容代理，并去除同题重复月份。
