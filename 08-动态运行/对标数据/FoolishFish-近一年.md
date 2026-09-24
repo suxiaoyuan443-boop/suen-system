@@ -46,28 +46,52 @@ Patreon负责证明固定更新节奏、会员权益与商业产品；SponsorRad
 | 2026-03-03 | Esoteric News｜3 Mar Updates | 约3.2K | N/A | RUclips历史快照 |
 | 2026-03-04 | Pick a Symbol Tarot｜4 Mar | 约2.0K | N/A | RUclips历史快照 |
 
-### SponsorRadar 2026-08统一快照
+### SponsorRadar 2026-08—09统一快照
 
 同一抓取页面当前可见：
-- 2026-08-29｜Esoteric News 28 Aug｜约3K｜Miskatonic Books；
-- 2026-08-26｜Pick a Symbol Tarot 26 Aug–1 Sep｜约4K｜无检测赞助；
-- 2026-08-22｜Esoteric News 21 Aug｜约2K｜Miskatonic Books；
-- 2026-08-19｜Pick a Symbol Tarot 19–25 Aug｜约2K；
-- 2026-08-16｜Esoteric News 14 Aug｜约2K｜Miskatonic Books；
-- 2026-08-12｜Pick a Symbol Tarot 12–18 Aug｜约3K；
-- 2026-08-08｜Esoteric News 07 Aug｜约2K｜Miskatonic Books；
-- 2026-08-05｜Pick a Symbol Tarot 05–11 Aug｜约2K；
-- 2026-08-01｜Esoteric News 31 Jul｜约2K｜Miskatonic Books。
+
+| 日期 | 内容 | 当前累计播放 | 检测赞助 |
+|---|---|---:|---|
+| 2026-09-19 | Esoteric News｜18 Sep | 3.2K | — |
+| 2026-09-16 | Pick a Symbol Tarot｜16–22 Sep | 6.3K | — |
+| 2026-09-12 | Esoteric News｜11 Sep | 2.6K | Miskatonic Books |
+| 2026-09-03 | Pick a Symbol Tarot｜3–8 Sep | 6.2K | — |
+| 2026-08-29 | Esoteric News｜28 Aug | 5.6K | Miskatonic Books |
+| 2026-08-26 | Pick a Symbol Tarot｜26 Aug–1 Sep | 4.1K | — |
+| 2026-08-22 | Esoteric News｜21 Aug | 2.8K | Miskatonic Books |
+| 2026-08-19 | Pick a Symbol Tarot｜19–25 Aug | 2.2K | — |
+| 2026-08-16 | Esoteric News｜14 Aug | 2.2K | Miskatonic Books |
+| 2026-08-12 | Pick a Symbol Tarot｜12–18 Aug | 2.6K | — |
+| 2026-08-08 | Esoteric News｜07 Aug | 2.0K | Miskatonic Books |
+| 2026-08-05 | Pick a Symbol Tarot｜05 Aug–11 Aug | 2.4K | — |
+| 2026-08-01 | Esoteric News｜31 Jul | 2.3K | Miskatonic Books |
 
 同页当前频道快照：
-- 订阅约162K；
-- 平均每视频约3K views（SponsorRadar估计口径）；
-- 72个tracked deals；
+- 订阅约163K；
+- 平均每视频约3.8K views（SponsorRadar估计口径）；
+- 73个tracked deals；
 - 2个distinct brands；
-- Miskatonic Books检测71条赞助；
+- Miskatonic Books检测72条赞助；
 - Jenx's Thai Occult Course检测1条。
 
+这批数据比旧的“约2K / 3K”更适合做同源比较，但仍然是抓取时累计播放，不是统一发布后24小时。
+
 这些 sponsor / 收入均为第三方检测与估算，不代表品牌或创作者官方确认。
+
+### 这一小段同源样本先说明什么
+
+仅看8—9月这13条：
+- Pick a Symbol Tarot 当前有 2.2K—6.3K；
+- Esoteric News 当前有 2.0K—5.6K；
+- 两类高度重叠，不能说“塔罗稳定碾压News”；
+- 但9月两个 Pick a Symbol 都在6K+，明显高于当月两条 News；
+- News 则承担了更稳定的 Sponsor 容器功能。
+
+所以目前更合理的拆法是：
+- **Pick a Symbol：观看 / 参与型内容；**
+- **Esoteric News：稳定更新 + 商业承载型内容。**
+
+不能只用播放量评估二者谁“更好”。
 
 ## 近一年发布结构｜Patreon sitemap
 
