@@ -107,6 +107,8 @@ vidIQ当前全历史Top仍显示：
 剩余这1条统一标记为：
 `proxy_verified_youtube_metrics_unresolved`
 
+2026-09-24 再次公开检索仍未取得可可靠归属于 YouTube 原视频的播放 / 点赞值。后续**不再用这一条阻塞 all-upload / Shorts 年度采集**：继续保留 unresolved，先推进全年其它上传；若之后出现直接平台证据再回填。
+
 新增直接核验：
 - 2026-05-29｜**What were the Technical Hermetica? The Kyranides**｜29,812播放｜2,100赞｜https://www.youtube.com/watch?v=NFDnYuzitlo；
 - Patreon 2026-05-27 的工作标题是 `What was Hermetic Medicine - The Kyranides`，正式 YouTube 前台标题发生了改写，因此继续把 working title 与 final title 分开存。
