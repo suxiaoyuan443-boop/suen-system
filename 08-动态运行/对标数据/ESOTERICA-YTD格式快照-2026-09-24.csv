@@ -1,0 +1,2 @@
+account,platform,window_start,window_end,window_label,total_uploads,long_form_uploads,long_form_upload_share,shorts_uploads,shorts_upload_share,long_form_views,shorts_views,long_form_view_share,shorts_view_share,capture_date,source,source_type,notes
+ESOTERICA,YouTube,2026-01-01,2026-09-24,YTD,59,46,0.78,13,0.22,3550000,911870,0.80,0.20,2026-09-24,https://vidiq.com/youtube-stats/channel/@theesotericachannel/,third_party_index,"vidIQ Long-form vs Shorts component explicitly uses Since Jan 01 2026; counts and shares are current snapshot, not rolling-365 totals"
