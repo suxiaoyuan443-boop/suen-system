@@ -2,21 +2,99 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Suen Tarot Rule",
   "type": "object",
-  "required": ["rule_id", "source_type", "rule_statement", "support_case_ids", "counterexample_case_ids", "evidence_level", "suen_status"],
+  "required": [
+    "rule_id",
+    "source_type",
+    "rule_statement",
+    "support_case_ids",
+    "counterexample_case_ids",
+    "evidence_level",
+    "suen_status"
+  ],
   "properties": {
-    "rule_id": {"type": "string"},
-    "source_type": {"enum": ["T", "I", "S"]},
-    "rule_statement": {"type": "string"},
-    "scope": {"type": ["string", "null"]},
-    "conditions": {"type": "array", "items": {"type": "string"}},
-    "exceptions": {"type": "array", "items": {"type": "string"}},
-    "support_case_ids": {"type": "array", "items": {"type": "string"}},
-    "counterexample_case_ids": {"type": "array", "items": {"type": "string"}},
-    "ambiguous_case_ids": {"type": "array", "items": {"type": "string"}},
-    "evidence_level": {"enum": ["O1", "O2", "O3", "O4"]},
-    "suen_status": {"enum": ["observe", "adopted", "modified", "rejected"]},
-    "suen_adopted_text": {"type": ["string", "null"]},
-    "conflict_notes": {"type": ["string", "null"]},
-    "last_reviewed": {"type": ["string", "null"]}
+    "rule_id": {
+      "type": "string"
+    },
+    "source_type": {
+      "enum": [
+        "T",
+        "I",
+        "S",
+        "M"
+      ]
+    },
+    "rule_statement": {
+      "type": "string"
+    },
+    "scope": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "conditions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "exceptions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "support_case_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "counterexample_case_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "ambiguous_case_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence_level": {
+      "enum": [
+        "O1",
+        "O2",
+        "O3",
+        "O4"
+      ]
+    },
+    "suen_status": {
+      "enum": [
+        "observe",
+        "adopted",
+        "modified",
+        "rejected"
+      ]
+    },
+    "suen_adopted_text": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "conflict_notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "last_reviewed": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
   }
 }
