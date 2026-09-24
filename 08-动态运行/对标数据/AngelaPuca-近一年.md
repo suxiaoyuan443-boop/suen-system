@@ -238,13 +238,13 @@ vidIQ当前公开页可确认：
 - 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
 - 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
 
-### 28条已核数值样本｜临时分布
+### 29条已核数值样本｜临时分布
 
-当前28条带YouTube数值样本：
+当前29条带YouTube数值样本：
 
-- 中位播放：**25,041.5**；
-- P75：**48,022.75**；
-- P90：**106,083**；
+- 中位播放：**21,588**；
+- P75：**47,733**；
+- P90：**105,642**；
 - 平均播放：约 **72,455**。
 
 新增：
@@ -262,9 +262,9 @@ vidIQ当前公开页可确认：
 - 不拿它直接和别的账号绝对比较；
 - 但已经足够证明“强outlier ≠ 账号常态”。
 
-### 28条已核样本的 Hook 表现
+### 29条已核样本的 Hook 表现
 
-`AngelaPuca-已核行级样本.csv` 已按当前28条临时中位 **25,041.5** 重新计算相对表现。
+`AngelaPuca-已核行级样本.csv` 已按当前29条临时中位 **21,588** 重新计算相对表现。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
@@ -274,7 +274,7 @@ vidIQ当前公开页可确认：
 | practice_dispute | 10 | 43,996.5 | 1.76× | 高上限最明显，但内部从7K到763K；Green Man新增低反例 |
 | familiar_unexpected | 3 | 14,460 | 0.58× | 当前3条整体偏低 |
 | strong_mystery | 1 | 9,148 | 0.37× | 单样本 |
-| descriptive_topic | 7 | 8,113 | 0.32× | Aphrodite加入后中位继续偏低；内部仍有差异 |
+| descriptive_topic | 8 | 8,512.5 | 0.32× | Aphrodite加入后中位继续偏低；内部仍有差异 |
 | real_world_conflict | 1 | 3,749 | 0.15× | 单样本 |
 | specific_text | 1 | 3,062 | 0.12× | 单样本 |
 
@@ -286,7 +286,7 @@ vidIQ当前公开页可确认：
 
 ### 为什么 practice_dispute 仍值得重点看，但不能写成公式
 
-28条临时样本里，practice_dispute 的中位数约43,996.5，是全样本临时中位的约1.76×；但它内部跨度极大：
+29条临时样本里，practice_dispute 的中位数约43,996.5，是全样本临时中位的约2.04×；但它内部跨度极大：
 
 高位：
 - **A Critical-Rational Guide for Magicians and Occultists**｜763,480；
@@ -570,10 +570,17 @@ Angela 近一年反复使用的不是纯“史料介绍”，而是几种非常�
 
 以后行级表必须保存 `platform_publish_date`，不能只有一个“发布日期”。
 
+### 新增直接核验｜Paimon
+
+- 2025-10-05｜Paimon Explained: From Ancient Grimoires to Modern Occultism｜8,912播放｜677赞；
+- Patreon 主题代理为2025-09-29，正式YouTube发布日期为10-05；
+- 这是又一个实际例子：代理日期只能说明生产/会员提前发布，不等于公开视频首发；
+- 当前表现低于29条临时中位，说明“知名恶魔 + 历史转型”也不是自动高流量结构。
+
 ## 年度数据缺口
 
 仍需补：
-- 近365天全部 YouTube 上传的行级表；当前已核28条带YouTube数值样本 + 多条准确日期/时长/平台代理，但仍不是全年完整表；
+- 近365天全部 YouTube 上传的行级表；当前已核29条带YouTube数值样本 + 多条准确日期/时长/平台代理，但仍不是全年完整表；
 - 每条准确发布日期；
 - views / likes / comments；
 - Shorts 与长视频分开；
