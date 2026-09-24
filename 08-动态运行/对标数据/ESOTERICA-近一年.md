@@ -219,6 +219,32 @@ vidIQ当前全历史Top仍显示：
 2. 播客日期另记为 syndication / redistribution；
 3. 不把同一内容按两个年份重复计数。
 
+### Patreon近一年节点结构
+
+已将 Patreon 原始索引机器化为：
+
+`ESOTERICA-Patreon近一年全节点.csv`
+
+当前滚动365天原始节点：**64 条**。
+
+按当前规则粗分：
+- main_content / Early Access：29
+- lecture：7
+- commercial：4
+- update：11
+- community：2
+- course：1
+- resource：1
+- other：9
+
+这29条 Early Access / 主研究代理与当前28个清洗后的“主研究主题”基本同量级；差异来自少数一帖多内容与标题清洗。
+
+这组数据最重要的不是“29篇”，而是生产结构：
+
+> **主研究视频是核心，旁边稳定存在课程 / 讲座 / 古籍目录 / 折扣 / 资源 / 更新。**
+
+也就是说，ESOTERICA 的商业化并不是把每一支研究视频强行改成广告，而是在研究品牌旁边长期维护**目录、课程、会员与资源节点**。
+
 ## Patreon年度原始索引
 
 完整原始发布节点已单独保存：
