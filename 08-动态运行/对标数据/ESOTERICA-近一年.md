@@ -670,24 +670,26 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 - 第12/13讲的2026播客日期**不作为YouTube首发日期**；
 - 有YouTube原始日期时只认平台日期；没有时保留 unresolved。
 
-### 短内容候选层｜已恢复3条标题
+### 短内容候选层｜已恢复5条标题
 
 新增：
 `ESOTERICA-2026YTD短内容候选.csv`
 
-当前已恢复3条 **2:01—2:11** 的短时长视频标题 / ID：
+当前已恢复5条 **2:01—2:16** 的短时长视频标题 / ID：
 
 - 2026-08-07｜**What is the Scariest Book I've Owned?**｜2:11｜358,499播放 / 34,000赞；
 - 2026-07-31｜**Between Witches and Rationalism**｜2:11｜40,666播放 / 4,000赞；
-- 2026-07-08｜**Win 400 Year Old Alchemy and Demonology**｜2:01｜17,653播放 / 1,300赞。
+- 2026-07-08｜**Win 400 Year Old Alchemy and Demonology**｜2:01｜17,653播放 / 1,300赞；
+- 日期待核｜**Make that at least 36 copies of the Alchemical Semtia Recta**｜2:12｜SubSub快照约26.3K / 2K reactions；
+- 2026-09-11｜**Want to Win a Real Piece of Occult History?**｜2:16｜直接YouTube快照7,599 / 780；与3:54同题版本是不同视频ID。
 
-三条都能回到ESOTERICA官方YouTube视频，但当前抓取链没有给出“Shorts”格式字段；YouTube Shorts专用URL又被限流。  
-因此这3条统一标记为：
+五条都能回到ESOTERICA官方YouTube视频，但当前抓取链没有给出“Shorts”格式字段；YouTube Shorts专用URL又被限流。  
+因此这5条统一标记为：
 `short_format_unresolved`
 
 **不能因为时长短就把它们直接算进13条Shorts。**
 
-这一层的意义是：标题级恢复已经从0推进到3个强候选；后续只要拿到明确format证据，就能逐条升级，而不需要重新找视频ID。
+这一层的意义是：标题级恢复已经从0推进到5个候选；后续只要拿到明确format证据，就能逐条升级，而不需要重新找视频ID。
 
 ## 当前年度数据缺口
 
