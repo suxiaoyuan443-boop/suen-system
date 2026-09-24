@@ -227,14 +227,14 @@ vidIQ当前公开页可确认：
 - 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice｜约22分钟；
 - 2026-04-19｜Alchemy Explained: Science, Spirituality, and the Search for Transformation｜47:10。
 
-### 18条已核数值样本｜临时分布
+### 20条已核数值样本｜临时分布
 
-当前18条带YouTube数值的样本（其中9/20最新视频约10K为近似值，且含1条直播访谈）：
+当前20条带YouTube数值的样本（其中9/20最新视频约10K为近似值，且含1条直播访谈）：
 
-- 中位播放：约 **32,779**；
-- P75：约 **81,766**；
-- P90：约 **208,278**；
-- 平均播放：约 **98,123**。
+- 中位播放：约 **43,997**；
+- P75：约 **66,865**；
+- P90：约 **142,206**；
+- 平均播放：约 **93,418**。
 
 由于样本混有讲解、访谈/直播等不同格式，这组统计只作为全频道当前已核样本的 provisional 分布。后续全年表补齐后必须按 `lecture / interview / livestream / shorts` 分型重算。
 
@@ -263,24 +263,32 @@ vidIQ当前公开页可确认：
 - Ancient vs New Magic｜104,760；
 - Peter J Carroll｜93,110。
 
-### 18条已核样本的 Hook 表现
+### 20条已核样本的 Hook 表现
 
 `AngelaPuca-已核行级样本.csv` 已补 `hook_v1 / topic_tags / relative_to_provisional_median / performance_band`。
 
-相对值以当前18条临时中位 **32,779** 为基准。
+相对值以当前20条临时中位 **43,996.5** 为基准。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
-| practice_dispute | 8 | 74,365 | **2.27×** | 当前唯一同时具备较大样本量与明显高于中位的重复结构 |
-| person_story | 1 | 93,110 | 2.84× | 只有 Peter J Carroll 1条，不能泛化 |
-| explicit_question | 2 | 28,867 | 0.88× | 问句本身不保证高播放 |
-| descriptive_topic | 5 | 8,113 | 0.25× | 当前样本明显低，但混有不同长度 / 形式 |
-| strong_mystery | 1 | 9,148 | 0.28× | 单样本 |
-| specific_text | 1 | 3,062 | 0.09× | 单样本 |
+| practice_dispute | 9 | 44,023 | **1.00×** | 样本最多；分布从低位到超大outlier，说明“有现实后果”比“争议标签”本身更关键 |
+| person_story | 1 | 93,110 | 2.12× | 只有 Peter J Carroll 1条，不能泛化 |
+| explicit_question | 3 | 47,733 | 1.08× | 新增 Cult 后回到中位附近，问句本身仍不保证高播放 |
+| descriptive_topic | 5 | 8,113 | 0.18× | 当前样本明显低，但混有不同长度 / 形式 |
+| strong_mystery | 1 | 9,148 | 0.21× | 单样本 |
+| specific_text | 1 | 3,062 | 0.07× | 单样本 |
 
-### 为什么 practice_dispute 特别重要
+### 为什么 practice_dispute 仍然重要
 
-这8条内部仍然高度分化，所以它不是“写争议就爆”。
+新增《Should Practitioners Do What Academics Say?》44,023后，practice_dispute 的中位数回落到全样本中位附近。它不再能被描述成“整体2倍以上”。
+
+但它仍然是**当前唯一反复产生超大 outlier 的结构**：
+
+- 9条里同时有普通表现、低表现和数十万级高表现；
+- 超大结果集中在那些真正会改变实践者身份、有效性判断或下一步选择的问题；
+- 所以要研究的是“后果强度”，不是“争议”两个字。
+
+这9条内部仍然高度分化，所以它不是“写争议就爆”。
 
 真正形成超大 outlier 的，是那些会让实践者产生现实后果的问题：
 
@@ -567,7 +575,7 @@ Angela 近一年反复使用的不是纯“史料介绍”，而是几种非常�
 ## 年度数据缺口
 
 仍需补：
-- 近365天全部 YouTube 上传的行级表；当前已核18条带YouTube数值样本 + 11条准确日期/时长/平台样本，但仍不是全年完整表；
+- 近365天全部 YouTube 上传的行级表；当前已核20条带YouTube数值样本 + 多条准确日期/时长/平台代理，但仍不是全年完整表；
 - 每条准确发布日期；
 - views / likes / comments；
 - Shorts 与长视频分开；
