@@ -15,15 +15,15 @@ vidIQ 当前组件明确标注 `Since Jan 01, 2026`：
 
 按 YouTube ID 去重后，当前已经恢复：
 
-- **53 / 59 个上传身份**
-- 覆盖率：**89.8%**
-- 明确 Long-form / live：**41**
+- **54 / 59 个上传身份**
+- 覆盖率：**91.5%**
+- 明确 Long-form / live：**42**
 - 明确 Shorts：**12**
 - 格式未决短时长候选：**0**
 
 因此剩余缺口已经精确压缩到：
 
-- **Long-form：5**
+- **Long-form：4**
 - **Shorts：1**
 
 ## 5个原短时长候选已全部定性为 Shorts
@@ -89,7 +89,7 @@ YouTube 简介直接说明讨论对象是 Bruce Codex 中通常称 Untitled Text
 - Patreon 2026-01-07 第一方帖子明确给出该直播链接，并写“明天直播”
 - YTD身份可靠；YouTube归档精确首发日暂不强填
 
-这两条新身份把明确 Long/live 从39推进到 **41**。
+这两条新身份把明确 Long/live 从39推进到 **41**。随后，3月13日目录视频 `Q4gco5RA1no` 通过同题播客镜像的605秒（10:05）时长证据确认是 Long-form，因此明确 Long/live 进一步推进到 **42**。
 
 ## 3月13日双上传：保留为下一优先验证点
 
@@ -98,19 +98,17 @@ YouTube 简介直接说明讨论对象是 Bruce Codex 中通常称 Untitled Text
 - `Q4gco5RA1no` — Win a 1300 Year Old Incantation Bowl Fragment - New Occult Book Catalog!
 - `NYpxHPabDDA` — 同一活动的另一独立上传
 
-现有证据强烈提示它们可能是同一资产的 **Long-form + Short** 配对，但当前公开索引没有给出足以安全锁定两个ID格式的字段，因此**暂不计入41 Long / 12 Shorts**。
+`Q4gco5RA1no` 已通过同题镜像605秒时长确认是 **Long-form**，已经计入42 Long/live。另一条 `NYpxHPabDDA` 仍缺显式 Shorts 格式字段，因此不靠配对关系强判。
 
-一旦该对被明确拆分，它可能同时解决：
-- 最后1个 YTD Short；
-- 另外1个缺失 Long-form。
+如果 `NYpxHPabDDA` 后续取得显式 Shorts 证据，它将直接解决最后1个 YTD Short。
 
 ## 新的精确断点
 
-> **59条 YTD 中53个身份已恢复（89.8%）：41 Long/live + 12 Shorts；剩6个 = 5 Long + 1 Short。**
+> **59条 YTD 中54个身份已恢复（91.5%）：42 Long/live + 12 Shorts；剩5个 = 4 Long + 1 Short。**
 
 下一步固定为：
 
 1. 优先锁定最后 **1个 Short**，首查3月13日双上传；
-2. 补剩余 **5个 Long-form**，优先查3月 / 7月目录配套长视频、直播与频道节点；
+2. 补剩余 **4个 Long-form**，优先查3月 / 7月目录配套长视频、直播与频道节点；
 3. 到 **59 / 59** 后做完整 YTD format-level 题型 / 供给结构统计；
 4. 再单独处理 **2025Q4 Shorts + 遗漏 Long-form**，不与YTD混算。
