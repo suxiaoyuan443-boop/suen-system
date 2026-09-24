@@ -74,6 +74,24 @@ vidIQ当前全历史Top仍显示：
 
 这些都超出近一年，不进入365天数值基线；只用于长期标题结构参考。
 
+## 题目代理 → YouTube 匹配状态
+
+当前滚动365天主研究 / Early Access 题目代理：**28 条**。
+
+截至 2026-09-24：
+- **25 条**已经匹配到可量化 YouTube 主视频样本；
+- **3 条**题目与 Patreon 日期已经确认存在，但当前仍没有可靠取得对应 YouTube 播放 / 点赞，因此不进入量化分布：
+  1. 2025-11-27｜The Accidental History of Lilith
+  2. 2026-05-27｜What was Hermetic Medicine - The Kyranides
+  3. 2026-06-10｜The Strangest Gnostic Lore - The Untitled Treatise
+
+这3条现在统一标记为：
+`proxy_verified_youtube_metrics_unresolved`
+
+含义是：**题目/代理节点真实存在 ≠ 已经拿到 YouTube 流量数据。**
+
+因此当前 provisional 中位数 / P75 / P90 仍然只由25条已量化样本计算，不把这3条用零值或估算值塞进去。
+
 ## 已核YouTube行级样本
 
 下面这些已经直接核到 YouTube 结果页，可用于年度分布的真实行级样本。播放 / 点赞均为 2026-09-24 抓取时累计值。
