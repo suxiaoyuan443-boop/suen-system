@@ -323,59 +323,75 @@ vidIQ当前公开页可确认：
 
 ## 2026年主题流｜Patreon / 公开内容标题代理
 
-以下用于观察选题结构，不把 Patreon 日期自动等同于 YouTube 正式发布日期。当前可稳定确认的主内容题目比早先记录更完整：
+下面主要用于观察选题结构。Patreon 日期不自动等于 YouTube 正式发布日期；当 Podcast 聚合页提供精确播出日期 / 时长时，另行标注。
 
-### 2026-07
-- Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm
-- What Is Theurgy? The Ancient Philosophy Behind Ritual Magic
-- The Grimoire Tradition: From Medieval Magic to Modern Practice
+### 2026-09—08｜近期公开内容
 
-### 2026-06
-- Should Practitioners Do What Academics Say?
-- The Summer Solstice and Litha: What History Actually Says
-- The Question Isn't If AI. It's How.
-- British Traditional Wicca with Rufus Harrington
+| 日期 | 题目 | 类型 / 时长 |
+|---|---|---|
+| 2026-09-21 | How Does Magic Work? Process Philosophy May Have an Answer | Podcast 38min |
+| 2026-09-06 | Can You Really See the Invisible? The Science of Clairvoyance | Podcast 1h07 |
+| 2026-08-30 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic | Podcast 23min |
+| 2026-08-24 | No Nonsense Spirituality with Britt Hartley | Podcast 1h20 |
+| 2026-08-16 | The Grimoire Tradition | Patreon transcript / study notes |
+| 2026-08-10 | Advanced Rune Magic with David Linder | Patreon curated transcript |
 
-### 2026-05
-- How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind
-- The Witches' Sabbath: Origins, Evolution, and the Long Afterlife of a Composite Image
-- ESBAT: The History of Wicca’s Full Moon Ritual
-- The Truth about Solomonic Magic
+### 2026-07—06
 
-### 2026-04
-- The Real History of the Green Man (Not What Wicca Teaches You)
-- Alchemy Explained - Science, Spirituality, and the Search for Transformation
-- This Changes Solomonic Magic Forever
-- Magic in the United States
+| Patreon日期 | 题目 |
+|---|---|
+| 2026-07-20 | Lughnasadh vs Lammas: The Truth About the First Harvest Festival |
+| 2026-07-20 | The Grimoire Tradition - Magus Lecture |
+| 2026-07-13 | Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm |
+| 2026-07-07 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic |
+| 2026-06-24 | Should Practitioners Do What Academics Say? |
+| 2026-06-18 | The Summer Solstice and Litha: What History Actually Says |
+| 2026-06-14 | The Question Isn't If AI. It's How |
 
-### 2026-03
-- Your Tradition is Fake. Your Practice Isn't. Now What?
-- What Is a Cult? How High-Control Religious Groups Manipulate Belief
-- The Case Against Reality: What Donald Hoffman Means for Esoteric Practice
-- Shadow Work in Paganism and Esoteric Practices
+### 2026-05—04
 
-### 2026-02
-- Conjuring the Algorithm: Magic, AI, and the Hidden Internet
-- The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt
-- A Philosophical Deep Dive on Magick with Peter J Carroll
+| Patreon日期 | 题目 |
+|---|---|
+| 2026-05-24 | Esbat origin and meaning |
+| 2026-05-17 | The Witches' Sabbath Origins, Evolution, and the Long Afterlife of a Composite Image |
+| 2026-05-04 | The Truth about Solomonic Magic with Dr Gal Sofer |
+| 2026-05-01 | ESBAT: The History of Wicca’s Full Moon Ritual |
+| 2026-04-24 | The Real History of the Green Man (Not What Wicca Teaches You) |
+| 2026-04-24 | Alchemy Explained - Science, Spirituality, and the Search for Transformation |
+| 2026-04-20 | "The Witches' Sabbath": History and evolution of the concept and practice |
+| 2026-04-13 | Magic in the United States with Heather J. Freeman |
+| 2026-04-06 | This Changes Solomonic Magic Forever |
 
-### 2026-01
-- Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer
-- Does Quantum Physics prove Magic?
-- Aphrodite & Venus
+### 2026-03—01
 
-### 2025-12
-- A Critical-Rational Guide for Magicians and Occultists
-- Can Magic Stop War?
-- Understanding the Models of Magic
-- The Six Models Every Magician Should Know
+| Patreon日期 | 题目 |
+|---|---|
+| 2026-03-30 | Your tradition is fake. Your practice isn't. Now what? |
+| 2026-03-23 | Esotericism in Western Culture with Prof Wouter Hanegraaff |
+| 2026-03-19 | Your Tradition is Fake. Now What? |
+| 2026-03-15 | What Is a Cult? How High-Control Religious Groups Manipulate Belief |
+| 2026-03-08 | The Case Against Reality: What Donald Hoffman Means for Esoteric Practice |
+| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices |
+| 2026-02-24 | Conjuring the Algorithm: Magic, AI, and the Hidden Internet |
+| 2026-02-16 | Magus Lecture: Shadow Work |
+| 2026-02-08 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt |
+| 2026-02-02 | A Philosophical Deep Dive on Magick with Peter J Carroll |
+| 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer |
+| 2026-01-18 | Does Quantum Physics prove Magic? |
+| 2026-01-14 | Creative Acts and Living Traditions with Dr Caroline Tully |
 
-这套代理清单已经足以看出一个很稳定的编辑倾向：
-- “Do practitioners…?”直接问实践者；
-- “What history actually says / Real history / Truth about…”把学术纠偏写成现实判断；
-- “Can AI / Quantum Physics / Donald Hoffman”把当代问题接到魔法实践；
-- “This changes X forever”把新研究写成对旧实践有后果的变化；
-- “What is X?”只在对象本身足够明确时使用。
+### 当前主题分层
+
+这一年里反复出现的入口不是单纯“历史知识”：
+
+- **现实实践问题**：Should Practitioners Do What Academics Say? / Is Ancient Magic Really More Powerful?
+- **真假 / 历史翻转**：Your Tradition is Fake / Real History of the Green Man / What History Actually Says
+- **科学与神秘实践冲突**：Quantum Physics / AI / Clairvoyance / Process Philosophy
+- **熟悉传统 + 具体机制**：Theurgy / Grimoire Tradition / Esbat / Solomonic Magic
+- **热点技术 + 神秘学**：Can AI Become a Magical Familiar?
+
+这进一步支持 Angela 的核心价值：
+**把学术问题翻译成实践者真正会争论、会担心、会想知道答案的现实问题。**
 
 ## 当前很明显的结构
 
