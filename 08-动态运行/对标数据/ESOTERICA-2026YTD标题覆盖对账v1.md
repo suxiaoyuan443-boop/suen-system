@@ -15,15 +15,15 @@ vidIQ 当前组件明确标注 `Since Jan 01, 2026`：
 
 按 YouTube ID 去重后，当前已经恢复：
 
-- **54 / 59 个上传身份**
-- 覆盖率：**91.5%**
-- 明确 Long-form / live：**42**
+- **55 / 59 个上传身份**
+- 覆盖率：**93.2%**
+- 明确 Long-form / live：**43**
 - 明确 Shorts：**12**
 - 格式未决短时长候选：**0**
 
 因此剩余缺口已经精确压缩到：
 
-- **Long-form：4**
+- **Long-form：3**
 - **Shorts：1**
 
 ## 5个原短时长候选已全部定性为 Shorts
@@ -91,6 +91,16 @@ YouTube 简介直接说明讨论对象是 Bruce Codex 中通常称 Untitled Text
 
 这两条新身份把明确 Long/live 从39推进到 **41**。随后，3月13日目录视频 `Q4gco5RA1no` 通过同题播客镜像的605秒（10:05）时长证据确认是 Long-form，因此明确 Long/live 进一步推进到 **42**。
 
+## 新恢复：Does ESOTERICA use AI?
+
+- video ID：`v0VZvMmelN4`
+- YouTube 日期：**2026-04-28**
+- 时长：**18:44**（同条目镜像）
+- 当前直接快照：**93,407 views / 11,000 likes**
+- 角色：频道AI使用立场 / policy Long-form，非主研究、非seminar
+
+直接 YouTube 结果锁定日期、ID与指标；播客镜像仅用于补时长，不采用其迁移后的日期。该条使明确 Long/live 从42推进到 **43**。
+
 ## 3月13日双上传：保留为下一优先验证点
 
 已恢复两个不同 YouTube ID，均在2026-03-13，且都围绕1300年咒碗碎片 / 新古籍目录：
@@ -104,11 +114,11 @@ YouTube 简介直接说明讨论对象是 Bruce Codex 中通常称 Untitled Text
 
 ## 新的精确断点
 
-> **59条 YTD 中54个身份已恢复（91.5%）：42 Long/live + 12 Shorts；剩5个 = 4 Long + 1 Short。**
+> **59条 YTD 中55个身份已恢复（93.2%）：43 Long/live + 12 Shorts；剩4个 = 3 Long + 1 Short。**
 
 下一步固定为：
 
 1. 优先锁定最后 **1个 Short**，首查3月13日双上传；
-2. 补剩余 **4个 Long-form**，优先查3月 / 7月目录配套长视频、直播与频道节点；
+2. 补剩余 **3个 Long-form**，优先查3月 / 7月目录配套长视频、直播与频道节点；
 3. 到 **59 / 59** 后做完整 YTD format-level 题型 / 供给结构统计；
 4. 再单独处理 **2025Q4 Shorts + 遗漏 Long-form**，不与YTD混算。
