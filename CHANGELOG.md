@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-24｜第七轮塔罗扩充：Etteilla 历史分支 + X 68
+
+- 外部后验 X 层新增近期求职反例：Six of Pentacles + Ace of Swords + Five of Swords 被读成 yes，现实收到拒信；X 总数到 68；
+- 新增 meta：每日抽到 Sun / Nine of Pentacles 等正面牌不能事后冒充特定求职结果预测；
+- M 层新增 Etteilla：明确 18 世纪末 Etteilla 是独立的占卜专用体系，不是 Marseille / RWS 的旧版；
+- Etteilla upright / reversed 自带不同 divinatory vocabulary，进一步强化“逆位没有全局统一算法”；
+- 新增 Grand Etteilla deck-aware 路由：实际使用 Etteilla-pattern deck 时优先其自身语法，不硬套 RWS、Marseille 或 Golden Dawn；
+- 明确“古塔罗”历史上从来不是单一体系，early Bolognese cartomancy、Etteilla、Marseille、Golden Dawn 必须分流；
+- Etteilla 的埃及 / Book of Thoth 起源叙事作为 occult historical claim 保留，不作为现代历史事实。
+
+---
+
 ## 2026-09-24｜第六轮塔罗扩充：X 67 例 + deck-aware 方法路由
 
 - X 外部后验从 60 扩到 67 例，重点补感情关系：Two of Cups outcome 仍失败、Chariot + Two of Cups 后两天分手、Death 后实际沉默与结束、互爱但继续保持距离、旧友重新联系等；
