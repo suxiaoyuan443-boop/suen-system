@@ -173,7 +173,7 @@ vidIQ当前全历史Top仍显示：
 - Feb｜Proclus' On the Hieratic Art
 - Jan｜What are the Mayan Secrets of the Oldest American Book?
 
-### 2025-09—12
+### 2025-09-24—12-31
 - Dec｜How Medieval Incantations Worked
 - Nov｜The Accidental History of Lilith
 - Nov｜The Hermetic Demiurge
@@ -183,9 +183,14 @@ vidIQ当前全历史Top仍显示：
 - Oct｜The Philosophy of Witchcraft
 - Oct｜The Evolution of Ghosts
 - Oct｜The Necromantic Mirror of Floron
-- Sep｜Recreating an Alchemical Wormwood Potion
-- Sep｜The Ring and Seal of Solomon
-- Sep｜How A Medieval Saint Gave Us Science & Occultism - Albertus Magnus
+- Sep 25 Early Access / Sep 26 YouTube｜Re-Creating a 400 year old Alchemy Potion from Wormwood...then Trying it!
+
+### 窗口边缘已排除
+以下虽然离当前一年窗口很近，但早于 2025-09-24，不进入365天数值 / 主题主基线：
+- The Ring and Seal of Solomon：YouTube 2025-09-19，当前抓取约220,846播放 / 9,600赞；
+- Albertus Magnus Early Access：Patreon 2025-09-02。
+
+它们仍可放在长期历史结构参考里，但不能和近一年主样本混算。
 
 ### 额外的近一年结构样本
 Patreon sitemap 还能确认同一账号长期存在：
