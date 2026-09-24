@@ -52,20 +52,20 @@ HypeAuditor 2026-09 当前公开页提供另一组**频道级**参考：
 - engagement rate 也不能直接拿来和 Suen 的平台互动率横比；
 - 这组数据只用于**频道量级、更新密度和当前常态的第二来源交叉**，不进入本文件27条主研究样本的 provisional 分位数。
 
-### vidIQ 内容形式面板｜时间标签仍未可靠解析
+### vidIQ 内容形式面板｜时间窗已锁定为2026 YTD
 
-当前公开页能稳定读出：
-- Long-form：46；
-- Shorts：13；
-- 对应 views：Long-form 3.49M；Shorts 899.91K。
+后续核验已确认该 Long-form vs Shorts 组件标注 **Since Jan 01, 2026**，因此旧的“时间范围 unresolved”状态已关闭。
 
-但页面同时存在 7D / 28D / 3M / 1Y / YTD 标签，而文本抓取不能可靠判断这一组数值对应哪个已激活时间窗。历史抓取中同类页面曾明确出现“Since Jan 01, 2026”，因此当前**不能擅自把46+13写成滚动365天上传量**。
+当前正式快照统一读取：
+`ESOTERICA-YTD格式快照-2026-09-24.csv`
 
-处理方式：
-- 数值保存；
-- 时间范围记为 unresolved；
-- 不进入年度发布数 / 年度平均计算；
-- 等能确认激活标签后再升级。
+截至2026-09-24：
+- Long-form：46（78%）；
+- Shorts：13（22%）；
+- 合计：59条上传；
+- 对应组件views：Long-form约3.55M；Shorts约911.87K。
+
+注意：这仍是 **2026 YTD**，不是滚动365天；2025Q4需要单独补。
 
 ### all-upload计数层｜先用平台总视频增量确认“主研究表之外确实有上传”
 
@@ -614,13 +614,42 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 
 因此以后不能再把“ESOTERICA长视频”当成单一内容格式来算中位。
 
+## 2025Q4｜Merkavah非主研究长视频层
+
+新增机器表：
+`ESOTERICA-2025Q4非主研究长视频已核样本.csv`
+
+滚动365天窗口从2025-09-24开始。Merkavah Mysticism公开seminar的**第8—15讲**全部落在这一窗口内，因此当前已能确认2025Q4至少存在 **8个seminar长视频槽位**：
+
+- 9/25｜8/15｜Who is Able to See it?｜21,887
+- 9/30｜9/15｜The Myth-Scape of the Hekhalot｜22,756
+- 10/8｜10/15｜Dangers and Ordeals｜18,324
+- 10/14｜11/15｜Qualifications & Praxes of the Merkavah｜25,270
+- 12/15｜Goals of the Merkavah Mysticism｜视频ID `adH2H2Bpm88` 已恢复；正式发布日期仍 unresolved，但11/12前已被外部论坛直接嵌入
+- 13/15｜The Sar Torah & Sh’iur Komah｜视频ID `o_qdbvYPcZk` 已恢复；正式发布日期仍 unresolved，但11/12前已被外部论坛直接嵌入
+- 11/19｜14/15｜Magical Context and Afterlife｜14,151
+- 11/21｜15/15｜The Twilight of the Merkavah｜视频ID `g8f7euCwchs`；当前直接播放值待补
+
+其中5条当前直接有可比播放值，中位约 **21,887**，范围约 **14.2K—25.3K**。这一中位只描述当前直接已核的Q4 seminar切片，不代表ESOTERICA Q4全部长视频。
+
+这一步的结构意义很明确：
+- 2025Q4也存在连续公开seminar容器，不是只有主研究视频；
+- 2026 YTD Being and Logos 14讲 + 滚动窗口内 Merkavah 8讲，已经识别出**至少22个 seminar 长视频槽位**；
+- 因此滚动365天内“非主研究长视频”是实质供给层，不是偶尔插播；
+- 但2025Q4总上传数、Shorts数量与其它长视频仍未完整，因此不能把8讲当Q4 all-upload总量。
+
+重要日期口径：
+- 当前Podcast / RSS把Merkavah旧内容集中回填到2026，属于syndication/backfill；
+- 第12/13讲的2026播客日期**不作为YouTube首发日期**；
+- 有YouTube原始日期时只认平台日期；没有时保留 unresolved。
+
 ## 当前年度数据缺口
 
 还缺：
 - 近365天所有 YouTube 正式上传的完整行级标题；当前已有27条主研究量化样本 + 2026 YTD非主研究长视频部分标题层，但仍未覆盖全部46条YTD Long-form与2025Q4；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
-- 滚动365天长视频 / Shorts完整拆分；2026 YTD已确认Long-form 46 / Shorts 13，但2025Q4仍缺；
+- 滚动365天Long-form / Shorts完整拆分；2026 YTD已确认46 / 13，2025Q4已恢复Merkavah 8个seminar槽位但仍缺Q4总量与Shorts数量；
 - 时长；
 - 完整URL；
 - 统一抓取日后的中位数 / P75 / P90。
