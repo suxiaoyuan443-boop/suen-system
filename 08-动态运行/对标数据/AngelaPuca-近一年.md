@@ -625,6 +625,39 @@ Angela 的联合播客档案当前能把 **2025-09-28—2026-05-24** 的主节�
 - 它高度适合做内容时间线，但不自动声明与 YouTube 正式上传日完全相同；
 - 播放量仍以 YouTube / vidIQ 层为准。
 
+### Patreon近一年节点结构
+
+已将 Patreon 原始索引机器化为：
+
+`AngelaPuca-Patreon近一年全节点.csv`
+
+当前滚动365天原始节点：**174 条**。
+
+按当前规则粗分：
+- main_content：57
+- transcript：15
+- study_notes：7
+- lecture：11
+- RENSEP：16
+- invite：40
+- schedule：12
+- community：3
+- course：2
+- commercial：4
+- duplicate_asset：6
+- update：1
+
+这组数据不能直接等于“57条YouTube视频”，因为：
+- Patreon 主内容和 YouTube 正式发布不是一一同日；
+- 同一主题可能有 transcript / study notes / lecture / invite 多次拆分；
+- 部分 main_content 也可能是 podcast / 访谈 / 会员内容。
+
+但它非常清楚地说明：
+
+> Angela 的内容系统不是“发完一支视频就结束”，而是会把一个研究主题继续拆成 transcript、study notes、lecture、RENSEP、会员活动与课程节点。
+
+对 Suen 的真正启发是**资产化链路**，不是单纯模仿标题。
+
 ## 题目代理结构频率｜不代表表现排名
 
 当前机器可读题目代理共 **37 条**，现已覆盖滚动窗口内 2025-09 下旬至 2026-09 的主要公开内容代理，并去除同题重复月份。
