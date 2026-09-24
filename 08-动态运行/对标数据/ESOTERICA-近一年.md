@@ -80,6 +80,7 @@ vidIQ当前全历史Top仍显示：
 | 2026-01-23 | What are the Mayan Secrets of the Oldest American Book? | 137,195 | 8,800 | youtube.com/watch?v=2VNhPEMqSv8 |
 | 2025-12-05 | How Medieval Incantations Worked | 79,227 | 4,700 | youtube.com/watch?v=CCKF-eLxn68 |
 | 2025-11-21 | What is the Hermetic God & Demiurge? | 220,089 | 9,100 | youtube.com/watch?v=Mi8AC_rmL00 |
+| 2025-11-14 | What is Spiritual Alchemy? | 108,931 | 5,800 | youtube.com/watch?v=7QC_t1VsmLI；播客聚合页曾显示2026日期，已以YouTube原视频日期纠正 |
 | 2025-11-07 | Who was Asherah - Wife of Yahweh? | 371,293 | 15,000 | youtube.com/watch?v=m60p7BEnN5Y |
 | 2026-08-07 | How Magic Became Heresy | 70,390 | 4,100 | youtube.com/watch?v=3ZAQxtInv2g |
 | 2026-07-03 | The Divine Feminine | 132,202 | 7,300 | youtube.com/watch?v=FkJSDtGK7_M；YouTube解析标题为空，但描述 + Patreon题目交叉一致 |
@@ -97,7 +98,7 @@ vidIQ当前全历史Top仍显示：
 
 ### 这9条先能看到什么
 
-这21条仍不足以代表全年，但已经比“题目代理”更进一步：
+这22条仍不足以代表全年，但已经比“题目代理”更进一步：
 - 当前最高：Cathar Lord's Prayer 165,095；
 - 其次：Mayan Secrets 137,195；
 - Theosophy 96,990；
@@ -109,24 +110,24 @@ vidIQ当前全历史Top仍显示：
 - 单纯人物神秘主义 / 抽象神学题未必同样强；
 - 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
 
-### 21条已核样本｜临时分布
+### 22条已核样本｜临时分布
 
 这不是完整年度统计，只是当前**20条直接可量化主视频**的 provisional baseline：
 
-- 样本数：21；
-- 中位播放：**119,844**；
-- P75：约 **165,095**；
-- P90：约 **430,661**；
-- 平均播放：约 **172,554**。
+- 样本数：22；
+- 中位播放：约 **114,388**；
+- P75：约 **159,177**；
+- P90：约 **424,724**；
+- 平均播放：约 **169,662**。
 
-当前21条最高：
+当前22条最高：
 1. The Evolution of Ghosts｜584,951；
 2. The Philosophy of Witchcraft｜506,200；
 3. How Angel Magic Gave Us the Internet｜430,661；
 4. Who was Asherah - Wife of Yahweh?｜371,293；
 5. What is the Hermetic God & Demiurge?｜220,089。
 
-当前21条最低：
+当前22条最低：
 - The Mysticism of Purgatory｜27,286；
 - Wormwood Potion recreation｜54,492；
 - Paracelsus Matrix｜55,113；
@@ -150,6 +151,22 @@ vidIQ当前全历史Top仍显示：
 3. 明确“what is / who was / how did”问题，把专业对象转成可理解任务。
 
 这仍然只是当前12条样本里的结构信号，不升级为全年公式。
+
+### 日期冲突实例｜为什么必须优先YouTube原视频
+
+《What is Spiritual Alchemy?》提供了一个实际清洗案例：
+
+- YouTube原视频：**2025-11-14**，108,931播放，5,800赞；
+- 某些播客聚合 / 重新分发页：显示到2026年6—7月；
+- 内容描述几乎一致。
+
+因此：
+> **播客 / RSS 的重新分发日期不能作为 YouTube 首发日期。**
+
+年度库遇到这种冲突时：
+1. 有YouTube原视频 → 用YouTube日期；
+2. 播客日期另记为 syndication / redistribution；
+3. 不把同一内容按两个年份重复计数。
 
 ## 近一年内容题目代理清单｜来自 Patreon Early Access
 
@@ -222,7 +239,7 @@ vidIQ 当前公开的全历史 Top 包括：
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；当前已核21条主内容行级样本，但还远未覆盖全年；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已核22条主内容行级样本，但还远未覆盖全年；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 长视频 / Shorts 分开；
