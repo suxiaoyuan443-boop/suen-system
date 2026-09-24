@@ -64,6 +64,7 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 | 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind |
 | 2026-06-10 | British Traditional Wicca with Rufus Harrington |
 | 2026-06-14 | The Question Isn't If AI. It's How |
+| 2026-06-14 | The Question Isn't If AI. It's How. | 3,300 | 324 | YouTube公开结果；发布日期/20:14时长由播客分发交叉核定 |
 | 2026-06-20 | The Summer Solstice and Litha: What History Actually Says |
 | 2026-06-28 | Should Practitioners Do What Academics Say? |
 | 2026-07-05 | The Philosophy of Magic: My New Online Course |
@@ -229,7 +230,7 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
-当前已核 **36 条**带YouTube数值样本：
+当前已核 **37 条**带YouTube数值样本：
 
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
@@ -268,20 +269,20 @@ vidIQ当前公开页可确认：
 - 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
 - 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
 
-### 36条已核数值样本｜临时分布
+### 37条已核数值样本｜临时分布
 
-当前36条带YouTube数值样本：
+当前37条带YouTube数值样本：
 
-- 中位播放：**9,702.5**；
-- P75：**44,634.5**；
-- P90：**98,935**；
-- 平均播放：约 **57,094**。
+- 中位播放：**9,405**；
+- P75：**44,219**；
+- P90：**97,770**；
+- 平均播放：约 **55,640**。
 
 新增：
 - Aphrodite & Venus｜5,664 / 595赞；
 - Green Man｜约10,000，YouTube搜索结果四舍五入快照。
 
-从早期20余条继续补低表现、访谈与直播后，当前36条临时中位已经下修到 **9,702.5**。
+从早期20余条继续补低表现、访谈与直播后，当前37条临时中位已经下修到 **9,405**。
 
 这个变化再次证明：
 **只补容易搜到的强视频会制造严重幸存者偏差。**
@@ -289,7 +290,7 @@ vidIQ当前公开页可确认：
 这不是数据不稳定，而是在提醒我们：
 > **只补“容易搜到的强视频”会产生幸存者偏差；低表现内容补进来以后，账号常态会明显下修。**
 
-因此当前36条分布仍只叫 provisional：
+因此当前37条分布仍只叫 provisional：
 - 不是完整年度中位；
 - 不拿它直接和别的账号绝对比较；
 - 但已经足够证明“强outlier ≠ 账号常态”。
