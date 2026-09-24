@@ -141,6 +141,24 @@ vidIQ当前公开页可确认：
 
 不能简化成“Truth / Real History标题一定爆”。
 
+### 同题跨平台不一定是同一剪辑
+
+《Can AI Become a Magical Familiar?》当前能确认：
+- Podcast：2026-07-19，50:58；
+- Substack：2026-07-21；
+- Substack内嵌YouTube：video ID `83KoQMVvnZA`；
+- YouTube嵌入章节最后可见到约16:34。
+
+因此年度库新增一个格式边界：
+
+> **同一标题 / 同一主题跨YouTube、Podcast、Substack，不默认是同一剪辑长度。**
+
+后续格式统计：
+- YouTube时长只取YouTube原视频；
+- Podcast时长只进Podcast字段；
+- 同一主题可以共用 `topic_id`，但平台版本分别保存；
+- 不能拿播客50分钟去解释YouTube视频的留存。
+
 ### 最近90天题目流已经能确认
 
 仅从公开播客 / 作者站点的日期与标题，不看YouTube播放，最近90天已经能确认一组连续主题：
