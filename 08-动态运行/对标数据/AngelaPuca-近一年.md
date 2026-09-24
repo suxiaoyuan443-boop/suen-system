@@ -490,6 +490,41 @@ Angela 近一年反复使用的不是纯“史料介绍”，而是几种非常�
 这是 Suen 很值得迁移的方法：
 **标题先负责让普通人 / 实践者进来，正文再做资料分层。**
 
+## 已核正式公开行级样本
+
+当前已经能从正式 YouTube / 同步Podcast公开页核到：
+
+| 正式发布日期 | 正式题目 | 当前YouTube播放 | YouTube点赞 | 时长 / 补充 |
+|---|---|---:|---:|---|
+| 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind | 48,892 | 426 | YouTube正式页 |
+| 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | 约14分34秒 |
+| 2026-06-28 | Should Practitioners Do What Academics Say? | N/A | N/A | Podcast同步约20分23秒 |
+| 2026-07-12 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic | 47,733 | 404 | YouTube正式页约48分钟 |
+| 2026-07-19/21 | Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm | N/A | N/A | Podcast约7/19；Substack 7/21，平台发布时间不同需分开 |
+| 2026-08-30 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic | 104,760 | N/A | vidIQ当前累计；Podcast约24分钟 |
+| 2026-09-20 | How Does Magic Work? Process Philosophy May Have an Answer | 10,000 | N/A | vidIQ抓取时为最新视频，发布时间太近 |
+
+### 这批数据已经能做的有限比较
+
+按当前累计值、但**不控制内容年龄**：
+- Ancient Magic old vs new：104.76K
+- Lucid Dream：48.89K
+- Theurgy：47.73K
+- Litha：21.59K
+- 最新 How Does Magic Work：10K（发布时间太近，不能直接判弱）
+
+所以现在只能说：
+- “古代 vs 现代魔法”这个现实争议入口当前明显高于几条较纯历史 / 哲学解释样本；
+- 但内容年龄不同，仍不能把 104.76K / 21.59K 比值直接当标题效应。
+
+### 正式发布时间与 Patreon 不一定一致
+
+例如：
+- Patreon 主帖可能先出现；
+- Podcast/YouTube/ Substack同步日期也可能不同。
+
+以后行级表必须保存 `platform_publish_date`，不能只有一个“发布日期”。
+
 ## 年度数据缺口
 
 仍需补：
