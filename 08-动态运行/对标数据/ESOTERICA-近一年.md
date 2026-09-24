@@ -31,8 +31,20 @@ Social Blade 2026-09-24 当前公开页：
 因此仓库以后保留：
 **来源 + 抓取日期 + 当时值**，不把动态总量强行覆盖成唯一永久数字。
 
-注意：
-vidIQ 页面同时显示 7D / 28D / 3M / 1Y / YTD 切换，以及“Long-form 46 / Shorts 13、Views 3.49M / 899.91K”这一组数据，但当前文本抓取**不能可靠确认当时激活的是哪一个时间标签**，因此这组数字暂不写成“近一年上传量”。
+### vidIQ 内容形式面板｜时间标签仍未可靠解析
+
+当前公开页能稳定读出：
+- Long-form：46；
+- Shorts：13；
+- 对应 views：Long-form 3.49M；Shorts 899.91K。
+
+但页面同时存在 7D / 28D / 3M / 1Y / YTD 标签，而文本抓取不能可靠判断这一组数值对应哪个已激活时间窗。历史抓取中同类页面曾明确出现“Since Jan 01, 2026”，因此当前**不能擅自把46+13写成滚动365天上传量**。
+
+处理方式：
+- 数值保存；
+- 时间范围记为 unresolved；
+- 不进入年度发布数 / 年度平均计算；
+- 等能确认激活标签后再升级。
 
 ## 当前最新可量化样本
 
@@ -112,7 +124,7 @@ vidIQ当前全历史Top仍显示：
 
 ### 22条已核样本｜临时分布
 
-这不是完整年度统计，只是当前**20条直接可量化主视频**的 provisional baseline：
+这不是完整年度统计，只是当前**22条直接可量化主视频**的 provisional baseline：
 
 - 样本数：22；
 - 中位播放：约 **114,388**；
@@ -270,19 +282,19 @@ vidIQ 当前公开的全历史 Top 包括：
 
 ## 题目代理结构频率｜不代表表现排名
 
-当前机器可读题目代理共 **27 条**。
+当前机器可读题目代理共 **27 条**，现已严格裁到 2025-09-24—2026-09-24 滚动窗口；早于窗口的 Albertus Magnus / Ring and Seal of Solomon 已从主代理表移出，补入 2026-09 Purgatory 与 Medieval Alchemical Manual。
 
 Hook v1 频率：
 
 | 结构 | 条数 |
 |---|---:|
 | specific_text｜具体文本 / 书 / 手稿 | **6** |
+| explicit_question｜明确问题 | **6** |
 | descriptive_topic｜描述型专题 | 5 |
-| explicit_question｜明确问题 | 5 |
-| familiar_unexpected｜熟悉对象 + 意外关系 | 3 |
-| person_story｜人物 / 人物研究 | 3 |
-| specific_object｜具体器物 / 对象 | 2 |
+| person_story｜人物 / 人物研究 | 4 |
+| familiar_unexpected｜熟悉对象 + 意外关系 | 2 |
 | strong_mystery｜强谜团 / 最奇怪 | 2 |
+| specific_object｜具体器物 / 对象 | 1 |
 | how_to｜复原 / 实践 | 1 |
 
 这能说明 ESOTERICA 的**编辑供给结构**：
