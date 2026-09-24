@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-24｜第五轮塔罗扩充：X 层 60 例 + 古典方法历史锚点
+
+- 外部后验 X 层从 46 例扩到 60 例；新增感情联系、短暂复合、精确 timing、考试 / 大学录取、求职成功与失败等对照；
+- 新增同一牌相反结果：Three of Pentacles 在求职中既出现“拿到工作”，也出现“连面试都没有”，进一步禁止固定 yes/no 字典；
+- 新增“元素尊贵度 false negative”案例：公开读者因 High Priestess（水）与 Ace of Wands（火）冲突判无 offer，但现实录取；明确传统方法也必须接受后验；
+- 新增 Papus 1892 数字循环：Commencement / Opposition / Equilibrium，仅作为历史方法参考，不与鬼鬼散人体系混同；
+- 扩充 Golden Dawn / OOTK：Catherine Chapman 18 张线性 triad、question-as-significator、Jack Chanek 跨 operation 重复牌；
+- 新增 Guard-14—17：古典方法后验反证、禁止单牌 yes/no 字典、感情 contact/reunion/commitment/durability 四层、精确时间独立降置信；
+- 新增 `10-外部来源索引.md`，为历史原典、公开老师方法和外部后验池保留可追溯入口。
+
+---
+
 ## 2026-09-24｜第五轮扩充：X 到 52 例，加入 Benebell Wen / Enrique Enriquez / Jack Stone 方法模块
 
 - X 外部后验由 46 扩到 52 个高信息案例；
