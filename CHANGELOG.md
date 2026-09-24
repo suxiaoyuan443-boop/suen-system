@@ -1,3 +1,22 @@
+## 2026-09-24｜继续补年度对标：ESOTERICA Lilith匹配 + Angela全上传层拆分
+
+- ESOTERICA 将 Patreon《The Accidental History of Lilith》匹配到正式 YouTube：
+  - 2025-11-28《Was Lilith a Joke? How Bad Translation and Parody Created a Demon》
+  - 226,256播放 / 13,000赞
+  - YouTube ID `3592DMH-eyM`；
+- ESOTERICA 可量化主视频从25条升到26条；28个主研究代理当前26/28量化，剩余Kyranides与Untitled Treatise两条继续保持未量化；
+- 26条 provisional 基线重算：中位126,453 / P75 206,340.5 / P90约400,977；
+- familiar_unexpected 当前4条，中位约136,812.5，约1.08×临时中位；只记为候选信号；
+- Angela 明确拆成三层：
+  - 50条 podcast-centered 主内容清单；
+  - 38条当前可量化YouTube样本；
+  - 新建 `AngelaPuca-NTA公开视频索引.csv`，先收录2026-08-09—09-20的16条 YouTube-derived 公共索引；
+- NTA索引发现多条 podcast主表没有的附加上传，如《The Ars Goetia》《Is TikTok Destroying “Real” Witchcraft?》《Is Manifestation Actually Witchcraft?》《What is a Grimoire?》等；
+- 以后不得把“Angela 50条主内容清单”误写成“全年YouTube全部上传”；
+- NTA / podcast日期冲突并列保存，YouTube原视频页优先裁定。
+
+---
+
 ## 2026-09-24｜继续补年度对标：Patreon资产化与轻疯说道Hook编码
 
 - Angela Puca Patreon滚动365天原始索引继续补漏，并机器化为174个节点：
