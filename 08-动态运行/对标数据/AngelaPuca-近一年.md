@@ -134,7 +134,7 @@ Angela 后续不再优先补“她这一年到底发了什么”，而是：
 1. 给这50条逐条补 YouTube URL / video ID；
 2. 补 views / likes / comments；
 3. 标 `essay / interview / livestream / promo / shorts`；
-4. 把已有18条数值样本嵌回50条全清单；
+4. 把当前24条数值样本嵌回50条全清单；
 5. 最后才能比较同样标题结构在不同格式中的真实表现。
 
 ## 当前频道基线
@@ -201,128 +201,118 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
+当前已核 **24 条**带YouTube数值样本：
+
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
-| 2026-09-20 | How Does Magic Work? Process Philosophy May Have an Answer | 约10,000 | N/A | vidIQ最新视频；1.63× outlier |
+| 2026-09-20 | How Does Magic Work? Process Philosophy May Have an Answer | 约10,000 | N/A | vidIQ最新视频；1.63× outlier；发布时间太近 |
 | 2026-08-30 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic | 104,760 | N/A | 23:55；vidIQ 2.39× |
+| 2026-08-16 | The Grimoire Tradition: A Complete Guide | 44,219 | 430 | YouTube直取 |
+| 2026-07-26 | Lughnasadh vs Lammas: The Truth About the First Harvest Festival | 43,970 | 350 | YouTube直取 |
+| 2026-07-12 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic | 47,733 | 404 | YouTube直取 |
+| 2026-06-28 | Should Practitioners Do What Academics Say? | 44,023 | 494 | 19:09；YouTube直取 |
+| 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | YouTube直取 |
+| 2026-06-07 | British Traditional Wicca with Rufus Harrington | 2,026 | N/A | 直播/访谈格式，不与常规讲解片机械横比 |
+| 2026-05-24 | ESBAT: The History of Wicca's Full Moon Ritual | 3,062 | 406 | YouTube直取 |
+| 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | 45,881 | 476 | YouTube直取 |
+| 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation | 4,196 | 354 | 47:10；YouTube直取 |
 | 2026-04-05 | This Changes Solomonic Magic Forever | 109,170 | N/A | 28:09；vidIQ 5.76× |
 | 2026-03-29 | Your Tradition is Fake. Now What? | 439,530 | N/A | 19:23；vidIQ 47.96× |
-| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices | 8,113 | 698 | 约48:25；YouTube直取 |
+| 2026-03-15 | What Is a Cult? How High-Control Religious Groups Manipulate Belief | 58,116 | 555 | 22:55；YouTube直取 |
+| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices | 8,113 | 698 | 48:25；YouTube直取 |
 | 2026-02-15 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt | 9,148 | 684 | 1:09:01；YouTube直取 |
 | 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll | 93,110 | 956 | 约1:41:48；YouTube直取 |
-| 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 约1:12:12；YouTube直取 |
+| 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 1:12:12；YouTube直取 |
 | 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer | 8,788 | 681 | 43:50；YouTube直取 |
-| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 763,480 | 2,200 | YouTube直取；vidIQ较新快照763.48K，抓取时点不同 |
-| 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | youtube.com/watch?v=gMkjFS-1Izk |
-| 2026-08-16 | The Grimoire Tradition: A Complete Guide | 44,219 | 430 | youtube.com/watch?v=qPrhd5wL7Xc |
-| 2026-07-12 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic | 47,733 | 404 | youtube.com/watch?v=ogrnGyROzK4 |
-| 2026-07-26 | Lughnasadh vs Lammas: The Truth About the First Harvest Festival | 43,970 | 350 | youtube.com/watch?v=ZH07k7d3PuE |
-| 2026-06-07 | British Traditional Wicca with Rufus Harrington | 2,026 | N/A | youtube.com/watch?v=3j4slAYfuSg；直播/访谈格式，不与常规讲解片机械横比 |
-| 2026-05-24 | ESBAT: The History of Wicca's Full Moon Ritual | 3,062 | 406 | youtube.com/watch?v=AZxxgT3JEB4 |
-| 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | 45,881 | 476 | youtube.com/watch?v=P-MgdbRcGig |
-| 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation | 4,196 | 354 | youtube.com/watch?v=AKh4KS_tnVc |
+| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 763,480 | 2,200 | vidIQ较新快照；超大outlier |
+| 2025-11-30 | The Magical Art of Peace: Ancient Rituals of Reconciliation and Resistance | 3,749 | 381 | YouTube直取；战争 / 和平现实议题 |
+| 2025-11-23 | The Six Models Every Magician Should Know | 39,705 | 3,300 | YouTube直取；六种魔法解释模型 |
+| 2025-10-30 | Demons of the Necronomicon: When Fiction Becomes Occult Reality | 14,460 | 990 | YouTube直取；fiction → occult reality |
+| 2025-10-26 | Asmodeus: A Demon's Journey from Zoroastrian Wrath to Western Lust | 9,405 | 746 | YouTube直取；熟悉恶魔 + 历史转变 |
 
-另已确认准确发布日期 / 题目，但当前未取得可靠YouTube播放：
-- 2026-03-15｜What Is a Cult? How High-Control Religious Groups Manipulate Belief｜约25分钟；
-- 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice｜约22分钟；
-- 2026-04-19｜Alchemy Explained: Science, Spirituality, and the Search for Transformation｜47:10。
+另已确认准确题目 / 日期但当前未取得可靠YouTube播放：
+- 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice；
+- 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
+- 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
+- 2026-01-04｜Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion｜播客日期已核，YouTube量化待补。
 
-### 20条已核数值样本｜临时分布
+### 24条已核数值样本｜临时分布
 
-当前20条带YouTube数值的样本（其中9/20最新视频约10K为近似值，且含1条直播访谈）：
+当前24条带YouTube数值样本（其中9/20最新视频约10K为近似值，且含直播/访谈等不同格式）：
 
-- 中位播放：约 **43,997**；
-- P75：约 **66,865**；
-- P90：约 **142,206**；
-- 平均播放：约 **93,418**。
+- 中位播放：**30,646.5**；
+- P75：**50,328.75**；
+- P90：**107,847**；
+- 平均播放：约 **80,653**。
 
-由于样本混有讲解、访谈/直播等不同格式，这组统计只作为全频道当前已核样本的 provisional 分布。后续全年表补齐后必须按 `lecture / interview / livestream / shorts` 分型重算。
+相比20条版本，中位数明显下移。原因不是旧数据“算错”，而是这次补入了4条发布已久、累计时间充分、但实际播放仍偏低的2025样本。
+
+这很重要：
+> **补全低表现内容会改变我们对一个账号“常态”的认识。年度库不能只搜强样本。**
 
 注意：
-- 这不是Angela完整年度统计；
-- 分布极度右偏，少数几十万级outlier把平均值大幅拉高；
-- 因此这个账号以后**中位数比平均数更重要**；
-- 新发布视频与数月前视频累计时间不同，正式年度库补齐后还需按内容年龄分层。
+- 仍不是Angela完整年度统计；
+- 分布仍极度右偏，763K / 439K等少数outlier显著拉高平均；
+- 中位数仍比平均数更适合描述当前常态；
+- 后续必须继续按 `lecture / interview / livestream / shorts` 和内容年龄分型。
 
-当前18条低位样本里：
-- ESBAT｜3,062；
-- Alchemy Explained｜4,196；
-- Quantum Physics｜7,448；
-- Shadow Work｜8,113；
-- Hutton / Wicca history｜8,788；
-- Most Ancient Forms of Magic｜9,148。
+当前新补的4条本身也提供了反证：
+- Necronomicon｜14,460；
+- Asmodeus｜9,405；
+- Six Models｜39,705；
+- Magical Art of Peace｜3,749。
 
-中高位补充：
-- Theurgy｜47,733；
-- Grimoire Tradition｜44,219。
+所以：
+- **熟悉恶魔 + 意外历史**不自动高；
+- **fiction → occult reality**不自动高；
+- **现实战争 / 和平冲突**也不自动高；
+- 单看标题结构不能替代题材认知度、受众相关性、形式和内容本身。
 
-高位样本：
-- Critical-Rational Guide｜763,480；
-- Your Tradition is Fake｜439,530；
-- Solomonic Magic｜109,170；
-- Ancient vs New Magic｜104,760；
-- Peter J Carroll｜93,110。
+### 24条已核样本的 Hook 表现
 
-### 20条已核样本的 Hook 表现
-
-`AngelaPuca-已核行级样本.csv` 已补 `hook_v1 / topic_tags / relative_to_provisional_median / performance_band`。
-
-相对值以当前20条临时中位 **43,996.5** 为基准。
+`AngelaPuca-已核行级样本.csv` 已按当前24条临时中位 **30,646.5** 重新计算 `relative_to_provisional_median / performance_band`。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
-| practice_dispute | 9 | 44,023 | **1.00×** | 样本最多；分布从低位到超大outlier，说明“有现实后果”比“争议标签”本身更关键 |
-| person_story | 1 | 93,110 | 2.12× | 只有 Peter J Carroll 1条，不能泛化 |
-| explicit_question | 3 | 47,733 | 1.08× | 新增 Cult 后回到中位附近，问句本身仍不保证高播放 |
-| descriptive_topic | 5 | 8,113 | 0.18× | 当前样本明显低，但混有不同长度 / 形式 |
-| strong_mystery | 1 | 9,148 | 0.21× | 单样本 |
-| specific_text | 1 | 3,062 | 0.07× | 单样本 |
+| person_story | 1 | 93,110 | 3.04× | 单样本，不能泛化 |
+| explicit_question | 3 | 47,733 | 1.56× | 当前高于临时中位，但3条分布仍有限 |
+| practice_dispute | 9 | 44,023 | 1.44× | 样本最多；仍然从7K级到763K，后果强度比“争议”标签重要 |
+| descriptive_topic | 6 | 23,909 | 0.78× | 新增Six Models后上移，但内部差异仍大 |
+| familiar_unexpected | 2 | 11,932.5 | 0.39× | 两条2025成熟样本均偏低，说明熟悉对象+意外关系不是万能入口 |
+| strong_mystery | 1 | 9,148 | 0.30× | 单样本 |
+| real_world_conflict | 1 | 3,749 | 0.12× | 单样本；“现实冲突”本身不保证高播放 |
+| specific_text | 1 | 3,062 | 0.10× | 单样本 |
 
-### 为什么 practice_dispute 仍然重要
+### 为什么 practice_dispute 仍值得重点看，但不能写成公式
 
-新增《Should Practitioners Do What Academics Say?》44,023后，practice_dispute 的中位数回落到全样本中位附近。它不再能被描述成“整体2倍以上”。
+24条临时样本里，practice_dispute 的中位数约44,023，是全样本临时中位的约1.44×；但它内部跨度极大：
 
-但它仍然是**当前唯一反复产生超大 outlier 的结构**：
-
-- 9条里同时有普通表现、低表现和数十万级高表现；
-- 超大结果集中在那些真正会改变实践者身份、有效性判断或下一步选择的问题；
-- 所以要研究的是“后果强度”，不是“争议”两个字。
-
-这9条内部仍然高度分化，所以它不是“写争议就爆”。
-
-真正形成超大 outlier 的，是那些会让实践者产生现实后果的问题：
-
-- **Your Tradition is Fake. Now What?**｜439,530；
+高位：
 - **A Critical-Rational Guide for Magicians and Occultists**｜763,480；
+- **Your Tradition is Fake. Now What?**｜439,530；
 - **This Changes Solomonic Magic Forever**｜109,170；
 - **Is Ancient Magic Really More Powerful?**｜104,760。
 
-而同样带纠偏 / 争议意味的：
+低位：
 - Quantum Physics prove Magic?｜7,448；
 - Hutton “Erase” Wicca’s History?｜8,788；
-- Summer Solstice / Litha history｜21,588；
+- Summer Solstice / Litha history｜21,588。
 
-并没有自动跑高。
+因此当前更稳的候选规律仍是：
 
-所以当前最强候选规律是：
+> **“争议”只有在真正触及实践者身份、有效性、做法或下一步选择时，才更可能形成高上限；标题出现 Truth / Fake / Really 本身没有保证。**
 
-> **争议必须真正触及实践者的身份、做法、有效性或下一步选择，才更可能把学术问题变成强入口。**
+新补的反例进一步强化了这一点：
+- 把战争这样的大现实冲突和魔法放在一起，也只有3,749；
+- 把 Necronomicon 做成“虚构变成现实魔法”，也只有14,460。
 
-这对 Suen 的《辨伪》《隐理》《牌记》都比单纯“真假题”更有价值。
+所以 Suen 后续不能机械套：
+- “现实冲突 = 爆”
+- “熟悉对象 + 反差 = 爆”
+- “争议 = 爆”
 
-### 这批行级数据已经出现非常强的内部差异
-
-在当前已核样本里：
-- 2025-12 Critical-Rational Guide：74万+；
-- 2026-03 Your Tradition is Fake：43万+；
-- 2026-04 Solomonic Magic：10万+；
-- 2026-08 Ancient vs New Magic：10万+；
-- 但“最古老魔法”“量子证明魔法？”“Hutton抹掉Wicca历史？”等多条只有约7K—9K。
-
-因此已经可以更具体地说：
-> **同样都是学术纠偏 / 神秘学知识，只有当问题对实践者产生直接身份、有效性或“我该怎么办”的后果时，才更容易在 Angela 当前已核样本中形成超大 outlier。**
-
-不能简化成“Truth / Real History标题一定爆”。
+真正要测试的是：
+**这个冲突对目标观众有没有直接利害 + 第一屏是否成立 + 内容能否继续推进。**
 
 ### 同题跨平台不一定是同一剪辑
 
