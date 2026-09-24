@@ -173,6 +173,7 @@ Git commit 保存历史快照，不在当前文件里反复复制旧数据。
 
 - `AngelaPuca-Patreon近一年全节点.csv`：174个滚动一年Patreon节点，含post_type / main_content_proxy；
 - `ESOTERICA-Patreon近一年全节点.csv`：64个滚动一年Patreon节点，含post_type / main_content_proxy；
+- `FoolishFish-Patreon近一年全节点.csv`：85个滚动一年Patreon商业/内容节点，分News、ritual、咨询、折扣、冥想、课程/产品、活动；
 - `轻疯说道-已核行级样本.csv`：作者核验微信阅读样本，已加入Hook / 内容类型 / 相对中位表现编码。
 
 机器表用于统计；对应 Markdown 文件负责解释口径、缺口与可下结论边界。
