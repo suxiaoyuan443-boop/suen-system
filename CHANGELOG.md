@@ -1,5 +1,17 @@
 # Changelog
 
+## 2026-09-24｜外部反馈验证第三轮：扩到 35 例，补考试 / 时间 / 金钱与自然对照组
+
+- X 层从 23 个高信息个案扩到 35 个，并新增 1 个不计入个案总数的 meta 反例；
+- 新增同一求职者 A/B/C/D 四职位并行结果：3 of Pentacles 无面试、Devil 无沟通、4 of Wands 直接拒绝、Chariot reversed 拒绝；用于检验单牌 yes/no 的稳定性；
+- 新增 Judgement + 9 Pentacles + Knight of Swords“进入面试但未录取”、Ten of Swords + 7 Cups + Hanged Man“未录取”、7 Pentacles + 9 Cups + 2 Wands“一个月内无任何职业事件”；
+- 补入考试反例：Five of Cups 后实际 88 分通过、Fool reversed 数学 75/100 且总体第二、Lovers + 2 Cups + 5 Cups 后通过、10 Pentacles + Hermit + Judgement 后通过；
+- 补入金钱 F2：Ace Pentacles + 3 Pentacles + 4 Cups 七个月后仍未还款；
+- 新增 Guard-10—13：时间窗口锁定、情绪与客观阈值分离、同求问者多目标自然对照组优先、重复问同一问题不叠加置信；
+- 明确“多个读者都说 yes”不能替代带牌面与后验的独立案例证据。
+
+---
+
 ## 2026-09-24｜外部反馈验证第二轮：扩到 23 例并强化结果验收
 
 - 新增 10 个 F3 优先外部反馈案例，X 层从 13 例扩到 23 例；
