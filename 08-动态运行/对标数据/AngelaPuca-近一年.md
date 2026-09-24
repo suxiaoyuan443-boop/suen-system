@@ -209,10 +209,10 @@ vidIQ当前公开页可确认：
 | 2026-03-29 | Your Tradition is Fake. Now What? | 439,530 | N/A | 19:23；vidIQ 47.96× |
 | 2026-03-01 | Shadow Work in Paganism and Esoteric Practices | 8,113 | 698 | 约48:25；YouTube直取 |
 | 2026-02-15 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt | 9,148 | 684 | 1:09:01；YouTube直取 |
-| 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll | 92,445 | 956 | 约1:41:48；YouTube直取 |
+| 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll | 93,110 | 956 | 约1:41:48；YouTube直取 |
 | 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 约1:12:12；YouTube直取 |
 | 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer | 8,788 | 681 | 43:50；YouTube直取 |
-| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 740,493 | 2,200 | YouTube直取；vidIQ较新快照763.48K，抓取时点不同 |
+| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 763,480 | 2,200 | YouTube直取；vidIQ较新快照763.48K，抓取时点不同 |
 | 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | youtube.com/watch?v=gMkjFS-1Izk |
 | 2026-08-16 | The Grimoire Tradition: A Complete Guide | 44,219 | 430 | youtube.com/watch?v=qPrhd5wL7Xc |
 | 2026-07-12 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic | 47,733 | 404 | youtube.com/watch?v=ogrnGyROzK4 |
@@ -232,9 +232,9 @@ vidIQ当前公开页可确认：
 当前18条带YouTube数值的样本（其中9/20最新视频约10K为近似值，且含1条直播访谈）：
 
 - 中位播放：约 **32,779**；
-- P75：约 **81,267**；
+- P75：约 **81,766**；
 - P90：约 **208,278**；
-- 平均播放：约 **96,809**。
+- 平均播放：约 **98,123**。
 
 由于样本混有讲解、访谈/直播等不同格式，这组统计只作为全频道当前已核样本的 provisional 分布。后续全年表补齐后必须按 `lecture / interview / livestream / shorts` 分型重算。
 
@@ -257,11 +257,50 @@ vidIQ当前公开页可确认：
 - Grimoire Tradition｜44,219。
 
 高位样本：
-- Critical-Rational Guide｜740,493；
+- Critical-Rational Guide｜763,480；
 - Your Tradition is Fake｜439,530；
 - Solomonic Magic｜109,170；
 - Ancient vs New Magic｜104,760；
-- Peter J Carroll｜92,445。
+- Peter J Carroll｜93,110。
+
+### 18条已核样本的 Hook 表现
+
+`AngelaPuca-已核行级样本.csv` 已补 `hook_v1 / topic_tags / relative_to_provisional_median / performance_band`。
+
+相对值以当前18条临时中位 **32,779** 为基准。
+
+| 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
+|---|---:|---:|---:|---|
+| practice_dispute | 8 | 74,365 | **2.27×** | 当前唯一同时具备较大样本量与明显高于中位的重复结构 |
+| person_story | 1 | 93,110 | 2.84× | 只有 Peter J Carroll 1条，不能泛化 |
+| explicit_question | 2 | 28,867 | 0.88× | 问句本身不保证高播放 |
+| descriptive_topic | 5 | 8,113 | 0.25× | 当前样本明显低，但混有不同长度 / 形式 |
+| strong_mystery | 1 | 9,148 | 0.28× | 单样本 |
+| specific_text | 1 | 3,062 | 0.09× | 单样本 |
+
+### 为什么 practice_dispute 特别重要
+
+这8条内部仍然高度分化，所以它不是“写争议就爆”。
+
+真正形成超大 outlier 的，是那些会让实践者产生现实后果的问题：
+
+- **Your Tradition is Fake. Now What?**｜439,530；
+- **A Critical-Rational Guide for Magicians and Occultists**｜763,480；
+- **This Changes Solomonic Magic Forever**｜109,170；
+- **Is Ancient Magic Really More Powerful?**｜104,760。
+
+而同样带纠偏 / 争议意味的：
+- Quantum Physics prove Magic?｜7,448；
+- Hutton “Erase” Wicca’s History?｜8,788；
+- Summer Solstice / Litha history｜21,588；
+
+并没有自动跑高。
+
+所以当前最强候选规律是：
+
+> **争议必须真正触及实践者的身份、做法、有效性或下一步选择，才更可能把学术问题变成强入口。**
+
+这对 Suen 的《辨伪》《隐理》《牌记》都比单纯“真假题”更有价值。
 
 ### 这批行级数据已经出现非常强的内部差异
 
