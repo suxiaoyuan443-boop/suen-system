@@ -388,6 +388,66 @@ Patreon sitemap 当前支持一条非常稳定的节奏：
 
 不能拿49条固定商业容器去计算“研究视频年度中位播放”。
 
+## Patreon近一年全节点
+
+已新增：
+- `FoolishFish-Patreon近一年原始索引.md`
+- `FoolishFish-Patreon近一年全节点.csv`
+
+当前滚动窗口内共 **85 个** Patreon 原始节点，按当前粗分：
+
+- News / weekly roundup：**45**
+- Planetary Rituals：**11**
+- Consultation offer：**11**
+- Discount / store code：**13**
+- Guided meditation：**2**
+- Course / product：**2**
+- Event promo：**1**
+
+这比旧的“49条 weekly/news”更完整：
+- 49条旧表只证明固定更新容器；
+- 85条新表同时把**更新、仪式、折扣、咨询、产品与活动**放在同一商业节奏里。
+
+所以 Foolish Fish 的后端结构现在可以更准确地写成：
+
+> **高频News触点 + 月度固定会员权益 + 商店折扣 + 咨询优惠 + 课程/产品节点。**
+
+### 当前 Patreon 会员层级
+
+Patreon当前公开会员页可确认：
+
+**Lv.1 Patronus Beatus｜$2/月**
+- Discord；
+- News约提前24小时；
+- Early access；
+- 在提前期内无广告内容。
+
+**Lv.2 Adeptus Occultorum｜$5/月**
+- 包含前级；
+- Tree of Life Pathworking Guided Meditations；
+- Black Letter Press 每月7%折扣。
+
+**Lv.3 Magister Venerabilis｜$10/月**
+- 包含前级；
+- 加入其每日 planetary ritual；
+- 月度 guided visualisation；
+- 名字出现在 Saturday videos；
+- 继续保留Discord / 折扣等权益。
+
+**Lv.∞ Lux Aeterna｜$100/月**
+- 包含前级；
+- 页面正文写“monthly code to get **95% off** a conversation”；
+- 同页权益列表又写“Monthly **90% discount** voucher for a 1-to-1 chat”。
+
+因此这里必须保留一个来源内部冲突：
+**90% vs 95% 当前页面本身不一致，不替它统一成一个数。**
+
+这对 Suen 很有价值：
+会员梯度不是简单“多看几篇内容”，而是逐步加入：
+**社群 → 提前看 → 折扣 → 仪式参与 → 冥想 → 展示 → 一对一咨询。**
+
+但这只是对标结构，不代表 Suen 当前应该恢复 Patreon。
+
 ## 当前商业桥是这个账号最值得学的部分
 
 SponsorRadar 当前检测：
