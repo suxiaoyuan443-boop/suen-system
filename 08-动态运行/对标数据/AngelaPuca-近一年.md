@@ -1,6 +1,6 @@
 # Angela's Symposium / Angela Puca｜近一年公开数据基线
 
-状态：近一年发布清单接近完整｜YouTube量化行级数据继续补齐  
+状态：近一年主内容清单较完整｜YouTube全上传清单仍在补｜量化行级数据继续补齐  
 抓取 / 整理日期：2026-09-24  
 主平台：YouTube  
 账号：@drangelapuca  
@@ -28,6 +28,61 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 - 剩余未量化条目：**12 条**。
 
 “拿到 URL / 时长”只提高元数据完整度，**不提高量化样本数**。
+
+## YouTube全上传层｜Podcast主内容清单之外还有额外视频
+
+继续核查后确认：**50条 Podcast / RSS 发布清单不能当成 Angela 近一年全部 YouTube 上传。**
+
+New Thinking Allowed 的 Angela's Symposium 公共索引在 2026-08—09 明确列出了多条没有进入50条 podcast-centered 清单的内容，例如：
+- 2026-09-18｜The Borrowed Authority of Ancient Names
+- 2026-09-08｜Thank you for 500k!
+- 2026-09-01｜Magic as Technology
+- 2026-08-27｜The Ars Goetia
+- 2026-08-26｜History and Magical Efficacy are two different things
+- 2026-08-21｜Is TikTok Destroying “Real” Witchcraft?
+- 2026-08-19｜Is Manifestation Actually Witchcraft?
+- 2026-08-17｜What is a Grimoire?
+- 2026-08-10｜Is It Ever Ethical to Curse Someone?
+
+因此当前必须分成两套清单：
+
+1. **`AngelaPuca-近一年发布主表.csv`**
+   - 50条；
+   - 更接近长视频 / podcast / interview / livestream / course-promo 的“主内容清单”；
+   - 可以研究主题节奏和长内容结构；
+   - **不能再称为全年YouTube上传总表。**
+
+2. **`AngelaPuca-NTA公开视频索引.csv`**
+   - 当前先补 2026-08-09—09-20 的16条公开视频索引；
+   - 其中既有与主表重叠的内容，也有主表没有的附加内容；
+   - 来源是可追溯的第三方 YouTube-derived mirror；
+   - 当前只保存标题 / 日期 / 来源，不在没有直接证据时擅自判断 Shorts / 长视频格式。
+
+### 日期冲突也必须保留
+
+当前已经出现：
+- 500k Livestream Celebration：NTA索引 9/14；podcast feed 9/21；
+- No NonSense Spirituality：NTA索引 8/22；podcast清单 8/24；
+- Advanced Rune Magic：NTA索引 8/9；podcast清单 8/17。
+
+这类冲突不能“挑一个看起来合理的”覆盖掉另一个。
+
+正式规则：
+- 有 YouTube 原视频发布日期 → YouTube优先；
+- 没有原视频页 → 两个代理日期并存；
+- Podcast日期记 syndication；
+- NTA日期记 YouTube-derived mirror；
+- 只有拿到平台原始页以后才决定哪个是正式YouTube发布日期。
+
+### 当前新的完整度结论
+
+所以 Angela 现在应写成：
+- **主内容 / podcast-centered 清单：50条，接近完整；**
+- **YouTube all-upload 清单：未完整；**
+- **直接量化 YouTube 样本：38条；**
+- **额外公开视频索引：已从2026-08—09开始增量建立。**
+
+这比原来把“50条”理解成一年全部YouTube发布更准确。
 
 ## 近365天发布清单｜Podcast feed 50条
 
