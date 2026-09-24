@@ -128,6 +128,20 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 
 这只能说明编辑结构比例，不能直接说明这些类型谁的YouTube播放更高。
 
+### 36条以后，低表现直播开始改变分布
+
+新增：
+- Winter Solstice Tradition + Q&A Livestream｜943；
+- Birthday Livestream + Tantric Ritual｜1,884。
+
+这两条不是“无价值内容”，而是格式不同、功能不同：
+- 社群直播 / 节气Q&A可能承担关系维护；
+- 它们不该和剪辑后的研究长视频用完全相同的KPI；
+- 但如果要计算“账号一年到底发了什么”的总分布，就不能把这些低播放事件偷偷排除。
+
+当前 descriptive_topic 10条中位约 **6,888.5**；person_story 5条中位约 **2,924**。  
+这进一步提示：后面必须按 long_form / interview_livestream / promo 分层，而不能只算一个混合总中位。
+
 ### 对数据工程的意义
 
 Angela 后续不再优先补“她这一年到底发了什么”，而是：
@@ -215,7 +229,7 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
-当前已核 **34 条**带YouTube数值样本：
+当前已核 **36 条**带YouTube数值样本：
 
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
@@ -242,6 +256,8 @@ vidIQ当前公开页可确认：
 | 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 1:12:12；YouTube直取 |
 | 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer | 8,788 | 681 | 43:50；YouTube直取 |
 | 2026-01-04 | Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion | 5,664 | 595 | 47:55；YouTube直取 |
+| 2026-02-01 | Birthday Livestream + Tantric Ritual | 1,884 | N/A | YouTube公开结果；生日社群直播 + Tantric Ritual |
+| 2025-12-21 | Winter Solstice Tradition + Q&A Livestream | 943 | N/A | YouTube公开结果；冬至讲解 + Q&A；带📱结果只计一次内容事件 |
 | 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 763,480 | 2,200 | vidIQ较新快照；超大outlier |
 | 2025-11-30 | The Magical Art of Peace: Ancient Rituals of Reconciliation and Resistance | 3,749 | 381 | YouTube直取；战争 / 和平现实议题 |
 | 2025-11-23 | The Six Models Every Magician Should Know | 39,705 | 3,300 | YouTube直取；六种魔法解释模型 |
@@ -252,20 +268,20 @@ vidIQ当前公开页可确认：
 - 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
 - 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
 
-### 34条已核数值样本｜临时分布
+### 36条已核数值样本｜临时分布
 
-当前34条带YouTube数值样本：
+当前36条带YouTube数值样本：
 
-- 中位播放：**10,000**；
-- P75：**45,465.5**；
-- P90：约 **101,265**；
-- 平均播放：约 **60,370**。
+- 中位播放：**9,702.5**；
+- P75：**44,634.5**；
+- P90：**98,935**；
+- 平均播放：约 **57,094**。
 
 新增：
 - Aphrodite & Venus｜5,664 / 595赞；
 - Green Man｜约10,000，YouTube搜索结果四舍五入快照。
 
-从早期20余条继续补低表现、访谈与直播后，当前34条临时中位已经下修到 **10,000**。
+从早期20余条继续补低表现、访谈与直播后，当前36条临时中位已经下修到 **9,702.5**。
 
 这个变化再次证明：
 **只补容易搜到的强视频会制造严重幸存者偏差。**
@@ -273,7 +289,7 @@ vidIQ当前公开页可确认：
 这不是数据不稳定，而是在提醒我们：
 > **只补“容易搜到的强视频”会产生幸存者偏差；低表现内容补进来以后，账号常态会明显下修。**
 
-因此当前34条分布仍只叫 provisional：
+因此当前36条分布仍只叫 provisional：
 - 不是完整年度中位；
 - 不拿它直接和别的账号绝对比较；
 - 但已经足够证明“强outlier ≠ 账号常态”。
