@@ -26,6 +26,19 @@ vidIQ当前公开页可确认：
 
 来源：vidIQ 2026-09-24 抓取。
 
+### vidIQ 内容形式面板｜时间标签仍未可靠解析
+
+当前页面能稳定读出：
+- Long-form：56；
+- Shorts：72；
+- 对应 views：Long-form 1.45M；Shorts 450.94K。
+
+但页面同时存在 7D / 28D / 3M / 1Y / YTD 标签，文本抓取无法可靠确认这一组数值对应哪一个激活时间窗。因此：
+- 这组数值先保存；
+- 不写成“近一年128条上传”；
+- 不拿1.90M直接计算年度每条平均；
+- 等时间标签可确认后再并入年度统计。
+
 ## 近一年已确认的强样本
 
 以下均落在当前365天窗口内：
@@ -311,27 +324,27 @@ Angela 的联合播客档案当前能把 **2025-09-28—2026-05-24** 的主节�
 
 ## 题目代理结构频率｜不代表表现排名
 
-当前机器可读题目代理共 **29 条**。
+当前机器可读题目代理共 **37 条**，现已覆盖滚动窗口内 2025-09 下旬至 2026-09 的主要公开内容代理，并去除同题重复月份。
 
 Hook v1 频率：
 
 | 结构 | 条数 |
 |---|---:|
-| practice_dispute｜实践者争议 / 现实判断 | **9** |
-| descriptive_topic｜描述型专题 | 7 |
-| familiar_unexpected｜熟悉对象 + 意外关系 | 3 |
+| practice_dispute｜实践者争议 / 现实判断 | **11** |
+| descriptive_topic｜描述型专题 | **8** |
+| familiar_unexpected｜熟悉对象 + 意外关系 | **6** |
+| explicit_question｜明确问题 | 4 |
+| strong_mystery｜真相 / 强纠偏 | 3 |
 | how_to｜方法 / 实践 | 2 |
-| strong_mystery｜真相 / 强纠偏 | 2 |
-| person_story｜人物 / 对谈 | 2 |
-| explicit_question｜明确问题 | 2 |
 | real_world_conflict｜现实冲突 | 1 |
+| person_story｜人物 / 对谈 | 1 |
 | specific_text｜具体文本 | 1 |
 
 这非常清楚地支持一个**编辑定位观察**：
 
 > Angela 的研究品牌并不只是“讲历史”，而是频繁把学术研究转成实践者真正会争论的问题。
 
-当前 29 条里，practice_dispute 是最大单一 Hook 类别。
+当前 37 条里，practice_dispute 仍是最大单一 Hook 类别，而且 familiar_unexpected / explicit_question 也已经形成稳定第二层入口。
 
 这不代表它一定播放最高；但已经说明这是她一年内容供给里非常稳定的前台方式。
 
