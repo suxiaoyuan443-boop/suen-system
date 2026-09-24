@@ -1,3 +1,16 @@
+## 2026-09-24｜第二轮薄区扩充：X-090 + Golden Dawn worked examples
+
+- 外部后验 X 层由 85 扩到 90；
+- 新增 X-086：银行贷款获批但金额不到目标一半，建立 Event / Amount / Sufficiency 的 partial success 区分；
+- 新增 X-087 / X-088 住房自然对照：Four of Wands 单牌 false positive vs Moon Rx + Star + Ace of Swords 成功；
+- 新增 X-089 / X-090 关系 durability 正反对照，并明确回顾性解释与 hindsight bias 限制；
+- 新增 Guard-21：部分成功必须单独记录目标完成度；
+- 新增 Guard-22：长期关系同时记录形成、质量、承诺与持续时间；
+- 古典案例层新增 M-CASE-007—009，来自 Golden Dawn Manuscript Q：计数链、第一操作完整分层读取、第四操作多重确认；
+- 当前古典 worked examples 至少 9 个；仍保持 M / observe，不自动升级为 Suen adopted。
+
+---
+
 ## 2026-09-24｜继续扩充薄区案例 + 建立古典案例实战层
 
 - X 外部后验由 80 扩到 85 例，不继续机械堆求职 yes/no；
