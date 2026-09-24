@@ -64,7 +64,6 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 | 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind |
 | 2026-06-10 | British Traditional Wicca with Rufus Harrington |
 | 2026-06-14 | The Question Isn't If AI. It's How |
-| 2026-06-14 | The Question Isn't If AI. It's How. | 3,300 | 324 | YouTube公开结果；发布日期/20:14时长由播客分发交叉核定 |
 | 2026-06-20 | The Summer Solstice and Litha: What History Actually Says |
 | 2026-06-28 | Should Practitioners Do What Academics Say? |
 | 2026-07-05 | The Philosophy of Magic: My New Online Course |
