@@ -14,6 +14,21 @@
 
 vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitemap用于近一年主内容题目流、课程 / 社群结构。Patreon发布日期不直接替代YouTube正式发布日期。
 
+## 2026-09-24｜未量化条目的元数据补全
+
+本轮继续补“清单完整度”，但不把元数据补全冒充流量量化完成：
+
+- **Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge**：公开代理已补精确时长 **47:20**；YouTube 播放 / 点赞仍未可靠取得；
+- **The Path and the Practice: Ivy Corvus on Living Witchcraft**：公开 podcast 索引已补精确时长 **1:00:44**；YouTube 播放 / 点赞仍未可靠取得；
+- **Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm**：已恢复公开 YouTube 视频 ID / URL：`83KoQMVvnZA`；当前仍未取得可靠播放 / 点赞，因此继续标记为未量化。
+
+所以当前正式口径仍然是：
+- 近一年发布清单：**50 条**；
+- 已量化 YouTube 样本：**38 条**；
+- 剩余未量化条目：**12 条**。
+
+“拿到 URL / 时长”只提高元数据完整度，**不提高量化样本数**。
+
 ## 近365天发布清单｜Podcast feed 50条
 
 来源：Podcast Republic 当前公开索引。  
