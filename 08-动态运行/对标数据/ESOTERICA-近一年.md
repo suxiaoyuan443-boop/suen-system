@@ -97,6 +97,9 @@ vidIQ当前全历史Top仍显示：
 | 2026-08-07 | How Magic Became Heresy | 70,390 | 4,100 | youtube.com/watch?v=3ZAQxtInv2g |
 | 2026-07-03 | The Divine Feminine | 132,202 | 7,300 | youtube.com/watch?v=FkJSDtGK7_M；YouTube解析标题为空，但描述 + Patreon题目交叉一致 |
 | 2026-03-27 | How Angel Magic Gave Us the Internet - The Steganographia of Trithemius | 430,661 | 16,000 | youtube.com/watch?v=Vq96NDOB0xs |
+| 2026-03-06 | How to Study the Occult and Western Esotericism | 125,806 | 8,600 | youtube.com/watch?v=VRNo6e5eI8k |
+| 2026-02-06 | What is Theurgy? Proclus and Pagan Salvation | 127,218 | 6,500 | youtube.com/watch?v=noZyUPYVyPw |
+| 2026-04-10 | Who was the Demon Belial? | 255,812 | 11,000 | youtube.com/watch?v=J1AonoLGKxE |
 | 2025-10-31 | The Origins of Dracula - How Printing Made a Monster | 141,423 | 7,700 | youtube.com/watch?v=1XBq2dE1338 |
 | 2025-10-17 | The Philosophy of Witchcraft | 506,200 | N/A | youtube.com/watch?v=8lyongCrUrk；Glasp当前播放快照 + Patreon 10/15 Early Access交叉 |
 | 2025-10-10 | The Evolution of Ghosts | 584,951 | 20,000 | youtube.com/watch?v=5W6njGbe9MQ |
@@ -122,22 +125,23 @@ vidIQ当前全历史Top仍显示：
 - 单纯人物神秘主义 / 抽象神学题未必同样强；
 - 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
 
-### 22条已核样本｜临时分布
+### 25条已核样本｜临时分布
 
-这不是完整年度统计，只是当前**22条直接可量化主视频**的 provisional baseline：
+这不是完整年度统计，只是当前**25条直接可量化主视频**的 provisional baseline：
 
-- 样本数：22；
-- 中位播放：约 **114,388**；
-- P75：约 **159,177**；
-- P90：约 **424,724**；
-- 平均播放：约 **169,662**。
+- 样本数：25；
+- 中位播放：**125,806**；
+- P75：**165,095**；
+- P90：约 **406,914**；
+- 平均播放：约 **169,656**。
 
-当前22条最高：
+当前25条最高：
 1. The Evolution of Ghosts｜584,951；
 2. The Philosophy of Witchcraft｜506,200；
 3. How Angel Magic Gave Us the Internet｜430,661；
 4. Who was Asherah - Wife of Yahweh?｜371,293；
-5. What is the Hermetic God & Demiurge?｜220,089。
+5. Who was the Demon Belial?｜255,812；
+6. What is the Hermetic God & Demiurge?｜220,089。
 
 当前22条最低：
 - The Mysticism of Purgatory｜27,286；
@@ -145,6 +149,8 @@ vidIQ当前全历史Top仍显示：
 - Paracelsus Matrix｜55,113；
 - How Magic Became Heresy｜70,390；
 - Bernard of Clairvaux｜71,137。
+
+新增 Study Guide / Theurgy / Belial 后，当前临时中位从约114K上移到约126K。
 
 **这些分位数只用于当前已核样本内部比较，不能写成“ESOTERICA全年中位数”。**
 
@@ -279,7 +285,7 @@ ESOTERICA 的 Podcast Republic / Megaphone feed 当前出现明显的**旧目录
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；当前已核22条主内容行级样本，但还远未覆盖全年；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已核25条主内容行级样本，但还远未覆盖全年；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 长视频 / Shorts 分开；
