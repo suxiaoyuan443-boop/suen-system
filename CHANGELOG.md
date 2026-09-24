@@ -1,3 +1,14 @@
+## 2026-09-24｜第七轮古典案例扩充：Bolognese target identity 反例
+
+- 古典 / 历史方法案例由至少 18 扩到至少 19；
+- 新增 M-CASE-019：Bolognese 日运中牌面出现年轻女性与严重困扰，后续事件发生在朋友身上；由于原问题未锁定目标人物，不记作干净命中；
+- 新增方法旁证：Bolognese 传统 Death / Angel / Devil 等 yes-no marker 在实践中存在 confirmed exceptions，不能建立机械 yes/no 字典；
+- 古典层新增原则：Event match 与 Target match 分开；泛问不能在事后任选相关人物填回牌面；
+- 不从暴力事件样本建立具体危险预测组合，只保留后验纪律价值；
+- X 高信息现实案例仍保持 91。
+
+---
+
 ## 2026-09-24｜第六轮古典案例扩充：OOTK 连续层级 + Bolognese / Marseille 实占
 
 - 古典 / 历史方法案例由至少 15 扩到至少 18；
