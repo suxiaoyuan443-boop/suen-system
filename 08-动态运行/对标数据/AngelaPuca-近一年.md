@@ -6,6 +6,14 @@
 账号：@drangelapuca  
 观察窗：滚动近365天
 
+## 数据源与口径
+
+当前公开来源：
+- vidIQ｜https://vidiq.com/youtube-stats/channel/%40drangelapuca/
+- Patreon sitemap｜https://www.patreon.com/cw/angelapuca/sitemap
+
+vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitemap用于近一年主内容题目流、课程 / 社群结构。Patreon发布日期不直接替代YouTube正式发布日期。
+
 ## 当前频道基线
 
 vidIQ当前公开页可确认：
