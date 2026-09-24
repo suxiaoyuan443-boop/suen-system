@@ -368,6 +368,13 @@ vidIQ当前公开页可确认：
 4. 仪式魔法的历史与机制；
 5. 访谈 / 长谈占比不低，所以未来必须把格式作为控制变量。
 
+## Patreon年度原始索引
+
+完整原始节点已单独保存：
+`AngelaPuca-Patreon近一年原始索引.md`
+
+该文件保留主内容、transcript、study notes、Magus lecture、RENSEP、课程、会员和商业节点；本文件只保留清洗后的主内容结构与量化样本。
+
 ## 2026年主题流｜Patreon / 公开内容标题代理
 
 下面主要用于观察选题结构。Patreon 日期不自动等于 YouTube 正式发布日期；当 Podcast 聚合页提供精确播出日期 / 时长时，另行标注。
