@@ -201,7 +201,7 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
-当前已核 **26 条**带YouTube数值样本：
+当前已核 **28 条**带YouTube数值样本：
 
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
@@ -216,6 +216,7 @@ vidIQ当前公开页可确认：
 | 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind | 48,892 | 426 | YouTube直取；科学 + 梦瑜伽 + 魔法实践 |
 | 2026-05-24 | ESBAT: The History of Wicca's Full Moon Ritual | 3,062 | 406 | YouTube直取 |
 | 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | 45,881 | 476 | YouTube直取 |
+| 2026-04-26 | The Real History of the Green Man (Not What Wicca Teaches You) | 约10,000 | N/A | YouTube搜索结果公开快照；52:11；播放为四舍五入值 |
 | 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation | 4,196 | 354 | 47:10；YouTube直取 |
 | 2026-04-05 | This Changes Solomonic Magic Forever | 109,170 | N/A | 28:09；vidIQ 5.76× |
 | 2026-03-29 | Your Tradition is Fake. Now What? | 439,530 | N/A | 19:23；vidIQ 47.96× |
@@ -226,6 +227,7 @@ vidIQ当前公开页可确认：
 | 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll | 93,110 | 956 | 约1:41:48；YouTube直取 |
 | 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 1:12:12；YouTube直取 |
 | 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer | 8,788 | 681 | 43:50；YouTube直取 |
+| 2026-01-04 | Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion | 5,664 | 595 | 47:55；YouTube直取 |
 | 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 763,480 | 2,200 | vidIQ较新快照；超大outlier |
 | 2025-11-30 | The Magical Art of Peace: Ancient Rituals of Reconciliation and Resistance | 3,749 | 381 | YouTube直取；战争 / 和平现实议题 |
 | 2025-11-23 | The Six Models Every Magician Should Know | 39,705 | 3,300 | YouTube直取；六种魔法解释模型 |
@@ -235,48 +237,56 @@ vidIQ当前公开页可确认：
 另已确认准确题目 / 日期但当前未取得可靠YouTube播放：
 - 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
 - 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
-- 2026-01-04｜Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion｜播客日期已核，YouTube量化待补。
 
-### 26条已核数值样本｜临时分布
+### 28条已核数值样本｜临时分布
 
-当前26条带YouTube数值样本（其中9/20最新视频约10K为近似值，且含直播/访谈等不同格式）：
+当前28条带YouTube数值样本：
 
-- 中位播放：**34,100**；
-- P75：**48,602.25**；
-- P90：**106,965**；
-- 平均播放：约 **77,426**。
+- 中位播放：**25,041.5**；
+- P75：**48,022.75**；
+- P90：**106,083**；
+- 平均播放：约 **72,455**。
 
-相比24条版本，中位数从30,646.5回升到34,100；新增两条：
-- Lucid Dream｜48,892；
-- Case Against Reality｜28,495。
+新增：
+- Aphrodite & Venus｜5,664 / 595赞；
+- Green Man｜约10,000，YouTube搜索结果四舍五入快照。
 
-这里再次说明：
-> **每补一批“普通表现”内容，临时基线都会变化。只有把全年表尽量补全，才能知道真正常态。**
+从20条 → 24条 → 26条 → 28条，临时中位数经历：
+**43,996.5 → 30,646.5 → 34,100 → 25,041.5**。
 
-当前分布仍极度右偏，763K / 439K等少数outlier显著拉高平均，因此：
-- 中位数继续优先于平均数；
-- 不能用当前临时中位冒充完整年度中位；
-- 后续仍需按格式、内容年龄和题材分层。
+这不是数据不稳定，而是在提醒我们：
+> **只补“容易搜到的强视频”会产生幸存者偏差；低表现内容补进来以后，账号常态会明显下修。**
 
-### 26条已核样本的 Hook 表现
+因此当前28条分布仍只叫 provisional：
+- 不是完整年度中位；
+- 不拿它直接和别的账号绝对比较；
+- 但已经足够证明“强outlier ≠ 账号常态”。
 
-`AngelaPuca-已核行级样本.csv` 已按当前26条临时中位 **34,100** 重新计算 `relative_to_provisional_median / performance_band`。
+### 28条已核样本的 Hook 表现
+
+`AngelaPuca-已核行级样本.csv` 已按当前28条临时中位 **25,041.5** 重新计算相对表现。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
-| person_story | 1 | 93,110 | 2.73× | 单样本，不能泛化 |
-| how_to | 1 | 48,892 | 1.43× | Lucid Dream单样本 |
-| explicit_question | 3 | 47,733 | 1.40× | 当前高于临时中位，但3条分布有限 |
-| practice_dispute | 9 | 44,023 | 1.29× | 样本最多；从7K级到763K，后果强度比“争议”标签重要 |
-| descriptive_topic | 6 | 23,909 | 0.70× | 内部差异大 |
-| familiar_unexpected | 3 | 14,460 | 0.42× | 新增Hoffman后仍低于临时中位，不能当万能入口 |
-| strong_mystery | 1 | 9,148 | 0.27× | 单样本 |
-| real_world_conflict | 1 | 3,749 | 0.11× | 单样本；现实冲突本身不保证高播放 |
-| specific_text | 1 | 3,062 | 0.09× | 单样本 |
+| person_story | 1 | 93,110 | 3.72× | 单样本 |
+| how_to | 1 | 48,892 | 1.95× | 单样本 |
+| explicit_question | 3 | 47,733 | 1.91× | 当前偏高，但样本仍少 |
+| practice_dispute | 10 | 43,996.5 | 1.76× | 高上限最明显，但内部从7K到763K；Green Man新增低反例 |
+| familiar_unexpected | 3 | 14,460 | 0.58× | 当前3条整体偏低 |
+| strong_mystery | 1 | 9,148 | 0.37× | 单样本 |
+| descriptive_topic | 7 | 8,113 | 0.32× | Aphrodite加入后中位继续偏低；内部仍有差异 |
+| real_world_conflict | 1 | 3,749 | 0.15× | 单样本 |
+| specific_text | 1 | 3,062 | 0.12× | 单样本 |
+
+这一版比前面更能说明：
+- practice_dispute 不是“稳定高”，而是**高上限 + 高方差**；
+- descriptive_topic 当前大多数偏低；
+- familiar_unexpected 在Angela当前3个成熟样本里没有跑出强结果；
+- 单个入口标签绝对不能独立决定选题。
 
 ### 为什么 practice_dispute 仍值得重点看，但不能写成公式
 
-26条临时样本里，practice_dispute 的中位数约44,023，是全样本临时中位的约1.29×；但它内部跨度极大：
+28条临时样本里，practice_dispute 的中位数约43,996.5，是全样本临时中位的约1.76×；但它内部跨度极大：
 
 高位：
 - **A Critical-Rational Guide for Magicians and Occultists**｜763,480；
