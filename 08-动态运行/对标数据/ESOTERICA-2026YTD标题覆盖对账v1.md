@@ -96,24 +96,21 @@ Patreon 工作题 `Untitled Treatise` 已一对一映射为：
 - 日期：2026-03-13
 - 官方 Videos 索引约10K views
 
-## 剩余3个身份的范围
+## 剩余3个身份：冻结为 unresolved
 
 剩余3条已经不可能是：
 - Shorts（13/13 已齐）
 - 主研究（YTD主研究已齐）
 - Being and Logos 14讲（14/14 已齐）
 
-因此剩余3条应继续从以下非主研究供给里找：
-- catalog / rare-book promo
-- livestream / Q&A / watch party
-- channel update / policy
-- interview / special event
-- 可能存在的重传 / 替换版本
+它们应属于其他非主研究 Long-form / live 供给。当前公开证据不足以安全恢复标题 / YouTube ID，**本轮停止继续追这3条，不为凑满59/59做弱匹配。**
 
-高优先未解决节点：
-1. 2026-07-06 Patreon：New Summer Book Catalog + Individual Sheets + Discount —— 公开YouTube身份尚未锁定；
-2. 2026-08-21/22 Eighth Book of Moses 原上传含 Dr. Dzwiza 访谈。Dzwiza 本人记录：旧版上线约20小时已有 **18,600 views / 1,365 likes / 85 comments**；随后 Justin 明确将旧版 **unlist**，并重传删除两人访谈的版本。当前重传版为 `pe6Kr6vLZo4`。因此“存在一个独立旧上传”已得到强一手证据，但**旧版 YouTube ID 仍未恢复，且尚未证明该 unlisted 旧版被 vidIQ 的59条YTD分母计入**，所以目前仍不加1；
-3. 其他频道自有直播 / 目录 / 更新节点继续从官方 Videos 索引差分。
+已知但仍不计入的线索继续保留：
+1. 2026-07-06 Patreon：New Summer Book Catalog + Individual Sheets + Discount —— 公开YouTube身份未锁定；
+2. 2026-08-21/22 Eighth Book of Moses 原上传含 Dr. Dzwiza 访谈，之后被 unlist 并重传；旧版身份存在，但旧ID及其是否进入vidIQ 59条分母均未证明；
+3. 其他可能的直播 / 目录 / 更新节点不再继续消耗采集时间。
+
+当前YTD身份层以 **56/59（94.9%）** 作为本轮封板结果。
 
 ## 新的精确断点
 
@@ -121,7 +118,7 @@ Patreon 工作题 `Untitled Treatise` 已一对一映射为：
 
 下一步固定为：
 
-1. 只补最后 **3个 Long-form**
-2. 优先查官方 Videos 索引与7月目录、8月重传事件
-3. 到 **59 / 59** 后做完整 YTD format-level 题型 / 供给结构统计
-4. 再单独处理 **2025Q4 Shorts + 遗漏 Long-form**
+1. **不再追最后3个 Long-form**，保留 unresolved；
+2. 以 **56/59（94.9%）** 作为2026 YTD可用身份覆盖基线；
+3. 转入 **2025Q4 Shorts + 已知 Long-form 补充**；
+4. format-level / 供给结构统计使用“56个已恢复身份 + 3个未识别Long-form”的覆盖说明，不假装59/59完整。
