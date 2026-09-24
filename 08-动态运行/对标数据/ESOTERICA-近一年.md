@@ -241,6 +241,61 @@ vidIQ当前全历史Top仍显示：
 
 这说明 ESOTERICA 的前台并不是“先讲学术史”，而是持续把**具体书、人物、怪问题、历史转折**放在标题第一层。
 
+## 近一年视频主题代理时间线｜Patreon Early Access
+
+下面筛选 Patreon sitemap 中**明显对应公开视频 / 主研究内容**的 Early Access / 主内容帖；排除纯更新、课程通知、办公室时间、商品目录、讲座内部通知。
+
+重要：
+- Patreon 标题可能在正式 YouTube 发布时改名；
+- Patreon 日期通常早于正式公开视频；
+- 因此这张表用于“近一年主题 / 标题结构 / 更新节奏”；
+- **不能直接代替 YouTube 发布日期与播放数据。**
+
+| Patreon日期 | Early Access / 主内容题目 |
+|---|---|
+| 2025-09-26 | Recreating an Alchemical Wormwood Potion |
+| 2025-10-01 | The Necromantic Mirror of Floron |
+| 2025-10-08 | The Evolution of Ghosts |
+| 2025-10-15 | The Philosophy of Witchcraft |
+| 2025-10-22 | Dracula |
+| 2025-11-05 | Who was Asherah |
+| 2025-11-12 | Origins of Spiritual Alchemy in Azoth And Fire |
+| 2025-11-19 | The Hermetic Demiurge |
+| 2025-11-27 | The Accidental History of Lilith |
+| 2025-12-03 | How Medieval Incantations Worked |
+| 2026-01-22 | What are the Mayan Secrets of the Oldest American Book? |
+| 2026-02-04 | Proclus' On the Hieratic Art |
+| 2026-02-26 | The Mystical Theology of Love - Bernard of Clairvaux |
+| 2026-03-04 | How to Study Western Esotericism & the Occult - Study Guide 2026 |
+| 2026-03-25 | The Ars Steganographia of Trithemius |
+| 2026-04-06 | Who was Belial |
+| 2026-04-22 | The Mystical Exorcism of Hildegard of Bingen |
+| 2026-05-13 | The Kabbalah of Contemplation of 13 Sefirot |
+| 2026-05-27 | What was Hermetic Medicine - The Kyranides |
+| 2026-06-10 | The Strangest Gnostic Lore - The Untitled Treatise |
+| 2026-06-17 | Paracelsus On the Matrix |
+| 2026-07-02 | The Divine Feminine |
+| 2026-07-08 | The Cathar Lord's Prayer |
+| 2026-07-30 | What is Theosophy? |
+| 2026-08-06 | How Magic Became Heresy |
+| 2026-08-21 | The Eight Book of Moses |
+| 2026-09-09 | The Mysticism of Purgatory - Catherine of Genoa |
+| 2026-09-16 | The Best Medieval Alchemical Manual? |
+
+当前可见代理样本：**28 个近一年主研究 / 视频主题**。
+
+### 题目结构粗分｜先不和播放绑定
+
+只看标题结构，反复出现：
+- **Who / What is X**：Asherah、Belial、Theosophy、Hermetic Medicine；
+- **How X became Y / How X worked**：Magic Became Heresy、Medieval Incantations Worked；
+- **具体文本 / 手稿直接做主角**：Ars Steganographia、Kyranides、Untitled Treatise、Eight Book of Moses；
+- **熟悉人物 / 名称 + 陌生切口**：Dracula、Lilith、Hildegard、Paracelsus；
+- **最奇怪 / 最好 / 最古老**类选择问题：Strangest Gnostic Lore、Best Medieval Alchemical Manual、Oldest American Book。
+
+这说明 ESOTERICA 即使是高学术密度账号，也并不是用“某某文献研究综述”做标题，而是大量把标题压成：
+**人物 / 具体文本 / 一个明确问题。**
+
 ## 全频道历史高表现｜只作长期结构参考，不计入近一年数值基线
 
 vidIQ 当前公开的全历史 Top 包括：
