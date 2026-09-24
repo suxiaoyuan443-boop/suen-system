@@ -464,7 +464,7 @@ Patreon Early Access 的**工作标题和正式公开视频标题可能不同**�
 
 ## 题目代理结构频率｜不代表表现排名
 
-当前机器可读题目代理共 **27 条**，现已严格裁到 2025-09-24—2026-09-24 滚动窗口；早于窗口的 Albertus Magnus / Ring and Seal of Solomon 已从主代理表移出，补入 2026-09 Purgatory 与 Medieval Alchemical Manual。
+当前机器可读题目代理共 **28 条**，现已严格裁到 2025-09-24—2026-09-24 滚动窗口；早于窗口的 Albertus Magnus / Ring and Seal of Solomon 已从主代理表移出，补入 2026-09 Purgatory 与 Medieval Alchemical Manual。
 
 Hook v1 频率：
 
