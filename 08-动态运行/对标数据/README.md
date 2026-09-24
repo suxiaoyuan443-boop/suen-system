@@ -104,7 +104,8 @@ Git commit 保存历史快照，不在当前文件里反复复制旧数据。
 - `ESOTERICA-Patreon近一年原始索引.md`：滚动一年Patreon原始生产节点，用于匹配Early Access/课程/目录/商业桥；
 - `AngelaPuca-近一年.md`：YouTube量化样本、精确日期代理与结构分析；
 - `AngelaPuca-Patreon近一年原始索引.md`：滚动一年Patreon原始节点，保留主内容/transcript/lecture/RENSEP/课程/会员层；
-- `FoolishFish-近一年.md` + `FoolishFish-固定发布结构-近一年.csv`：部分视频行级快照 + 49条滚动年度固定商业容器节点；
+- `FoolishFish-近一年.md` + `FoolishFish-固定发布结构-近一年.csv`：年度结构与49条滚动固定商业容器节点；
+- `FoolishFish-已核YouTube样本.csv`：直接YouTube原页可比样本，专门用于同来源播放/点赞比较；
 - `子童-witch-近一年.md` + `子童-witch-题目流.csv`：27条2026题目已机器化，重点看制作 / 打包 / ASMR / 商品世界观；
 - `witchstar星莱-近一年.md` + `witchstar星莱-题目流.csv`：11条近一年题目已机器化，Teach系列 + 产品打包 + devotional / 参与内容；
 - `水水解忧工作室-近一年.md` + `水水解忧工作室-已核样本.csv`：原始互动数字保留但不猜图标字段；重点看愿望结果 → 步骤 → 商品；
@@ -164,5 +165,5 @@ Git commit 保存历史快照，不在当前文件里反复复制旧数据。
 - `ESOTERICA-题目代理.csv`：近一年Patreon主内容题目代理，不含YouTube播放；
 - `AngelaPuca-题目代理.csv`：近一年Patreon主内容题目代理，不含YouTube播放；
 - `AngelaPuca-播客精确日期代理.csv`：2025-09-28—2026-05-24共33条联合播客精确日期记录，不自动等同YouTube发布日期；
-- `FoolishFish-2026-08-09快照.csv`：8—9月SponsorRadar同源当前累计播放快照；
+- `FoolishFish-第三方快照-2026-09-24.csv`：8—9月第三方同源当前累计播放快照，和YouTube原页数据分轨保存；
 - `公众号-西瓜数据跨月快照.csv`：利维坦 / 国家人文历史 / 看理想跨月第三方榜单快照，日榜与周榜已分层。
