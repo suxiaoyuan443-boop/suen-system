@@ -112,7 +112,7 @@ Patreon 工作题 `Untitled Treatise` 已一对一映射为：
 
 高优先未解决节点：
 1. 2026-07-06 Patreon：New Summer Book Catalog + Individual Sheets + Discount —— 公开YouTube身份尚未锁定；
-2. 2026-08-21/22 Eighth Book of Moses 含 Dr. Dzwiza 访谈的原上传曾被 unlist，随后重传删去访谈；原版视频ID尚未恢复，且是否进入vidIQ 59条分母仍需证明；
+2. 2026-08-21/22 Eighth Book of Moses 原上传含 Dr. Dzwiza 访谈。Dzwiza 本人记录：旧版上线约20小时已有 **18,600 views / 1,365 likes / 85 comments**；随后 Justin 明确将旧版 **unlist**，并重传删除两人访谈的版本。当前重传版为 `pe6Kr6vLZo4`。因此“存在一个独立旧上传”已得到强一手证据，但**旧版 YouTube ID 仍未恢复，且尚未证明该 unlisted 旧版被 vidIQ 的59条YTD分母计入**，所以目前仍不加1；
 3. 其他频道自有直播 / 目录 / 更新节点继续从官方 Videos 索引差分。
 
 ## 新的精确断点
