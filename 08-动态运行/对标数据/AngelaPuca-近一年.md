@@ -130,17 +130,17 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 
 ### 格式分层比混合总中位更重要
 
-当前37条量化样本按格式拆开：
+当前38条量化样本按格式拆开：
 
 | 格式 | n | 中位播放 | P75 | P90 | 最低 | 最高 |
 |---|---:|---:|---:|---:|---:|---:|
 | long_form | 29 | **21,588** | 47,733 | 105,642 | 3,062 | 763,480 |
-| interview_livestream | 8 | **2,484** | 3,061.25 | 3,499.1 | 943 | 3,560 |
+| interview_livestream | 9 | **2,876** | 3,473 | 4,501.4 | 943 | 8,267 |
 
 这说明：
-- 37条混合总中位9,405不能直接代表“Angela一条正常研究视频应该有多少播放”；
+- 38条混合总中位9,276.5不能直接代表“Angela一条正常研究视频应该有多少播放”；
 - 普通研究 long-form 的当前 provisional 中位仍是21,588；
-- 直播 / 访谈的分发层级完全不同，中位只有2,484；
+- 直播 / 访谈的分发层级完全不同，中位为2,876；
 - 后续看标题 / Hook 是否强，必须优先在同格式里比较。
 
 机器表已经新增：
@@ -151,18 +151,19 @@ vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitema
 1. 它在全年所有发布里处于什么位置；
 2. 它在自己的格式里到底强不强。
 
-### 36条以后，低表现直播开始改变分布
+### 补入低表现直播 / 访谈后，格式基线开始稳定
 
-新增：
+当前低位直播 / 访谈包括：
 - Winter Solstice Tradition + Q&A Livestream｜943；
-- Birthday Livestream + Tantric Ritual｜1,884。
+- Birthday Livestream + Tantric Ritual｜1,884；
+- The Psychology of Magic with Dr Richard Kaczynski｜8,267。
 
 这两条不是“无价值内容”，而是格式不同、功能不同：
 - 社群直播 / 节气Q&A可能承担关系维护；
 - 它们不该和剪辑后的研究长视频用完全相同的KPI；
 - 但如果要计算“账号一年到底发了什么”的总分布，就不能把这些低播放事件偷偷排除。
 
-当前 descriptive_topic 10条中位约 **6,888.5**；person_story 5条中位约 **2,924**。  
+当前 descriptive_topic 10条中位约 **6,888.5**；person_story 6条中位约 **3,242**。  
 这进一步提示：后面必须按 long_form / interview_livestream / promo 分层，而不能只算一个混合总中位。
 
 ### 对数据工程的意义
@@ -252,7 +253,7 @@ vidIQ当前公开页可确认：
 - Apple Podcasts / Podcast Republic / Spotify 等只用于补**准确发布日期 / 时长 / 题目**；
 - 播客分发数据不替代YouTube播放。
 
-当前已核 **37 条**带YouTube数值样本：
+当前已核 **38 条**带YouTube数值样本：
 
 | 日期 | 标题 | YouTube播放 | 点赞 | 时长 / 备注 |
 |---|---|---:|---:|---|
@@ -284,6 +285,7 @@ vidIQ当前公开页可确认：
 | 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 763,480 | 2,200 | vidIQ较新快照；超大outlier |
 | 2025-11-30 | The Magical Art of Peace: Ancient Rituals of Reconciliation and Resistance | 3,749 | 381 | YouTube直取；战争 / 和平现实议题 |
 | 2025-11-23 | The Six Models Every Magician Should Know | 39,705 | 3,300 | YouTube直取；六种魔法解释模型 |
+| 2025-11-09 | The Psychology of Magic with Dr Richard Kaczynski | 8,267 | N/A | YouTube直取；专家访谈，按 interview/livestream 格式计 |
 | 2025-10-30 | Demons of the Necronomicon: When Fiction Becomes Occult Reality | 14,460 | 990 | YouTube直取；fiction → occult reality |
 | 2025-10-26 | Asmodeus: A Demon's Journey from Zoroastrian Wrath to Western Lust | 9,405 | 746 | YouTube直取；熟悉恶魔 + 历史转变 |
 
@@ -291,20 +293,31 @@ vidIQ当前公开页可确认：
 - 2026-07-19/21｜Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm｜Podcast / Substack日期不同；
 - 2025-10-12｜Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge｜播客日期已核，YouTube量化待补；
 
-### 37条已核数值样本｜临时分布
+### 新增已核访谈｜Psychology of Magic
 
-当前37条带YouTube数值样本：
+- YouTube正式发布日期：2025-11-09；
+- 标题：The Psychology of Magic with Dr Richard Kaczynski；
+- 播放：8,267；
+- URL：https://www.youtube.com/watch?v=1JX5unagTJA；
+- Podcast feed 记为2025-11-10，继续作为 syndication 日期保留，不覆盖 YouTube 首发日；
+- 归类：interview_livestream / person_story。
 
-- 中位播放：**9,405**；
-- P75：**44,219**；
-- P90：**97,770**；
-- 平均播放：约 **55,640**。
+这条把 interview/livestream 样本从8条补到9条，并把该格式临时中位从2,484修正到2,876。
+
+### 38条已核数值样本｜临时分布
+
+当前38条带YouTube数值样本：
+
+- 中位播放：**9,276.5**；
+- P75：**44,170**；
+- P90：约 **96,605**；
+- 平均播放：约 **54,394**。
 
 新增：
 - Aphrodite & Venus｜5,664 / 595赞；
 - Green Man｜约10,000，YouTube搜索结果四舍五入快照。
 
-从早期20余条继续补低表现、访谈与直播后，当前37条临时中位已经下修到 **9,405**。
+从早期20余条继续补低表现、访谈与直播后，当前38条临时中位已经下修到 **9,276.5**。
 
 这个变化再次证明：
 **只补容易搜到的强视频会制造严重幸存者偏差。**
@@ -312,14 +325,14 @@ vidIQ当前公开页可确认：
 这不是数据不稳定，而是在提醒我们：
 > **只补“容易搜到的强视频”会产生幸存者偏差；低表现内容补进来以后，账号常态会明显下修。**
 
-因此当前37条分布仍只叫 provisional：
+因此当前38条分布仍只叫 provisional：
 - 不是完整年度中位；
 - 不拿它直接和别的账号绝对比较；
 - 但已经足够证明“强outlier ≠ 账号常态”。
 
-### 29条已核样本的 Hook 表现
+### 29条 long_form 已核样本的 Hook 表现
 
-`AngelaPuca-已核行级样本.csv` 已按当前29条临时中位 **21,588** 重新计算相对表现。
+`AngelaPuca-已核行级样本.csv` 对 long_form 29条继续使用格式中位 **21,588** 计算相对表现；访谈 / 直播另用自己的格式中位，不混在这张表里。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
