@@ -182,58 +182,58 @@ vidIQ当前全历史Top仍显示：
 
 ## 近一年内容题目代理清单｜来自 Patreon Early Access
 
-下面用于补“发布主题 / 标题结构”，**不是 YouTube 播放数据**。Patreon Early Access 往往会比公开视频提前，因此日期不能直接当 YouTube 正式发布日期。
+下面用于补“发布主题 / 题目结构”，**不是 YouTube 播放数据**。Patreon Early Access 往往会比公开视频提前，因此日期不能直接当 YouTube 正式发布日期。
 
-当前已能从作者 Patreon sitemap 稳定取得一整年跨度内大量 Early Access / 主内容题目。去掉课程通知、办公室、旅行、目录促销等非主视频后，当前近一年可见的主内容代理包括：
+### 2026｜当前可核 Jan–Sep 主题流
 
-### 2026
-- Aug｜The Eight Book of Moses
-- Aug｜How Magic Became Heresy
-- Jul｜What is Theosophy?
-- Jul｜The Cathar Lord's Prayer
-- Jul｜The Divine Feminine
-- Jun｜Paracelsus On the Matrix
-- Jun｜The Strangest Gnostic Lore - The Untitled Treatise
-- May｜What was Hermetic Medicine - The Kyranides
-- May｜The Kabbalah of Contemplation of 13 Sefirot
-- Apr｜The Mystical Exorcism of Hildegard of Bingen
-- Apr｜Who was Belial
-- Mar｜The Ars Steganographia of Trithemius
-- Feb｜The Mystical Theology of Love - Bernard of Clairvaux
-- Feb｜Proclus' On the Hieratic Art
-- Jan｜What are the Mayan Secrets of the Oldest American Book?
+| Patreon日期 | Early Access / 视频主题 |
+|---|---|
+| 2026-09-16 | The Best Medieval Alchemical Manual? |
+| 2026-09-09 | The Mysticism of Purgatory - Catherine of Genoa |
+| 2026-08-21 | The Eight Book of Moses |
+| 2026-08-06 | How Magic Became Heresy |
+| 2026-07-30 | What is Theosophy? |
+| 2026-07-08 | The Cathar Lord's Prayer |
+| 2026-07-02 | The Divine Feminine |
+| 2026-06-17 | Paracelsus On the Matrix |
+| 2026-06-10 | The Strangest Gnostic Lore - The Untitled Treatise |
+| 2026-05-27 | What was Hermetic Medicine - The Kyranides |
+| 2026-05-13 | The Kabbalah of Contemplation of 13 Sefirot |
+| 2026-04-22 | The Mystical Exorcism of Hildegard of Bingen |
+| 2026-04-06 | Who was Belial |
+| 2026-03-25 | The Ars Steganographia of Trithemius |
+| 2026-03-04 | How to Study Western Esotericism & the Occult - Study Guide 2026 |
+| 2026-02-26 | The Mystical Theology of Love - Bernard of Clairvaux |
+| 2026-02-04 | Proclus' On the Hieratic Art |
+| 2026-01-22 | What are the Mayan Secrets of the Oldest American Book? |
 
-### 2025-09-24—12-31
-- Dec｜How Medieval Incantations Worked
-- Nov｜The Accidental History of Lilith
-- Nov｜The Hermetic Demiurge
-- Nov｜Origins of Spiritual Alchemy in Azoth And Fire
-- Nov｜Who was Asherah
-- Oct｜Dracula
-- Oct｜The Philosophy of Witchcraft
-- Oct｜The Evolution of Ghosts
-- Oct｜The Necromantic Mirror of Floron
-- Sep 25 Early Access / Sep 26 YouTube｜Re-Creating a 400 year old Alchemy Potion from Wormwood...then Trying it!
+### 2025-09-24—12｜仍落在当前滚动365天
 
-### 窗口边缘已排除
-以下虽然离当前一年窗口很近，但早于 2025-09-24，不进入365天数值 / 主题主基线：
-- The Ring and Seal of Solomon：YouTube 2025-09-19，当前抓取约220,846播放 / 9,600赞；
-- Albertus Magnus Early Access：Patreon 2025-09-02。
+| Patreon日期 | Early Access / 视频主题 |
+|---|---|
+| 2025-12-03 | How Medieval Incantations Worked |
+| 2025-11-27 | The Accidental History of Lilith |
+| 2025-11-19 | The Hermetic Demiurge |
+| 2025-11-12 | Origins of Spiritual Alchemy in Azoth And Fire |
+| 2025-11-05 | Who was Asherah |
+| 2025-10-22 | Dracula |
+| 2025-10-15 | The Philosophy of Witchcraft |
+| 2025-10-08 | The Evolution of Ghosts |
+| 2025-10-01 | The Necromantic Mirror of Floron |
+| 2025-09-26 | Recreating an Alchemical Wormwood Potion |
 
-它们仍可放在长期历史结构参考里，但不能和近一年主样本混算。
+### 当前题目结构编码
 
-### 额外的近一年结构样本
-Patreon sitemap 还能确认同一账号长期存在：
-- 人物 / 神名型：Who was Belial / Asherah；
-- 文本 / 手稿型：Ars Steganographia / Kyranides / Eight Book of Moses；
-- “How X became Y”型：How Magic Became Heresy；
-- “What is X?”型：What is Theosophy?；
-- “The Strangest...”型：The Strangest Gnostic Lore；
-- 具体实践复原型：Recreating an Alchemical Wormwood Potion；
-- 历史变化型：The Accidental History of Lilith；
-- 具体人物 + 意外贡献型：How A Medieval Saint Gave Us Science & Occultism。
+这批近一年主题至少能分出：
 
-这层当前主要用于**选题结构编码**。只有等YouTube行级数据补齐后，才能回答这些结构谁在近一年统计上更强。
+- **What is / Who was X**：Theosophy、Belial、Hermetic Medicine；
+- **How X became Y**：How Magic Became Heresy；
+- **Best / First / Oldest**：Best Medieval Alchemical Manual、Oldest American Book；
+- **Strangest / Accidental / Evolution of**：Gnostic Lore、Lilith、Ghosts；
+- **具体文本 / 手稿 / 作者**：Kyranides、Ars Steganographia、Hildegard、Proclus、Cathar Lord's Prayer；
+- **熟悉大词 + 具体对象**：Alchemy / Magic / Witchcraft / Exorcism + 一件具体文本或人物。
+
+这说明 ESOTERICA 的前台并不是“先讲学术史”，而是持续把**具体书、人物、怪问题、历史转折**放在标题第一层。
 
 ## 全频道历史高表现｜只作长期结构参考，不计入近一年数值基线
 
