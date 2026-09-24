@@ -1,3 +1,14 @@
+## 2026-09-24｜第六轮古典案例扩充：OOTK 连续层级 + Bolognese / Marseille 实占
+
+- 古典 / 历史方法案例由至少 15 扩到至少 18；
+- 新增 M-CASE-016：Golden Dawn Manuscript Q 同一教学案例跨 Second / Third / Fifth Operation，训练 House / Zodiac Key / Sephirah 先定语境，再进入 counting / pairing；
+- 新增 M-CASE-017：Bolognese Tarot 13-card spread 合同续签实占，现实约两个月后续签；单独保存 Result 与 Timing，不建立 Hermit 固定“两个月”公式；
+- 新增 M-CASE-018：Marseille French Cross 工作冲突实例；固定牌位先回答主问题，后续 why 作为新问题，小牌只承担机制澄清；
+- 对 Bolognese / Marseille 两例均明确标为现代严格实践，不冒充十八世纪原始案例；
+- X 现实后验仍保持 91；古典层继续优先方法与完整解释链，不以数量替代来源质量。
+
+---
+
 ## 2026-09-24｜第五轮古典案例扩充：Etteilla 句法与身份控制
 
 - 古典 / 历史案例由至少 13 扩到至少 15；
