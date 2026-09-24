@@ -237,6 +237,25 @@ Patreon sitemap 当前支持一条非常稳定的节奏：
 这已经足够支持：
 **Esoteric News不是偶发栏目，而是稳定商业承载骨架。**
 
+## 近一年固定发布结构｜机器可读
+
+已新增：
+`FoolishFish-固定发布结构-近一年.csv`
+
+当前滚动窗口内共整理出 **49 条** weekly news / roundup 类 Patreon 发布节点（2025-09-25—2026-09-18）。
+
+这49条不是“49个YouTube独立研究视频”，而是用来证明：
+- 固定商业 / 更新容器长期连续存在；
+- 2025年11月下旬前主要以“Most Anticipated Occult Books and Events”命名；
+- 2025-11-27以后稳定转为 Foolish Fish Esoteric News；
+- 2026年3—9月周更节奏高度连续。
+
+因此 Foolish Fish 的年度数据以后明确拆两类：
+1. **流量内容**：Tarot / book review / long-form / 其它公开视频；
+2. **商业容器**：News / sponsor / affiliate / membership / consultation / course。
+
+不能拿49条固定商业容器去计算“研究视频年度中位播放”。
+
 ## 当前商业桥是这个账号最值得学的部分
 
 SponsorRadar 当前检测：
@@ -273,7 +292,8 @@ SponsorRadar 当前检测：
 ## 年度数据缺口
 
 还缺：
-- 近365天完整公开视频行级列表；当前已有2026-08—09连续13条统一抓取样本 + 其它历史快照，但仍不足全年；
+- 近365天完整 YouTube 公开视频行级列表；当前已有2026-08—09连续13条统一抓取样本 + 其它历史快照，但仍不足全年；
+- 固定商业容器已另用49条 Patreon weekly/news 节点建成机器可读表，不再混进YouTube主内容样本；
 - 统一抓取日后的 views / likes / comments；
 - 正式时长；
 - Book review / Esoteric Saturday / Tarot / News 不同类型的完整样本量；
