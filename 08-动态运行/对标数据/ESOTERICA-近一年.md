@@ -264,6 +264,37 @@ vidIQ当前全历史Top仍显示：
 
 也就是说，ESOTERICA 的商业化并不是把每一支研究视频强行改成广告，而是在研究品牌旁边长期维护**目录、课程、会员与资源节点**。
 
+## 当前28个主研究主题与25条直接量化样本的差额
+
+滚动一年 Patreon / Early Access 清洗后共有 **28 个主研究主题**；当前已经拿到 **25 条可直接量化的 YouTube 主视频样本**。
+
+目前还没有稳定取得 YouTube 直接播放 / 点赞的 3 个主题：
+
+1. **The Accidental History of Lilith**
+   - Patreon Early Access：2025-11-27；
+   - Patreon页面当前可核互动：74 / 14（Patreon互动，不是YouTube播放）；
+   - 暂不把 Patreon 数字写进 YouTube 行级表。
+
+2. **What were the Technical Hermetica? The Kyranides**
+   - Patreon工作标题：What was Hermetic Medicine - The Kyranides；
+   - Patreon Early Access：2026-05-27；
+   - 当前外部文章可确认公开视频前台标题为 **What were the Technical Hermetica? The Kyranides**；
+   - 仍未取得可靠 YouTube 播放 / 点赞，因此不估算。
+
+3. **The Strangest Gnostic Lore - The Untitled Treatise**
+   - Patreon Early Access：2026-06-10；
+   - 当前只能稳定确认题目 / Early Access 日期；
+   - YouTube直接量化值待补。
+
+因此当前可以明确说：
+- **主题覆盖：28 / 28 已有代理节点；**
+- **直接量化：25 / 28；**
+- **剩余直接量化缺口：3。**
+
+这比“全年完全没拿齐”更精确；但在3条缺口补齐前，25条 provisional 分位数仍然不能升级成完整年度中位数。
+
+---
+
 ## Patreon年度原始索引
 
 完整原始发布节点已单独保存：
