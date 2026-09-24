@@ -34,6 +34,9 @@ Patreon负责证明固定更新节奏、会员权益与商业产品；SponsorRad
 | 2026-09-03 | Pick a Symbol Tarot｜3–8 Sep | 6.2K | N/A | SponsorRadar当前快照 |
 | 2026-08-01 | Esoteric News｜31 Jul Updates | 2,413 | 204 | YouTube公开结果 |
 | 2026-06-27 | Esoteric News｜26 Jun Updates | 2,154 | 181 | YouTube公开结果 |
+
+| 2026-04-25 | Esoteric News｜24 Apr Updates | 2,170 | 190 | YouTube当前直取｜video 4zYIT3XEUW8 |
+| 2026-04-18 | Esoteric News｜17 Apr Updates | 2,776 | 221 | YouTube当前直取｜video KQ0P7Hr9EOA |
 | 2026-04-10 | Esoteric News｜10 Apr Updates | 约2.1K | N/A | RUclips历史快照 |
 | 2026-04-08 | Pick a Symbol Tarot｜8–14 Apr | 约2.4K | N/A | RUclips历史快照 |
 | 2026-04-03 | Esoteric News｜3 Apr Updates | 约2.5K | N/A | RUclips历史快照 |
@@ -41,10 +44,56 @@ Patreon负责证明固定更新节奏、会员权益与商业产品；SponsorRad
 | 2026-03-27 | Esoteric News｜27 Mar Updates | 约2.0K | N/A | RUclips历史快照 |
 | 2026-03-25 | Pick a Symbol Tarot｜25–31 Mar | 约1.6K | N/A | RUclips历史快照 |
 | 2026-03-20 | Esoteric News｜20 Mar Updates | 约2.5K | N/A | RUclips历史快照 |
+| 2026-03-18 | Pick a Symbol Tarot｜18 Mar | 约1.4K | N/A | RUclips历史快照 |
 | 2026-03-13 | Esoteric News｜13 Mar Updates | 约2.4K | N/A | RUclips历史快照 |
 | 2026-03-11 | Pick a Symbol Tarot｜11 Mar | 约1.8K | N/A | RUclips历史快照 |
 | 2026-03-03 | Esoteric News｜3 Mar Updates | 约3.2K | N/A | RUclips历史快照 |
 | 2026-03-04 | Pick a Symbol Tarot｜4 Mar | 约2.0K | N/A | RUclips历史快照 |
+
+### 3—4月历史同源快照
+
+RUclips 在 2026年4月中旬抓取到一批相邻视频，当时这些视频都处于相近的早期累计阶段。只取同一页面当前明确显示的 2026-03-03—04-10：
+
+#### Esoteric News
+- 03/03｜3.2K
+- 03/13｜2.4K
+- 03/20｜2.5K
+- 03/27｜2.0K
+- 04/03｜2.5K
+- 04/10｜2.1K
+
+中位：约 **2.45K**
+
+#### Pick a Symbol Tarot
+- 03/04｜2.0K
+- 03/11｜1.8K
+- 03/18｜1.4K
+- 03/25｜1.6K
+- 04/01｜1.8K
+- 04/08｜2.4K
+
+中位：约 **1.80K**
+
+这段历史快照里，News 中位约为 Tarot 的 **1.36×**。
+
+但 2026-08—09 SponsorRadar 同源快照里：
+- Tarot中位约3.35K；
+- News中位约2.60K；
+- Tarot约为News的1.29×。
+
+所以这个账号已经给出一个非常有价值的反例：
+
+> **同一账号、同一两种固定栏目，相对播放优势会随时间变化。**
+
+因此不能从8—9月直接总结“参与型塔罗永远比News强”，也不能用3—4月说“News永远更强”。
+
+真正应该跟踪的是：
+- 账号阶段；
+- 观众对固定栏目的疲劳 / 新鲜度；
+- 商业密度；
+- 题材；
+- 发布间隔；
+- 累计时间。
 
 ### SponsorRadar 2026-08—09统一快照
 
