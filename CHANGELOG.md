@@ -1,3 +1,15 @@
+## 2026-09-24｜继续扩充薄区案例 + 建立古典案例实战层
+
+- X 外部后验由 80 扩到 85 例，不继续机械堆求职 yes/no；
+- 新增 X-081 住房竞争 / 候选顺位反例：Knight of Wands + Ace of Swords + Six of Pentacles 最终未拿到公寓；
+- 新增 X-082—X-084 三个 Timing 样本：原“两周内”失败但两个月后联系、求职约一周拿到 offer、Hierophant 单牌约24小时后回复；
+- 新增 X-085 关系状态反例：Ace of Cups + Hierophant + Six of Cups 被多人读成仍在一起，现实当时已分手；
+- 新建 `13-古典案例与历史实战样本.md`，作为 M 层案例子层，不与 X 后验层混同；
+- 第一批古典样本覆盖 Etteilla 随牌八张示例、Mathers 1888 两套完整操作法、Papus rapid / elaborate process、Waite 1911 Celtic Method 的二次 Significator 规则；
+- 运行入口与覆盖文件已同步，后续古典案例重点补逐张可复原的 Etteilla、Golden Dawn/OOTK、Marseille / 早期法语纸牌占卜案例。
+
+---
+
 # Changelog
 
 ## 2026-09-24｜完成此前未收口的 X 扩充批次：正式验收到 80 例
