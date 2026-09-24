@@ -87,7 +87,7 @@
 ## 7. 独立 Rule Vault 读取
 
 - 数据库任务 → `Suenakhet Database Rules/`；
-- 塔罗解牌、塔罗训练、老师案例归纳、《牌记》具体案例判断 → 先读 `Tarot Judgment Rules/README.md`，再按其路由读取；
+- 塔罗解牌、塔罗训练、老师案例归纳、《牌记》具体案例判断 → 用户只需说“解牌 / 帮我看牌 / 看这副牌 / 解读这组牌”等即可触发；先读 `Tarot Judgment Rules/README.md`，再按其路由读取；
 - 普通商业总控、普通选题与其它栏目任务不得为了“更完整”默认加载这些 Vault。
 
 ## 8. 正式内容任务
