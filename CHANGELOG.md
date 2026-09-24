@@ -1,5 +1,15 @@
 # Changelog
 
+## 2026-09-24｜第八轮塔罗扩充：X 71 + 训练覆盖 / 缺口管理
+
+- X 外部后验扩到 71 例；新增 Strength 后找到理想工作、Magician 的“拿到别的工作但原目标职位失败”目标错配、Thoth Six of Cups 30 天内复合但关系仍困难；
+- 新增 M-BOL：1725 左右 Bolognese Tarocchino cartomancy 作为 Etteilla 之前的历史占卜旁证，但不直接迁移进 78 张现代牌运行规则；
+- 新建 `12-训练覆盖与缺口.md`：停止无目的堆案例，后续优先补金钱实际到账、commitment / durability、明确 timing、住房 / 搬迁、商业 / 客户行为；
+- 求职 yes/no 与基础 contact / reunion 已相对充足，新增门槛提高，只有带来新机制 / 反例的案例继续收；
+- 明确不把医疗、法律、死亡 / 灾难网络“应验”做成高风险预测词典。
+
+---
+
 ## 2026-09-24｜第七轮塔罗扩充：Etteilla 历史分支 + X 68
 
 - 外部后验 X 层新增近期求职反例：Six of Pentacles + Ace of Swords + Five of Swords 被读成 yes，现实收到拒信；X 总数到 68；
