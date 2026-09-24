@@ -1,6 +1,6 @@
 # Angela's Symposium / Angela Puca｜近一年公开数据基线
 
-状态：首批建档｜已有强样本，年度行级数据待补齐  
+状态：近一年发布清单接近完整｜YouTube量化行级数据继续补齐  
 抓取 / 整理日期：2026-09-24  
 主平台：YouTube  
 账号：@drangelapuca  
@@ -13,6 +13,91 @@
 - Patreon sitemap｜https://www.patreon.com/cw/angelapuca/sitemap
 
 vidIQ用于当前频道规模、最新视频和已知强outlier；Patreon sitemap用于近一年主内容题目流、课程 / 社群结构。Patreon发布日期不直接替代YouTube正式发布日期。
+
+## 近365天发布清单｜Podcast feed 50条
+
+来源：Podcast Republic 当前公开索引。  
+窗口：2025-09-24—2026-09-24。  
+当前索引在窗口内从 **2025-09-28 到 2026-09-21 共50条**。
+
+这份清单用于回答“这一年她实际围绕哪些题持续发布”。  
+它**不是50条YouTube量化表**：
+- Podcast feed 与 YouTube 的上架日可能相同，也可能错开；
+- 某些条目是 livestream / interview / course promo；
+- 只有已经直接核到 YouTube 的条目才进入播放量统计。
+
+| 日期 | 标题 |
+|---|---|
+| 2025-09-28 | Universal Divine or Cultural Construct? Perennialism vs Constructivism |
+| 2025-10-05 | Paimon Explained: From Ancient Grimoires to Modern Occultism |
+| 2025-10-12 | Astaroth: From Ancient Goddess Astarte to Demon of Forbidden Knowledge |
+| 2025-10-19 | The Path and the Practice: Ivy Corvus on Living Witchcraft @IvyTheOccultist |
+| 2025-10-26 | Asmodeus: A Demon’s Journey from Zoroastrian Wrath to Western Lust |
+| 2025-10-30 | Demons of the Necronomicon: When Fiction Becomes Occult Reality |
+| 2025-11-10 | The Psychology of Magic with Dr Richard Kaczynski |
+| 2025-11-23 | The Six Models Every Magician Should Know |
+| 2025-11-30 | The Magical Art of Peace: Ancient Rituals of Reconciliation and Resistance |
+| 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists |
+| 2025-12-22 | Leah Hirsig’s Lost Diaries: New Revelations in Thelemic History |
+| 2025-12-22 | Winter Solstice Tradition + Q&A Livestream |
+| 2025-12-30 | Living Thelema with @MaeviusLynn |
+| 2026-01-04 | Aphrodite & Venus: Love, Desire & War in Ancient and Modern Religion |
+| 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer |
+| 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis |
+| 2026-02-02 | Birthday Livestream + Tantric Ritual |
+| 2026-02-08 | A Philosophical Deep Dive on Magick with Peter J Carroll |
+| 2026-02-15 | The Most Ancient Forms of Magic: Ancient Rituals from the Stone Age to Egypt |
+| 2026-02-24 | Conjuring the Algorithm: Magic, AI, and the Hidden Internet with Dr Shira Chess |
+| 2026-03-01 | Shadow Work in Paganism and Esoteric Practices |
+| 2026-03-08 | The Case Against Reality: What Donald Hoffman Means for Esoteric Practice |
+| 2026-03-15 | What Is a Cult? How High-Control Religious Groups Manipulate Belief |
+| 2026-03-23 | Esotericism in Western Culture with Prof Wouter Hanegraaff |
+| 2026-03-29 | Your Tradition is Fake. Now What? |
+| 2026-04-05 | This Changes Solomonic Magic Forever |
+| 2026-04-14 | Magic in the United States with Heather J. Freeman |
+| 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation |
+| 2026-04-26 | The Real History of the Green Man (Not What Wicca Teaches You) |
+| 2026-05-06 | Destination: The Truth about Solomonic Magic with Dr Gal Sofer |
+| 2026-05-11 | The Left Hand Path of Tarot with Cherry Parra |
+| 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) |
+| 2026-05-24 | ESBAT: The History of Wicca’s Full Moon Ritual |
+| 2026-05-31 | How to Lucid Dream: Science, Dream Yoga, and the Magic of the Sleeping Mind |
+| 2026-06-10 | British Traditional Wicca with Rufus Harrington |
+| 2026-06-14 | The Question Isn't If AI. It's How |
+| 2026-06-20 | The Summer Solstice and Litha: What History Actually Says |
+| 2026-06-28 | Should Practitioners Do What Academics Say? |
+| 2026-07-05 | The Philosophy of Magic: My New Online Course |
+| 2026-07-12 | What Is Theurgy? The Ancient Philosophy Behind Ritual Magic |
+| 2026-07-19 | Can AI Become a Magical Familiar? Witchcraft, Tarot and the Algorithm |
+| 2026-07-26 | Lughnasadh vs Lammas: The Truth About the First Harvest Festival |
+| 2026-08-05 | Can Process Philosophy Explain How Magic Works? With Dr Darren Iammarino |
+| 2026-08-09 | The Grimoire Tradition: A complete guide |
+| 2026-08-17 | Advanced Rune Magic with David Linder |
+| 2026-08-24 | No Nonsense Spirituality with Britt Hartley |
+| 2026-08-30 | Is Ancient Magic Really More Powerful? The Truth About Old vs New Magic |
+| 2026-09-06 | Can You Really See the Invisible? The Science of Clairvoyance |
+| 2026-09-21 | 500k Livestream Celebration |
+| 2026-09-21 | How Does Magic Work? Process Philosophy May Have an Answer |
+
+### 这50条清单带来的新结论
+
+**发布清单完整度已经明显高于数值完整度。**
+
+当前可以分开写：
+- 近一年主题 / 发布清单：**接近完整**；
+- YouTube直接量化：当前只覆盖其中一部分；
+- 所以后续重点不再是“她这一年发了什么”，而是继续补**每条YouTube播放 / 点赞 / 格式**。
+
+50条中肉眼可见的稳定内容桶至少包括：
+- 学术纠偏 / 真伪 / 历史重构；
+- 实践者现实问题；
+- 具体传统 / 神祇 / 魔法体系；
+- AI / 科学 / 当代技术；
+- 专家访谈 / 对谈；
+- 节气 / Pagan calendar；
+- livestream / course / community节点。
+
+这些桶以后需要逐条编码后再统计，当前不靠肉眼直接宣告谁最强。
 
 ## 当前频道基线
 
