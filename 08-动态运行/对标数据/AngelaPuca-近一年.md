@@ -77,11 +77,45 @@ vidIQ当前公开页可确认：
 | 2026-01-25 | Does Quantum Physics Prove Magic or Consciousness? A Critical Scholarly Analysis | 7,448 | 561 | 约1:12:12；YouTube直取 |
 | 2026-01-18 | Did Ronald Hutton Really “Erase” Wicca’s History? A Scholarly Answer | 8,788 | 681 | 43:50；YouTube直取 |
 | 2025-12-14 | A Critical-Rational Guide for Magicians and Occultists | 740,493 | 2,200 | YouTube直取；vidIQ较新快照763.48K，抓取时点不同 |
+| 2026-06-20 | The Summer Solstice and Litha: What History Actually Says | 21,588 | 392 | youtube.com/watch?v=gMkjFS-1Izk |
+| 2026-05-24 | ESBAT: The History of Wicca's Full Moon Ritual | 3,062 | 406 | youtube.com/watch?v=AZxxgT3JEB4 |
+| 2026-05-17 | The Witches' Sabbath: What Actually Happened (And What Was Invented) | 45,881 | 476 | youtube.com/watch?v=P-MgdbRcGig |
+| 2026-04-19 | Alchemy Explained: Science, Spirituality, and the Search for Transformation | 4,196 | 354 | youtube.com/watch?v=AKh4KS_tnVc |
 
 另已确认准确发布日期 / 题目，但当前未取得可靠YouTube播放：
 - 2026-03-15｜What Is a Cult? How High-Control Religious Groups Manipulate Belief｜约25分钟；
 - 2026-03-08｜The Case Against Reality: What Donald Hoffman Means for Esoteric Practice｜约22分钟；
 - 2026-04-19｜Alchemy Explained: Science, Spirituality, and the Search for Transformation｜47:10。
+
+### 14条已核数值样本｜临时分布
+
+当前14条带YouTube数值的主样本（其中9/20最新视频约10K为近似值）：
+
+- 中位播放：约 **15,794**；
+- P75：约 **101,681**；
+- P90：约 **340,422**；
+- 平均播放：约 **114,616**。
+
+注意：
+- 这不是Angela完整年度统计；
+- 分布极度右偏，少数几十万级outlier把平均值大幅拉高；
+- 因此这个账号以后**中位数比平均数更重要**；
+- 新发布视频与数月前视频累计时间不同，正式年度库补齐后还需按内容年龄分层。
+
+当前14条低位样本里：
+- ESBAT｜3,062；
+- Alchemy Explained｜4,196；
+- Quantum Physics｜7,448；
+- Shadow Work｜8,113；
+- Hutton / Wicca history｜8,788；
+- Most Ancient Forms of Magic｜9,148。
+
+高位样本：
+- Critical-Rational Guide｜740,493；
+- Your Tradition is Fake｜439,530；
+- Solomonic Magic｜109,170；
+- Ancient vs New Magic｜104,760；
+- Peter J Carroll｜92,445。
 
 ### 这批行级数据已经出现非常强的内部差异
 
@@ -176,7 +210,7 @@ vidIQ当前公开页可确认：
 ## 年度数据缺口
 
 仍需补：
-- 近365天全部 YouTube 上传的行级表；当前已核10条带YouTube数值的主样本 + 3条准确日期/时长样本，但仍不是全年完整表；
+- 近365天全部 YouTube 上传的行级表；当前已核14条带YouTube数值的主样本 + 4条准确日期/时长样本，但仍不是全年完整表；
 - 每条准确发布日期；
 - views / likes / comments；
 - Shorts 与长视频分开；
