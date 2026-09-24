@@ -619,7 +619,7 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 新增机器表：
 `ESOTERICA-2025Q4非主研究长视频已核样本.csv`
 
-滚动365天窗口从2025-09-24开始。Merkavah Mysticism公开seminar的**第8—15讲**全部落在这一窗口内，因此当前已能确认2025Q4至少存在 **8个seminar长视频槽位**；再加两条已直接核验的非主研究长视频，当前Q4非主研究Long-form已知下限为 **10条**：
+滚动365天窗口从2025-09-24开始。Merkavah Mysticism公开seminar的**第8—15讲**全部落在这一窗口内，因此当前已能确认2025Q4至少存在 **8个seminar长视频槽位**；再加两条已直接核验的非主研究长视频，当前Q4非主研究Long-form已知下限为 **11条**：
 
 - 9/25｜8/15｜Who is Able to See it?｜21,887
 - 9/30｜9/15｜The Myth-Scape of the Hekhalot｜22,756
@@ -629,6 +629,9 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 - 13/15｜The Sar Torah & Sh’iur Komah｜视频ID `o_qdbvYPcZk` 已恢复；正式发布日期仍 unresolved，但11/12前已被外部论坛直接嵌入
 - 11/19｜14/15｜Magical Context and Afterlife｜14,151
 - 11/21｜15/15｜The Twilight of the Merkavah｜视频ID `g8f7euCwchs`；当前直接播放值待补
+- 10/10｜**Win a 439 year old book of Alchemy by Paracelsus!**｜25,021播放 / 2,800赞｜rare-book catalog / giveaway商业节点
+- 10/24｜**Frankenstein and the Occult - How Victor Made the Monster**｜105,209播放 / 6,400赞｜合作 / 额外周更
+- 12/10｜**ESOTERICA at 1,000,000 Subscribers**｜39,767播放 / 9,000赞｜频道里程碑 + 商业承接
 - 10/24｜**Frankenstein and the Occult - How Victor Made the Monster**｜105,209播放 / 6,400赞｜合作 / 额外周更长视频
 - 12/10｜**ESOTERICA at 1,000,000 Subscribers**｜39,767播放 / 9,000赞｜频道里程碑 + 节日书店 / 周边商业承接
 
@@ -644,7 +647,7 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 这20条只表示当前能逐行确认的下限，**不是Q4全部上传数**。Q4 Shorts数量、可能遗漏的其它合作 / 频道说明 / 商业节点仍未完整。
 
 这一步的结构意义很明确：
-- 2025Q4也存在连续公开seminar容器，不是只有主研究视频；
+- 2025Q4也存在连续公开seminar容器，不是只有主研究视频；同时已直接确认合作视频、古籍目录抽奖、频道里程碑等非主研究Long-form；
 - 2026 YTD Being and Logos 14讲 + 滚动窗口内 Merkavah 8讲，已经识别出**至少22个 seminar 长视频槽位**；
 - 因此滚动365天内“非主研究长视频”是实质供给层，不是偶尔插播；
 - 但2025Q4总上传数、Shorts数量与其它长视频仍未完整，因此不能把8讲当Q4 all-upload总量。
