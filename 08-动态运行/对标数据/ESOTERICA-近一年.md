@@ -471,3 +471,99 @@ ESOTERICA 的最大作用不是告诉我们“爆款标题词”，而是证明�
 > **研究型账号可以把具体文献、书、手稿做成前台内容单位，不需要每次都先包装成泛泛大主题。**
 
 这对《残页》、公众号长文、数据库专题尤其有价值。
+
+
+## Early Access → 正式公开视频标题映射
+
+这层很重要，因为 Patreon Early Access 的题目不一定等于最终 YouTube 标题。
+
+### 已确认例子
+
+#### 2026-09-16 Patreon
+Early Access：
+**The Best Medieval Alchemical Manual?**
+
+#### 2026-09-18 YouTube / vidIQ
+正式公开视频：
+**The First Book of Alchemy You Should Study**
+- 127.1K views（抓取时）；
+- 3.01× outlier；
+- 最近5条第2。
+
+这说明 ESOTERICA 会把研究对象在正式公开时改写成更明确的**读者决策价值**：
+> “最好的中世纪炼金术手册？”  
+> → “你应该学的第一本炼金术书”
+
+对 Suen 的意义：
+**对标不能只抄 Patreon / 研究阶段标题，必须尽量核最终前台标题。**
+
+---
+
+## 2026年可核公开视频 / 准公开视频序列
+
+| 日期 | 前台 / 公开题目 | 当前可核数据 |
+|---|---|---|
+| 2026-07-04 | How God Became a Woman: From Primordial Chaos to Medieval Goddess | 第三方嵌入YouTube页确认发布日期 |
+| 2026-07-10 | What was the Sin of Jesus? The Cathar Lord’s Prayer | 第三方YouTube索引确认 |
+| 2026-08-07 | How Magic Became Heresy | 70,390 views；4,100 likes |
+| 2026-09-11 | The Mysticism of Purgatory - Catherine of Genoa | 27,286 views；917 likes |
+| 2026-09-18 | The First Book of Alchemy You Should Study | 127.1K views；vidIQ 3.01× |
+
+这些是当前**能同时确认正式前台标题 / 日期，部分还能确认播放互动**的行级样本。
+
+### 目前能看到的前台入口差异
+
+- **How Magic Became Heresy**：A → B 的历史转折；
+- **How God Became a Woman**：极强反差 / 变化；
+- **What was the Sin of Jesus?**：熟悉人物 + 禁忌问题；
+- **The Mysticism of Purgatory**：术语 / 人物型，当前播放明显低于另外两条已量化样本；
+- **The First Book of Alchemy You Should Study**：直接给读者行动 / 选择价值。
+
+当前只有少量量化样本，所以不能正式排名，但已经值得把“读者行动价值 / 强转折 / 禁忌问题”作为待编码结构。
+
+---
+
+## 2025Q4—2026 Early Access 题目代理
+
+滚动一年内 Patreon sitemap 当前可确认的研究型题目包括：
+
+### 2025 Q4
+- 2025-09-28｜The (gnostic?) Gospel of Mary Magdalene
+- 2025-10-12｜The Birth of the Witch and Witchcraft in Popular Demonology
+- 2025-10-19｜The Origins of the Dybbuk
+- 2025-10-26｜Mysticism of the Death Drive
+- 2025-11-16｜Lilith Part I - Origins
+- 2025-11-23｜The Witch Trials Beyond Salem
+- 2025-11-30｜The Philosophers Stone
+- 2025-12-07｜Introduction to William Blake's Gnostic(?) Mythology
+- 2025-12-21｜Most Ancient Ghosts and Necromancy
+- 2025-12-29｜Plotinus Against the Gnostics
+
+### 2026
+- 2026-01-03｜Essene & Davidic Exorcism Rituals
+- 2026-01-18｜How the Ancient Invocation of the Headless God became Aleister Crowley's Ritual of the Bornless One
+- 2026-01-25｜Arbatel - Magic of the Ancients
+- 2026-02-01｜Cathar Theology
+- 2026-02-07｜Mutus Liber - Alchemy Day
+- 2026-02-22｜The Origins of the Inquisition
+- 2026-03-01｜Yahweh
+- 2026-03-08｜Stoicism and the Occult
+- 2026-05-13｜The Kabbalah of Contemplation of 13 Sefirot
+- 2026-05-27｜What was Hermetic Medicine - The Kyranides
+- 2026-06-10｜The Strangest Gnostic Lore - The Untitled Treatise
+- 2026-06-17｜Paracelsus On the Matrix
+- 2026-07-02｜The Divine Feminine
+- 2026-07-08｜The Cathar Lord's Prayer
+- 2026-07-30｜What is Theosophy?
+- 2026-08-06｜How Magic Became Heresy
+- 2026-08-21｜The Eight Book of Moses
+- 2026-09-09｜The Mysticism of Purgatory - Catherine of Genoa
+- 2026-09-16｜The Best Medieval Alchemical Manual?
+
+中间还有 seminar / book catalog / update 等 Patreon 内部内容，不自动算公开视频选题。
+
+这一层的价值：
+- 近一年研究题型覆盖已经很广；
+- **具体古书 / 文本**是稳定主角；
+- 也反复出现 **Origins / How X became Y / What is X / Strangest X** 这类大众化入口；
+- 但必须继续核正式YouTube标题，因为 Early Access 会在公开视频前改题。
