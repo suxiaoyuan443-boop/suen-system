@@ -715,6 +715,36 @@ Q4 Shorts、其它可能遗漏的合作 / 宣传 / 商业节点一旦补入，�
 
 这一层的意义是：标题级恢复已经从0推进到5个候选；后续只要拿到明确format证据，就能逐条升级，而不需要重新找视频ID。
 
+## 近期all-upload同源切片｜SubSub
+
+新增：
+`ESOTERICA-SubSub近期上传切片-2026-09-24.csv`
+
+SubSub 2026-09-24频道Content第一页给出最近15个上传位的同源快照。去重后这15个位置的结构为：
+
+- 主研究：**3**
+- Being and Logos seminar：**5**
+- livestream：**2**
+- rare-book / catalog promo：**2**（同题3:54与2:16为不同YouTube ID）
+- 频道价值说明：**1**
+- 其它短时长候选：**2**
+
+因此在这一段近期上传切片里：
+**主研究只占3 / 15，其余12 / 15都是其它内容角色。**
+
+这不是全年占比，但进一步确认：
+- ESOTERICA 的all-upload供给不能用Patreon Early Access主研究数替代；
+- 同一研究品牌旁边长期并行 seminar、直播、目录 / 古籍商业节点、频道说明与短时长内容；
+- “研究主片”与“公开供给系统”必须分开统计。
+
+新增恢复：
+- WatchParty - The Vigil - w/ @MiriamAnzovin｜YouTube ID `lC97ZEftNpw`
+- Welcome to Autumn LiveStream Q&A...｜YouTube ID `3N-1i_p4RwE`
+- 3:54版 Want to Win a Real Piece of Occult History?｜`ks72nuaHkVQ`
+- 2:16同题版｜`DAi1pclmtQ0`
+
+注意：SubSub的Published on字段当前抓取为空，且该站频道总览曾出现年份解析错误，因此这张切片**只把SubSub用于标题 / 顺序 / 时长 / 同源当前快照**；发布日期仍优先取已独立核过的YouTube / 其它可靠来源。
+
 ## 当前年度数据缺口
 
 还缺：
