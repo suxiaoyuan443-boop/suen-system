@@ -131,17 +131,26 @@ vidIQ当前全历史Top仍显示：
 
 ### 当前已核样本先能看到什么
 
-当前26条仍不足以代表全年，但已经比“题目代理”更进一步：
-- 当前最高：Cathar Lord's Prayer 165,095；
-- 其次：Mayan Secrets 137,195；
-- Theosophy 96,990；
-- Kabbalah of Contemplation 88,395；
-- Purgatory 27,286明显更低。
+当前26条仍不足以代表全年，但已经可以排除一些过早判断：
 
-初步可见：
-- **具体文本 + 强异常问题**（Jesus的“罪”、最古老美洲书的秘密）在当前这批里更高；
-- 单纯人物神秘主义 / 抽象神学题未必同样强；
-- 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
+- 最高层并不只来自“具体文本”：
+  - The Evolution of Ghosts｜584,951
+  - The Philosophy of Witchcraft｜506,200
+  - How Angel Magic Gave Us the Internet｜430,661
+  - Who was Asherah - Wife of Yahweh?｜371,293
+- 中高层同时出现：
+  - Who was the Demon Belial?｜255,812
+  - Was Lilith a Joke?｜226,256
+  - Hermetic God & Demiurge｜220,089
+  - Cathar Lord's Prayer｜165,095
+
+所以当前更准确的观察是：
+
+- **高认知大题**可以很强；
+- **熟悉名字 / 神名 + 意外关系或身份问题**也可以很强；
+- **具体文本 + 强问题**同样能冲高；
+- “题材是什么”与“前台问题怎么写”必须分开编码，不能把高播放全部归因给某一种标题句式；
+- 样本抓取年龄不同，当前累计播放仍不能直接证明标题造成结果。
 
 ### 26条已核样本｜临时分布
 
@@ -159,7 +168,8 @@ vidIQ当前全历史Top仍显示：
 3. How Angel Magic Gave Us the Internet｜430,661；
 4. Who was Asherah - Wife of Yahweh?｜371,293；
 5. Who was the Demon Belial?｜255,812；
-6. What is the Hermetic God & Demiurge?｜220,089。
+6. Was Lilith a Joke?｜226,256；
+7. What is the Hermetic God & Demiurge?｜220,089。
 
 当前26条最低：
 - The Mysticism of Purgatory｜27,286；
@@ -196,23 +206,27 @@ vidIQ当前全历史Top仍显示：
 更准确的是：
 
 1. **明确问题型和具体文本型都能稳定落在账号当前中位附近**，说明研究型内容完全可以直接以文本 / 书 / 神名 / 问题做前台；
-2. “描述型”当前中位异常高，主要由《Evolution of Ghosts》《Philosophy of Witchcraft》两条大主题推动，样本只有2条，不能解释成“描述标题最好”；
-3. 当前 person_story 4条明显偏低，但样本里的具体人物与题材认知度也不同，不能直接推出“人物故事不行”；
-4. 真正值得 Suen 迁移的是：**证据密度很高的内容，也可以先给一个普通人能懂的对象 / 问题，不必先把学术背景讲完。**
+2. **familiar_unexpected 现在有4条，中位136,812.5，约1.08×当前临时中位**；Lilith补入后，这类“熟悉对象 + 意外历史关系”比之前更值得继续观察，但仍不足以升级成稳定公式；
+3. “描述型”当前中位异常高，主要由《Evolution of Ghosts》《Philosophy of Witchcraft》两条大主题推动，样本只有2条，不能解释成“描述标题最好”；
+4. 当前 person_story 4条明显偏低，但样本里的具体人物与题材认知度也不同，不能直接推出“人物故事不行”；
+5. 真正值得 Suen 迁移的是：**证据密度很高的内容，也可以先给一个普通人能懂的对象 / 问题，不必先把学术背景讲完。**
 
 因此 ESOTERICA 在系统里的职责仍然是：
 > **教我们怎样让原文、书、手稿、历史魔法对象成为前台内容单位。**
 
 不是负责提供一个统一爆款标题模板。
 
-### 新增晚2025样本的初步意义
+### 晚2025样本的初步意义
 
-新增三条把当前分布拉开得更明显：
+当前晚2025样本里同时出现：
 - Who was Asherah - Wife of Yahweh?｜371,293；
+- Was Lilith a Joke?｜226,256；
 - What is the Hermetic God & Demiurge?｜220,089；
 - How Medieval Incantations Worked｜79,227。
 
-它们说明“熟悉神名 / 神学对象 + 明确关系或身份问题”也能形成很高上限，不能把 ESOTERICA 简化成“只有具体手稿 / 书名题才高”。
+这组差异尤其有价值：同样属于宗教 / 神秘历史内容，**熟悉名字 + 强关系 / 强误解问题**可以明显高于较窄的技术性历史题，但这仍然只是当前样本中的相关性。
+
+因此不能把 ESOTERICA 简化成“具体手稿 / 书名题一定高”，也不能反过来写成“神名题一定高”。
 
 当前更合理的候选结构是：
 1. 熟悉神名 / 大概念 + 一个普通人能理解的问题；
