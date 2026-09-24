@@ -37,6 +37,29 @@
 | 2026-03-03 | Esoteric News｜3 Mar Updates | 约3.2K | N/A | RUclips历史快照 |
 | 2026-03-04 | Pick a Symbol Tarot｜4 Mar | 约2.0K | N/A | RUclips历史快照 |
 
+### SponsorRadar 2026-08统一快照
+
+同一抓取页面当前可见：
+- 2026-08-29｜Esoteric News 28 Aug｜约3K｜Miskatonic Books；
+- 2026-08-26｜Pick a Symbol Tarot 26 Aug–1 Sep｜约4K｜无检测赞助；
+- 2026-08-22｜Esoteric News 21 Aug｜约2K｜Miskatonic Books；
+- 2026-08-19｜Pick a Symbol Tarot 19–25 Aug｜约2K；
+- 2026-08-16｜Esoteric News 14 Aug｜约2K｜Miskatonic Books；
+- 2026-08-12｜Pick a Symbol Tarot 12–18 Aug｜约3K；
+- 2026-08-08｜Esoteric News 07 Aug｜约2K｜Miskatonic Books；
+- 2026-08-05｜Pick a Symbol Tarot 05–11 Aug｜约2K；
+- 2026-08-01｜Esoteric News 31 Jul｜约2K｜Miskatonic Books。
+
+同页当前频道快照：
+- 订阅约162K；
+- 平均每视频约3K views（SponsorRadar估计口径）；
+- 72个tracked deals；
+- 2个distinct brands；
+- Miskatonic Books检测71条赞助；
+- Jenx's Thai Occult Course检测1条。
+
+这些 sponsor / 收入均为第三方检测与估算，不代表品牌或创作者官方确认。
+
 ## 近一年发布结构｜Patreon sitemap
 
 Patreon 当前索引显示 2026 年稳定存在：
