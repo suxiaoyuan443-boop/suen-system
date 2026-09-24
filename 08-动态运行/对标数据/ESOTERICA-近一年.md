@@ -95,7 +95,7 @@ vidIQ当前全历史Top仍显示：
 | 2025-11-14 | What is Spiritual Alchemy? | 108,931 | 5,800 | youtube.com/watch?v=7QC_t1VsmLI；播客聚合页曾显示2026日期，已以YouTube原视频日期纠正 |
 | 2025-11-07 | Who was Asherah - Wife of Yahweh? | 371,293 | 15,000 | youtube.com/watch?v=m60p7BEnN5Y |
 | 2026-08-07 | How Magic Became Heresy | 70,390 | 4,100 | youtube.com/watch?v=3ZAQxtInv2g |
-| 2026-07-03 | The Divine Feminine | 132,202 | 7,300 | youtube.com/watch?v=FkJSDtGK7_M；YouTube解析标题为空，但描述 + Patreon题目交叉一致 |
+| 2026-07-03 | How God Became a Woman: From Primordial Chaos to Medieval Goddess | 132,202 | 7,300 | youtube.com/watch?v=FkJSDtGK7_M；正式前台标题由URL关联公开嵌入页确认；Patreon工作标题为 The Divine Feminine |
 | 2026-03-27 | How Angel Magic Gave Us the Internet - The Steganographia of Trithemius | 430,661 | 16,000 | youtube.com/watch?v=Vq96NDOB0xs |
 | 2026-03-06 | How to Study the Occult and Western Esotericism | 125,806 | 8,600 | youtube.com/watch?v=VRNo6e5eI8k |
 | 2026-02-06 | What is Theurgy? Proclus and Pagan Salvation | 127,218 | 6,500 | youtube.com/watch?v=noZyUPYVyPw |
@@ -162,12 +162,12 @@ vidIQ当前全历史Top仍显示：
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
-| descriptive_topic | 3 | 506,200 | 4.02× | 数值最高，但只有3条，而且恰好含《Evolution of Ghosts》《Philosophy of Witchcraft》这类高认知大题，不能泛化 |
+| descriptive_topic | 2 | 545,575.5 | 4.34× | 只剩《Evolution of Ghosts》《Philosophy of Witchcraft》两条高认知大题，样本极少，不能泛化 |
 | explicit_question | 7 | 127,218 | 1.01× | 最稳定的大样本之一，分布很宽，从普通到强样本都有 |
 | specific_text | 5 | 127,100 | 1.01× | 与整体中位接近，但 Steganographia 可冲到430K+，说明具体文本并不天然窄 |
 | strong_mystery | 1 | 137,195 | 1.09× | 单样本，不作结构结论 |
 | specific_object | 1 | 119,844 | 0.95× | 单样本 |
-| familiar_unexpected | 2 | 105,907 | 0.84× | 样本少 |
+| familiar_unexpected | 3 | 132,202 | 1.05× | 加入正式标题《How God Became a Woman...》后回到临时中位附近，仍属小样本 |
 | how_to | 2 | 90,149 | 0.72× | 样本少，且内容类型不同 |
 | person_story | 4 | 63,125 | 0.50× | 当前4条全部低于临时中位，值得继续观察 |
 
@@ -178,7 +178,7 @@ vidIQ当前全历史Top仍显示：
 更准确的是：
 
 1. **明确问题型和具体文本型都能稳定落在账号当前中位附近**，说明研究型内容完全可以直接以文本 / 书 / 神名 / 问题做前台；
-2. “描述型”当前中位异常高，主要由少数大主题强样本推动，样本只有3条，不能解释成“描述标题最好”；
+2. “描述型”当前中位异常高，主要由《Evolution of Ghosts》《Philosophy of Witchcraft》两条大主题推动，样本只有2条，不能解释成“描述标题最好”；
 3. 当前 person_story 4条明显偏低，但样本里的具体人物与题材认知度也不同，不能直接推出“人物故事不行”；
 4. 真正值得 Suen 迁移的是：**证据密度很高的内容，也可以先给一个普通人能懂的对象 / 问题，不必先把学术背景讲完。**
 
@@ -499,6 +499,30 @@ ESOTERICA 的最大作用不是告诉我们“爆款标题词”，而是证明�
 
 这对《残页》、公众号长文、数据库专题尤其有价值。
 
+
+### Working title → 正式标题｜The Divine Feminine
+
+Patreon 2026-07-02：
+**The Divine Feminine**
+
+正式公开视频：
+**How God Became a Woman: From Primordial Chaos to Medieval Goddess**
+- YouTube日期：2026-07-03；
+- 当前抓取播放：132,202；
+- 当前抓取点赞：7,300；
+- URL：https://youtube.com/watch?v=FkJSDtGK7_M
+
+这又提供了一条和 Cathar / Alchemy 相同方向的包装证据：
+
+> **研究阶段可以是一个中性主题名，正式前台会把它翻译成变化、冲突或读者问题。**
+
+因此年度库现在明确分开编码：
+- Patreon working title 的 hook；
+- YouTube final title 的 hook。
+
+本条 Patreon 标题是 descriptive_topic，正式 YouTube 标题改记为 familiar_unexpected。
+
+---
 
 ## Early Access → 正式公开视频标题映射
 
