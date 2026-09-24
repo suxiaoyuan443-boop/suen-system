@@ -248,6 +248,34 @@ vidIQ 当前公开的全历史 Top 包括：
 
 > 熟悉名称 / 人物 / 神名 + 一句普通人听得懂的大问题，能够承载很深的历史研究。
 
+## Podcast feed 批量回填警报
+
+ESOTERICA 的 Podcast Republic / Megaphone feed 当前出现明显的**旧目录批量回填**：
+
+同一公开 feed 在抓取中把大量明显属于不同年份 / 不同原始YouTube日期的内容集中标成：
+- 2026-08-21；
+- 2026-08-22；
+- 另一次搜索索引甚至集中显示为2026-09-24。
+
+例如同一批里同时出现：
+- The Evolution of Ghosts；
+- The Origins of Dracula；
+- Who was Asherah；
+- What is Spiritual Alchemy?；
+- Wormwood Potion；
+- 多个 Merkavah 旧课程视频；
+- 多个明显更早的历史视频。
+
+其中多条已经有直接YouTube原始日期，可以证明这些Podcast日期只是**syndication / backfill**，不是首发。
+
+因此：
+- ESOTERICA Podcast feed **只可补“存在这个内容 / 标题”**；
+- 不用于滚动365天YouTube首发判断；
+- 不用于视频年龄计算；
+- 不用于每月发布频率；
+- 有直接YouTube日期时只认YouTube日期；
+- 没有直接YouTube日期时保持“日期待核”，不能拿feed批量日期填空。
+
 ## 当前年度数据缺口
 
 还缺：
