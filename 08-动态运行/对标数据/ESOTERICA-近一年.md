@@ -79,18 +79,17 @@ vidIQ当前全历史Top仍显示：
 当前滚动365天主研究 / Early Access 题目代理：**28 条**。
 
 截至 2026-09-24：
-- **25 条**已经匹配到可量化 YouTube 主视频样本；
-- **3 条**题目与 Patreon 日期已经确认存在，但当前仍没有可靠取得对应 YouTube 播放 / 点赞，因此不进入量化分布：
-  1. 2025-11-27｜The Accidental History of Lilith
-  2. 2026-05-27｜What was Hermetic Medicine - The Kyranides
-  3. 2026-06-10｜The Strangest Gnostic Lore - The Untitled Treatise
+- **26 条**已经匹配到可量化 YouTube 主视频样本；
+- **2 条**题目与 Patreon 日期已经确认存在，但当前仍没有可靠取得对应 YouTube 播放 / 点赞，因此不进入量化分布：
+  1. 2026-05-27｜What was Hermetic Medicine - The Kyranides
+  2. 2026-06-10｜The Strangest Gnostic Lore - The Untitled Treatise
 
-这3条现在统一标记为：
+这2条现在统一标记为：
 `proxy_verified_youtube_metrics_unresolved`
 
 含义是：**题目/代理节点真实存在 ≠ 已经拿到 YouTube 流量数据。**
 
-因此当前 provisional 中位数 / P75 / P90 仍然只由25条已量化样本计算，不把这3条用零值或估算值塞进去。
+因此当前 provisional 中位数 / P75 / P90 仍然只由26条已量化样本计算，不把这2条用零值或估算值塞进去。
 
 ## 已核YouTube行级样本
 
@@ -108,6 +107,7 @@ vidIQ当前全历史Top仍显示：
 | 2026-04-24 | Mysticism vs Satan - Hildegard of Bingen's Mystical Exorcism | 72,453 | 4,800 | youtube.com/watch?v=m0Go4bVB3EU |
 | 2026-02-27 | The Mystical Theology of Love - Bernard of Clairvaux | 71,137 | 4,100 | YouTube公开结果 |
 | 2026-01-23 | What are the Mayan Secrets of the Oldest American Book? | 137,195 | 8,800 | youtube.com/watch?v=2VNhPEMqSv8 |
+| 2025-11-28 | Was Lilith a Joke? How Bad Translation and Parody Created a Demon | 226,256 | 13,000 | youtube.com/watch?v=3592DMH-eyM；对应Patreon工作标题 The Accidental History of Lilith |
 | 2025-12-05 | How Medieval Incantations Worked | 79,227 | 4,700 | youtube.com/watch?v=CCKF-eLxn68 |
 | 2025-11-21 | What is the Hermetic God & Demiurge? | 220,089 | 9,100 | youtube.com/watch?v=Mi8AC_rmL00 |
 | 2025-11-14 | What is Spiritual Alchemy? | 108,931 | 5,800 | youtube.com/watch?v=7QC_t1VsmLI；播客聚合页曾显示2026日期，已以YouTube原视频日期纠正 |
@@ -131,7 +131,7 @@ vidIQ当前全历史Top仍显示：
 
 ### 当前已核样本先能看到什么
 
-当前25条仍不足以代表全年，但已经比“题目代理”更进一步：
+当前26条仍不足以代表全年，但已经比“题目代理”更进一步：
 - 当前最高：Cathar Lord's Prayer 165,095；
 - 其次：Mayan Secrets 137,195；
 - Theosophy 96,990；
@@ -143,17 +143,17 @@ vidIQ当前全历史Top仍显示：
 - 单纯人物神秘主义 / 抽象神学题未必同样强；
 - 但样本抓取年龄不同，不能把当前累计播放差异全部归因于标题结构。
 
-### 25条已核样本｜临时分布
+### 26条已核样本｜临时分布
 
-这不是完整年度统计，只是当前**25条直接可量化主视频**的 provisional baseline：
+这不是完整年度统计，只是当前**26条直接可量化主视频**的 provisional baseline：
 
-- 样本数：25；
-- 中位播放：**125,806**；
-- P75：**165,095**；
-- P90：约 **406,914**；
-- 平均播放：约 **169,656**。
+- 样本数：26；
+- 中位播放：**126,453**；
+- P75：**206,340.5**；
+- P90：约 **400,977**；
+- 平均播放：约 **171,833**。
 
-当前25条最高：
+当前26条最高：
 1. The Evolution of Ghosts｜584,951；
 2. The Philosophy of Witchcraft｜506,200；
 3. How Angel Magic Gave Us the Internet｜430,661；
@@ -161,37 +161,37 @@ vidIQ当前全历史Top仍显示：
 5. Who was the Demon Belial?｜255,812；
 6. What is the Hermetic God & Demiurge?｜220,089。
 
-当前25条最低：
+当前26条最低：
 - The Mysticism of Purgatory｜27,286；
 - Wormwood Potion recreation｜54,492；
 - Paracelsus Matrix｜55,113；
 - How Magic Became Heresy｜70,390；
 - Bernard of Clairvaux｜71,137。
 
-随着后续样本持续补入，当前25条临时中位稳定在约126K；历史阶段中位变化不再作为当前口径。
+随着后续样本持续补入，当前26条临时中位为126,453；历史阶段中位变化不再作为当前口径。
 
 **这些分位数只用于当前已核样本内部比较，不能写成“ESOTERICA全年中位数”。**
 
-### 25条已核样本的 Hook 表现
+### 26条已核样本的 Hook 表现
 
-当前已在 `ESOTERICA-已核行级样本.csv` 中为25条视频补上 `hook_v1 / topic_tags / relative_to_provisional_median / performance_band`。
+当前已在 `ESOTERICA-已核行级样本.csv` 中为26条视频补上 `hook_v1 / topic_tags / relative_to_provisional_median / performance_band`。
 
-这里的相对值以**当前25条临时中位 125,806**为基准，不代表完整年度中位。
+这里的相对值以**当前26条临时中位 126,453**为基准，不代表完整年度中位。
 
 | 主Hook | n | 中位播放 | 相对当前临时中位 | 当前解释 |
 |---|---:|---:|---:|---|
-| descriptive_topic | 2 | 545,575.5 | 4.34× | 只剩《Evolution of Ghosts》《Philosophy of Witchcraft》两条高认知大题，样本极少，不能泛化 |
+| descriptive_topic | 2 | 545,575.5 | 4.31× | 只剩《Evolution of Ghosts》《Philosophy of Witchcraft》两条高认知大题，样本极少，不能泛化 |
 | explicit_question | 7 | 127,218 | 1.01× | 最稳定的大样本之一，分布很宽，从普通到强样本都有 |
 | specific_text | 5 | 127,100 | 1.01× | 与整体中位接近，但 Steganographia 可冲到430K+，说明具体文本并不天然窄 |
-| strong_mystery | 1 | 137,195 | 1.09× | 单样本，不作结构结论 |
+| strong_mystery | 1 | 137,195 | 1.08× | 单样本，不作结构结论 |
 | specific_object | 1 | 119,844 | 0.95× | 单样本 |
-| familiar_unexpected | 3 | 132,202 | 1.05× | 加入正式标题《How God Became a Woman...》后回到临时中位附近，仍属小样本 |
-| how_to | 2 | 90,149 | 0.72× | 样本少，且内容类型不同 |
+| familiar_unexpected | 4 | 136,812.5 | 1.08× | 加入Lilith后仍略高于临时中位，样本开始比之前更有观察价值 |
+| how_to | 2 | 90,149 | 0.71× | 样本少，且内容类型不同 |
 | person_story | 4 | 63,125 | 0.50× | 当前4条全部低于临时中位，值得继续观察 |
 
 ### 当前最值得保留的结论
 
-这25条**不支持一个简单的“问句一定最好”公式**。
+这26条**不支持一个简单的“问句一定最好”公式**。
 
 更准确的是：
 
@@ -219,7 +219,7 @@ vidIQ当前全历史Top仍显示：
 2. 具体文本 / 手稿 + 异常细节；
 3. 明确“what is / who was / how did”问题，把专业对象转成可理解任务。
 
-这仍然只是当前25条已核样本里的结构信号，不升级为全年公式。
+这仍然只是当前26条已核样本里的结构信号，不升级为全年公式。
 
 ### 日期冲突实例｜为什么必须优先YouTube原视频
 
@@ -264,34 +264,29 @@ vidIQ当前全历史Top仍显示：
 
 也就是说，ESOTERICA 的商业化并不是把每一支研究视频强行改成广告，而是在研究品牌旁边长期维护**目录、课程、会员与资源节点**。
 
-## 当前28个主研究主题与25条直接量化样本的差额
+## 当前28个主研究主题与26条直接量化样本的差额
 
-滚动一年 Patreon / Early Access 清洗后共有 **28 个主研究主题**；当前已经拿到 **25 条可直接量化的 YouTube 主视频样本**。
+滚动一年 Patreon / Early Access 清洗后共有 **28 个主研究主题**；当前已经拿到 **26 条可直接量化的 YouTube 主视频样本**。
 
-目前还没有稳定取得 YouTube 直接播放 / 点赞的 3 个主题：
+目前还没有稳定取得 YouTube 直接播放 / 点赞的 2 个主题：
 
-1. **The Accidental History of Lilith**
-   - Patreon Early Access：2025-11-27；
-   - Patreon页面当前可核互动：74 / 14（Patreon互动，不是YouTube播放）；
-   - 暂不把 Patreon 数字写进 YouTube 行级表。
-
-2. **What were the Technical Hermetica? The Kyranides**
+1. **What were the Technical Hermetica? The Kyranides**
    - Patreon工作标题：What was Hermetic Medicine - The Kyranides；
    - Patreon Early Access：2026-05-27；
    - 当前外部文章可确认公开视频前台标题为 **What were the Technical Hermetica? The Kyranides**；
    - 仍未取得可靠 YouTube 播放 / 点赞，因此不估算。
 
-3. **The Strangest Gnostic Lore - The Untitled Treatise**
+2. **The Strangest Gnostic Lore - The Untitled Treatise**
    - Patreon Early Access：2026-06-10；
    - 当前只能稳定确认题目 / Early Access 日期；
    - YouTube直接量化值待补。
 
 因此当前可以明确说：
 - **主题覆盖：28 / 28 已有代理节点；**
-- **直接量化：25 / 28；**
-- **剩余直接量化缺口：3。**
+- **直接量化：26 / 28；**
+- **剩余直接量化缺口：2。**
 
-这比“全年完全没拿齐”更精确；但在3条缺口补齐前，25条 provisional 分位数仍然不能升级成完整年度中位数。
+这比“全年完全没拿齐”更精确；但在2条缺口补齐前，26条 provisional 分位数仍然不能升级成完整年度中位数。
 
 ---
 
@@ -482,7 +477,7 @@ Patreon Early Access 的**工作标题和正式公开视频标题可能不同**�
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；当前已核25条主内容行级样本，但还远未覆盖全年；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已核26条主内容行级样本，但还远未覆盖全年；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 长视频 / Shorts 分开；
