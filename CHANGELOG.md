@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-09-24｜完成此前未收口的 X 扩充批次：正式验收到 80 例
+
+本次是对上一轮“扩到约 80 个外部后验案例”的继续与收口，不另起新批次。
+
+- 先核对仓库当前已存在 X-069—X-071，再续写 X-072—X-080，避免重复编号或重做上一轮；
+- 新增 9 个高信息案例：漂亮感情牌后被 ghost、考试正面三张后差 1 分失败、Three of Pentacles outcome 考试失败、Eight of Cups + Judgement 后实际联系、同一求职者双岗位自然对照、Sun + Three of Swords 后关系结束、Star + Four of Wands + Fool 因签证被拒、双 Page + Nine of Wands 后实际录取；
+- X 层正式达到 80 个高信息案例；
+- 新增 Guard-18—20：外部门槛单独建模、本次失败不得推给未来其它事件、重复抽牌必须保留第一版判断；
+- 运行时同步加入 gatekeeper、target identity 与 repeated-draw 纪律；
+- 本批完成后必须重新读取 X 文件、运行协议和 main HEAD 验收，不能只以写入调用成功视为完成。
+
+---
+
 ## 2026-09-24｜第八轮塔罗扩充：X 71 + 训练覆盖 / 缺口管理
 
 - X 外部后验扩到 71 例；新增 Strength 后找到理想工作、Magician 的“拿到别的工作但原目标职位失败”目标错配、Thoth Six of Cups 30 天内复合但关系仍困难；
