@@ -219,6 +219,13 @@ vidIQ当前全历史Top仍显示：
 2. 播客日期另记为 syndication / redistribution；
 3. 不把同一内容按两个年份重复计数。
 
+## Patreon年度原始索引
+
+完整原始发布节点已单独保存：
+`ESOTERICA-Patreon近一年原始索引.md`
+
+该文件保留 Early Access、课程、目录、更新、社群与商业节点；本文件只保留清洗后的主研究主题与YouTube量化结果。
+
 ## 近一年内容题目代理清单｜来自 Patreon Early Access
 
 下面用于补“发布主题 / 题目结构”，**不是 YouTube 播放数据**。Patreon Early Access 往往会比公开视频提前，因此日期不能直接当 YouTube 正式发布日期。
