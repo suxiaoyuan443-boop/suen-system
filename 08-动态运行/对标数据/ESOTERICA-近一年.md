@@ -560,10 +560,64 @@ vidIQ 当前 Long-form vs Shorts 组件明确标注时间窗 **Since Jan 01, 202
 - 当前还缺2025-09-24—2025-12-31这段的Long-form / Shorts格式总数；
 - vidIQ这一层给出格式总量，但没有把13条Shorts的标题逐行展开，所以标题级Shorts索引仍待补。
 
+## 2026 YTD｜非主研究长视频标题层
+
+新增机器表：
+`ESOTERICA-2026YTD非主研究长视频已核样本.csv`
+
+### Being and Logos公开讲座系列
+
+当前14讲中：
+- **13讲已经直接恢复YouTube原页、发布日期与视频ID；**
+- 第10讲 **Apuleius** 已有独立标题证据，但YouTube ID / 日期暂未恢复，保留 `title_only_unresolved`；
+- 因此可以确认这一系列本身就是2026 YTD长视频供给中的一个**14集公开 seminar 容器**，不能混进主研究视频基线。
+
+13条直接已核讲座当前抓取播放：
+- 中位：约 **28,331**
+- 范围：约 **15.2K—122.6K**
+- 第1讲明显高于后续多数讲次，因此不拿单个首讲代表系列常态。
+
+当前已恢复的讲次：
+1. 5/27｜The Shadow of Plato｜122,590
+2. 6/4｜The Old Academy, pt 1｜64,022
+3. 6/10｜The Old Academy, pt 2｜36,272
+4. 6/17｜Antiochus of Ascalon｜39,204
+5. 7/1｜Posidonius & Eudorus of Alexandria｜30,409
+6. 7/8｜Philo of Alexandria｜29,108
+7. 7/15｜Plutarch & Dualism｜28,331
+8. 7/29｜The School at Athens｜22,640
+9. 8/5｜The Handbook of Alcinous｜26,893
+10. Apuleius｜标题已确认，原页待补
+11. 8/19｜The Neo-Pythagoreans｜17,233
+12. 8/31｜Numenius of Apamea｜25,394
+13. 9/8｜Christianity｜15,215
+14. 9/15｜The Platonic Underworld｜25,537
+
+### 其它近期非主研究长视频
+
+还已直接确认：
+- 2026-09-11｜**Want to Win a Real Piece of Occult History?**
+  - 3:54；
+  - 目录 / antiquarian occult book商业节点；
+  - 与同日 / 同周主研究内容并行发布。
+- 2026-09-17｜**What are my Values for Esoterica?**
+  - 6:49；
+  - 品牌 / 频道价值说明；
+  - 播放快照来源冲突较大，因此机器表只锁标题、日期、ID，不强写统一播放值。
+
+这使YTD 46条Long-form的构成第一次开始可解释：
+- 主研究；
+- 连续公开 seminar；
+- 目录 / 商品 / 会员相关节点；
+- 品牌 / 频道说明；
+- 仍可能包含访谈、对谈与其它长视频。
+
+因此以后不能再把“ESOTERICA长视频”当成单一内容格式来算中位。
+
 ## 当前年度数据缺口
 
 还缺：
-- 近365天所有 YouTube 正式上传的完整行级标题；当前已核27条主内容行级样本，但还远未覆盖全年；
+- 近365天所有 YouTube 正式上传的完整行级标题；当前已有27条主研究量化样本 + 2026 YTD非主研究长视频部分标题层，但仍未覆盖全部46条YTD Long-form与2025Q4；
 - 每条发布日期；
 - 每条播放 / 点赞 / 评论；
 - 滚动365天长视频 / Shorts完整拆分；2026 YTD已确认Long-form 46 / Shorts 13，但2025Q4仍缺；
