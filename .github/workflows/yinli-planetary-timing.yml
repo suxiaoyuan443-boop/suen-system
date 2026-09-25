@@ -1,0 +1,71 @@
+name: Build Yinli planetary timing visuals
+
+on:
+  push:
+    paths:
+      - '.github/workflows/yinli-planetary-timing.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y curl python3-pil
+
+      - name: Download verified real-source visuals
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p pack
+
+          BASE='https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu'
+          curl -fL --retry 3 "$BASE/page269-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/planetary_tables_saturn_jupiter.jpg
+          curl -fL --retry 3 "$BASE/page314-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch34_p289.jpg
+          curl -fL --retry 3 "$BASE/page315-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch35_p290.jpg
+          curl -fL --retry 3 "$BASE/page324-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch38_39_p299.jpg
+          curl -fL --retry 3 "$BASE/page326-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch42_p301.jpg
+          curl -fL --retry 3 "$BASE/page327-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch43_44_p302.jpg
+
+          # Real sterling silver blank (material visual; not presented as Suen's exact purchased piece).
+          curl -fL --retry 3 'https://www.cooksongold.com/Findings/Sterling-Silver-Round-Disc-25mm-Stamping-Blank-With-1-Hole%2C-Marked-925%2C-100-Recycled-Silver-prcode-NVJ-573' -o /tmp/silver.html
+          SILVER_URL=$(python3 - <<'PY'
+          import re, html
+          s=open('/tmp/silver.html',encoding='utf-8',errors='ignore').read()
+          pats=[
+            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
+            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']'
+          ]
+          for p in pats:
+              m=re.search(p,s,re.I)
+              if m:
+                  print(html.unescape(m.group(1))); break
+          else:
+              raise SystemExit('No og:image found')
+          PY
+          )
+          echo "silver=$SILVER_URL"
+          curl -fL --retry 3 "$SILVER_URL" -o pack/real_silver_blank.jpg
+
+          python3 - <<'PY'
+          from PIL import Image
+          from pathlib import Path
+          for p in Path('pack').iterdir():
+              if p.suffix.lower() in {'.jpg','.jpeg','.png'}:
+                  with Image.open(p) as im:
+                      im.verify()
+                  print(p.name, p.stat().st_size, 'OK')
+          PY
+
+      - name: Upload visuals
+        uses: actions/upload-artifact@v4
+        with:
+          name: yinli-planetary-timing-visuals
+          path: pack/
+          retention-days: 2
