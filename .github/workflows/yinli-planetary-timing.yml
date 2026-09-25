@@ -33,26 +33,6 @@ jobs:
           curl -fL --retry 3 "$BASE/page326-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch42_p301.jpg
           curl -fL --retry 3 "$BASE/page327-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch43_44_p302.jpg
 
-          # Real sterling silver blank (material visual; not presented as Suen's exact purchased piece).
-          curl -fL --retry 3 'https://www.cooksongold.com/Findings/Sterling-Silver-Round-Disc-25mm-Stamping-Blank-With-1-Hole%2C-Marked-925%2C-100-Recycled-Silver-prcode-NVJ-573' -o /tmp/silver.html
-          SILVER_URL=$(python3 - <<'PY'
-          import re, html
-          s=open('/tmp/silver.html',encoding='utf-8',errors='ignore').read()
-          pats=[
-            r'<meta[^>]+property=["\']og:image["\'][^>]+content=["\']([^"\']+)',
-            r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+property=["\']og:image["\']'
-          ]
-          for p in pats:
-              m=re.search(p,s,re.I)
-              if m:
-                  print(html.unescape(m.group(1))); break
-          else:
-              raise SystemExit('No og:image found')
-          PY
-          )
-          echo "silver=$SILVER_URL"
-          curl -fL --retry 3 "$SILVER_URL" -o pack/real_silver_blank.jpg
-
           python3 - <<'PY'
           from PIL import Image
           from pathlib import Path
