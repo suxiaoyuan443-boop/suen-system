@@ -29,6 +29,7 @@ jobs:
           curl -fL --retry 3 "$BASE/page269-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/planetary_tables_saturn_jupiter.jpg
           curl -fL --retry 3 "$BASE/page314-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch34_p289.jpg
           curl -fL --retry 3 "$BASE/page315-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch35_p290.jpg
+          curl -fL --retry 3 "$BASE/page316-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch35_p291.jpg
           curl -fL --retry 3 "$BASE/page324-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch38_39_p299.jpg
           curl -fL --retry 3 "$BASE/page326-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch42_p301.jpg
           curl -fL --retry 3 "$BASE/page327-1280px-Three_Books_of_Occult_Philosophy_%28De_Occulta_Philosophia%29_%281651%29.djvu.jpg" -o pack/ch43_44_p302.jpg
