@@ -1,0 +1,241 @@
+name: Build Hiddenli cult-image HTML 2026-10-01
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-hiddenli-cult-image-20261001.yml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y poppler-utils python3-pil python3-bs4
+      - name: Download and prepare sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p work out
+          curl -fL --retry 3 'https://upload.wikimedia.org/wikipedia/commons/6/62/Bathing_the_Divine.jpg' -o work/hindu_bath.jpg
+          curl -fL --retry 3 'https://upload.wikimedia.org/wikipedia/commons/1/1a/Painted_Relief_of_Seti_I_offering_a_tray_of_food_..._%2836711531995%29.jpg' -o work/egypt_seti.jpg
+          curl -fL --retry 3 'https://upload.wikimedia.org/wikipedia/commons/3/35/Cult_Image_of_the_God_Ptah_MET_DP142956.jpg' -o work/egypt_ptah.jpg
+          curl -fL --retry 3 'https://images.metmuseum.org/CRDImages/an/original/DP222641.jpg' -o work/meso_seal.jpg
+          curl -fL --retry 3 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Devotional_offering_of_food_to_Hindu_Deity_Shri_Sita-Rama.jpg' -o work/hindu_food.jpg
+          curl -fL --retry 3 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf' -o work/ancient_mesopotamia.pdf
+
+          found=''
+          pages=$(pdfinfo work/ancient_mesopotamia.pdf | awk '/^Pages:/ {print $2}')
+          for i in $(seq 1 "$pages"); do
+            pdftotext -f "$i" -l "$i" -layout work/ancient_mesopotamia.pdf - 2>/dev/null > work/page.txt || true
+            if grep -qi 'receptacle of the divine presence' work/page.txt; then
+              found="$i"
+              break
+            fi
+          done
+          test -n "$found"
+          echo "ISAC_PDF_PAGE=$found" >> "$GITHUB_ENV"
+          pdftoppm -f "$found" -singlefile -jpeg -r 180 work/ancient_mesopotamia.pdf work/isac_page >/dev/null 2>&1
+
+          python3 - <<'PY'
+          from PIL import Image, ImageOps
+          from pathlib import Path
+
+          def clean(src, dst, max_w=1600):
+              im = Image.open(src).convert('RGB')
+              if im.width > max_w:
+                  h = round(im.height * max_w / im.width)
+                  im = im.resize((max_w,h), Image.LANCZOS)
+              im.save(dst, 'JPEG', quality=90, optimize=True)
+
+          clean('work/hindu_bath.jpg','work/hindu_bath_clean.jpg')
+          clean('work/egypt_seti.jpg','work/egypt_seti_clean.jpg')
+          clean('work/egypt_ptah.jpg','work/egypt_ptah_clean.jpg',1200)
+          clean('work/meso_seal.jpg','work/meso_seal_clean.jpg')
+          clean('work/hindu_food.jpg','work/hindu_food_clean.jpg')
+
+          im = Image.open('work/isac_page.jpg').convert('RGB')
+          w,h = im.size
+          # Printed p.186: relevant consecration paragraph is in the upper half.
+          crop = im.crop((int(w*0.05), int(h*0.05), int(w*0.95), int(h*0.57)))
+          if crop.width > 1600:
+              nh = round(crop.height*1600/crop.width)
+              crop = crop.resize((1600,nh), Image.LANCZOS)
+          crop.save('work/isac_divine_presence_crop.jpg','JPEG',quality=92,optimize=True)
+
+          # Final comparison triptych uses only verified source images.
+          panels=[]
+          for p in ['work/egypt_seti_clean.jpg','work/meso_seal_clean.jpg','work/hindu_food_clean.jpg']:
+              x=Image.open(p).convert('RGB')
+              target=(700,520)
+              x=ImageOps.fit(x,target,method=Image.LANCZOS,centering=(0.5,0.5))
+              panels.append(x)
+          canvas=Image.new('RGB',(2100,520),'white')
+          for idx,p in enumerate(panels):
+              canvas.paste(p,(idx*700,0))
+          canvas.save('work/comparison.jpg','JPEG',quality=90,optimize=True)
+
+          for p in Path('work').glob('*.jpg'):
+              with Image.open(p) as x:
+                  x.verify()
+              assert p.stat().st_size > 10000, p
+          PY
+
+      - name: Build HTML
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          import base64, html, re
+
+          def data_uri(path):
+              b=Path(path).read_bytes()
+              return 'data:image/jpeg;base64,' + base64.b64encode(b).decode()
+
+          imgs={
+            'hindu_bath':data_uri('work/hindu_bath_clean.jpg'),
+            'egypt_seti':data_uri('work/egypt_seti_clean.jpg'),
+            'egypt_ptah':data_uri('work/egypt_ptah_clean.jpg'),
+            'isac':data_uri('work/isac_divine_presence_crop.jpg'),
+            'meso_seal':data_uri('work/meso_seal_clean.jpg'),
+            'hindu_food':data_uri('work/hindu_food_clean.jpg'),
+            'comparison':data_uri('work/comparison.jpg'),
+          }
+
+          blocks = [
+            {
+              'text':'有些神像每天真的要洗澡、换衣服，还要给它准备饭。为什么一尊神像要这样照料？要看这尊图像在祭祀里到底变成了什么。古埃及、美索不达米亚和印度寺庙里都能看到类似动作，可三边对神怎样和图像发生关系，各有自己的解释。',
+              'img':'hindu_bath',
+              'cap':'真实宗教实践照片：祭司正在为神像进行沐浴仪式。剪辑：第一句直接上液体浇到神像上的动作，随后保持全景。',
+              'src':'https://commons.wikimedia.org/wiki/File:Bathing_the_Divine.jpg',
+              'srcname':'Wikimedia Commons｜Bathing the Divine（CC BY-SA 4.0）'
+            },
+            {
+              'text':'古埃及的日常神庙仪式写得很细。柏林纸草3055里，祭司要打开封好的神龛，面对神像，焚香、净化，给它穿上几种布料，再上香油和眼膏。阿拜多斯塞提一世神庙的浮雕又把供食这些动作直接画了出来。这里的神像已经进入每天都要重复的祭祀服务，人是在按固定程序照料神庙里的神圣形态。',
+              'img':'egypt_seti',
+              'cap':'塞提一世神庙真实浮雕：国王举起一盘食物进行供奉。剪辑：先整图，再轻推到食物盘。',
+              'src':'https://commons.wikimedia.org/wiki/File:Painted_Relief_of_Seti_I_offering_a_tray_of_food_..._(36711531995).jpg',
+              'srcname':'Abydos, Temple of Seti I｜Bernard Dupont（CC BY-SA 2.0）'
+            },
+            {
+              'text':'为什么这些动作能成立？古埃及材料把图像看成一个可见、可触的形态，让人的供奉和服务能够经由它指向神圣力量。图像进入这种祭祀使用以前，还要经过开口仪式。于是穿衣、涂油、供食这些动作，照料的是神在神庙里可以被接近的形态；日常仪式同时被理解为维持神庙祭祀和宇宙秩序的一部分。',
+              'img':'egypt_ptah',
+              'cap':'真实埃及神像实例：青金石普塔神小像。此件很可能用于奉献或小型神龛，画面用于说明祭祀图像的实体形态，不冒充柏林纸草3055中的那尊神像。',
+              'src':'https://www.metmuseum.org/art/collection/search/549169',
+              'srcname':'The Metropolitan Museum of Art｜Cult Image of the God Ptah（Open Access / CC0）'
+            },
+            {
+              'text':'到了美索不达米亚，神像制作完成以后，还要经过专门的奉献仪式。芝加哥大学的资料把这一步说得很具体：原本无生命的材料经过仪式，被转成承载神圣临在的对象；眼和口被“打开”，让它在祭祀意义上能够看、能够吃，还会经历“洗口”。这里已经能看出，制作完成和进入祭祀，是两件不同的事。',
+              'img':'isac',
+              'cap':'芝加哥大学《Ancient Mesopotamia》原页裁切。剪辑：直接放大第一段，重点看“承载神圣临在”“眼和口被打开”“洗口”三处原文。',
+              'src':'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf',
+              'srcname':'Institute for the Study of Ancient Cultures, University of Chicago｜Ancient Mesopotamia，printed p.186'
+            },
+            {
+              'text':'等这个身份建立以后，后面的日常照料就顺着它展开。大都会博物馆总结美索不达米亚材料时写到，神像会被清洗、换衣，供给食物和饮料，甚至还有布置好的寝室。大型主神像今天几乎没有完整保存下来，所以很多细节得靠文字和印章场景一起看。这些动作把神庙里的日常生活安排，直接落到了祭祀神像身上。',
+              'img':'meso_seal',
+              'cap':'乌尔第三王朝圆筒印章及现代压印：供奉者向坐着的神倾倒奠祭液体。画面只作为美索不达米亚祭祀场景证据，不把它说成幸存的大型主神像。',
+              'src':'https://www.metmuseum.org/art/collection/search/324867',
+              'srcname':'The Metropolitan Museum of Art｜Cylinder seal and modern impression（Public Domain）'
+            },
+            {
+              'text':'印度教这里得再分传统说。史密森尼介绍寺庙礼拜时，会看到给神像沐浴、穿衣、戴首饰、涂香，也会供食和供水；观看神像本身还是礼拜的一部分。像斯瓦米纳拉扬传统，则会更明确地把经过安置和奉献的神像理解成神圣临在的承载处，于是起床、沐浴、穿衣、吃饭、休息都进入每天的侍奉。换到别的印度教传统，仪式细节和神学说法还会变化。',
+              'img':'hindu_food',
+              'cap':'真实当代印度教供食场景：食物摆在悉多—罗摩神像前进行供奉。剪辑：整图先让观众看到神像与大量食物的关系，再轻推到供品。',
+              'src':'https://commons.wikimedia.org/wiki/File:Devotional_offering_of_food_to_Hindu_Deity_Shri_Sita-Rama.jpg',
+              'srcname':'Wikimedia Commons｜Devotional offering of food to Hindu Deity Shri Sita-Rama（CC BY-SA 4.0）'
+            },
+            {
+              'text':'外表看起来，三边都像是在“照顾一尊像”，能直接放在一起比较的也只有这些动作。往下追，解释就分开了：古埃及强调图像让神圣力量变得可接近；美索不达米亚的奉献仪式会改变图像的祭祀身份；一些印度寺庙传统又用自己的神学来说明神怎样通过供奉的神像被接近。以后再看到有人给神像洗澡、换衣或者端饭，先问这套传统里的这尊图像现在是什么身份，很多动作就能看懂了。',
+              'img':'comparison',
+              'cap':'三组真实资料图并列：古埃及供食浮雕／美索不达米亚奠祭印章／当代印度教供食。这里只比较动作，不把三套神学合并。',
+              'src':'https://www.ucl.ac.uk/museums-static/digitalegypt/religion/dailycult.html',
+              'srcname':'对照依据：UCL Digital Egypt、The Met、Smithsonian NMAA 与各图原始来源'
+            },
+          ]
+
+          css = r'''
+          :root{--bg:#f5f2ec;--paper:#fffdf9;--text:#1f1d1a;--muted:#6d665c;--line:#ddd5c9;--accent:#6e5134}
+          *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",sans-serif;line-height:1.78}
+          main{max-width:920px;margin:0 auto;padding:36px 20px 72px}
+          .hero,.block,.meta,.sources{background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:24px;margin:0 0 20px;box-shadow:0 3px 18px rgba(60,45,30,.05)}
+          h1{font-size:31px;line-height:1.25;margin:0 0 8px}.sub{color:var(--muted);font-size:14px}
+          .voice{font-size:20px;margin:0 0 18px}.visual img{width:100%;height:auto;display:block;border-radius:12px;background:#eee}
+          .caption{font-size:13px;color:var(--muted);margin-top:10px}.caption a,.sources a{color:var(--accent);text-decoration:none;border-bottom:1px solid #cdbda8}
+          h2{font-size:22px;margin:0 0 14px}.meta p{margin:9px 0}.label{font-weight:700}
+          details{margin-top:16px} summary{cursor:pointer;font-weight:700}
+          .sources li{margin:8px 0}.small{font-size:13px;color:var(--muted)}
+          @media(max-width:600px){main{padding:18px 12px 50px}.hero,.block,.meta,.sources{padding:17px;border-radius:14px}.voice{font-size:18px}h1{font-size:27px}}
+          '''
+
+          parts = [f'''<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>神像为什么也要洗澡、换衣、吃饭？｜隐理</title><style>{css}</style></head><body><main>
+          <section class="hero"><h1>《神像为什么也要洗澡、换衣、吃饭？》</h1><div class="sub">隐理｜2026-10-01｜纯内容｜抖音大号 + 小红书同一成片</div></section>''']
+
+          for b in blocks:
+              parts.append(f'''<section class="block"><p class="voice">{html.escape(b['text'])}</p><div class="visual"><img src="{imgs[b['img']]}" alt="对应真实资料图"></div><div class="caption">{html.escape(b['cap'])}<br>来源：<a href="{html.escape(b['src'])}" target="_blank" rel="noopener">{html.escape(b['srcname'])}</a></div></section>''')
+
+          parts.append('''<section class="sources"><h2>资料核查</h2><ul>
+          <li><a href="https://www.ucl.ac.uk/museums-static/digitalegypt/religion/dailycult.html">UCL Digital Egypt｜Daily Cult</a>：柏林纸草3055、阿拜多斯塞提一世神庙、穿衣、香油、眼膏、供食，以及图像作为供奉与服务指向神圣力量的可见形式。</li>
+          <li><a href="https://www.ucl.ac.uk/museums-static/digitalegypt/religion/cultindex.html">UCL Digital Egypt｜Ideology and Belief</a>：图像与神圣力量的关系、日常供奉与维持宇宙秩序。</li>
+          <li><a href="https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf">ISAC, University of Chicago｜Ancient Mesopotamia</a>：神像奉献、承载神圣临在、开眼开口与洗口。</li>
+          <li><a href="https://www.metmuseum.org/ja/essays/mesopotamian-deities">The Met｜Mesopotamian Deities</a>：神像被理解为带有神圣临在，并接受清洗、穿衣、食物、饮料与寝室安排。</li>
+          <li><a href="https://www.metmuseum.org/exhibitions/listings/2014/assyria-to-iberia/blog/posts/vanished-images">The Met｜Vanished Images</a>：大型美索不达米亚主神像几乎没有保存下来，以及祭祀图像的特殊身份。</li>
+          <li><a href="https://asia-archive.si.edu/learn/india-shiva-nataraja-lord-of-the-dance/hindu-belief/">Smithsonian National Museum of Asian Art｜Hindu Belief &amp; Practice</a>：沐浴、穿衣、装饰、涂香、供食、供水与darshan。</li>
+          <li><a href="https://londonmandir.baps.org/worship/sacred-images/">BAPS Shri Swaminarayan Mandir, London｜Sacred Images</a>：仅用于说明斯瓦米纳拉扬传统自身对神像、神圣临在及日常侍奉的解释，不外推为全部印度教。</li>
+          </ul><div class="small">范围复核：本片只比较“图像进入正式祭祀后出现持续照料”这一动作层。三种传统对神、图像与临在的关系各有自己的解释；未主张三者同源、互相影响或拥有统一神学。</div></section>''')
+
+          parts.append('''<section class="meta"><h2>抖音发布</h2>
+          <p><span class="label">最终标题：</span>《神像为什么也要洗澡、换衣、吃饭？》</p>
+          <p><span class="label">标签：</span>#宗教史 #神像 #古埃及 #美索不达米亚 #印度教</p>
+          </section>
+          <section class="meta"><h2>小红书同步</h2>
+          <p><span class="label">标题：</span>神像每天为什么还要洗澡、换衣、吃饭？</p>
+          <p><span class="label">封面文字：</span>神像为什么也要吃饭？</p>
+          <p><span class="label">发布配文：</span>古埃及神庙会给神像穿衣、涂油和供食，美索不达米亚的祭祀神像会经历专门的奉献仪式，今天一些印度寺庙里也能看到沐浴、换衣和供食。动作看起来很像，但三边对“神怎样和图像发生关系”的解释并不相同。把这一层分开以后，很多看起来像在“照顾雕像”的动作就更容易理解了。</p>
+          <p><span class="label">标签：</span>#宗教史 #神像 #古埃及 #美索不达米亚 #印度教 #仪式文化</p>
+          </section>
+          </main></body></html>''')
+
+          out=''.join(parts)
+          Path('out/隐理_2026-10-01_神像为什么也要洗澡换衣吃饭.html').write_text(out,encoding='utf-8')
+          PY
+
+      - name: Verify HTML
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          import base64, re
+          from PIL import Image
+          import io
+          p=Path('out/隐理_2026-10-01_神像为什么也要洗澡换衣吃饭.html')
+          s=p.read_text(encoding='utf-8')
+          soup=BeautifulSoup(s,'html.parser')
+          imgs=soup.find_all('img')
+          blocks=soup.select('section.block')
+          assert len(blocks)==7, len(blocks)
+          assert len(imgs)==7, len(imgs)
+          assert '<img src="http' not in s and "<img src='http" not in s
+          for i,img in enumerate(imgs,1):
+              src=img['src']
+              assert src.startswith('data:image/jpeg;base64,')
+              b=base64.b64decode(src.split(',',1)[1])
+              im=Image.open(io.BytesIO(b)); im.verify()
+              assert len(b)>10000
+              print(i, len(b))
+          for b in blocks:
+              assert b.select_one('.voice')
+              assert b.select_one('.visual img')
+              assert b.select_one('.caption a')
+          required=['抖音发布','小红书同步','资料核查','神像为什么也要洗澡、换衣、吃饭？']
+          for x in required: assert x in s
+          print('HTML_OK', p.stat().st_size)
+          PY
+      - name: Upload HTML
+        uses: actions/upload-artifact@v4
+        with:
+          name: hiddenli-20261001-cult-image-html
+          path: out/隐理_2026-10-01_神像为什么也要洗澡换衣吃饭.html
+          retention-days: 3
