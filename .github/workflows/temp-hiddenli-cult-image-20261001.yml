@@ -1,0 +1,102 @@
+name: Build 2026-10-01 Hiddenli cult-image visuals
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-hiddenli-cult-image-20261001.yml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch and verify images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p pack
+          python3 - <<'PY'
+          import os, requests
+          from PIL import Image
+          from io import BytesIO
+          from urllib.parse import urljoin
+          from bs4 import BeautifulSoup
+
+          os.makedirs("pack", exist_ok=True)
+          headers={"User-Agent":"Mozilla/5.0"}
+
+          fixed = {
+            "01_古埃及_登杜尔神庙_奥古斯都斯焚香献乳.jpg":
+              "https://cdn.sanity.io/images/cctd4ker/production/0e85579e0ac7129db594a98fab2bc5df88f88772-1520x855.jpg?auto=format&fit=clip&q=85&w=2048",
+            "02_古埃及_卜塔神像_Met.jpg":
+              "https://collectionapi.metmuseum.org/api/collection/v1/iiif/587598/1179767/main-image",
+            "03_美索不达米亚_向坐姿神祇献奠_印章_Met.jpg":
+              "https://collectionapi.metmuseum.org/api/collection/v1/iiif/324867/713531/main-image",
+            "04_印度教_阿吉特辛格礼拜杜尔迦_Smithsonian.jpg":
+              "https://smithsonian-open-access.s3-us-west-2.amazonaws.com/media/fs/FS-S2018.1.53_001crop.jpg",
+            "05_古埃及_登杜尔神庙_献乳.jpg":
+              "https://cdn.sanity.io/images/cctd4ker/production/a649ef1c6d533b1ecaa73eac87eb965b6bc54d7e-1520x1012.jpg?auto=format&fit=max&q=85&w=2048",
+          }
+
+          def save_img(name, url):
+              r=requests.get(url,headers=headers,timeout=30)
+              r.raise_for_status()
+              im=Image.open(BytesIO(r.content)).convert("RGB")
+              if im.width < 400 or im.height < 300:
+                  raise RuntimeError(f"too small {name}: {im.size}")
+              im.save("pack/"+name, "JPEG", quality=92, optimize=True)
+              print(name, im.size, len(r.content), url)
+
+          for n,u in fixed.items():
+              save_img(n,u)
+
+          # Scrape official BAPS pages and save the largest real ritual photo found.
+          pages = [
+            "https://www.baps.org/Global-Network/India/Jodhpur/Abhishek-Mandap.aspx",
+            "https://www.baps.org/Photos/2017/Murti-Pratishtha-14154.aspx",
+            "https://londonmandir.baps.org/worship/abhishek/",
+          ]
+          cands=[]
+          for page in pages:
+              try:
+                  t=requests.get(page,headers=headers,timeout=30).text
+                  s=BeautifulSoup(t,"html.parser")
+                  for tag in s.find_all("img"):
+                      for key in ("src","data-src","data-lazy-src","data-original"):
+                          v=tag.get(key)
+                          if not v: continue
+                          u=urljoin(page,v)
+                          if any(x in u.lower() for x in (".jpg",".jpeg",".png",".webp")):
+                              cands.append((page,u,tag.get("alt","")))
+              except Exception as e:
+                  print("page fail",page,e)
+          seen=set()
+          ranked=[]
+          for page,u,alt in cands:
+              if u in seen: continue
+              seen.add(u)
+              try:
+                  r=requests.get(u,headers=headers,timeout=25)
+                  if not r.ok or len(r.content)<30000: continue
+                  im=Image.open(BytesIO(r.content)).convert("RGB")
+                  if im.width<500 or im.height<350: continue
+                  score=im.width*im.height
+                  txt=(u+" "+alt).lower()
+                  if "abhishek" in txt or "nilkanth" in txt or "murti" in txt: score*=3
+                  ranked.append((score,page,u,alt,im.copy()))
+                  print("candidate",score,im.size,u,alt)
+              except Exception:
+                  pass
+          ranked.sort(reverse=True,key=lambda x:x[0])
+          if not ranked:
+              raise RuntimeError("No BAPS ritual image candidates")
+          # Keep top 4 so the model can visually choose the best one.
+          for i,(score,page,u,alt,im) in enumerate(ranked[:4],1):
+              name=f"06_BAPS_真实实践候选_{i}.jpg"
+              im.save("pack/"+name,"JPEG",quality=92,optimize=True)
+              with open("pack/"+name+".txt","w",encoding="utf-8") as f:
+                  f.write("page="+page+"\nimage="+u+"\nalt="+alt+"\n")
+          PY
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: hiddenli-cult-image-visuals-20261001
+          path: pack/
+          retention-days: 3
