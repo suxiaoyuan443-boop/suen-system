@@ -25,18 +25,17 @@ jobs:
               print(path, r.status_code, r.headers.get('content-type'), len(r.content))
           get('https://ashtalakshmitemple.co.in/uploads/blog/posts/bpgal848842892_648594388.jpg','raw/hindu_bath.jpg')
           get('https://ashtalakshmitemple.co.in/uploads/blog/posts/bpgal848842892_1330476506.jpg','raw/hindu_dressed.jpg')
-          get('https://www.ucl.ac.uk/museums-static/digitalegypt/thebes/archive/uc13043small.gif','raw/egypt_anoint.gif')
-          get('https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/1bcbbb4a_c6a9_416f_a9a0_a3b7006d470d/mid_00032607_001.jpg','raw/sungod.jpg')
+                    get('https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/1bcbbb4a_c6a9_416f_a9a0_a3b7006d470d/mid_00032607_001.jpg','raw/sungod.jpg')
           get('https://isac-assets.s3.amazonaws.com/isac-publications/ois8.pdf','raw/ois8.pdf')
           get('https://krkswami.com/sites/default/files/2025-11/vaishnava_tantra_as_outlined_in_the_bhagavata.pdf','raw/vaishnava.pdf')
-          title='File:Painted Relief of Seti I offering a tray of food ... (36711531995).jpg'
           api='https://commons.wikimedia.org/w/api.php'
-          q=S.get(api,params={'action':'query','format':'json','prop':'imageinfo','iiprop':'url','titles':title},timeout=60)
-          q.raise_for_status()
-          data=q.json()
-          page=next(iter(data['query']['pages'].values()))
-          url=page['imageinfo'][0]['url']
-          get(url,'raw/egypt_food.jpg')
+          def commons(title,path):
+              q=S.get(api,params={'action':'query','format':'json','prop':'imageinfo','iiprop':'url','titles':'File:'+title},timeout=60)
+              q.raise_for_status()
+              page=next(iter(q.json()['query']['pages'].values()))
+              get(page['imageinfo'][0]['url'],path)
+          commons('Painted Relief of Seti I offering a tray of food ... (36711531995).jpg','raw/egypt_food.jpg')
+          commons('AbydosSetiChapelRelief145.jpg','raw/egypt_censing.jpg')
           PY
 
           # identify page in OIS8 containing the mīs pî sensory line
@@ -63,7 +62,7 @@ jobs:
               im.save(dst,quality=93)
 
           save_scaled('raw/hindu_bath.jpg','out/01_印度教神像沐浴_真实寺庙照片.jpg')
-          save_scaled('raw/egypt_anoint.gif','out/02_古埃及_国王为阿蒙神像涂油_UCL.jpg',maxw=1200)
+          save_scaled('raw/egypt_censing.jpg','out/02_古埃及_塞提一世在神龛前焚香_阿拜多斯.jpg')
           save_scaled('raw/egypt_food.jpg','out/03_古埃及_塞提一世献食_阿拜多斯.jpg')
           save_scaled('raw/sungod.jpg','out/05_美索不达米亚_沙玛什太阳神石板.jpg')
           save_scaled('raw/hindu_dressed.jpg','out/07_印度教_沐浴后着装装饰_真实寺庙照片.jpg')
