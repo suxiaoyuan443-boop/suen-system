@@ -21,7 +21,7 @@ jobs:
           curl -fL --retry 3 'https://upload.wikimedia.org/wikipedia/commons/3/35/Cult_Image_of_the_God_Ptah_MET_DP142956.jpg' -o work/egypt_ptah.jpg
           curl -fL --retry 3 'https://images.metmuseum.org/CRDImages/an/original/DP222641.jpg' -o work/meso_seal.jpg
           curl -fL --retry 3 'https://upload.wikimedia.org/wikipedia/commons/e/ea/Devotional_offering_of_food_to_Hindu_Deity_Shri_Sita-Rama.jpg' -o work/hindu_food.jpg
-          curl -fL --retry 3 'https://isac.uchicago.edu/sites/default/files/uploads/shared/docs/ancient_mesopotamia.pdf' -o work/ancient_mesopotamia.pdf
+          curl -fL --retry 3 'https://isac-assets.s3.amazonaws.com/isac-publications/ancient_mesopotamia.pdf' -o work/ancient_mesopotamia.pdf
 
           found=''
           pages=$(pdfinfo work/ancient_mesopotamia.pdf | awk '/^Pages:/ {print $2}')
