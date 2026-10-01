@@ -1,0 +1,25 @@
+name: Temp fetch licensed deity images
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-licensed-deity-images.yml'
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p pack
+          curl -fL 'https://upload.wikimedia.org/wikipedia/commons/6/62/Bathing_the_Divine.jpg' -o 'pack/印度教_神像沐浴_Bathing_the_Divine_CC-BY-SA.jpg'
+          curl -fL 'https://upload.wikimedia.org/wikipedia/commons/2/2e/Tablet_of_Shamash_%282%29.jpg' -o 'pack/美索不达米亚_沙玛什太阳神_CC0.jpg'
+          file pack/*
+          test $(stat -c%s 'pack/印度教_神像沐浴_Bathing_the_Divine_CC-BY-SA.jpg') -gt 1000000
+          test $(stat -c%s 'pack/美索不达米亚_沙玛什太阳神_CC0.jpg') -gt 100000
+      - name: Upload
+        uses: actions/upload-artifact@v4
+        with:
+          name: licensed-deity-images
+          path: pack/
+          retention-days: 2
