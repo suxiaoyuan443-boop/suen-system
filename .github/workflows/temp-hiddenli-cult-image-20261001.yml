@@ -1,0 +1,157 @@
+name: Build 2026-10-01 Hiddenli cult-image visuals
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-hiddenli-cult-image-20261001.yml'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install tools
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser chromium-chromedriver poppler-utils jq python3-pil python3-pip
+          python3 -m pip install --break-system-packages selenium requests pillow pypdf
+      - name: Build visuals
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p pack work
+          python3 - <<'PY'
+          import os, time, json, base64, textwrap
+          import requests
+          from PIL import Image, ImageOps, ImageDraw
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+
+          PACK='pack'; WORK='work'
+
+          # ---------- helpers ----------
+          def save_url(url, path):
+              r=requests.get(url, timeout=60, headers={'User-Agent':'Mozilla/5.0'})
+              r.raise_for_status()
+              open(path,'wb').write(r.content)
+              return r
+
+          def chrome():
+              o=Options()
+              o.add_argument('--headless=new')
+              o.add_argument('--no-sandbox')
+              o.add_argument('--disable-dev-shm-usage')
+              o.add_argument('--window-size=1200,1000')
+              o.add_argument('--force-device-scale-factor=1')
+              return webdriver.Chrome(options=o)
+
+          def shot(url, out, needle=None, yoff=-220, pause=4):
+              d=chrome()
+              try:
+                  d.get(url); time.sleep(pause)
+                  if needle:
+                      js = """
+                      const needle=arguments[0];
+                      const els=[...document.querySelectorAll('p,li,td,tr,div,h1,h2,h3,h4')];
+                      let el=els.find(e => (e.innerText||'').includes(needle));
+                      if(el){ const r=el.getBoundingClientRect(); window.scrollTo(0, window.scrollY+r.top+arguments[1]); return true; }
+                      return false;
+                      """
+                      d.execute_script(js, needle, yoff); time.sleep(1.5)
+                  d.save_screenshot(out)
+              finally:
+                  d.quit()
+
+          def crop_center(src, dst, ratio=(16,9), maxw=1400):
+              im=Image.open(src).convert('RGB')
+              w,h=im.size; rw,rh=ratio
+              target=w*rh/rw
+              if h>target:
+                  top=(h-target)/2; im=im.crop((0,int(top),w,int(top+target)))
+              else:
+                  targetw=h*rw/rh; left=(w-targetw)/2; im=im.crop((int(left),0,int(left+targetw),h))
+              if im.width>maxw: im.thumbnail((maxw,9999))
+              im.save(dst, quality=93)
+
+          # ---------- Egypt: Met Open Access object images ----------
+          for oid,name in [(551896,'01_埃及_阿拜多斯祭祀浮雕.jpg'),(551895,'02_埃及_阿拜多斯奥西里斯祭祀浮雕.jpg')]:
+              data=requests.get(f'https://collectionapi.metmuseum.org/public/collection/v1/objects/{oid}',timeout=60).json()
+              url=data.get('primaryImage') or data.get('primaryImageSmall')
+              if not url: raise RuntimeError(f'no image {oid}')
+              save_url(url, os.path.join(PACK,name))
+
+          # UCL daily cult: mechanism & service steps
+          shot('https://www.ucl.ac.uk/museums-static/digitalegypt/religion/dailycult.html',
+               os.path.join(PACK,'03_埃及_UCL日课机制说明.png'),
+               'they did not consider the images themselves to be divine forces', -150)
+          shot('https://www.ucl.ac.uk/museums-static/digitalegypt/religion/dailycult.html',
+               os.path.join(PACK,'04_埃及_UCL穿衣涂油步骤.png'),
+               'the image is robed, with offering of four lengths of cloth', -260)
+
+          # ---------- Mesopotamia ----------
+          shot('https://etana.org/node/580',
+               os.path.join(PACK,'05_美索不达米亚_洗口仪式开头.png'),
+               'Born in heaven by your own power', -180)
+          shot('https://etana.org/node/580',
+               os.path.join(PACK,'06_美索不达米亚_入神殿与神性装具.png'),
+               'bring near the trappings of divinity', -320)
+          shot('https://oracc.museum.upenn.edu/cams/tlab/X800005',
+               os.path.join(PACK,'07_美索不达米亚_神像衣物记录.png'),
+               'Undyed textiles for Šamaš, Aya and Bunene', -220)
+          shot('https://oracc.museum.upenn.edu/cams/gkab/P363710/',
+               os.path.join(PACK,'08_美索不达米亚_每日食物供奉记录.png'),
+               'Daily for the entire year', -220)
+
+          # ---------- Hindu traditions ----------
+          shot('https://asia.si.edu/explore-art-culture/collections/collections-areas/southasian-himalayan/viewing-goddesses-in-asian-art/',
+               os.path.join(PACK,'09_印度教_NMAA神像临在与供奉.png'),
+               'Before a festival bronze or other deity image can be worshiped', -220, 6)
+
+          pdf=os.path.join(WORK,'south_asia.pdf')
+          save_url('https://resources.metmuseum.org/resources/metpublications/pdf/The_Art_of_South_and_Southeast_Asia_A_Resource_for_Educators.pdf', pdf)
+          # locate page containing target phrase
+          from pypdf import PdfReader
+          reader=PdfReader(pdf)
+          page_idx=None
+          phrase='Within the temple, statues of deities were bathed'
+          for i,p in enumerate(reader.pages):
+              txt=p.extract_text() or ''
+              if phrase in txt:
+                  page_idx=i; break
+          if page_idx is None: raise RuntimeError('Met South Asia target page not found')
+          os.system(f"pdftoppm -f {page_idx+1} -singlefile -jpeg -r 150 '{pdf}' '{WORK}/met_southasia' >/dev/null 2>&1")
+          im=Image.open(f'{WORK}/met_southasia.jpg').convert('RGB')
+          im.save(os.path.join(PACK,'10_印度教_Met日常沐浴穿衣供食原页.jpg'),quality=94)
+
+          shot('https://asia.si.edu/education/educator-resources/encountering-religion-in-asian-art/explore-by-object/object/durga-goddess-who-slays-the-buffalo-demon/',
+               os.path.join(PACK,'11_印度教_Durga神像沐浴磨损实物页.png'),
+               'Worshiping the goddess would have included bathing the brass sculpture', -220, 6)
+
+          # ---------- opener/ending composite from verified real source images ----------
+          imgs=[Image.open(os.path.join(PACK,x)).convert('RGB') for x in [
+              '01_埃及_阿拜多斯祭祀浮雕.jpg',
+              '05_美索不达米亚_洗口仪式开头.png',
+              '10_印度教_Met日常沐浴穿衣供食原页.jpg']]
+          tiles=[]
+          for im in imgs:
+              w,h=im.size
+              # center crop square
+              side=min(w,h); l=(w-side)//2; t=(h-side)//2
+              x=im.crop((l,t,l+side,t+side)).resize((700,700))
+              tiles.append(x)
+          canvas=Image.new('RGB',(2100,700),'white')
+          for i,x in enumerate(tiles): canvas.paste(x,(700*i,0))
+          canvas.save(os.path.join(PACK,'12_三传统真实资料拼图.jpg'),quality=93)
+
+          # Validate all images
+          for fn in sorted(os.listdir(PACK)):
+              p=os.path.join(PACK,fn)
+              with Image.open(p) as im:
+                  im.verify()
+              if os.path.getsize(p)<15000: raise RuntimeError(f'image too small {fn}')
+              print(fn, os.path.getsize(p))
+          print('MET_PAGE_INDEX', page_idx+1)
+          PY
+      - name: Upload visuals
+        uses: actions/upload-artifact@v4
+        with:
+          name: hiddenli-cult-image-20261001-visuals
+          path: pack/
+          retention-days: 3
