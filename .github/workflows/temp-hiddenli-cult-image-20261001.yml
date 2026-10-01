@@ -29,8 +29,7 @@ jobs:
               print(path, r.status_code, r.headers.get('content-type'), len(r.content))
           get('https://ashtalakshmitemple.co.in/uploads/blog/posts/bpgal848842892_648594388.jpg','raw/hindu_bath.jpg')
           get('https://ashtalakshmitemple.co.in/uploads/blog/posts/bpgal848842892_1330476506.jpg','raw/hindu_dressed.jpg')
-          get('https://media.britishmuseum.org/media/Repository/Documents/2014_10/1_6/1bcbbb4a_c6a9_416f_a9a0_a3b7006d470d/mid_00032607_001.jpg','raw/sungod.jpg')
-          get('https://isac-assets.s3.amazonaws.com/isac-publications/ois8.pdf','raw/ois8.pdf')
+                    get('https://isac-assets.s3.amazonaws.com/isac-publications/ois8.pdf','raw/ois8.pdf')
           get('https://krkswami.com/sites/default/files/2025-11/vaishnava_tantra_as_outlined_in_the_bhagavata.pdf','raw/vaishnava.pdf')
           api='https://commons.wikimedia.org/w/api.php'
           def commons(title,path):
@@ -40,6 +39,7 @@ jobs:
               get(page['imageinfo'][0]['url'],path)
           commons('Painted Relief of Seti I offering a tray of food ... (36711531995).jpg','raw/egypt_food.jpg')
           commons('AbydosSetiChapelRelief145.jpg','raw/egypt_censing.jpg')
+          commons('Tablette de Shamash - relief avec inscription.jpg','raw/sungod.jpg')
           PY
 
           # identify page in OIS8 containing the mīs pî sensory line
