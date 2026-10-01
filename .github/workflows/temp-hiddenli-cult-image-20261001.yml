@@ -19,8 +19,12 @@ jobs:
           S=requests.Session()
           S.headers.update({'User-Agent':'Mozilla/5.0 Suen research build'})
           def get(url,path):
-              r=S.get(url,timeout=90)
-              r.raise_for_status()
+              try:
+                  r=S.get(url,timeout=90)
+                  r.raise_for_status()
+              except requests.exceptions.SSLError:
+                  r=S.get(url,timeout=90,verify=False)
+                  r.raise_for_status()
               open(path,'wb').write(r.content)
               print(path, r.status_code, r.headers.get('content-type'), len(r.content))
           get('https://ashtalakshmitemple.co.in/uploads/blog/posts/bpgal848842892_648594388.jpg','raw/hindu_bath.jpg')
