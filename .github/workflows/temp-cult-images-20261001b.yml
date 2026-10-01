@@ -1,0 +1,22 @@
+name: Temp cult source images
+on:
+  push:
+    paths:
+      - '.github/workflows/temp-cult-images-20261001b.yml'
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch source images
+        run: |
+          mkdir -p pack
+          curl -fL 'https://upload.wikimedia.org/wikipedia/commons/4/42/Seti_before_Amun.jpg' -o pack/egypt1.jpg
+          curl -fL 'https://upload.wikimedia.org/wikipedia/commons/a/a4/Seti_I_Temple_Reliefs_at_Abydos_%28II%29.jpg' -o pack/egypt2.jpg
+          curl -fL 'https://cdli.earth/dl/photo/P394438.jpg' -o pack/meso1.jpg
+          curl -fL 'https://upload.wikimedia.org/wikipedia/commons/8/83/Shiva_Lingam_at_Sri_Punyalingeswara_Swamy_Kshetram%2C_Choutuppal%2C_Telangana.png' -o pack/hindu1.png
+          curl -fL 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Lord_Shiva_devotees_offering_milk%2C_flowers%2C_fruits_and_bel_leaves_on_a_Shivaling_for_seeking_divine_blessings%2C_in_a_city_temple_at_the_celebration_of_Maha_Shivaratri%2C_in_New_Delhi_on_February_23%2C_2009.jpg' -o pack/hindu2.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cult-source-images
+          path: pack/
+          retention-days: 2
