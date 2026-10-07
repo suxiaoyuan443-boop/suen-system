@@ -20,8 +20,10 @@
         "T",
         "I",
         "S",
+        "X",
         "M"
-      ]
+      ],
+      "description": "来源标签；X 仅用于外部结果压力测试，不自动进入采用层或提升证据等级。"
     },
     "rule_statement": {
       "type": "string"

@@ -1,8 +1,7 @@
 name: Temp cult source images
+# Historical one-off asset job. No automatic trigger; do not run without a current authorized need.
 on:
-  push:
-    paths:
-      - '.github/workflows/temp-cult-images-20261001b.yml'
+  workflow_dispatch:
 jobs:
   fetch:
     runs-on: ubuntu-latest

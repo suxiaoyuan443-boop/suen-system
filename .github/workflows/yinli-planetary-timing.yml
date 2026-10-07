@@ -1,9 +1,7 @@
 name: Build Yinli planetary timing visuals
 
+# Historical one-off asset job. No automatic trigger; do not run without a current authorized need.
 on:
-  push:
-    paths:
-      - '.github/workflows/yinli-planetary-timing.yml'
   workflow_dispatch:
 
 permissions:
