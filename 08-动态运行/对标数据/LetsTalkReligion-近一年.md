@@ -374,3 +374,12 @@ Mysterious / Weirdest / Lost / Forgotten / Misunderstood / Truth / Greatest / Mo
 - 部分标题被截断；
 - 下一步要人工精标 hook_type 后再重算。
 
+
+
+## 2026-10-11｜古希腊宗教候选的公开视频字幕补核
+
+来源：[Religion in Ancient Greece](https://www.youtube.com/watch?v=OJ8fPflZOYg)的公开视频英文自动字幕；覆盖0:00—1:16:49。本次为具体求梦候选的内容核查，不重采年度播放与账号基线，不宣称已逐帧观看或完成全网原创性排查。
+
+检索Asclepius/Asklepios、睡眠、梦、incubation、Epidaurus、Amphiaraos、Rhamnous等名称/词及变体，导出字幕未检出神庙求梦的具体流程或本轮拟用浮雕/病例展开。该视频为宗教总览，本轮把古希腊宗教作为题材参照，再独立回博物馆、原典研究求梦过程；不能写“对标已经证明这个睡眠切口爆款”。
+
+自动识别可能误写或漏掉词句，字幕也不覆盖所有图像；目前只能记录“本次字幕未检出相同具体展开”。原图、许可、碑铭个案及成片门仍待完成，本节不授予候选制作资格或固定发布优先级。
