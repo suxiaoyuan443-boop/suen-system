@@ -1,0 +1,68 @@
+{
+  "review_date": "2026-10-14",
+  "timezone": "Asia/Shanghai",
+  "source": "Suen提供的4张后台截图及发布状态确认",
+  "capture_clock": {"douyin": "10月14日00:28", "xiaohongshu": "00:29；本次于10月14日提供"},
+  "publication_confirmations": {
+    "temple_dream": {"date": "2026-10-12", "douyin": true, "xiaohongshu": true},
+    "letter_to_wife": {"date": "2026-10-13", "douyin": true, "xiaohongshu": true, "xiaohongshu_confirmed_by_user": "已同步小红书"}
+  },
+  "records": [
+    {
+      "platform": "抖音大号",
+      "content": "神庙求梦",
+      "displayed_title": "为什么古希腊人会到神庙里睡上一夜？",
+      "editorial_column": "古术",
+      "published_at": "2026-10-12 20:31",
+      "duration_seconds": 166,
+      "snapshot_at": "2026-10-14 00:28",
+      "age_at_snapshot": "27小时57分，约28小时累计，不是严格24小时快照",
+      "metrics": {"plays": 1066, "likes": 38, "comments": 1, "shares": 0, "saves": 9, "new_followers": 5, "completion_rate_percent": 0.79, "two_second_exit_rate_percent": 44.98},
+      "not_provided": ["5秒完播", "平均观看秒数", "逐秒留存", "主页访问", "询盘及成交归因"]
+    },
+    {
+      "platform": "抖音大号",
+      "content": "亡妻书信",
+      "displayed_title_prefix": "写给亡妻的信，为什么要让神明裁决？",
+      "full_description": "列表后续文案被截断，不补猜",
+      "editorial_column": "残页",
+      "published_at": "2026-10-13 20:48",
+      "duration_seconds": 165,
+      "snapshot_at": "2026-10-14 00:28",
+      "age_at_snapshot": "3小时40分早期累计",
+      "metrics": {"plays": 1234, "likes": 63, "comments": 3, "shares": 1, "saves": 12, "new_followers": 3, "completion_rate_percent": 2.79, "two_second_exit_rate_percent": 44.55},
+      "not_provided": ["5秒完播", "平均观看秒数", "逐秒留存", "主页访问", "询盘及成交归因"]
+    },
+    {
+      "platform": "小红书",
+      "content": "神庙求梦",
+      "displayed_title": "古希腊人为什么要到神庙里睡一夜？",
+      "editorial_column": "古术",
+      "published_date": "2026-10-12",
+      "published_time": null,
+      "screenshot_submitted_on": "2026-10-14",
+      "screen_clock": "00:29",
+      "platform_update_label": "数据更新至10-13 00:00",
+      "timing_boundary": "部分字段标实时；不将整页统一当成10月14日00:29或严格24小时数据",
+      "metrics": {"exposures": 1351, "views": 892, "cover_click_rate_percent": 12.1, "two_second_exit_rate_percent": 34.6, "five_second_completion_rate_percent": 46.8, "interaction_rate_percent": 22.4, "likes": 146, "comments": 3, "danmaku": 0, "saves": 51, "quoted_count": 0, "shares": 7, "average_watch_seconds": 18, "sixty_second_plays": 31, "completion_rate_percent": 2.2, "new_followers": 4},
+      "fan_metric_labels": {"exposure_fan_share_percent": 5.9, "view_fan_share_percent": 10.8, "fan_cover_click_rate_percent": 17.1, "fan_two_second_exit_rate_percent": 32.1, "fan_five_second_completion_rate_percent": 52.6, "fan_interaction_rate_percent": 49, "like_fan_share_percent": 26, "comment_fan_share_percent": 100, "save_fan_share_percent": 13, "share_fan_share_percent": 20, "fan_average_watch_seconds": 31.5, "sixty_second_play_fan_share_percent": 29, "fan_completion_rate_percent": 8.8},
+      "platform_diagnosis": {"cover_conversion": "较好", "opening": "较好", "interaction": "较好", "visual_quality": "较好，4.8", "content_depth": "待提升，均看18秒，同类中位数18.5秒，超过48%同类"},
+      "not_provided": ["具体发布时分", "视频长度独立核对", "逐秒留存", "主页访问", "询盘及成交归因"]
+    },
+    {
+      "platform": "小红书",
+      "content": "亡妻书信",
+      "published_date": "2026-10-13",
+      "published_status": "用户确认已同步",
+      "metrics": null,
+      "not_provided": ["实际标题", "具体发布时分", "全部后台数据"]
+    }
+  ],
+  "derived_snapshot_ratios": {
+    "boundary": "按本次可见计数计算，仅为辅助比较；不是平台定义的互动率或CTR，也不是用户转化率",
+    "temple_douyin": {"like_per_play_percent": 3.565, "save_per_play_percent": 0.844, "follow_per_play_percent": 0.469},
+    "letter_douyin": {"like_per_play_percent": 5.105, "save_per_play_percent": 0.972, "follow_per_play_percent": 0.243},
+    "temple_xiaohongshu": {"like_per_view_percent": 16.368, "save_per_view_percent": 5.717, "follow_per_view_percent": 0.448}
+  },
+  "interpretation_limits": ["书信与求梦在抖音的观察时长不同，不据此做同窗口胜负或爆款判断", "不将平台内容深度标签解释成史料不够深", "不将新增关注认作合格询盘或高客单客户", "此次确认发布不等于整稿质量认可，也不证明发布成片使用了哪一版交付", "没有逐秒留存或实际MP4，不能定位具体掉点、剪辑问题或标题因果", "不事后补造发布前验证假设"]
+}
