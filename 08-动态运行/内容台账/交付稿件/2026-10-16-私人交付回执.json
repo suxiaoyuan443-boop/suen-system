@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "status": "generated_private_delivery_pending_user_review",
+  "site_project_id": "appgprj_6acbcf339cac81918fbd7860ddb2b9b9",
+  "source_commit": "5d04f3901da3513194411d895573f04c335ecc53",
+  "version_id": "appgprj_6acbcf339cac81918fbd7860ddb2b9b9~appgver_0e899d0579f08191a3e64e1c86d997fc",
+  "deployment_id": "appgdep_6ad107de31708191a65494442029f502",
+  "deployment_status": "succeeded",
+  "owner_only": true,
+  "urls": {
+    "video": "https://suen-temple-dream-reader.breezygnat8.chatgpt.site/sabazios/",
+    "wechat": "https://suen-temple-dream-reader.breezygnat8.chatgpt.site/wechat-20261016/",
+    "html": "https://suen-temple-dream-reader.breezygnat8.chatgpt.site/sabazios/downloads/Suen_%E6%96%87%E7%89%A9_%E9%9D%92%E9%93%9C%E6%89%8B_%E5%8F%A3%E6%92%AD%E4%B8%8E%E5%9B%BE%E7%89%87.html",
+    "zip": "https://suen-temple-dream-reader.breezygnat8.chatgpt.site/sabazios/downloads/Suen_%E6%96%87%E7%89%A9_%E9%9D%92%E9%93%9C%E6%89%8B_%E7%9B%B8%E5%86%8C%E7%B4%A0%E6%9D%90%E5%8C%85.zip",
+    "txt": "https://suen-temple-dream-reader.breezygnat8.chatgpt.site/wechat-20261016/downloads/%E5%85%AC%E4%BC%97%E5%8F%B7%E8%B4%B4%E5%9B%BE-%E5%8F%AF%E7%9B%B4%E6%8E%A5%E5%A4%8D%E5%88%B6.txt"
+  },
+  "narration_characters": 437,
+  "narration_paragraphs": 6,
+  "main_images": 6,
+  "distinct_main_images": 6,
+  "one_image_per_paragraph": true,
+  "format": "RGB JPEG",
+  "aspect": "width:height 3:4; original photo aspect preserved",
+  "html_bytes": 1954516,
+  "album_zip_bytes": 1400906,
+  "wechat_total_characters": 747,
+  "previous_site_files_unchanged": 75,
+  "browser_viewports": [
+    390,
+    820
+  ],
+  "offline_images_checked": true,
+  "actual_ipad_checked": false,
+  "user_approved": false,
+  "final_mp4_created": false,
+  "social_published": false,
+  "packaging_note": "Local wrapper could not spawn bash; existing pushed source reused with native remote build; deployment succeeded."
+}
