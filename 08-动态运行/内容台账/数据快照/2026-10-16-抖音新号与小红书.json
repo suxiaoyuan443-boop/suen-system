@@ -1,0 +1,494 @@
+{
+  "review_date": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "source": "Suen提供7张第一方后台截图；明确抖音为新开的号",
+  "capture_at": null,
+  "capture_time_boundary": "提供日期不等于截图时分；不推算发布后准确小时数或严格24h窗口",
+  "account_identity": {
+    "douyin": "新研究主号，昵称赫苏恩，45027277329；身份沿用10/14已确认记录并由本轮用户明确新号，不从截图补猜ID",
+    "xiaohongshu": "既有赫苏恩SuenAkhet账号"
+  },
+  "publication_confirmations": [
+    {
+      "content": "13针人偶",
+      "platform": "抖音新研究主号",
+      "published_at": "2026-10-14 20:31",
+      "duration_seconds": 103,
+      "source_id": "S1"
+    },
+    {
+      "content": "13针人偶",
+      "platform": "小红书",
+      "published_at": "2026-10-14 20:31",
+      "duration_seconds": 102,
+      "source_id": "S6"
+    },
+    {
+      "content": "乌纳斯吞神",
+      "platform": "抖音新研究主号",
+      "published_at": "2026-10-15 20:57",
+      "duration_seconds": 183,
+      "source_id": "S1"
+    },
+    {
+      "content": "乌纳斯吞神",
+      "platform": "小红书",
+      "published_at": "2026-10-15 20:32",
+      "duration_seconds": 183,
+      "source_id": "S6"
+    },
+    {
+      "content": "亡妻书信",
+      "platform": "小红书",
+      "published_at": "2026-10-13 20:48",
+      "source_id": "S6",
+      "scope": "首次补齐实际时分"
+    },
+    {
+      "content": "神庙求梦",
+      "platform": "小红书",
+      "published_at": "2026-10-12 20:30",
+      "source_id": "S6",
+      "scope": "首次补齐实际时分"
+    }
+  ],
+  "douyin_latest_list": {
+    "source_id": "S1",
+    "visible_works": 2,
+    "window": "列表当时累计；截图时分未知",
+    "works": [
+      {
+        "content": "13针人偶",
+        "displayed_title": "这尊人偶 被扎了13根针",
+        "published_at": "2026-10-14 20:31",
+        "metrics": {
+          "plays_display": "2.1万",
+          "plays_exact": null,
+          "likes": 814,
+          "comments": 13,
+          "shares": 54,
+          "saves": 78,
+          "completion_rate_percent": 7.28,
+          "two_second_exit_rate_percent": 16.04,
+          "new_followers": 13
+        }
+      },
+      {
+        "content": "乌纳斯吞神",
+        "displayed_title": "古埃及的金字塔前，刻着把诸神分成三份饭",
+        "published_at": "2026-10-15 20:57",
+        "metrics": {
+          "plays": 814,
+          "likes": 24,
+          "comments": 0,
+          "shares": 4,
+          "saves": 7,
+          "danmaku": 0,
+          "cover_click_rate_percent": 50,
+          "average_playback_ratio_percent": 4.31,
+          "new_followers": 0
+        },
+        "not_provided": [
+          "完播率",
+          "2秒跳出率",
+          "平均观看秒数"
+        ]
+      }
+    ]
+  },
+  "douyin_period_dashboard": {
+    "source_id": "S7",
+    "period_start": "2026-10-09",
+    "period_end": "2026-10-15",
+    "update_labels": [
+      "概览数据每日12点更新，获取权限后次日起生产数据",
+      "作品数据每日10点更新前一日数据"
+    ],
+    "window_boundary": "截图虽选择10/9—10/15，但页内只计1作品；与实时列表2作品/约2.1万累计分开保留",
+    "metrics": {
+      "works_count": 1,
+      "plays": 6759,
+      "likes": 141,
+      "comments": 3,
+      "shares": 3,
+      "completion_rate_percent": 4.1,
+      "interaction_rate_percent": 2.5,
+      "net_followers": 5,
+      "five_second_completion_rate_percent": 55.24,
+      "two_second_exit_rate_percent": 15.66,
+      "cover_click_rate_percent": 0,
+      "average_watch_seconds": 15.18
+    },
+    "top_work": "13针人偶",
+    "diagnosis": {
+      "plays": "高于96.92%同类创作者；雷达约97%",
+      "completion": "低于91%同类",
+      "interaction": "低于70%同类"
+    },
+    "not_provided": [
+      "收藏",
+      "当前账号总粉丝",
+      "询盘",
+      "成交"
+    ]
+  },
+  "xiaohongshu_account": {
+    "source_id": "S2",
+    "metrics": {
+      "followers": 613,
+      "following": 13,
+      "total_likes_and_saves": 6766
+    },
+    "account_status": "正常",
+    "aggregate_period_start": "2026-10-08",
+    "aggregate_period_end": "2026-10-14",
+    "aggregate_metrics": {
+      "impressions_display": "2万",
+      "impressions_exact": null,
+      "views": 6911,
+      "likes": 739,
+      "comments": 31,
+      "saves": 259,
+      "shares": 26,
+      "net_followers": 81,
+      "new_follows": 82,
+      "unfollows": 1,
+      "profile_visits": 232,
+      "cover_click_rate_percent": 11.2,
+      "video_completion_rate_percent": 7.1
+    },
+    "week_over_week_display": {
+      "impressions": "下降25%",
+      "views": "上升17%",
+      "likes": "上升308%",
+      "comments": "上升3000%",
+      "net_followers": "上升252%",
+      "new_follows": "上升241%",
+      "unfollows": "0%",
+      "profile_visits": "上升24%",
+      "cover_click_rate": "上升41%",
+      "video_completion_rate": "上升108%",
+      "saves": "上升398%",
+      "shares": "上升333%"
+    }
+  },
+  "xiaohongshu_doll_detail": {
+    "source_ids": [
+      "S3",
+      "S4",
+      "S5"
+    ],
+    "published_at": "2026-10-14 20:31",
+    "status": "正常",
+    "update_label": "数据更新至10-15 00:00；观看/互动计数含实时字段；观看趋势另标10-15 21:00",
+    "metrics": {
+      "exposures": 1047,
+      "views": 1177,
+      "cover_click_rate_percent": 9.1,
+      "average_watch_seconds": 30.5,
+      "completion_rate_percent": 10.7,
+      "two_second_exit_rate_percent": 16.8,
+      "new_followers": 2,
+      "likes": 127,
+      "comments": 0,
+      "saves": 45,
+      "shares": 3,
+      "five_second_completion_rate_percent": 60,
+      "interaction_rate_percent": 24.8,
+      "visual_quality_score": 4.8
+    },
+    "fan_fields": {
+      "exposure_share_percent": 6.3,
+      "view_share_percent": 8.8,
+      "cover_click_rate_percent": 6.9,
+      "average_watch_seconds": 39.4,
+      "completion_rate_percent": 19.2,
+      "two_second_exit_rate_percent": 20.4,
+      "like_share_percent": 15.6,
+      "comment_share_percent": 0,
+      "save_share_percent": 22.6,
+      "share_share_percent": 0
+    },
+    "daily_chart": {
+      "date": "2026-10-14",
+      "views": 444
+    },
+    "diagnosis": {
+      "cover": "9.1%，同类中位数8.2%，超过56%同类",
+      "opening": "较好",
+      "interaction": "较好",
+      "depth": "较好",
+      "visual": "较好"
+    }
+  },
+  "xiaohongshu_visible_list": {
+    "source_id": "S6",
+    "total_displayed_items": 42,
+    "fully_visible_items": 18,
+    "coverage": "当前截图可见18条，不是全42条；未展示旧强样本不更新其数字",
+    "works": [
+      {
+        "published_at": "2026-09-20 20:31",
+        "title": "简单介绍一下我平时都在研究什么",
+        "metrics": {
+          "views": 706,
+          "likes": 49,
+          "comments": 4,
+          "saves": 6,
+          "shares": 0
+        },
+        "duration_seconds": 35,
+        "note": "置顶",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-18 20:31",
+        "title": "为什么仪式开始之前要先画一个圆？",
+        "metrics": {
+          "views": 6121,
+          "likes": 771,
+          "comments": 3,
+          "saves": 422,
+          "shares": 29
+        },
+        "duration_seconds": 236,
+        "note": "置顶",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-15 20:32",
+        "title": "古埃及的金字塔前，刻着把诸神分成三份饭",
+        "metrics": {
+          "views": 401,
+          "likes": 76,
+          "comments": 0,
+          "saves": 34,
+          "shares": 2
+        },
+        "duration_seconds": 183,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-14 20:31",
+        "title": "这尊埃及人偶，身上被扎了13根针",
+        "metrics": {
+          "views": 1177,
+          "likes": 127,
+          "comments": 0,
+          "saves": 45,
+          "shares": 3
+        },
+        "duration_seconds": 102,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-13 20:48",
+        "title": "写给亡妻的信，为什么要神明裁决？",
+        "metrics": {
+          "views": 2582,
+          "likes": 191,
+          "comments": 12,
+          "saves": 56,
+          "shares": 3
+        },
+        "duration_seconds": 164,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-12 20:30",
+        "title": "古希腊人为什么要到神庙里睡一夜？",
+        "metrics": {
+          "views": 972,
+          "likes": 157,
+          "comments": 3,
+          "saves": 51,
+          "shares": 8
+        },
+        "duration_seconds": 166,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-09 21:42",
+        "title": "为了找贤者之石，他从尿液里炼出了磷",
+        "metrics": {
+          "views": 470,
+          "likes": 73,
+          "comments": 0,
+          "saves": 28,
+          "shares": 0
+        },
+        "duration_seconds": 107,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-08 21:53",
+        "title": "古埃及的流水过咒文和图像可以治病？",
+        "metrics": {
+          "views": 1305,
+          "likes": 167,
+          "comments": 8,
+          "saves": 68,
+          "shares": 7
+        },
+        "duration_seconds": 194,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-05 20:43",
+        "title": "古埃及的黄金脚趾套和黄金凉鞋",
+        "metrics": {
+          "views": 130,
+          "likes": 12,
+          "comments": 0,
+          "saves": 1,
+          "shares": 0
+        },
+        "duration_seconds": null,
+        "note": "图文",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-10-02 20:34",
+        "title": "神像为什么也要洗澡、换衣、吃饭？",
+        "metrics": {
+          "views": 802,
+          "likes": 106,
+          "comments": 1,
+          "saves": 26,
+          "shares": 2
+        },
+        "duration_seconds": 193,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-29 21:15",
+        "title": "今日圆满结束",
+        "metrics": {
+          "views": 348,
+          "likes": 30,
+          "comments": 9,
+          "saves": 1,
+          "shares": 1
+        },
+        "duration_seconds": null,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-28 21:08",
+        "title": "行星星符图都画好了为什么还做不了？",
+        "metrics": {
+          "views": 730,
+          "likes": 69,
+          "comments": 0,
+          "saves": 30,
+          "shares": 2
+        },
+        "duration_seconds": 155,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-27 21:01",
+        "title": "今夜记录",
+        "metrics": {
+          "views": 175,
+          "likes": 29,
+          "comments": 0,
+          "saves": 1,
+          "shares": 0
+        },
+        "duration_seconds": null,
+        "note": "仅自己可见",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-26 22:37",
+        "title": "古埃及护符为什么做成一个结？",
+        "metrics": {
+          "views": 267,
+          "likes": 19,
+          "comments": 0,
+          "saves": 5,
+          "shares": 0
+        },
+        "duration_seconds": null,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-23 21:34",
+        "title": "塔罗牌一开始就是占卜的吗？",
+        "metrics": {
+          "views": 614,
+          "likes": 83,
+          "comments": 1,
+          "saves": 18,
+          "shares": 1
+        },
+        "duration_seconds": 65,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-22 20:30",
+        "title": "两个魔法师的天使对话里竟然出现共享妻子？",
+        "metrics": {
+          "views": 968,
+          "likes": 114,
+          "comments": 0,
+          "saves": 51,
+          "shares": 4
+        },
+        "duration_seconds": 137,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-21 20:32",
+        "title": "PGM XII.96–106实践记录",
+        "metrics": {
+          "views": 229,
+          "likes": 22,
+          "comments": 0,
+          "saves": 1,
+          "shares": 0
+        },
+        "duration_seconds": null,
+        "note": "",
+        "source_id": "S6"
+      },
+      {
+        "published_at": "2026-09-16 18:51",
+        "title": "古埃及墓里这扇门到底给谁走？",
+        "metrics": {
+          "views": 541,
+          "likes": 79,
+          "comments": 1,
+          "saves": 19,
+          "shares": 2
+        },
+        "duration_seconds": 74,
+        "note": "",
+        "source_id": "S6"
+      }
+    ]
+  },
+  "limits": [
+    "抖音旧大号、原小号、新研究主号独立；不把原号10/13书信数据归新号",
+    "2.1万及2万只保留平台约数，不编精确值，不算精确转化率",
+    "不把各页面实时/延迟/周期数据合成同一时刻",
+    "不以观看除曝光重算平台CTR；不把平均播放占比当完播或平均观看秒数",
+    "实际发布不自动证明Suen认可整稿或所用交付版本；不得返工已发布作品",
+    "13针人偶改善前段停留为单样本组合信号，不能归因于单独换号、露脸、题材或时长",
+    "本轮没有询盘、付款、客户支付能力或订单履约新证据",
+    "乌纳斯约24h小红书均看主观察缺数据，无法判断；不事后改指标或标题"
+  ]
+}
