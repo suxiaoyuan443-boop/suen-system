@@ -1,7 +1,7 @@
 {
   "date": "2026-10-16",
   "timezone": "Asia/Shanghai",
-  "status": "video_generated_pending_user_review_wechat_rejected",
+  "status": "video_selection_withdrawn_wechat_rejected",
   "site_project_id": "appgprj_6acbcf339cac81918fbd7860ddb2b9b9",
   "source_commit": "5d04f3901da3513194411d895573f04c335ecc53",
   "version_id": "appgprj_6acbcf339cac81918fbd7860ddb2b9b9~appgver_0e899d0579f08191a3e64e1c86d997fc",
@@ -40,5 +40,8 @@
   "wechat_scheduled_for_publication": false,
   "wechat_replacement_status": "not_selected_or_produced",
   "withdrawal_date": "2026-10-16",
-  "editorial_note": "Private deployment success is historical technical delivery only. WeChat v1 link retained as rejected history; not an approved publication asset. Video status unchanged."
+  "editorial_note": "Both Oct16 content products are withdrawn from publication scheduling. Technical deployment and source checks are historical only; existing links are unadopted records. No replacement selected or produced.",
+  "video_editorial_status": "selection_approval_withdrawn_by_controller_after_cross_platform_history_review",
+  "video_scheduled_for_publication": false,
+  "video_replacement_status": "not_selected_or_produced"
 }
