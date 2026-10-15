@@ -1,0 +1,137 @@
+{
+  "recorded_on": "2026-10-16",
+  "timezone": "Asia/Shanghai",
+  "source": "Suen本轮专项交接文字自述；未附新的后台截图",
+  "source_type": "user_report",
+  "account": {
+    "platform": "抖音",
+    "role": "新研究主号",
+    "nickname": "赫苏恩",
+    "id": "45027277329"
+  },
+  "new_reports": {
+    "profile_visits": {
+      "value_approximate": 60,
+      "scope": "账号近7天主页访问",
+      "exact_period_start": null,
+      "exact_period_end": null,
+      "captured_at": null,
+      "work_attribution": null,
+      "not_comparable_denominator": "13针人偶约2.1万为单条累计播放，不能与之计算主页访问转化率"
+    },
+    "inbound": {
+      "status": "近期没有新增客户主动咨询或添加微信",
+      "exact_period": null,
+      "scope_note": "不把未界定的近期写成严格7天0询盘，不覆盖历史成交与复购"
+    },
+    "profile": {
+      "same_bio_as_old_research_account": true,
+      "private_message_channel_present_by_user_report": true,
+      "wechat_contact_filled_by_user_report": true,
+      "exact_bio_text": null,
+      "pinned_works": null,
+      "actual_delivery_of_messages_verified": false,
+      "platform_permission_verified": false
+    },
+    "historical_acquisition": {
+      "known_channels": [
+        "抖音",
+        "小红书",
+        "私域"
+      ],
+      "specific_originating_videos": "客户未说明，未知",
+      "forbidden_attribution_inference": [
+        "客户来自某类仪式展示视频",
+        "文物研究必然不能获客"
+      ]
+    }
+  },
+  "reconfirmed_snapshot_reference": "2026-10-16-抖音新号与小红书.json；新号2作品数据仍为历史快照，不是本轮实时刷新",
+  "tarot_handoff": {
+    "source": "用户交接转述，原抽牌日志及逐次时间未提供",
+    "new_interpretation_performed": false,
+    "readings": [
+      {
+        "topic": "新旧账号发展比较",
+        "cards": [
+          {
+            "position": "原账号",
+            "card": "圣杯八",
+            "orientation": "正位",
+            "given_interpretation": "发展方向可能转变"
+          },
+          {
+            "position": "新账号",
+            "card": "权杖骑士",
+            "orientation": "正位",
+            "given_interpretation": "启动有机会，持续性未确定"
+          },
+          {
+            "position": "运营负担",
+            "card": "权杖十",
+            "orientation": "正位",
+            "given_interpretation": "多账号/多平台额外工作负担"
+          }
+        ],
+        "status": "短期方向与首作表现相近，不认四周预测已完全命中"
+      },
+      {
+        "topic": "新号接下来四条走势",
+        "cards": [
+          {
+            "position": "接下来第1—2条",
+            "card": "圣杯四",
+            "orientation": "正位",
+            "given_interpretation": "可能偏弱"
+          },
+          {
+            "position": "随后第3—4条",
+            "card": "星币二",
+            "orientation": "正位",
+            "given_interpretation": "调整、波动和部分回升"
+          },
+          {
+            "position": "持续推进",
+            "card": "战车",
+            "orientation": "逆位",
+            "given_interpretation": "持续推进可能有阻碍"
+          }
+        ],
+        "status": "待实际数据；具体占测时点、对应作品ID、原锁定窗口/阈值未提供，不补作严格预注册"
+      },
+      {
+        "topic": "第一条高播放原因",
+        "cards": [
+          {
+            "position": "内容吸引力",
+            "card": "皇后",
+            "orientation": "正位",
+            "given_interpretation": "内容本身有吸引优势"
+          },
+          {
+            "position": "分发机会",
+            "card": "星币八",
+            "orientation": "正位",
+            "given_interpretation": "制作能力与实际改进"
+          },
+          {
+            "position": "复现路径",
+            "card": "隐士",
+            "orientation": "逆位",
+            "given_interpretation": "深研究与陌生理解可能有距离"
+          }
+        ],
+        "status": "辅助象征解释，不证明推荐因果或平台规则"
+      }
+    ],
+    "limits": "不以牌面解释限流/新号扶持/流量原因；不更改内容试验主指标，不事后改窗口；缺原始验收条件则后验保持无法判断"
+  },
+  "current_task_scope": {
+    "analysis_only": true,
+    "no_video_script_or_html_or_assets": true,
+    "confirmed_facts_may_sync": true,
+    "permanent_strategy_price_column_or_major_resource_changes": "须先给方案，待Suen确认；本轮不写入生效"
+  },
+  "review_checkpoint": "2026-11-11 20:31 Asia/Shanghai；从10/14 20:31首发起算，不重置",
+  "financial_changes": "无新增付款、订单、成本、利润或完整履约事实"
+}
