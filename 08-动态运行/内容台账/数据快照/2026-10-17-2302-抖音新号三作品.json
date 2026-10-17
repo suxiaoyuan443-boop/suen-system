@@ -1,0 +1,128 @@
+{
+  "record_type": "first_party_creator_backend_snapshot",
+  "recorded_on": "2026-10-17",
+  "timezone": "Asia/Shanghai",
+  "captured_at_from_status_bar": "2026-10-17 23:02",
+  "capture_time_precision": "minute; inferred date/year from supplied screenshot and publication rows; not a standardized 24h snapshot",
+  "source": {
+    "kind": "user_uploaded_screenshot",
+    "filename": "1-照片-1.jpg",
+    "sha256": "897E0E8E883035F28233807E084B2AC0365125A331D29D71BA3C3EBC00E04186"
+  },
+  "account": {
+    "platform": "抖音",
+    "role": "新研究主号",
+    "name": "赫苏恩",
+    "douyin_id": "45027277329",
+    "identity_basis": "既有用户确认与同一已确认作品序列，本截图不显示账号ID",
+    "displayed_work_count": 3
+  },
+  "works": [
+    {
+      "title_as_displayed_without_hashtags": "去斗兽场招灵 神父也吓得发抖",
+      "working_name": "切利尼斗兽场召灵",
+      "column": "异录",
+      "published_at": "2026-10-16 21:14",
+      "publication_status": "已发布",
+      "duration_seconds": 199,
+      "elapsed_at_capture": "约25小时48分",
+      "metrics": {
+        "plays": 1366,
+        "likes": 105,
+        "comments": 4,
+        "shares": 7,
+        "saves": 12,
+        "danmaku": 0,
+        "cover_click_rate_percent": 62.07,
+        "average_play_ratio_percent": 5.38,
+        "attributed_followers": 3
+      },
+      "unknown_metrics": [
+        "completion_rate",
+        "two_second_exit_rate",
+        "average_watch_seconds",
+        "traffic_source_breakdown"
+      ]
+    },
+    {
+      "title_as_displayed_without_hashtags": "古埃及的金字塔前，刻着把诸神分成三份饭",
+      "working_name": "乌纳斯吞神",
+      "column": "残页",
+      "published_at": "2026-10-15 20:57",
+      "publication_status": "已发布",
+      "duration_seconds": 183,
+      "elapsed_at_capture": "约50小时05分",
+      "metrics": {
+        "plays": 2427,
+        "likes": 89,
+        "comments": 1,
+        "shares": 9,
+        "saves": 24,
+        "danmaku": 0,
+        "cover_click_rate_percent": 56.34,
+        "average_play_ratio_percent": 6.06,
+        "attributed_followers": 5
+      },
+      "intervention": "此前确认首次发布约半小时0播放，删除重发并由自有原大号点推荐；本次为同一现存重发版累计，流量来源分解未知",
+      "unknown_metrics": [
+        "completion_rate",
+        "two_second_exit_rate",
+        "average_watch_seconds",
+        "traffic_source_breakdown"
+      ]
+    },
+    {
+      "title_as_displayed_without_hashtags": "这尊人偶 被扎了13根针",
+      "working_name": "13针人偶",
+      "column": "文物",
+      "published_at": "2026-10-14 20:31",
+      "publication_status": "已发布",
+      "duration_seconds": 103,
+      "elapsed_at_capture": "约74小时31分",
+      "metrics": {
+        "plays_display": "9.3万",
+        "plays_exact": null,
+        "plays_is_rounded": true,
+        "likes": 2689,
+        "comments": 28,
+        "shares": 212,
+        "saves": 288,
+        "completion_rate_percent": 9.35,
+        "two_second_exit_rate_percent": 13.45,
+        "attributed_followers": 32
+      },
+      "unknown_metrics": [
+        "cover_click_rate",
+        "average_play_ratio",
+        "average_watch_seconds",
+        "traffic_source_breakdown"
+      ]
+    }
+  ],
+  "comparison_to_previous_snapshot": {
+    "source": "2026-10-16-抖音新号与小红书.json",
+    "previous_capture_time_unknown": true,
+    "doll": {
+      "plays_display_previous": "2.1万",
+      "attributed_followers_previous": 13,
+      "completion_rate_previous_percent": 7.28,
+      "two_second_exit_previous_percent": 16.04
+    },
+    "unas": {
+      "plays_previous": 814,
+      "attributed_followers_previous": 0,
+      "cover_click_rate_previous_percent": 50,
+      "average_play_ratio_previous_percent": 4.31
+    }
+  },
+  "limits": [
+    "当前累计，三条存续时间不同，不作同窗流量因果比较",
+    "5.38%及6.06%为平均播放占比，不是完播率或秒数，不推算新后台均看字段",
+    "人偶9.3万为平台约数，不伪造精确播放或精确新增播放",
+    "作品吸粉相加不当账号净增粉/总粉丝",
+    "缺新增主页、私信、询盘、成交、收入数据；未知不写0",
+    "不以截图作品3推定17日未发布其它平台或图文",
+    "两篇弱于人偶不能证明限流/新号扶持结束，也不能以人偶推定全号稳定",
+    "不修改已发布作品，不追加删重发、投流或自有账号推荐试验"
+  ]
+}
