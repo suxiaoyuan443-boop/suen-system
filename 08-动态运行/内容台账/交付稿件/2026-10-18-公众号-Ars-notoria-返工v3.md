@@ -3,7 +3,7 @@
 状态：已重新生成正文、四张对应图、内嵌HTML及完整包，待Suen审阅/实际发布；本轮内部内容与技术核对不等于用户认可。旧v2及最早退稿保留历史。
 本题独立于莉莉丝视频，未复用短视频正文、课程案例、操作课件或课内解释。由v2做差异修订，增加1657年原印本第58、66页作图文证据，删重复概括；约1225年手稿图式与1657年文字分版本说明。正文来源叙事归文本自身，祷文为短引原文及中文译释；其中第一人称属于祷文，不是作者亲历。
 
-[最新阅读页](https://suen-temple-dream-reader.breezygnat8.chatgpt.site/wechat-ars-notoria/)｜[离线HTML](https://suen-temple-dream-reader.breezygnat8.chatgpt.site/wechat-ars-notoria/downloads/Suen_Ars_notoria_v3.html)｜[文章与四张图完整包](https://suen-temple-dream-reader.breezygnat8.chatgpt.site/wechat-ars-notoria/downloads/Suen_Ars_notoria_v3.zip)
+最新阅读页（私有交付地址不公开，按对应文件记录定位）｜离线HTML（私有交付地址不公开，按对应文件记录定位）｜文章与四张图完整包（私有交付地址不公开，按对应文件记录定位）
 
 ---
 
